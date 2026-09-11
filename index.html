@@ -183,10 +183,13 @@
           // Load from local storage, OR fetch from JSON, OR use fallback data
           useEffect(() => {
             const loadData = async () => {
-              // Note: Using V3 key to prevent conflicts with old cached data while testing new structure
               const savedData = localStorage.getItem('londonWeekendTrackerDataV3');
-              if (savedData) {
-                setAreas(JSON.parse(savedData));
+              const parsedData = savedData ? JSON.parse(savedData) : null;
+              
+              // ONLY use local storage if it has more than our 2 fallback areas!
+              // Otherwise, we want to force fetch the full 25-area JSON.
+              if (parsedData && parsedData.length > 2) {
+                setAreas(parsedData);
                 return;
               }
 
