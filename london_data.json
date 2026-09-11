@@ -1,551 +1,1522 @@
 [
-{
-"id": "greenwich", "name": "Greenwich",
-"season": "October. The autumn foliage in Greenwich Park against the backdrop of the Royal Observatory and the city skyline is stunning.",
-"soul": "The maritime epicentre of Britain, a royal birthplace, and the historic home of time. It feels like a grand, nautical village completely removed from the frantic energy of central London.",
-"day2": "Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography. Alternatively, dive deep into the National Maritime Museum.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "g_t1", "text": "Explore the Old Royal Naval College, specifically the breathtaking Painted Hall.", "checked": false },
-{ "id": "g_t2", "text": "Walk up the steep hill in Greenwich Park to the Royal Observatory.", "checked": false },
-{ "id": "g_t3", "text": "Wander through Greenwich Market to browse local arts, crafts, and antiques.", "checked": false },
-{ "id": "g_t4", "text": "Walk around the base of the Cutty Sark, the iconic 19th-century tea clipper ship.", "checked": false }
-],
-"photo": [
-{ "id": "g_p1", "text": "The viewpoint from the Royal Observatory hill: capture the Queen's House with Canary Wharf behind it.", "checked": false },
-{ "id": "g_p2", "text": "The Painted Hall ceiling (a wide-angle lens is highly recommended here).", "checked": false },
-{ "id": "g_p3", "text": "The symmetrical colonnades of the Old Royal Naval College.", "checked": false }
-],
-"eat": [
-{ "id": "g_e1", "text": "Arapina Bakery (Near Greenwich Market): Cozy spot for vegetarian, vegan, and GF artisan pastries/coffees.", "checked": false },
-{ "id": "g_e2", "text": "Prince of Greenwich Pub: Quirky Victorian decor. Excellent vegetarian and GF pizzas in a historic setting.", "checked": false }
-]
-},
-{
-"id": "hampstead", "name": "Hampstead & Highgate",
-"season": "November (for crisp, moody fog and autumn leaves) or May (to capture blooming wisteria).",
-"soul": "An intellectual and literary haven that feels like a rural 18th-century English village perched on a hill.",
-"day2": "Explore Highgate Village, Waterlow Park, and take the full architectural tour of Highgate West Cemetery. Visit the Freud Museum.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "h_t1", "text": "Get lost in the wild woods, meadows, and swimming ponds of Hampstead Heath.", "checked": false },
-{ "id": "h_t2", "text": "Wander the steep, cobbled streets and historic alleyways (like Flask Walk).", "checked": false },
-{ "id": "h_t3", "text": "Visit Kenwood House, a stunning stately home on the edge of the Heath.", "checked": false },
-{ "id": "h_t4", "text": "Explore Highgate Cemetery, a world-famous Victorian gothic burial ground.", "checked": false }
-],
-"photo": [
-{ "id": "h_p1", "text": "Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.", "checked": false },
-{ "id": "h_p2", "text": "The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.", "checked": false },
-{ "id": "h_p3", "text": "Flask Walk, with its picturesque vintage shopfronts and cobbled streets.", "checked": false }
-],
-"eat": [
-{ "id": "h_e1", "text": "The Swing (West Hampstead): Vegetable-focused casual restaurant with vibrant small plates and marked GF options.", "checked": false },
-{ "id": "h_e2", "text": "The Holly Bush: Historic, Grade II listed pub. Excellent vegetarian roasts, very accommodating for GF.", "checked": false }
-]
-},
-{
-"id": "southwark", "name": "Southwark & Bermondsey",
-"season": "December (for festive lighting and cozy market vibes) or April (for mild spring riverside walks).",
-"soul": "The historic entertainment and vice district of Tudor London, now reborn as London's premier culinary and cultural riverside stretch.",
-"day2": "Dedicate a Sunday morning to Maltby Street Market, explore the White Cube gallery, and cross Tower Bridge.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "s_t1", "text": "Stroll the Thames Path from the Tate Modern all the way down to Tower Bridge.", "checked": false },
-{ "id": "s_t2", "text": "Explore the Gothic ruins of Winchester Palace and the Golden Hinde ship.", "checked": false },
-{ "id": "s_t3", "text": "Browse Borough Market, one of the oldest and largest food markets in London.", "checked": false },
-{ "id": "s_t4", "text": "Wander down Bermondsey Street, known for glass-blowing studios and indie galleries.", "checked": false }
-],
-"photo": [
-{ "id": "s_p1", "text": "The Millennium Bridge looking straight towards the dome of St. Paul's Cathedral (golden hour).", "checked": false },
-{ "id": "s_p2", "text": "Shad Thames: historic Victorian cobbled street with overhead iron walkways.", "checked": false },
-{ "id": "s_p3", "text": "The Shard framing the historic wooden courtyard of The George Inn.", "checked": false }
-],
-"eat": [
-{ "id": "s_e1", "text": "Mallow (Borough Market): 100% plant-based restaurant, vibrant menu, almost everything adaptable to GF.", "checked": false },
-{ "id": "s_e2", "text": "Horn OK Please (Borough Market): Indian street food. Fresh vegetarian food naturally GF (moong dal dosas).", "checked": false }
-]
-},
-{
-"id": "richmond", "name": "Richmond & Kew",
-"season": "Late April to early May. Isabella Plantation explodes with vibrant azaleas, and Kew Gardens is in full spring bloom.",
-"soul": "Aristocratic, majestic, and green. A former countryside retreat for royalty blending botanical perfection with wild deer parks.",
-"day2": "Take a leisurely Thames riverboat cruise from Richmond down to Hampton Court Palace to explore Tudor history.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "r_t1", "text": "Walk or cycle through the vast Richmond Park to spot the wild red and fallow deer.", "checked": false },
-{ "id": "r_t2", "text": "Explore the UNESCO-listed Kew Gardens, featuring massive Victorian glasshouses.", "checked": false },
-{ "id": "r_t3", "text": "Stroll the Richmond Riverside and Richmond Green, surrounded by historic architecture.", "checked": false }
-],
-"photo": [
-{ "id": "r_p1", "text": "The Isabella Plantation in Richmond Park (macro shots of flowers and streams).", "checked": false },
-{ "id": "r_p2", "text": "The Temperate House at Kew Gardens (architectural geometry and symmetry).", "checked": false },
-{ "id": "r_p3", "text": "Richmond Hill Viewpoint (protected view looking down over a sweeping bend in the Thames).", "checked": false }
-],
-"eat": [
-{ "id": "r_e1", "text": "Tide Tables: Casual café under the arches on the riverside. Entirely vegetarian, dedicated GF menus.", "checked": false },
-{ "id": "r_e2", "text": "Petersham Nurseries Café: Magical greenhouse dining. Excellent vegetarian and GF options (book in advance).", "checked": false }
-]
-},
-{
-"id": "city", "name": "The City of London",
-"season": "January or February. Winter light cuts beautifully through skyscrapers, highlighting ancient stonework. Quiet on weekends.",
-"soul": "The ancient Roman heart of London, now the global financial district. A startling juxtaposition of hyper-modern skyscrapers and medieval ruins.",
-"day2": "Walk the perimeter of the ancient Roman Wall, visit the Museum of London, or explore the Monument to the Great Fire.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "c_t1", "text": "Marvel at St. Paul’s Cathedral and walk through Paternoster Square.", "checked": false },
-{ "id": "c_t2", "text": "Explore Leadenhall Market, a breathtaking Victorian covered market.", "checked": false },
-{ "id": "c_t3", "text": "Visit the free Sky Garden or Horizon 22 for panoramic views.", "checked": false },
-{ "id": "c_t4", "text": "Discover the Roman Temple of Mithras hidden beneath the Bloomberg building.", "checked": false }
-],
-"photo": [
-{ "id": "c_p1", "text": "Looking up at the Gherkin from the ornate archways of Leadenhall Market.", "checked": false },
-{ "id": "c_p2", "text": "St. Dunstan-in-the-East: A ruined medieval church transformed into an overgrown garden.", "checked": false },
-{ "id": "c_p3", "text": "The reflection of St Paul's Cathedral in the modern glass of One New Change.", "checked": false }
-],
-"eat": [
-{ "id": "c_e1", "text": "The Ned (Millie's Lounge): Upscale 1920s bank building. Superb vegetarian and GF British classics.", "checked": false },
-{ "id": "c_e2", "text": "Itsu / Leon: Reliable staples for weekends when indie cafes close. Clearly marked GF/Veg hot boxes.", "checked": false }
-]
-},
-{
-"id": "shoreditch", "name": "Shoreditch & Spitalfields",
-"season": "September. Pleasant weather for street art, and the London Design Festival activates spaces.",
-"soul": "Historic home of silk weavers and immigrants, evolved into London's vibrant, gritty capital of street art, vintage fashion, and indie culture.",
-"day2": "Sunday at Columbia Road Flower Market, walk to Hackney City Farm, and explore boutiques on Broadway Market.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "sh_t1", "text": "Hunt for world-class street art around Rivington Street and Redchurch Street.", "checked": false },
-{ "id": "sh_t2", "text": "Browse Old Spitalfields Market for antiques, local designs, and art.", "checked": false },
-{ "id": "sh_t3", "text": "Walk down Brick Lane, famous for vintage stores and record shops.", "checked": false },
-{ "id": "sh_t4", "text": "Admire the preserved 18th-century Huguenot silk weavers' houses on Fournier Street.", "checked": false }
-],
-"photo": [
-{ "id": "sh_p1", "text": "Fournier Street: Contrast between Georgian townhouses and modern City skyscrapers.", "checked": false },
-{ "id": "sh_p2", "text": "Nomadic Community Gardens / Brick Lane murals for urban photography.", "checked": false },
-{ "id": "sh_p3", "text": "The glass canopy and Victorian ironwork of Old Spitalfields Market.", "checked": false }
-],
-"eat": [
-{ "id": "sh_e1", "text": "Bubala (Spitalfields): Phenomenal Middle Eastern vegetarian food. Vibrant and almost entirely GF.", "checked": false },
-{ "id": "sh_e2", "text": "Nude Espresso (Hanbury St): Great spot for a coffee break with GF treat options and plant milks.", "checked": false }
-]
-},
-{
-"id": "nottinghill", "name": "Notting Hill & Holland Park",
-"season": "April (cherry blossoms contrasting with pastel houses) or late August (Notting Hill Carnival).",
-"soul": "Famous for pastel-colored Victorian townhouses, cinematic charm, and London's most famous antique market.",
-"day2": "Explore Kensington Gardens, visit the Design Museum, and tour the opulent Leighton House Museum.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "n_t1", "text": "Wander down Portobello Road Market (Saturday for antiques, Friday for fewer crowds).", "checked": false },
-{ "id": "n_t2", "text": "Explore the Kyoto Garden, a stunning Japanese garden in Holland Park.", "checked": false },
-{ "id": "n_t3", "text": "Get lost in the mews streets (historic cobblestone alleyways).", "checked": false },
-{ "id": "n_t4", "text": "Catch a film at the Electric Cinema, one of the oldest working cinemas.", "checked": false }
-],
-"photo": [
-{ "id": "n_p1", "text": "St Luke’s Mews: Pretty cobbled mews with pink houses and trailing ivy.", "checked": false },
-{ "id": "n_p2", "text": "The sweeping curve of colorful houses on Lancaster Road or Elgin Crescent.", "checked": false },
-{ "id": "n_p3", "text": "The waterfall and roaming peacocks inside the Kyoto Garden.", "checked": false }
-],
-"eat": [
-{ "id": "n_e1", "text": "Farm Girl: Photogenic Australian-style cafe. Fantastic vegetarian and naturally GF options.", "checked": false },
-{ "id": "n_e2", "text": "Haya: Mediterranean neighborhood restaurant with wonderful vegetarian sharing plates and GF options.", "checked": false }
-]
-},
-{
-"id": "camden", "name": "Camden Town & Regent's Park",
-"season": "June or July. Long summer evenings for canal walks; Queen Mary's Rose Garden in spectacular bloom.",
-"soul": "Camden is the historic hub for alternative subcultures, contrasting sharply with the aristocratic elegance of Regent's Park.",
-"day2": "Take a narrowboat ride from Camden Lock to Little Venice, and explore the grand streets of Maida Vale.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "ca_t1", "text": "Get lost in the labyrinth of Camden Market (stables, vintage, alternative crafts).", "checked": false },
-{ "id": "ca_t2", "text": "Walk along the Regent's Canal towpath towards Little Venice.", "checked": false },
-{ "id": "ca_t3", "text": "Explore Regent's Park and walk through Queen Mary's Rose Garden.", "checked": false },
-{ "id": "ca_t4", "text": "Hike up Primrose Hill for beloved panoramic views of the city.", "checked": false }
-],
-"photo": [
-{ "id": "ca_p1", "text": "The vibrant, 3D shop fronts along Camden High Street.", "checked": false },
-{ "id": "ca_p2", "text": "Regent's Canal at Camden Lock, with narrowboats and weeping willows.", "checked": false },
-{ "id": "ca_p3", "text": "The summit of Primrose Hill at sunset, capturing the London skyline.", "checked": false }
-],
-"eat": [
-{ "id": "ca_e1", "text": "Magic Falafel (Camden Market): 100% vegan and 100% GF. Authentic, stress-free market eat.", "checked": false },
-{ "id": "ca_e2", "text": "Mildreds (Camden): Legendary 100% plant-based food. Clearly marks plentiful GF options.", "checked": false }
-]
-},
-{
-"id": "kensington", "name": "Kensington & Chelsea",
-"season": "May (Chelsea Flower Show and floral displays) or December (Christmas lights and ice skating).",
-"soul": "The Royal Borough. London at its most opulent, home to world-class Victorian museums, grand garden squares, and elegant streets.",
-"day2": "Walk the Thames Path along the Chelsea Embankment, visit the Saatchi Gallery, explore Royal Hospital Chelsea.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "k_t1", "text": "Visit "Museum Row": The V&A, Natural History Museum, or Science Museum.", "checked": false },
-{ "id": "k_t2", "text": "Walk through Kensington Gardens to see the Albert Memorial and Kensington Palace.", "checked": false },
-{ "id": "k_t3", "text": "Stroll down the King's Road in Chelsea for boutiques and architecture.", "checked": false },
-{ "id": "k_t4", "text": "Visit the Chelsea Physic Garden, London's oldest botanical garden.", "checked": false }
-],
-"photo": [
-{ "id": "k_p1", "text": "Hintze Hall inside the Natural History Museum (arches and whale skeleton).", "checked": false },
-{ "id": "k_p2", "text": "The John Madejski Garden inside the V&A Museum (late afternoon sun).", "checked": false },
-{ "id": "k_p3", "text": "The pastel houses and hidden squares around Bywater Street in Chelsea.", "checked": false }
-],
-"eat": [
-{ "id": "k_e1", "text": "Dishoom (Kensington): Bombay-style cafe with dedicated vegan and GF menus. Legendary black daal.", "checked": false },
-{ "id": "k_e2", "text": "Ceru (South Kensington): Levantine restaurant. Almost entirely naturally GF, wonderful vegetarian options.", "checked": false }
-]
-},
-{
-"id": "hackney", "name": "Hackney & Victoria Park",
-"season": "Sundays in Spring or Summer. Comes alive with markets and park culture.",
-"soul": "The beating heart of East London's creative scene. An incredible mix of urban edge, hipster cafes, historic canals, and vast parks.",
-"day2": "Explore Hackney Marshes and Queen Elizabeth Olympic Park. Swim in the Aquatics Centre.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "ha_t1", "text": "Visit Columbia Road Flower Market (Sundays) to see the street explode with colour.", "checked": false },
-{ "id": "ha_t2", "text": "Walk the Regent's Canal from Broadway Market to Victoria Park.", "checked": false },
-{ "id": "ha_t3", "text": "Explore Victoria Park, featuring Chinese pagodas and boating lakes.", "checked": false },
-{ "id": "ha_t4", "text": "Browse Broadway Market on a Saturday for artisan crafts and street food.", "checked": false }
-],
-"photo": [
-{ "id": "ha_p1", "text": "Columbia Road on a Sunday morning (portrait lens for flower sellers).", "checked": false },
-{ "id": "ha_p2", "text": "The Chinese Pagoda on the island in Victoria Park.", "checked": false },
-{ "id": "ha_p3", "text": "Narrowboats passing through the historic locks along Regent's Canal.", "checked": false }
-],
-"eat": [
-{ "id": "ha_e1", "text": "The Spread Eagle (Homerton): London's first 100% vegan pub. Excellent GF accommodations for roasts.", "checked": false },
-{ "id": "ha_e2", "text": "Andu Ethiopian Cafe (Dalston): 100% vegan Ethiopian spot. Traditional teff injera is naturally GF.", "checked": false }
-]
-},
-{
-"id": "covent", "name": "Covent Garden & Soho",
-"season": "November/December for world-famous Christmas lights creating a magical atmosphere.",
-"soul": "The bustling, theatrical heart of London. A mix of historic fruit markets, bohemian streets, and premier entertainment.",
-"day2": "Book a West End matinee, visit the National Gallery, and explore food halls at Fortnum & Mason.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "co_t1", "text": "Watch street performers in the historic Covent Garden Piazza.", "checked": false },
-{ "id": "co_t2", "text": "Get lost in the narrow, energetic streets of Soho (Carnaby St, Kingly Court).", "checked": false },
-{ "id": "co_t3", "text": "Explore Neal's Yard, a hidden, colourful courtyard in Seven Dials.", "checked": false },
-{ "id": "co_t4", "text": "Browse independent bookshops on Charing Cross Road.", "checked": false }
-],
-"photo": [
-{ "id": "co_p1", "text": "Neal's Yard: Brightly painted buildings and overflowing window boxes.", "checked": false },
-{ "id": "co_p2", "text": "The elegant, symmetrical arches of the Covent Garden Market building.", "checked": false },
-{ "id": "co_p3", "text": "Neon signs of Soho at night, particularly around Old Compton Street.", "checked": false }
-],
-"eat": [
-{ "id": "co_e1", "text": "Mildreds (Soho): Iconic plant-based restaurant. Superb vegetarian food and excellent GF options.", "checked": false },
-{ "id": "co_e2", "text": "Dishoom (Covent Garden): Incredible Bombay-style food with strict, dedicated GF/vegan menus.", "checked": false }
-]
-},
-{
-"id": "bloomsbury", "name": "Bloomsbury & Fitzrovia",
-"season": "September. "Back to school" autumn air suits the academic and literary atmosphere.",
-"soul": "The intellectual heartbeat of London, defined by gorgeous Georgian garden squares, universities, and world-class museums.",
-"day2": "Visit the Wellcome Collection (quirky medicine/art museum) and catch a fringe theatre show.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "bl_t1", "text": "Marvel at the Rosetta Stone and Parthenon Sculptures at the British Museum.", "checked": false },
-{ "id": "bl_t2", "text": "Walk the leafy perimeter of Russell Square and Bedford Square.", "checked": false },
-{ "id": "bl_t3", "text": "Step back in time at the Charles Dickens Museum.", "checked": false },
-{ "id": "bl_t4", "text": "Browse independent galleries and design stores along Store Street.", "checked": false }
-],
-"photo": [
-{ "id": "bl_p1", "text": "The Great Court inside the British Museum (tessellated glass roof).", "checked": false },
-{ "id": "bl_p2", "text": "Pastel shopfronts along Woburn Walk (pedestrianized Georgian street).", "checked": false },
-{ "id": "bl_p3", "text": "The brutalist, sweeping staircases inside the Senate House building.", "checked": false }
-],
-"eat": [
-{ "id": "bl_e1", "text": "Honey & Co. (Bloomsbury): Cozy Middle Eastern offering vibrant vegetarian plates adapted for GF.", "checked": false },
-{ "id": "bl_e2", "text": "Kin Cafe (Fitzrovia): Brilliant vegetarian cafe with clearly marked GF brunch/lunch options.", "checked": false }
-]
-},
-{
-"id": "kingscross", "name": "King's Cross & St Pancras",
-"season": "December. Winter light installations and the massive Christmas tree in Coal Drops Yard.",
-"soul": "A gritty industrial transport hub successfully regenerated into a blend of Victorian viaducts and sleek modern tech/arts hubs.",
-"day2": "Walk the Regent’s Canal towpath east towards Islington, or visit the London Canal Museum.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "kx_t1", "text": "Explore Coal Drops Yard, shopping/dining built into historic Victorian coal viaducts.", "checked": false },
-{ "id": "kx_t2", "text": "See the Magna Carta in the Treasures Gallery at the British Library.", "checked": false },
-{ "id": "kx_t3", "text": "Watch the synchronized fountains in Granary Square.", "checked": false },
-{ "id": "kx_t4", "text": "Get a photo at Platform 9 ¾ inside King's Cross Station.", "checked": false }
-],
-"photo": [
-{ "id": "kx_p1", "text": "The "Kissing Roof" at Coal Drops Yard (modern architecture meets Victorian brick).", "checked": false },
-{ "id": "kx_p2", "text": "The breathtaking gothic-revival facade of the St Pancras Renaissance Hotel.", "checked": false },
-{ "id": "kx_p3", "text": "The futuristic, neon-lit pedestrian tunnel connecting King's Cross to St Pancras.", "checked": false }
-],
-"eat": [
-{ "id": "kx_e1", "text": "Caravan (Granary Square): Set in an old grain warehouse. Fantastic veg and GF options clearly marked.", "checked": false },
-{ "id": "kx_e2", "text": "Hoppers (King's Cross): Incredible Sri Lankan food. Much is naturally GF (like hoppers), superb veg curries.", "checked": false }
-]
-},
-{
-"id": "marylebone", "name": "Marylebone & Mayfair",
-"season": "May. Ideal for open-air café culture and the private garden squares turning vibrant green.",
-"soul": "Upscale London. Mayfair is a starchy enclave of luxe hotels/galleries; Marylebone is an elegant, relaxed urban village.",
-"day2": "Dedicate a day to Hyde Park, visit the Serpentine Galleries, or catch classical music at Wigmore Hall.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "ma_t1", "text": "View the free art collection at the opulent Wallace Collection.", "checked": false },
-{ "id": "ma_t2", "text": "Window shop along Marylebone High Street.", "checked": false },
-{ "id": "ma_t3", "text": "Stroll through Grosvenor Square and Mount Street Gardens in Mayfair.", "checked": false },
-{ "id": "ma_t4", "text": "Browse flagship bookstores, including Daunt Books with its Edwardian oak galleries.", "checked": false }
-],
-"photo": [
-{ "id": "ma_p1", "text": "The grand, silk-lined rooms and armory at the Wallace Collection.", "checked": false },
-{ "id": "ma_p2", "text": "The terracotta-red Victorian architecture curving along Mount Street.", "checked": false },
-{ "id": "ma_p3", "text": "The elevated, hidden rooftop garden of Brown Hart Gardens.", "checked": false }
-],
-"eat": [
-{ "id": "ma_e1", "text": "Plants by Deliciously Ella (Mayfair): 100% plant-based, entire menu naturally GF. Stress-free chic dining.", "checked": false },
-{ "id": "ma_e2", "text": "The Gate (Marylebone): Pioneering vegetarian restaurant with a wealth of safe GF options.", "checked": false }
-]
-},
-{
-"id": "westminster", "name": "Westminster & St James's",
-"season": "October or November. Crisp autumn air suits the grand architecture, avoiding summer tourist crushes.",
-"soul": "The royal and political epicenter of the UK. Postcard London with soaring gothic architecture and exclusive royal streets.",
-"day2": "Explore Tate Britain, take a riverboat to Greenwich, or explore royal cavalry at Horse Guards Parade.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "we_t1", "text": "Walk from Trafalgar Square down Whitehall to see 10 Downing St and Parliament.", "checked": false },
-{ "id": "we_t2", "text": "Explore the subterranean Churchill War Rooms.", "checked": false },
-{ "id": "we_t3", "text": "Marvel at the gothic majesty of Westminster Abbey.", "checked": false },
-{ "id": "we_t4", "text": "Feed pelicans and walk through St James's Park toward Buckingham Palace.", "checked": false }
-],
-"photo": [
-{ "id": "we_p1", "text": "Westminster Bridge looking back at the Elizabeth Tower (Big Ben).", "checked": false },
-{ "id": "we_p2", "text": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall).", "checked": false },
-{ "id": "we_p3", "text": "The grand, sweeping staircase and facade of the Tate Britain gallery.", "checked": false }
-],
-"eat": [
-{ "id": "we_e1", "text": "The Cinnamon Club: Upscale Indian dining in a former library. Caters exceptionally to Veg/GF.", "checked": false },
-{ "id": "we_e2", "text": "Yaatra (Old Fire Station): Vibrant Indian cuisine with plenty of vegetarian and GF choices (no seafood needed).", "checked": false }
-]
-},
-{
-"id": "southbank", "name": "The South Bank & Waterloo",
-"season": "July or August. Riverside comes alive with street performers, markets, and festivals.",
-"soul": "London's premier arts promenade. Striking brutalist architecture housing the nation's greatest theatres and galleries.",
-"day2": "See a play at Shakespeare's Globe Theatre, ride the London Eye, or visit Florence Nightingale Museum.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "sb_t1", "text": "Walk the pedestrianized river path past the National Theatre.", "checked": false },
-{ "id": "sb_t2", "text": "Browse the Southbank Centre Book Market beneath Waterloo Bridge.", "checked": false },
-{ "id": "sb_t3", "text": "Visit the Tate Modern (specifically the massive Turbine Hall installations).", "checked": false },
-{ "id": "sb_t4", "text": "Catch an indie film at the BFI (British Film Institute) Southbank.", "checked": false }
-],
-"photo": [
-{ "id": "sb_p1", "text": "Sharp, concrete geometric lines of the National Theatre (brutalist masterpiece).", "checked": false },
-{ "id": "sb_p2", "text": "The Millennium Bridge leading directly to the dome of St Paul's Cathedral.", "checked": false },
-{ "id": "sb_p3", "text": "Leake Street Arches ("Banksy Tunnel"), an ever-changing canvas of street art.", "checked": false }
-],
-"eat": [
-{ "id": "sb_e1", "text": "Wahaca (Southbank): Vibrant Mexican street food, excellent vegetarian choices, strict GF menu.", "checked": false },
-{ "id": "sb_e2", "text": "Skylon: Inside Royal Festival Hall. Upscale, highly trained to accommodate Veg/GF needs.", "checked": false }
-]
-},
-{
-"id": "bayswater", "name": "Bayswater & Little Venice",
-"season": "April or May. Trees lining the canals burst into bloom for tranquil waterside walks.",
-"soul": "A peaceful, affluent oasis where canals meet, characterized by colorful narrowboats and elegant white stucco terraces.",
-"day2": "Take a canal boat from Little Venice to Camden Lock, or spend the day in Hyde Park/Serpentine.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "ba_t1", "text": "Walk towpaths of Little Venice and admire decorated canal boats at Browning's Pool.", "checked": false },
-{ "id": "ba_t2", "text": "Relax in the Hyde Park Italian Gardens, a beautiful ornamental water garden.", "checked": false },
-{ "id": "ba_t3", "text": "See Victorian ironwork inside Paddington Station (by Brunel).", "checked": false },
-{ "id": "ba_t4", "text": "Catch a show at the unique Puppet Theatre Barge.", "checked": false }
-],
-"photo": [
-{ "id": "ba_p1", "text": "Browning's Pool (reflection of weeping willows and narrowboats).", "checked": false },
-{ "id": "ba_p2", "text": "Symmetrical fountains and classical statues of the Italian Gardens.", "checked": false },
-{ "id": "ba_p3", "text": "The sweeping, white stucco crescents of Leinster Gardens.", "checked": false }
-],
-"eat": [
-{ "id": "ba_e1", "text": "Darcie & May Green: Colorful canal boats serving Aussie brunch. Brilliant Veg/GF options.", "checked": false },
-{ "id": "ba_e2", "text": "Kuro Eatery (Notting Hill Edge): Minimalist spot offering Mediterranean dishes with great care for Veg/GF.", "checked": false }
-]
-},
-{
-"id": "islington", "name": "Islington & Clerkenwell",
-"season": "October. Cozy gastropubs and leaf-strewn canals make for an atmospheric autumn weekend.",
-"soul": "Perfect balance of feisty bohemianism and groomed prosperity. Known for street markets, design agencies, and antique arcades.",
-"day2": "Explore Museum of the Order of St John, catch a play at Almeida Theatre, or wander the Barbican Centre.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "is_t1", "text": "Hunt for vintage treasures in the cobbled alleys of Camden Passage.", "checked": false },
-{ "id": "is_t2", "text": "Eat your way through the independent food stalls at Exmouth Market.", "checked": false },
-{ "id": "is_t3", "text": "Walk the Regent's Canal towpath into the historic Islington Tunnel.", "checked": false },
-{ "id": "is_t4", "text": "Visit the peaceful historic ruins of the Charterhouse in Clerkenwell.", "checked": false }
-],
-"photo": [
-{ "id": "is_p1", "text": "The fairy lights and bustling atmosphere of Exmouth Market at dusk.", "checked": false },
-{ "id": "is_p2", "text": "Charming, wonky antique storefronts tucked inside Camden Passage.", "checked": false },
-{ "id": "is_p3", "text": "The dramatic, brutalist concrete towers of the Barbican Estate.", "checked": false }
-],
-"eat": [
-{ "id": "is_e1", "text": "The Gate (Islington): Highly creative, 100% meat-free menu with excellent, safe GF options.", "checked": false },
-{ "id": "is_e2", "text": "Moro (Exmouth Market): Moorish/Mediterranean. Focus on veg and naturally GF ingredients.", "checked": false }
-]
-},
-{
-"id": "docklands", "name": "Docklands & Canary Wharf",
-"season": "January. Canary Wharf hosts a spectacular Winter Lights festival transforming the estate.",
-"soul": "Historic East India Docks reborn as a futuristic financial district. Contrast between ancient brick and soaring glass.",
-"day2": "Take the Thames Clipper to the Thames Barrier, or visit Mudchute Park and Farm for sheep against skyscrapers.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "do_t1", "text": "Visit the Museum of London Docklands (in an 1802 sugar warehouse).", "checked": false },
-{ "id": "do_t2", "text": "Wander through Crossrail Place Roof Garden (indoor tropical garden on the Prime Meridian).", "checked": false },
-{ "id": "do_t3", "text": "Walk the docks to see historic cranes juxtaposed against the modern skyline.", "checked": false },
-{ "id": "do_t4", "text": "Take the DLR for incredible, elevated views winding through skyscrapers.", "checked": false }
-],
-"photo": [
-{ "id": "do_p1", "text": "Futuristic Adams Plaza Bridge (famous from Star Wars).", "checked": false },
-{ "id": "do_p2", "text": "Looking straight up at glass skyscrapers reflecting in the water at West India Quay.", "checked": false },
-{ "id": "do_p3", "text": "Lush pathways of Crossrail Place Roof Garden framed by geometric timber.", "checked": false }
-],
-"eat": [
-{ "id": "do_e1", "text": "Mallow (Wood Wharf): 100% plant-based, beautifully designed, highly accommodating for GF.", "checked": false },
-{ "id": "do_e2", "text": "The Ivy in the Park (Canary Wharf): Vibrant brasserie. Dedicated Veg/GF menus, extremely careful prep.", "checked": false }
-]
-},
-{
-"id": "brixton", "name": "Brixton & Herne Hill",
-"season": "July or August. Vibrant outdoor markets, street music, and lush expanses best in summer.",
-"soul": "The cultural beating heart of South London. Afro-Caribbean heritage, fierce independence, and incredible music history.",
-"day2": "Herne Hill Farmers' Market, explore Black Cultural Archives, or catch a gig at O2 Academy.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "br_t1", "text": "Get lost in Brixton Village and Market Row, hunting for indie boutiques and global food.", "checked": false },
-{ "id": "br_t2", "text": "Pay respects at the David Bowie Memorial mural.", "checked": false },
-{ "id": "br_t3", "text": "Catch a film at the Ritzy Picturehouse, one of South London's oldest cinemas.", "checked": false },
-{ "id": "br_t4", "text": "Walk to Brockwell Park and admire the 1930s Art Deco Lido.", "checked": false }
-],
-"photo": [
-{ "id": "br_p1", "text": "Electric Avenue at golden hour (historic iron canopies).", "checked": false },
-{ "id": "br_p2", "text": "The colorful, overlapping neon signs inside Brixton Village market.", "checked": false },
-{ "id": "br_p3", "text": "Sweeping view of the London skyline from the top of Brockwell Park.", "checked": false }
-],
-"eat": [
-{ "id": "br_e1", "text": "Senzala Creperie (Brixton Village): French galettes (naturally GF buckwheat) with huge vegetarian menu.", "checked": false },
-{ "id": "br_e2", "text": "En Root (Brixton): 100% plant-based Indian fusion. Almost everything naturally GF.", "checked": false }
-]
-},
-{
-"id": "battersea", "name": "Battersea & Clapham",
-"season": "September. Perfect for long walks across massive commons and the riverfront by the Power Station.",
-"soul": "Leafy hubs and multi-billion-pound regeneration. The iconic coal power station is London's newest architectural destination.",
-"day2": "Take the "Lift 109" up the Power Station chimney, or visit Battersea Dogs & Cats Home.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "bat_t1", "text": "Marvel at the restored Battersea Power Station (shops/art in turbine halls).", "checked": false },
-{ "id": "bat_t2", "text": "Walk the Thames Path through Battersea Park to the London Peace Pagoda.", "checked": false },
-{ "id": "bat_t3", "text": "Stroll through Clapham Old Town, admiring Georgian architecture.", "checked": false },
-{ "id": "bat_t4", "text": "Spend an afternoon walking across the vast, 220-acre Clapham Common.", "checked": false }
-],
-"photo": [
-{ "id": "bat_p1", "text": "Looking straight up at the four massive chimneys inside the Power Station courtyard.", "checked": false },
-{ "id": "bat_p2", "text": "Golden Buddha statues of the Peace Pagoda, framed against the Thames.", "checked": false },
-{ "id": "bat_p3", "text": "Colorful, independent shopfronts curving along Abbeville Road in Clapham.", "checked": false }
-],
-"eat": [
-{ "id": "bat_e1", "text": "Where The Pancakes Are (Power Station): Specific "3-in-1" batter that is GF, dairy-free, and vegan.", "checked": false },
-{ "id": "bat_e2", "text": "Megan's at the Power Station: Mediterranean spot heavily vegetable-focused, accommodating GF swaps.", "checked": false }
-]
-},
-{
-"id": "peckham", "name": "Peckham & Camberwell",
-"season": "June. Warm summer evenings required to appreciate rooftop bar culture and outdoor art.",
-"soul": "Fiercely creative community hubs. Gritty urban architecture mixed with thriving contemporary art and trendy dining.",
-"day2": "Catch an indie film at Peckhamplex, walk Peckham Rye Park, or explore Camberwell College of Arts.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "pe_t1", "text": "Explore the South London Gallery in Camberwell.", "checked": false },
-{ "id": "pe_t2", "text": "Walk down Bellenden Road, famous for boutiques and Antony Gormley bollards.", "checked": false },
-{ "id": "pe_t3", "text": "Browse the stacks at the quirky, independently run Review Bookshop.", "checked": false },
-{ "id": "pe_t4", "text": "Take in a sunset from a repurposed rooftop space (like the multi-storey car park).", "checked": false }
-],
-"photo": [
-{ "id": "pe_p1", "text": "Frank's Cafe / Peckham Levels: Pink staircases and unobstructed skyline views (summer).", "checked": false },
-{ "id": "pe_p2", "text": "The beautiful, overgrown ruins of the Asylum Chapel in Caroline Gardens.", "checked": false },
-{ "id": "pe_p3", "text": "Vibrant street art and murals scattered throughout alleys off Rye Lane.", "checked": false }
-],
-"eat": [
-{ "id": "pe_e1", "text": "Forza Wine (Peckham): Trendy Italian rooftop. Fantastic small plates, highly adept at Veg/GF (no seafood needed).", "checked": false },
-{ "id": "pe_e2", "text": "Levan (Peckham): Stylish European. Highly creative veg dishes, excellent GF catering (needs advance notice).", "checked": false }
-]
-},
-{
-"id": "dulwich", "name": "Dulwich & Crystal Palace",
-"season": "October. Ancient woods and leafy village streets turn gold and red like a countryside retreat.",
-"soul": "Deep South London elegance. Dulwich is a pristine affluent village; Crystal Palace is bohemian with a massive Victorian park.",
-"day2": "Explore Horniman Museum in Forest Hill (walrus and gardens), or get lost in Crystal Palace maze.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "du_t1", "text": "Visit Dulwich Picture Gallery, the world's first purpose-built public art gallery.", "checked": false },
-{ "id": "du_t2", "text": "Hunt for mid-century furniture in the Crystal Palace Antiques Market.", "checked": false },
-{ "id": "du_t3", "text": "Wander Crystal Palace Park to find the historically inaccurate Victorian Dinosaur statues.", "checked": false },
-{ "id": "du_t4", "text": "Take a walk through Dulwich Park or ancient Sydenham Hill Wood.", "checked": false }
-],
-"photo": [
-{ "id": "du_p1", "text": "Exterior brickwork and lighting enfilades of the Dulwich Picture Gallery.", "checked": false },
-{ "id": "du_p2", "text": "Eerie, overgrown Victorian dinosaur statues emerging from trees in the park.", "checked": false },
-{ "id": "du_p3", "text": "Sweeping panoramic city views from the top of Crystal Palace hill.", "checked": false }
-],
-"eat": [
-{ "id": "du_e1", "text": "Megan's in the Hamlet (Dulwich): Rustic space with adaptable Mediterranean menu (great Veg/GF).", "checked": false },
-{ "id": "du_e2", "text": "Brown & Green Cafe (Crystal Palace Park): Community café with massive brunch menu (abundant Veg/GF choices).", "checked": false }
-]
-},
-{
-"id": "wimbledon", "name": "Wimbledon & Putney",
-"season": "Late June to early July. Buzzes with energy during Tennis Championships, pubs overflow with flowers.",
-"soul": "Leafy, sporty, and upper-crust. A stunning hilltop "Village" surrounded by massive commons, plus serene riverside rowing.",
-"day2": "Tour the All England Lawn Tennis Club, visit Buddhapadipa Temple, or explore Richmond Park.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "wi_t1", "text": "Explore Wimbledon Village, browsing boutiques and historic pubs.", "checked": false },
-{ "id": "wi_t2", "text": "Hike or horseback ride across Wimbledon Common (features a working windmill).", "checked": false },
-{ "id": "wi_t3", "text": "Walk the Thames Path from Putney Bridge, watching rowing clubs practice.", "checked": false },
-{ "id": "wi_t4", "text": "Visit the calm, beautiful walled gardens of Cannizaro Park.", "checked": false }
-],
-"photo": [
-{ "id": "wi_p1", "text": "Wimbledon Windmill standing isolated on the wild expanse of the Common.", "checked": false },
-{ "id": "wi_p2", "text": "Historic, flower-draped pub facades in Wimbledon Village (Dog & Fox).", "checked": false },
-{ "id": "wi_p3", "text": "Colorful rowing boats lined up along the Thames at Putney Embankment at sunset.", "checked": false }
-],
-"eat": [
-{ "id": "wi_e1", "text": "Lu-Ma Cafe (Wimbledon): Health-focused. No red meat/dairy, huge focus on plant-based and GF foods.", "checked": false },
-{ "id": "wi_e2", "text": "The Ivy Cafe (Wimbledon Village): Upscale. Dedicated Veg/Vegan menu and a separate GF menu.", "checked": false }
-]
-},
-{
-"id": "walthamstow", "name": "Walthamstow & The Wetlands",
-"season": "November. Early, dark evenings are perfect for God's Own Junkyard neon lights.",
-"soul": "Rich Arts & Crafts history meets massive nature reserves and quirky, hyper-modern industrial art spaces.",
-"day2": "Explore the Blackhorse Beer Mile (street food pop-ups), or visit Queen Elizabeth Olympic Park.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "wa_t1", "text": "Be overwhelmed by neon at God's Own Junkyard, a warehouse of vintage signs.", "checked": false },
-{ "id": "wa_t2", "text": "Explore Walthamstow Wetlands, Europe's largest urban wetland reserve.", "checked": false },
-{ "id": "wa_t3", "text": "Visit the William Morris Gallery in a beautiful Georgian home.", "checked": false },
-{ "id": "wa_t4", "text": "Stroll Walthamstow Village (Orford Road), a pedestrianized pocket of independent shops.", "checked": false }
-],
-"photo": [
-{ "id": "wa_p1", "text": "Sensory overload of neon lights inside God's Own Junkyard.", "checked": false },
-{ "id": "wa_p2", "text": "The Engine House at Wetlands, with its Victorian chimney reflected in water.", "checked": false },
-{ "id": "wa_p3", "text": "Intricate Arts and Crafts wallpaper patterns preserved inside William Morris Gallery.", "checked": false }
-],
-"eat": [
-{ "id": "wa_e1", "text": "Wood St Coffee (Walthamstow): Excellent indie brunch. Great vegetarian dishes with easy GF bread swaps.", "checked": false },
-{ "id": "wa_e2", "text": "The Bell (Walthamstow): Massive gastropub. Fantastic Sunday roasts with dedicated Vegan and GF alternatives.", "checked": false }
-]
-}
+  {
+    "id": "greenwich",
+    "name": "Greenwich",
+    "season": "October. The autumn foliage in Greenwich Park against the backdrop of the Royal Observatory and the city skyline is stunning.",
+    "soul": "The maritime epicentre of Britain, a royal birthplace, and the historic home of time. It feels like a grand, nautical village completely removed from the frantic energy of central London.",
+    "day2": "Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography. Alternatively, dive deep into the National Maritime Museum.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "g_t1",
+        "text": "Explore the Old Royal Naval College, specifically the breathtaking Painted Hall.",
+        "checked": false
+      },
+      {
+        "id": "g_t2",
+        "text": "Walk up the steep hill in Greenwich Park to the Royal Observatory.",
+        "checked": false
+      },
+      {
+        "id": "g_t3",
+        "text": "Wander through Greenwich Market to browse local arts, crafts, and antiques.",
+        "checked": false
+      },
+      {
+        "id": "g_t4",
+        "text": "Walk around the base of the Cutty Sark, the iconic 19th-century tea clipper ship.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "g_p1",
+        "text": "The viewpoint from the Royal Observatory hill: capture the Queen's House with Canary Wharf behind it.",
+        "checked": false
+      },
+      {
+        "id": "g_p2",
+        "text": "The Painted Hall ceiling (a wide-angle lens is highly recommended here).",
+        "checked": false
+      },
+      {
+        "id": "g_p3",
+        "text": "The symmetrical colonnades of the Old Royal Naval College.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "g_e1",
+        "text": "Arapina Bakery (Near Greenwich Market): Cozy spot for vegetarian, vegan, and GF artisan pastries/coffees.",
+        "checked": false
+      },
+      {
+        "id": "g_e2",
+        "text": "Prince of Greenwich Pub: Quirky Victorian decor. Excellent vegetarian and GF pizzas in a historic setting.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "hampstead",
+    "name": "Hampstead & Highgate",
+    "season": "November (for crisp, moody fog and autumn leaves) or May (to capture blooming wisteria).",
+    "soul": "An intellectual and literary haven that feels like a rural 18th-century English village perched on a hill.",
+    "day2": "Explore Highgate Village, Waterlow Park, and take the full architectural tour of Highgate West Cemetery. Visit the Freud Museum.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "h_t1",
+        "text": "Get lost in the wild woods, meadows, and swimming ponds of Hampstead Heath.",
+        "checked": false
+      },
+      {
+        "id": "h_t2",
+        "text": "Wander the steep, cobbled streets and historic alleyways (like Flask Walk).",
+        "checked": false
+      },
+      {
+        "id": "h_t3",
+        "text": "Visit Kenwood House, a stunning stately home on the edge of the Heath.",
+        "checked": false
+      },
+      {
+        "id": "h_t4",
+        "text": "Explore Highgate Cemetery, a world-famous Victorian gothic burial ground.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "h_p1",
+        "text": "Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.",
+        "checked": false
+      },
+      {
+        "id": "h_p2",
+        "text": "The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.",
+        "checked": false
+      },
+      {
+        "id": "h_p3",
+        "text": "Flask Walk, with its picturesque vintage shopfronts and cobbled streets.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "h_e1",
+        "text": "The Swing (West Hampstead): Vegetable-focused casual restaurant with vibrant small plates and marked GF options.",
+        "checked": false
+      },
+      {
+        "id": "h_e2",
+        "text": "The Holly Bush: Historic, Grade II listed pub. Excellent vegetarian roasts, very accommodating for GF.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "southwark",
+    "name": "Southwark & Bermondsey",
+    "season": "December (for festive lighting and cozy market vibes) or April (for mild spring riverside walks).",
+    "soul": "The historic entertainment and vice district of Tudor London, now reborn as London's premier culinary and cultural riverside stretch.",
+    "day2": "Dedicate a Sunday morning to Maltby Street Market, explore the White Cube gallery, and cross Tower Bridge.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "s_t1",
+        "text": "Stroll the Thames Path from the Tate Modern all the way down to Tower Bridge.",
+        "checked": false
+      },
+      {
+        "id": "s_t2",
+        "text": "Explore the Gothic ruins of Winchester Palace and the Golden Hinde ship.",
+        "checked": false
+      },
+      {
+        "id": "s_t3",
+        "text": "Browse Borough Market, one of the oldest and largest food markets in London.",
+        "checked": false
+      },
+      {
+        "id": "s_t4",
+        "text": "Wander down Bermondsey Street, known for glass-blowing studios and indie galleries.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "s_p1",
+        "text": "The Millennium Bridge looking straight towards the dome of St. Paul's Cathedral (golden hour).",
+        "checked": false
+      },
+      {
+        "id": "s_p2",
+        "text": "Shad Thames: historic Victorian cobbled street with overhead iron walkways.",
+        "checked": false
+      },
+      {
+        "id": "s_p3",
+        "text": "The Shard framing the historic wooden courtyard of The George Inn.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "s_e1",
+        "text": "Mallow (Borough Market): 100 percent plant-based restaurant, vibrant menu, almost everything adaptable to GF.",
+        "checked": false
+      },
+      {
+        "id": "s_e2",
+        "text": "Horn OK Please (Borough Market): Indian street food. Fresh vegetarian food naturally GF (moong dal dosas).",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "richmond",
+    "name": "Richmond & Kew",
+    "season": "Late April to early May. Isabella Plantation explodes with vibrant azaleas, and Kew Gardens is in full spring bloom.",
+    "soul": "Aristocratic, majestic, and green. A former countryside retreat for royalty blending botanical perfection with wild deer parks.",
+    "day2": "Take a leisurely Thames riverboat cruise from Richmond down to Hampton Court Palace to explore Tudor history.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "r_t1",
+        "text": "Walk or cycle through the vast Richmond Park to spot the wild red and fallow deer.",
+        "checked": false
+      },
+      {
+        "id": "r_t2",
+        "text": "Explore the UNESCO-listed Kew Gardens, featuring massive Victorian glasshouses.",
+        "checked": false
+      },
+      {
+        "id": "r_t3",
+        "text": "Stroll the Richmond Riverside and Richmond Green, surrounded by historic architecture.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "r_p1",
+        "text": "The Isabella Plantation in Richmond Park (macro shots of flowers and streams).",
+        "checked": false
+      },
+      {
+        "id": "r_p2",
+        "text": "The Temperate House at Kew Gardens (architectural geometry and symmetry).",
+        "checked": false
+      },
+      {
+        "id": "r_p3",
+        "text": "Richmond Hill Viewpoint (protected view looking down over a sweeping bend in the Thames).",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "r_e1",
+        "text": "Tide Tables: Casual cafe under the arches on the riverside. Entirely vegetarian, dedicated GF menus.",
+        "checked": false
+      },
+      {
+        "id": "r_e2",
+        "text": "Petersham Nurseries Cafe: Magical greenhouse dining. Excellent vegetarian and GF options (book in advance).",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "city",
+    "name": "The City of London",
+    "season": "January or February. Winter light cuts beautifully through skyscrapers, highlighting ancient stonework. Quiet on weekends.",
+    "soul": "The ancient Roman heart of London, now the global financial district. A startling juxtaposition of hyper-modern skyscrapers and medieval ruins.",
+    "day2": "Walk the perimeter of the ancient Roman Wall, visit the Museum of London, or explore the Monument to the Great Fire.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "c_t1",
+        "text": "Marvel at St. Paul's Cathedral and walk through Paternoster Square.",
+        "checked": false
+      },
+      {
+        "id": "c_t2",
+        "text": "Explore Leadenhall Market, a breathtaking Victorian covered market.",
+        "checked": false
+      },
+      {
+        "id": "c_t3",
+        "text": "Visit the free Sky Garden or Horizon 22 for panoramic views.",
+        "checked": false
+      },
+      {
+        "id": "c_t4",
+        "text": "Discover the Roman Temple of Mithras hidden beneath the Bloomberg building.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "c_p1",
+        "text": "Looking up at the Gherkin from the ornate archways of Leadenhall Market.",
+        "checked": false
+      },
+      {
+        "id": "c_p2",
+        "text": "St. Dunstan-in-the-East: A ruined medieval church transformed into an overgrown garden.",
+        "checked": false
+      },
+      {
+        "id": "c_p3",
+        "text": "The reflection of St Paul's Cathedral in the modern glass of One New Change.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "c_e1",
+        "text": "The Ned (Millie's Lounge): Upscale 1920s bank building. Superb vegetarian and GF British classics.",
+        "checked": false
+      },
+      {
+        "id": "c_e2",
+        "text": "Itsu / Leon: Reliable staples for weekends when indie cafes close. Clearly marked GF/Veg hot boxes.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "shoreditch",
+    "name": "Shoreditch & Spitalfields",
+    "season": "September. Pleasant weather for street art, and the London Design Festival activates spaces.",
+    "soul": "Historic home of silk weavers and immigrants, evolved into London's vibrant, gritty capital of street art, vintage fashion, and indie culture.",
+    "day2": "Sunday at Columbia Road Flower Market, walk to Hackney City Farm, and explore boutiques on Broadway Market.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "sh_t1",
+        "text": "Hunt for world-class street art around Rivington Street and Redchurch Street.",
+        "checked": false
+      },
+      {
+        "id": "sh_t2",
+        "text": "Browse Old Spitalfields Market for antiques, local designs, and art.",
+        "checked": false
+      },
+      {
+        "id": "sh_t3",
+        "text": "Walk down Brick Lane, famous for vintage stores and record shops.",
+        "checked": false
+      },
+      {
+        "id": "sh_t4",
+        "text": "Admire the preserved 18th-century Huguenot silk weavers' houses on Fournier Street.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "sh_p1",
+        "text": "Fournier Street: Contrast between Georgian townhouses and modern City skyscrapers.",
+        "checked": false
+      },
+      {
+        "id": "sh_p2",
+        "text": "Nomadic Community Gardens / Brick Lane murals for urban photography.",
+        "checked": false
+      },
+      {
+        "id": "sh_p3",
+        "text": "The glass canopy and Victorian ironwork of Old Spitalfields Market.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "sh_e1",
+        "text": "Bubala (Spitalfields): Phenomenal Middle Eastern vegetarian food. Vibrant and almost entirely GF.",
+        "checked": false
+      },
+      {
+        "id": "sh_e2",
+        "text": "Nude Espresso (Hanbury St): Great spot for a coffee break with GF treat options and plant milks.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "nottinghill",
+    "name": "Notting Hill & Holland Park",
+    "season": "April (cherry blossoms contrasting with pastel houses) or late August (Notting Hill Carnival).",
+    "soul": "Famous for pastel-colored Victorian townhouses, cinematic charm, and London's most famous antique market.",
+    "day2": "Explore Kensington Gardens, visit the Design Museum, and tour the opulent Leighton House Museum.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "n_t1",
+        "text": "Wander down Portobello Road Market (Saturday for antiques, Friday for fewer crowds).",
+        "checked": false
+      },
+      {
+        "id": "n_t2",
+        "text": "Explore the Kyoto Garden, a stunning Japanese garden in Holland Park.",
+        "checked": false
+      },
+      {
+        "id": "n_t3",
+        "text": "Get lost in the mews streets (historic cobblestone alleyways).",
+        "checked": false
+      },
+      {
+        "id": "n_t4",
+        "text": "Catch a film at the Electric Cinema, one of the oldest working cinemas.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "n_p1",
+        "text": "St Luke's Mews: Pretty cobbled mews with pink houses and trailing ivy.",
+        "checked": false
+      },
+      {
+        "id": "n_p2",
+        "text": "The sweeping curve of colorful houses on Lancaster Road or Elgin Crescent.",
+        "checked": false
+      },
+      {
+        "id": "n_p3",
+        "text": "The waterfall and roaming peacocks inside the Kyoto Garden.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "n_e1",
+        "text": "Farm Girl: Photogenic Australian-style cafe. Fantastic vegetarian and naturally GF options.",
+        "checked": false
+      },
+      {
+        "id": "n_e2",
+        "text": "Haya: Mediterranean neighborhood restaurant with wonderful vegetarian sharing plates and GF options.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "camden",
+    "name": "Camden Town & Regent's Park",
+    "season": "June or July. Long summer evenings for canal walks; Queen Mary's Rose Garden in spectacular bloom.",
+    "soul": "Camden is the historic hub for alternative subcultures, contrasting sharply with the aristocratic elegance of Regent's Park.",
+    "day2": "Take a narrowboat ride from Camden Lock to Little Venice, and explore the grand streets of Maida Vale.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "ca_t1",
+        "text": "Get lost in the labyrinth of Camden Market (stables, vintage, alternative crafts).",
+        "checked": false
+      },
+      {
+        "id": "ca_t2",
+        "text": "Walk along the Regent's Canal towpath towards Little Venice.",
+        "checked": false
+      },
+      {
+        "id": "ca_t3",
+        "text": "Explore Regent's Park and walk through Queen Mary's Rose Garden.",
+        "checked": false
+      },
+      {
+        "id": "ca_t4",
+        "text": "Hike up Primrose Hill for beloved panoramic views of the city.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "ca_p1",
+        "text": "The vibrant, 3D shop fronts along Camden High Street.",
+        "checked": false
+      },
+      {
+        "id": "ca_p2",
+        "text": "Regent's Canal at Camden Lock, with narrowboats and weeping willows.",
+        "checked": false
+      },
+      {
+        "id": "ca_p3",
+        "text": "The summit of Primrose Hill at sunset, capturing the London skyline.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "ca_e1",
+        "text": "Magic Falafel (Camden Market): 100 percent vegan and GF. Authentic, stress-free market eat.",
+        "checked": false
+      },
+      {
+        "id": "ca_e2",
+        "text": "Mildreds (Camden): Legendary plant-based food. Clearly marks plentiful GF options.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "kensington",
+    "name": "Kensington & Chelsea",
+    "season": "May (Chelsea Flower Show and floral displays) or December (Christmas lights and ice skating).",
+    "soul": "The Royal Borough. London at its most opulent, home to world-class Victorian museums, grand garden squares, and elegant streets.",
+    "day2": "Walk the Thames Path along the Chelsea Embankment, visit the Saatchi Gallery, explore Royal Hospital Chelsea.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "k_t1",
+        "text": "Visit 'Museum Row': The V&A, Natural History Museum, or Science Museum.",
+        "checked": false
+      },
+      {
+        "id": "k_t2",
+        "text": "Walk through Kensington Gardens to see the Albert Memorial and Kensington Palace.",
+        "checked": false
+      },
+      {
+        "id": "k_t3",
+        "text": "Stroll down the King's Road in Chelsea for boutiques and architecture.",
+        "checked": false
+      },
+      {
+        "id": "k_t4",
+        "text": "Visit the Chelsea Physic Garden, London's oldest botanical garden.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "k_p1",
+        "text": "Hintze Hall inside the Natural History Museum (arches and whale skeleton).",
+        "checked": false
+      },
+      {
+        "id": "k_p2",
+        "text": "The John Madejski Garden inside the V&A Museum (late afternoon sun).",
+        "checked": false
+      },
+      {
+        "id": "k_p3",
+        "text": "The pastel houses and hidden squares around Bywater Street in Chelsea.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "k_e1",
+        "text": "Dishoom (Kensington): Bombay-style cafe with dedicated vegan and GF menus. Legendary black daal.",
+        "checked": false
+      },
+      {
+        "id": "k_e2",
+        "text": "Ceru (South Kensington): Levantine restaurant. Almost entirely naturally GF, wonderful vegetarian options.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "hackney",
+    "name": "Hackney & Victoria Park",
+    "season": "Sundays in Spring or Summer. Comes alive with markets and park culture.",
+    "soul": "The beating heart of East London's creative scene. An incredible mix of urban edge, hipster cafes, historic canals, and vast parks.",
+    "day2": "Explore Hackney Marshes and Queen Elizabeth Olympic Park. Swim in the Aquatics Centre.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "ha_t1",
+        "text": "Visit Columbia Road Flower Market (Sundays) to see the street explode with colour.",
+        "checked": false
+      },
+      {
+        "id": "ha_t2",
+        "text": "Walk the Regent's Canal from Broadway Market to Victoria Park.",
+        "checked": false
+      },
+      {
+        "id": "ha_t3",
+        "text": "Explore Victoria Park, featuring Chinese pagodas and boating lakes.",
+        "checked": false
+      },
+      {
+        "id": "ha_t4",
+        "text": "Browse Broadway Market on a Saturday for artisan crafts and street food.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "ha_p1",
+        "text": "Columbia Road on a Sunday morning (portrait lens for flower sellers).",
+        "checked": false
+      },
+      {
+        "id": "ha_p2",
+        "text": "The Chinese Pagoda on the island in Victoria Park.",
+        "checked": false
+      },
+      {
+        "id": "ha_p3",
+        "text": "Narrowboats passing through the historic locks along Regent's Canal.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "ha_e1",
+        "text": "The Spread Eagle (Homerton): London's first 100 percent vegan pub. Excellent GF accommodations for roasts.",
+        "checked": false
+      },
+      {
+        "id": "ha_e2",
+        "text": "Andu Ethiopian Cafe (Dalston): Vegan Ethiopian spot. Traditional teff injera is naturally GF.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "covent",
+    "name": "Covent Garden & Soho",
+    "season": "November or December for world-famous Christmas lights creating a magical atmosphere.",
+    "soul": "The bustling, theatrical heart of London. A mix of historic fruit markets, bohemian streets, and premier entertainment.",
+    "day2": "Book a West End matinee, visit the National Gallery, and explore food halls at Fortnum & Mason.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "co_t1",
+        "text": "Watch street performers in the historic Covent Garden Piazza.",
+        "checked": false
+      },
+      {
+        "id": "co_t2",
+        "text": "Get lost in the narrow, energetic streets of Soho (Carnaby St, Kingly Court).",
+        "checked": false
+      },
+      {
+        "id": "co_t3",
+        "text": "Explore Neal's Yard, a hidden, colourful courtyard in Seven Dials.",
+        "checked": false
+      },
+      {
+        "id": "co_t4",
+        "text": "Browse independent bookshops on Charing Cross Road.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "co_p1",
+        "text": "Neal's Yard: Brightly painted buildings and overflowing window boxes.",
+        "checked": false
+      },
+      {
+        "id": "co_p2",
+        "text": "The elegant, symmetrical arches of the Covent Garden Market building.",
+        "checked": false
+      },
+      {
+        "id": "co_p3",
+        "text": "Neon signs of Soho at night, particularly around Old Compton Street.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "co_e1",
+        "text": "Mildreds (Soho): Iconic plant-based restaurant. Superb vegetarian food and excellent GF options.",
+        "checked": false
+      },
+      {
+        "id": "co_e2",
+        "text": "Dishoom (Covent Garden): Incredible Bombay-style food with strict, dedicated GF/vegan menus.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "bloomsbury",
+    "name": "Bloomsbury & Fitzrovia",
+    "season": "September. 'Back to school' autumn air suits the academic and literary atmosphere.",
+    "soul": "The intellectual heartbeat of London, defined by gorgeous Georgian garden squares, universities, and world-class museums.",
+    "day2": "Visit the Wellcome Collection (quirky medicine/art museum) and catch a fringe theatre show.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "bl_t1",
+        "text": "Marvel at the Rosetta Stone and Parthenon Sculptures at the British Museum.",
+        "checked": false
+      },
+      {
+        "id": "bl_t2",
+        "text": "Walk the leafy perimeter of Russell Square and Bedford Square.",
+        "checked": false
+      },
+      {
+        "id": "bl_t3",
+        "text": "Step back in time at the Charles Dickens Museum.",
+        "checked": false
+      },
+      {
+        "id": "bl_t4",
+        "text": "Browse independent galleries and design stores along Store Street.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "bl_p1",
+        "text": "The Great Court inside the British Museum (tessellated glass roof).",
+        "checked": false
+      },
+      {
+        "id": "bl_p2",
+        "text": "Pastel shopfronts along Woburn Walk (pedestrianized Georgian street).",
+        "checked": false
+      },
+      {
+        "id": "bl_p3",
+        "text": "The brutalist, sweeping staircases inside the Senate House building.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "bl_e1",
+        "text": "Honey & Co. (Bloomsbury): Cozy Middle Eastern offering vibrant vegetarian plates adapted for GF.",
+        "checked": false
+      },
+      {
+        "id": "bl_e2",
+        "text": "Kin Cafe (Fitzrovia): Brilliant vegetarian cafe with clearly marked GF brunch/lunch options.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "kingscross",
+    "name": "King's Cross & St Pancras",
+    "season": "December. Winter light installations and the massive Christmas tree in Coal Drops Yard.",
+    "soul": "A gritty industrial transport hub successfully regenerated into a blend of Victorian viaducts and sleek modern tech/arts hubs.",
+    "day2": "Walk the Regent's Canal towpath east towards Islington, or visit the London Canal Museum.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "kx_t1",
+        "text": "Explore Coal Drops Yard, shopping/dining built into historic Victorian coal viaducts.",
+        "checked": false
+      },
+      {
+        "id": "kx_t2",
+        "text": "See the Magna Carta in the Treasures Gallery at the British Library.",
+        "checked": false
+      },
+      {
+        "id": "kx_t3",
+        "text": "Watch the synchronized fountains in Granary Square.",
+        "checked": false
+      },
+      {
+        "id": "kx_t4",
+        "text": "Get a photo at Platform 9 3/4 inside King's Cross Station.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "kx_p1",
+        "text": "The 'Kissing Roof' at Coal Drops Yard (modern architecture meets Victorian brick).",
+        "checked": false
+      },
+      {
+        "id": "kx_p2",
+        "text": "The breathtaking gothic-revival facade of the St Pancras Renaissance Hotel.",
+        "checked": false
+      },
+      {
+        "id": "kx_p3",
+        "text": "The futuristic, neon-lit pedestrian tunnel connecting King's Cross to St Pancras.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "kx_e1",
+        "text": "Caravan (Granary Square): Set in an old grain warehouse. Fantastic veg and GF options clearly marked.",
+        "checked": false
+      },
+      {
+        "id": "kx_e2",
+        "text": "Hoppers (King's Cross): Incredible Sri Lankan food. Much is naturally GF (like hoppers), superb veg curries.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "marylebone",
+    "name": "Marylebone & Mayfair",
+    "season": "May. Ideal for open-air cafe culture and the private garden squares turning vibrant green.",
+    "soul": "Upscale London. Mayfair is a starchy enclave of luxe hotels/galleries; Marylebone is an elegant, relaxed urban village.",
+    "day2": "Dedicate a day to Hyde Park, visit the Serpentine Galleries, or catch classical music at Wigmore Hall.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "ma_t1",
+        "text": "View the free art collection at the opulent Wallace Collection.",
+        "checked": false
+      },
+      {
+        "id": "ma_t2",
+        "text": "Window shop along Marylebone High Street.",
+        "checked": false
+      },
+      {
+        "id": "ma_t3",
+        "text": "Stroll through Grosvenor Square and Mount Street Gardens in Mayfair.",
+        "checked": false
+      },
+      {
+        "id": "ma_t4",
+        "text": "Browse flagship bookstores, including Daunt Books with its Edwardian oak galleries.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "ma_p1",
+        "text": "The grand, silk-lined rooms and armory at the Wallace Collection.",
+        "checked": false
+      },
+      {
+        "id": "ma_p2",
+        "text": "The terracotta-red Victorian architecture curving along Mount Street.",
+        "checked": false
+      },
+      {
+        "id": "ma_p3",
+        "text": "The elevated, hidden rooftop garden of Brown Hart Gardens.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "ma_e1",
+        "text": "Plants by Deliciously Ella (Mayfair): 100 percent plant-based, entire menu naturally GF.",
+        "checked": false
+      },
+      {
+        "id": "ma_e2",
+        "text": "The Gate (Marylebone): Pioneering vegetarian restaurant with a wealth of safe GF options.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "westminster",
+    "name": "Westminster & St James's",
+    "season": "October or November. Crisp autumn air suits the grand architecture, avoiding summer tourist crushes.",
+    "soul": "The royal and political epicenter of the UK. Postcard London with soaring gothic architecture and exclusive royal streets.",
+    "day2": "Explore Tate Britain, take a riverboat to Greenwich, or explore royal cavalry at Horse Guards Parade.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "we_t1",
+        "text": "Walk from Trafalgar Square down Whitehall to see 10 Downing St and Parliament.",
+        "checked": false
+      },
+      {
+        "id": "we_t2",
+        "text": "Explore the subterranean Churchill War Rooms.",
+        "checked": false
+      },
+      {
+        "id": "we_t3",
+        "text": "Marvel at the gothic majesty of Westminster Abbey.",
+        "checked": false
+      },
+      {
+        "id": "we_t4",
+        "text": "Feed pelicans and walk through St James's Park toward Buckingham Palace.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "we_p1",
+        "text": "Westminster Bridge looking back at the Elizabeth Tower (Big Ben).",
+        "checked": false
+      },
+      {
+        "id": "we_p2",
+        "text": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall).",
+        "checked": false
+      },
+      {
+        "id": "we_p3",
+        "text": "The grand, sweeping staircase and facade of the Tate Britain gallery.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "we_e1",
+        "text": "The Cinnamon Club: Upscale Indian dining in a former library. Caters exceptionally to Veg/GF.",
+        "checked": false
+      },
+      {
+        "id": "we_e2",
+        "text": "Yaatra (Old Fire Station): Vibrant Indian cuisine with plenty of vegetarian and GF choices.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "southbank",
+    "name": "The South Bank & Waterloo",
+    "season": "July or August. Riverside comes alive with street performers, markets, and festivals.",
+    "soul": "London's premier arts promenade. Striking brutalist architecture housing the nation's greatest theatres and galleries.",
+    "day2": "See a play at Shakespeare's Globe Theatre, ride the London Eye, or visit Florence Nightingale Museum.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "sb_t1",
+        "text": "Walk the pedestrianized river path past the National Theatre.",
+        "checked": false
+      },
+      {
+        "id": "sb_t2",
+        "text": "Browse the Southbank Centre Book Market beneath Waterloo Bridge.",
+        "checked": false
+      },
+      {
+        "id": "sb_t3",
+        "text": "Visit the Tate Modern (specifically the massive Turbine Hall installations).",
+        "checked": false
+      },
+      {
+        "id": "sb_t4",
+        "text": "Catch an indie film at the BFI (British Film Institute) Southbank.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "sb_p1",
+        "text": "Sharp, concrete geometric lines of the National Theatre (brutalist masterpiece).",
+        "checked": false
+      },
+      {
+        "id": "sb_p2",
+        "text": "The Millennium Bridge leading directly to the dome of St Paul's Cathedral.",
+        "checked": false
+      },
+      {
+        "id": "sb_p3",
+        "text": "Leake Street Arches ('Banksy Tunnel'), an ever-changing canvas of street art.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "sb_e1",
+        "text": "Wahaca (Southbank): Vibrant Mexican street food, excellent vegetarian choices, strict GF menu.",
+        "checked": false
+      },
+      {
+        "id": "sb_e2",
+        "text": "Skylon: Inside Royal Festival Hall. Upscale, highly trained to accommodate Veg/GF needs.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "bayswater",
+    "name": "Bayswater & Little Venice",
+    "season": "April or May. Trees lining the canals burst into bloom for tranquil waterside walks.",
+    "soul": "A peaceful, affluent oasis where canals meet, characterized by colorful narrowboats and elegant white stucco terraces.",
+    "day2": "Take a canal boat from Little Venice to Camden Lock, or spend the day in Hyde Park/Serpentine.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "ba_t1",
+        "text": "Walk towpaths of Little Venice and admire decorated canal boats at Browning's Pool.",
+        "checked": false
+      },
+      {
+        "id": "ba_t2",
+        "text": "Relax in the Hyde Park Italian Gardens, a beautiful ornamental water garden.",
+        "checked": false
+      },
+      {
+        "id": "ba_t3",
+        "text": "See Victorian ironwork inside Paddington Station (by Brunel).",
+        "checked": false
+      },
+      {
+        "id": "ba_t4",
+        "text": "Catch a show at the unique Puppet Theatre Barge.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "ba_p1",
+        "text": "Browning's Pool (reflection of weeping willows and narrowboats).",
+        "checked": false
+      },
+      {
+        "id": "ba_p2",
+        "text": "Symmetrical fountains and classical statues of the Italian Gardens.",
+        "checked": false
+      },
+      {
+        "id": "ba_p3",
+        "text": "The sweeping, white stucco crescents of Leinster Gardens.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "ba_e1",
+        "text": "Darcie & May Green: Colorful canal boats serving Aussie brunch. Brilliant Veg/GF options.",
+        "checked": false
+      },
+      {
+        "id": "ba_e2",
+        "text": "Kuro Eatery (Notting Hill Edge): Minimalist spot offering Mediterranean dishes with great care for Veg/GF.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "islington",
+    "name": "Islington & Clerkenwell",
+    "season": "October. Cozy gastropubs and leaf-strewn canals make for an atmospheric autumn weekend.",
+    "soul": "Perfect balance of feisty bohemianism and groomed prosperity. Known for street markets, design agencies, and antique arcades.",
+    "day2": "Explore Museum of the Order of St John, catch a play at Almeida Theatre, or wander the Barbican Centre.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "is_t1",
+        "text": "Hunt for vintage treasures in the cobbled alleys of Camden Passage.",
+        "checked": false
+      },
+      {
+        "id": "is_t2",
+        "text": "Eat your way through the independent food stalls at Exmouth Market.",
+        "checked": false
+      },
+      {
+        "id": "is_t3",
+        "text": "Walk the Regent's Canal towpath into the historic Islington Tunnel.",
+        "checked": false
+      },
+      {
+        "id": "is_t4",
+        "text": "Visit the peaceful historic ruins of the Charterhouse in Clerkenwell.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "is_p1",
+        "text": "The fairy lights and bustling atmosphere of Exmouth Market at dusk.",
+        "checked": false
+      },
+      {
+        "id": "is_p2",
+        "text": "Charming, wonky antique storefronts tucked inside Camden Passage.",
+        "checked": false
+      },
+      {
+        "id": "is_p3",
+        "text": "The dramatic, brutalist concrete towers of the Barbican Estate.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "is_e1",
+        "text": "The Gate (Islington): Highly creative, 100 percent meat-free menu with excellent, safe GF options.",
+        "checked": false
+      },
+      {
+        "id": "is_e2",
+        "text": "Moro (Exmouth Market): Moorish/Mediterranean. Focus on veg and naturally GF ingredients.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "docklands",
+    "name": "Docklands & Canary Wharf",
+    "season": "January. Canary Wharf hosts a spectacular Winter Lights festival transforming the estate.",
+    "soul": "Historic East India Docks reborn as a futuristic financial district. Contrast between ancient brick and soaring glass.",
+    "day2": "Take the Thames Clipper to the Thames Barrier, or visit Mudchute Park and Farm.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "do_t1",
+        "text": "Visit the Museum of London Docklands (in an 1802 sugar warehouse).",
+        "checked": false
+      },
+      {
+        "id": "do_t2",
+        "text": "Wander through Crossrail Place Roof Garden (indoor tropical garden on the Prime Meridian).",
+        "checked": false
+      },
+      {
+        "id": "do_t3",
+        "text": "Walk the docks to see historic cranes juxtaposed against the modern skyline.",
+        "checked": false
+      },
+      {
+        "id": "do_t4",
+        "text": "Take the DLR for incredible, elevated views winding through skyscrapers.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "do_p1",
+        "text": "Futuristic Adams Plaza Bridge (famous from Star Wars).",
+        "checked": false
+      },
+      {
+        "id": "do_p2",
+        "text": "Looking straight up at glass skyscrapers reflecting in the water at West India Quay.",
+        "checked": false
+      },
+      {
+        "id": "do_p3",
+        "text": "Lush pathways of Crossrail Place Roof Garden framed by geometric timber.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "do_e1",
+        "text": "Mallow (Wood Wharf): 100 percent plant-based, beautifully designed, highly accommodating for GF.",
+        "checked": false
+      },
+      {
+        "id": "do_e2",
+        "text": "The Ivy in the Park (Canary Wharf): Vibrant brasserie. Dedicated Veg/GF menus, careful prep.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "brixton",
+    "name": "Brixton & Herne Hill",
+    "season": "July or August. Vibrant outdoor markets, street music, and lush expanses best in summer.",
+    "soul": "The cultural beating heart of South London. Afro-Caribbean heritage, fierce independence, and incredible music history.",
+    "day2": "Herne Hill Farmers' Market, explore Black Cultural Archives, or catch a gig at O2 Academy.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "br_t1",
+        "text": "Get lost in Brixton Village and Market Row, hunting for indie boutiques and global food.",
+        "checked": false
+      },
+      {
+        "id": "br_t2",
+        "text": "Pay respects at the David Bowie Memorial mural.",
+        "checked": false
+      },
+      {
+        "id": "br_t3",
+        "text": "Catch a film at the Ritzy Picturehouse, one of South London's oldest cinemas.",
+        "checked": false
+      },
+      {
+        "id": "br_t4",
+        "text": "Walk to Brockwell Park and admire the 1930s Art Deco Lido.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "br_p1",
+        "text": "Electric Avenue at golden hour (historic iron canopies).",
+        "checked": false
+      },
+      {
+        "id": "br_p2",
+        "text": "The colorful, overlapping neon signs inside Brixton Village market.",
+        "checked": false
+      },
+      {
+        "id": "br_p3",
+        "text": "Sweeping view of the London skyline from the top of Brockwell Park.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "br_e1",
+        "text": "Senzala Creperie (Brixton Village): French galettes (naturally GF buckwheat) with huge vegetarian menu.",
+        "checked": false
+      },
+      {
+        "id": "br_e2",
+        "text": "En Root (Brixton): 100 percent plant-based Indian fusion. Almost everything naturally GF.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "battersea",
+    "name": "Battersea & Clapham",
+    "season": "September. Perfect for long walks across massive commons and the riverfront by the Power Station.",
+    "soul": "Leafy hubs and multi-billion-pound regeneration. The iconic coal power station is London's newest architectural destination.",
+    "day2": "Take the 'Lift 109' up the Power Station chimney, or visit Battersea Dogs & Cats Home.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "bat_t1",
+        "text": "Marvel at the restored Battersea Power Station (shops/art in turbine halls).",
+        "checked": false
+      },
+      {
+        "id": "bat_t2",
+        "text": "Walk the Thames Path through Battersea Park to the London Peace Pagoda.",
+        "checked": false
+      },
+      {
+        "id": "bat_t3",
+        "text": "Stroll through Clapham Old Town, admiring Georgian architecture.",
+        "checked": false
+      },
+      {
+        "id": "bat_t4",
+        "text": "Spend an afternoon walking across the vast, 220-acre Clapham Common.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "bat_p1",
+        "text": "Looking straight up at the four massive chimneys inside the Power Station courtyard.",
+        "checked": false
+      },
+      {
+        "id": "bat_p2",
+        "text": "Golden Buddha statues of the Peace Pagoda, framed against the Thames.",
+        "checked": false
+      },
+      {
+        "id": "bat_p3",
+        "text": "Colorful, independent shopfronts curving along Abbeville Road in Clapham.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "bat_e1",
+        "text": "Where The Pancakes Are (Power Station): Specific '3-in-1' batter that is GF, dairy-free, and vegan.",
+        "checked": false
+      },
+      {
+        "id": "bat_e2",
+        "text": "Megan's at the Power Station: Mediterranean spot heavily vegetable-focused, accommodating GF swaps.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "peckham",
+    "name": "Peckham & Camberwell",
+    "season": "June. Warm summer evenings required to appreciate rooftop bar culture and outdoor art.",
+    "soul": "Fiercely creative community hubs. Gritty urban architecture mixed with thriving contemporary art and trendy dining.",
+    "day2": "Catch an indie film at Peckhamplex, walk Peckham Rye Park, or explore Camberwell College of Arts.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "pe_t1",
+        "text": "Explore the South London Gallery in Camberwell.",
+        "checked": false
+      },
+      {
+        "id": "pe_t2",
+        "text": "Walk down Bellenden Road, famous for boutiques and Antony Gormley bollards.",
+        "checked": false
+      },
+      {
+        "id": "pe_t3",
+        "text": "Browse the stacks at the quirky, independently run Review Bookshop.",
+        "checked": false
+      },
+      {
+        "id": "pe_t4",
+        "text": "Take in a sunset from a repurposed rooftop space (like the multi-storey car park).",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "pe_p1",
+        "text": "Frank's Cafe / Peckham Levels: Pink staircases and unobstructed skyline views (summer).",
+        "checked": false
+      },
+      {
+        "id": "pe_p2",
+        "text": "The beautiful, overgrown ruins of the Asylum Chapel in Caroline Gardens.",
+        "checked": false
+      },
+      {
+        "id": "pe_p3",
+        "text": "Vibrant street art and murals scattered throughout alleys off Rye Lane.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "pe_e1",
+        "text": "Forza Wine (Peckham): Trendy Italian rooftop. Fantastic small plates, highly adept at Veg/GF.",
+        "checked": false
+      },
+      {
+        "id": "pe_e2",
+        "text": "Levan (Peckham): Stylish European. Highly creative veg dishes, excellent GF catering.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "dulwich",
+    "name": "Dulwich & Crystal Palace",
+    "season": "October. Ancient woods and leafy village streets turn gold and red like a countryside retreat.",
+    "soul": "Deep South London elegance. Dulwich is a pristine affluent village; Crystal Palace is bohemian with a massive Victorian park.",
+    "day2": "Explore Horniman Museum in Forest Hill (walrus and gardens), or get lost in Crystal Palace maze.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "du_t1",
+        "text": "Visit Dulwich Picture Gallery, the world's first purpose-built public art gallery.",
+        "checked": false
+      },
+      {
+        "id": "du_t2",
+        "text": "Hunt for mid-century furniture in the Crystal Palace Antiques Market.",
+        "checked": false
+      },
+      {
+        "id": "du_t3",
+        "text": "Wander Crystal Palace Park to find the historically inaccurate Victorian Dinosaur statues.",
+        "checked": false
+      },
+      {
+        "id": "du_t4",
+        "text": "Take a walk through Dulwich Park or ancient Sydenham Hill Wood.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "du_p1",
+        "text": "Exterior brickwork and lighting enfilades of the Dulwich Picture Gallery.",
+        "checked": false
+      },
+      {
+        "id": "du_p2",
+        "text": "Eerie, overgrown Victorian dinosaur statues emerging from trees in the park.",
+        "checked": false
+      },
+      {
+        "id": "du_p3",
+        "text": "Sweeping panoramic city views from the top of Crystal Palace hill.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "du_e1",
+        "text": "Megan's in the Hamlet (Dulwich): Rustic space with adaptable Mediterranean menu (great Veg/GF).",
+        "checked": false
+      },
+      {
+        "id": "du_e2",
+        "text": "Brown & Green Cafe (Crystal Palace Park): Community cafe with massive brunch menu (abundant Veg/GF choices).",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "wimbledon",
+    "name": "Wimbledon & Putney",
+    "season": "Late June to early July. Buzzes with energy during Tennis Championships, pubs overflow with flowers.",
+    "soul": "Leafy, sporty, and upper-crust. A stunning hilltop 'Village' surrounded by massive commons, plus serene riverside rowing.",
+    "day2": "Tour the All England Lawn Tennis Club, visit Buddhapadipa Temple, or explore Richmond Park.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "wi_t1",
+        "text": "Explore Wimbledon Village, browsing boutiques and historic pubs.",
+        "checked": false
+      },
+      {
+        "id": "wi_t2",
+        "text": "Hike or horseback ride across Wimbledon Common (features a working windmill).",
+        "checked": false
+      },
+      {
+        "id": "wi_t3",
+        "text": "Walk the Thames Path from Putney Bridge, watching rowing clubs practice.",
+        "checked": false
+      },
+      {
+        "id": "wi_t4",
+        "text": "Visit the calm, beautiful walled gardens of Cannizaro Park.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "wi_p1",
+        "text": "Wimbledon Windmill standing isolated on the wild expanse of the Common.",
+        "checked": false
+      },
+      {
+        "id": "wi_p2",
+        "text": "Historic, flower-draped pub facades in Wimbledon Village (Dog & Fox).",
+        "checked": false
+      },
+      {
+        "id": "wi_p3",
+        "text": "Colorful rowing boats lined up along the Thames at Putney Embankment at sunset.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "wi_e1",
+        "text": "Lu-Ma Cafe (Wimbledon): Health-focused. No red meat/dairy, huge focus on plant-based and GF foods.",
+        "checked": false
+      },
+      {
+        "id": "wi_e2",
+        "text": "The Ivy Cafe (Wimbledon Village): Upscale. Dedicated Veg/Vegan menu and a separate GF menu.",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "id": "walthamstow",
+    "name": "Walthamstow & The Wetlands",
+    "season": "November. Early, dark evenings are perfect for God's Own Junkyard neon lights.",
+    "soul": "Rich Arts & Crafts history meets massive nature reserves and quirky, hyper-modern industrial art spaces.",
+    "day2": "Explore the Blackhorse Beer Mile (street food pop-ups), or visit Queen Elizabeth Olympic Park.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "wa_t1",
+        "text": "Be overwhelmed by neon at God's Own Junkyard, a warehouse of vintage signs.",
+        "checked": false
+      },
+      {
+        "id": "wa_t2",
+        "text": "Explore Walthamstow Wetlands, Europe's largest urban wetland reserve.",
+        "checked": false
+      },
+      {
+        "id": "wa_t3",
+        "text": "Visit the William Morris Gallery in a beautiful Georgian home.",
+        "checked": false
+      },
+      {
+        "id": "wa_t4",
+        "text": "Stroll Walthamstow Village (Orford Road), a pedestrianized pocket of independent shops.",
+        "checked": false
+      }
+    ],
+    "photo": [
+      {
+        "id": "wa_p1",
+        "text": "Sensory overload of neon lights inside God's Own Junkyard.",
+        "checked": false
+      },
+      {
+        "id": "wa_p2",
+        "text": "The Engine House at Wetlands, with its Victorian chimney reflected in water.",
+        "checked": false
+      },
+      {
+        "id": "wa_p3",
+        "text": "Intricate Arts and Crafts wallpaper patterns preserved inside William Morris Gallery.",
+        "checked": false
+      }
+    ],
+    "eat": [
+      {
+        "id": "wa_e1",
+        "text": "Wood St Coffee (Walthamstow): Excellent indie brunch. Great vegetarian dishes with easy GF bread swaps.",
+        "checked": false
+      },
+      {
+        "id": "wa_e2",
+        "text": "The Bell (Walthamstow): Massive gastropub. Fantastic Sunday roasts with dedicated Vegan and GF alternatives.",
+        "checked": false
+      }
+    ]
+  }
 ]
