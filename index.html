@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>London Weekend Explorer</title>
     
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -34,6 +33,11 @@
             id: 'greenwich', name: 'Greenwich ⛵',
             season: 'October. The autumn foliage in Greenwich Park against the backdrop of the city skyline is stunning.',
             transport: '🚆 DLR to Cutty Sark or Greenwich Station. ⛴️ Uber Boat (Thames Clipper) to Greenwich Pier.',
+            funFacts: [
+              "Greenwich Mean Time (GMT) was globally adopted here in 1884 to sync ship navigation.",
+              "The Painted Hall took 19 years to complete and is often called the Sistine Chapel of the UK.",
+              "The Cutty Sark was once the fastest ship in the world, bringing tea back from China."
+            ],
             soul: 'The maritime epicentre of Britain, a royal birthplace, and the historic home of time. It feels like a grand, nautical village completely removed from the frantic energy of central London.',
             day2: 'Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography.',
             visitedDate: '', rating: 0, notes: '',
@@ -61,6 +65,7 @@
                 title: 'Greenwich Market', 
                 description: 'Established in 1730, this covered market is housed in a classic Victorian iron-and-glass structure.', 
                 action: 'Browse for unique local arts, crafts, and grab some artisanal street food.', 
+                photoTip: 'The historic Victorian ironwork and bustling artisanal stalls.',
                 checked: false, 
                 time: '45 mins' 
               },
@@ -69,6 +74,7 @@
                 title: 'Cutty Sark', 
                 description: "The world's sole surviving extreme tea clipper, famous for racing across the globe to bring fresh tea crops from China to London.", 
                 action: 'Walk directly beneath the gleaming copper hull in the dry dock.', 
+                photoTip: 'The gleaming copper hull illuminated from below in the dry dock.',
                 checked: false, 
                 time: '45 mins' 
               }
@@ -96,6 +102,11 @@
             id: 'hampstead', name: 'Hampstead & Highgate 📜',
             season: 'November (for crisp, moody fog and autumn leaves) or May (to capture blooming wisteria).',
             transport: '🚆 Northern Line to Hampstead (steepest lift in London) or Highgate.',
+            funFacts: [
+              "Hampstead Heath has 3 swimming ponds (Men, Women, Mixed) that are strictly open year-round, even in freezing winter.",
+              "Karl Marx, George Eliot, and Douglas Adams are all buried in Highgate Cemetery.",
+              "Hampstead Tube station is the deepest on the entire network at 58.5 metres below ground."
+            ],
             soul: 'An intellectual and literary haven that feels like a rural 18th-century English village perched on a hill.',
             day2: 'Explore Highgate Village, Waterlow Park, and take the full architectural tour of Highgate West Cemetery.',
             visitedDate: '', rating: 0, notes: '',
@@ -123,6 +134,7 @@
                 title: 'Kenwood House', 
                 description: 'A breathtaking neoclassical stately home on the edge of the Heath, containing a world-class art collection including works by Rembrandt and Vermeer.', 
                 action: 'Explore the grand library and view the free art exhibitions.', 
+                photoTip: 'The neoclassical architecture framed against surrounding woodland.',
                 checked: false, 
                 time: '1.5 hrs' 
               },
@@ -171,7 +183,7 @@
                 <svg
                   key={star}
                   onClick={() => !readOnly && onChange(star)}
-                  className={`w-7 h-7 ${readOnly ? '' : 'cursor-pointer hover:scale-110 hover:-translate-y-1'} transition-all duration-300 ${star <= rating ? 'text-[#D97706] dark:text-[#FBBF24] drop-shadow-md' : 'text-gray-300 dark:text-gray-700'}`}
+                  className={`w-7 h-7 ${readOnly ? '' : 'cursor-pointer hover:scale-110 hover:-translate-y-1'} transition-all duration-300 ${star <= rating ? 'text-amber-500 dark:text-amber-400 drop-shadow-md' : 'text-gray-300 dark:text-gray-700'}`}
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -196,32 +208,32 @@
               <div className="w-full">
                 {item.title ? (
                   <div>
-                    <strong className={`block text-[19px] font-bold mb-2.5 ${item.checked ? 'line-through text-gray-500 dark:text-gray-500' : 'text-gray-900 dark:text-gray-100'}`}>{item.title}</strong>
+                    <strong className={`block text-[18px] font-bold mb-2.5 ${item.checked ? 'line-through text-gray-500 dark:text-gray-500' : 'text-gray-900 dark:text-gray-100'}`}>{item.title}</strong>
                     {item.description && <span className={`block text-[16px] leading-relaxed mb-3 font-normal ${item.checked ? 'line-through opacity-70' : 'text-gray-700 dark:text-gray-300'}`}>{item.description}</span>}
                     
                     {item.action && (
-                      <div className={`my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 ${item.checked ? 'opacity-60' : ''}`}>
+                      <div className="my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200">
                         <span className="flex-shrink-0 mr-3 text-base">👉</span>
                         <div className="pl-3.5 border-l-2 border-indigo-500 dark:border-indigo-400">
-                          <span className="font-normal">{item.action}</span>
+                          <span className={item.checked ? 'line-through opacity-70' : ''}>{item.action}</span>
                         </div>
                       </div>
                     )}
                     
                     {item.photoTip && (
-                      <div className={`my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 ${item.checked ? 'opacity-60' : ''}`}>
+                      <div className="my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200">
                         <span className="flex-shrink-0 mr-3 text-base">📸</span>
                         <div className="pl-3.5 border-l-2 border-emerald-500 dark:border-emerald-400">
-                          <span className="font-normal">{item.photoTip}</span>
+                          <span className={item.checked ? 'line-through opacity-70' : ''}>{item.photoTip}</span>
                         </div>
                       </div>
                     )}
                     
                     {item.mustTry && (
-                      <div className={`my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 ${item.checked ? 'opacity-60' : ''}`}>
+                      <div className="my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200">
                         <span className="flex-shrink-0 mr-3 text-base">🍽️</span>
                         <div className="pl-3.5 border-l-2 border-amber-500 dark:border-amber-400">
-                          <span className="font-normal">{item.mustTry}</span>
+                          <span className={item.checked ? 'line-through opacity-70' : ''}>{item.mustTry}</span>
                         </div>
                       </div>
                     )}
@@ -241,7 +253,7 @@
                       <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
                     )}
                   </div>
-                  <span>Done</span>
+                  <span>{item.checked ? 'Done' : 'Mark Done'}</span>
                 </button>
 
                 <div className="flex items-center space-x-2">
@@ -269,8 +281,8 @@
           if (!items || items.length === 0) return null;
           return (
             <div className="mb-8 last:mb-0">
-              <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-gray-100 mb-4 px-1">
-                <span className="mr-3 p-2 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 rounded-xl shadow-xs">{icon}</span>
+              <h3 className="flex items-center text-xl font-black text-gray-900 dark:text-gray-100 mb-4 px-1">
+                <span className="flex items-center justify-center w-9 h-9 bg-indigo-100 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 rounded-2xl mr-3 shadow-xs">{icon}</span>
                 {title}
               </h3>
               <div>
@@ -298,10 +310,10 @@
 
           useEffect(() => {
             const loadData = async () => {
-              const savedData = localStorage.getItem('londonWeekendTrackerDataV39');
+              const savedData = localStorage.getItem('londonWeekendTrackerDataV40');
               const parsedData = savedData ? JSON.parse(savedData) : null;
               
-              if (parsedData && parsedData.length > 0) {
+              if (parsedData && parsedData.length > 2) {
                 setAreas(parsedData);
                 return;
               }
@@ -311,11 +323,11 @@
                 if (!response.ok) throw new Error('Network response was not ok');
                 let jsonData = await response.json();
                 setAreas(jsonData);
-                localStorage.setItem('londonWeekendTrackerDataV39', JSON.stringify(jsonData));
+                localStorage.setItem('londonWeekendTrackerDataV40', JSON.stringify(jsonData));
               } catch (error) {
                 console.warn("Could not load external JSON. Falling back to sample data.", error);
                 setAreas(initialData);
-                localStorage.setItem('londonWeekendTrackerDataV39', JSON.stringify(initialData));
+                localStorage.setItem('londonWeekendTrackerDataV40', JSON.stringify(initialData));
               }
             };
             loadData();
@@ -323,7 +335,7 @@
 
           useEffect(() => {
             if (areas.length > 0) {
-              localStorage.setItem('londonWeekendTrackerDataV39', JSON.stringify(areas));
+              localStorage.setItem('londonWeekendTrackerDataV40', JSON.stringify(areas));
             }
           }, [areas]);
 
@@ -531,11 +543,11 @@
                   </div>
                 </header>
 
-                <div className="max-w-2xl mx-auto px-4 mt-4 space-y-4">
-                  <div className="grid sm:grid-cols-2 gap-3.5">
+                <div className="max-w-2xl mx-auto px-4 mt-6 space-y-6">
+                  <div className="grid sm:grid-cols-2 gap-4">
                     <div className="bg-indigo-100/90 dark:bg-indigo-950/40 border border-indigo-300 dark:border-indigo-900/60 rounded-3xl p-5 shadow-xs">
                       <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-indigo-200 mb-3 px-1">
-                        <span className="mr-2 text-lg">🌦️</span>
+                        <span className="flex items-center justify-center w-8 h-8 bg-indigo-200 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300 rounded-xl mr-2.5 text-sm">🌦️</span>
                         Best Season
                       </h3>
                       <p className="text-[15px] font-normal text-gray-900 dark:text-indigo-200 leading-relaxed">{activeArea.season}</p>
@@ -543,7 +555,7 @@
                     
                     <div className="bg-sky-100/90 dark:bg-sky-950/40 border border-sky-300 dark:border-sky-900/60 rounded-3xl p-5 shadow-xs">
                       <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-sky-200 mb-3 px-1">
-                        <span className="mr-2 text-lg">🚆</span>
+                        <span className="flex items-center justify-center w-8 h-8 bg-sky-200 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-xl mr-2.5 text-sm">🚆</span>
                         Getting There
                       </h3>
                       <p className="text-[15px] font-normal text-gray-900 dark:text-sky-200 leading-relaxed">{activeArea.transport}</p>
@@ -552,7 +564,7 @@
 
                   <div className="bg-orange-100/90 dark:bg-orange-950/40 border border-orange-300 dark:border-orange-900/60 rounded-3xl p-5 shadow-xs">
                     <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-orange-200 mb-3 px-1">
-                      <span className="mr-2 text-lg">✨</span>
+                      <span className="flex items-center justify-center w-8 h-8 bg-orange-200 dark:bg-orange-900 text-orange-700 dark:text-orange-300 rounded-xl mr-2.5 text-sm">✨</span>
                       The Soul
                     </h3>
                     <p className="text-[15px] font-normal text-gray-900 dark:text-orange-200 leading-relaxed">{activeArea.soul}</p>
@@ -561,7 +573,7 @@
                   {activeArea.funFacts && activeArea.funFacts.length > 0 && (
                     <div className="bg-emerald-100/90 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-900/60 rounded-3xl p-5 shadow-xs">
                       <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-emerald-200 mb-3 px-1">
-                        <span className="mr-2 text-lg">💡</span>
+                        <span className="flex items-center justify-center w-8 h-8 bg-emerald-200 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300 rounded-xl mr-2.5 text-sm">💡</span>
                         Virtual Tour Guide
                       </h3>
                       <ul className="space-y-2">
@@ -575,11 +587,11 @@
                     </div>
                   )}
 
-                  <div className="bg-white dark:bg-gray-900 rounded-3xl shadow-sm border border-gray-300 dark:border-gray-800 p-4 sm:p-6 mt-6">
+                  <div className="mt-8">
                     <ChecklistGroup 
                       title="Things to Do" 
                       items={activeArea.todo} 
-                      icon={<span className="text-lg">📍</span>}
+                      icon="📍"
                       areaName={activeArea.name}
                       onToggle={(itemId) => toggleCheck(activeArea.id, 'todo', itemId)}
                     />
@@ -587,7 +599,7 @@
                     <ChecklistGroup 
                       title="Eateries (Veg + GF Friendly)" 
                       items={activeArea.eat} 
-                      icon={<span className="text-lg">🥑</span>}
+                      icon="🥑"
                       areaName={activeArea.name}
                       isEatery={true}
                       onToggle={(itemId) => toggleCheck(activeArea.id, 'eat', itemId)}
@@ -596,15 +608,15 @@
 
                   <div className="bg-purple-100/90 dark:bg-purple-950/40 border border-purple-300 dark:border-purple-900/60 rounded-3xl p-6 shadow-xs">
                     <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-purple-200 mb-3 px-1">
-                      <span className="mr-2 text-lg">🎒</span>
+                      <span className="flex items-center justify-center w-8 h-8 bg-purple-200 dark:bg-purple-900 text-purple-700 dark:text-purple-300 rounded-xl mr-2.5 text-sm">🎒</span>
                       Weekend Extension (Day 2)
                     </h3>
                     <p className="text-[15px] font-normal text-gray-900 dark:text-purple-200 leading-relaxed">{activeArea.day2}</p>
                   </div>
 
                   <div ref={trackerRef} className="bg-white dark:bg-gray-900 rounded-3xl shadow-sm border border-gray-300 dark:border-gray-800 p-6 scroll-mt-24 mt-6">
-                    <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-gray-100 mb-5 px-1">
-                      <span className="mr-3 text-lg">📝</span>
+                    <h3 className="flex items-center text-xl font-black text-gray-900 dark:text-gray-100 mb-5 px-1">
+                      <span className="flex items-center justify-center w-9 h-9 bg-indigo-100 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 rounded-2xl mr-3 shadow-xs">📝</span>
                       Your Tracker
                     </h3>
                     
