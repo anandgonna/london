@@ -1,701 +1,2094 @@
 [
-{
-"id": "greenwich", "name": "Greenwich",
-"season": "October. The autumn foliage in Greenwich Park against the backdrop of the city skyline is stunning.",
-"transport": "🚇 DLR to Cutty Sark or Greenwich Station. ⛴️ Uber Boat (Thames Clipper) to Greenwich Pier.",
-"funFacts": [
-"Greenwich Mean Time (GMT) was globally adopted here in 1884 to sync ship navigation.",
-"The Painted Hall took 19 years to complete and is often called the Sistine Chapel of the UK.",
-"The Cutty Sark was once the fastest ship in the world, bringing tea back from China."
-],
-"soul": "The maritime epicentre of Britain, a royal birthplace, and the historic home of time. It feels like a grand, nautical village completely removed from the frantic energy of central London.",
-"day2": "Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "g_t1", "text": "Explore the Old Royal Naval College, specifically the breathtaking Painted Hall.", "checked": false, "time": "1.5 hrs" },
-{ "id": "g_t2", "text": "Walk up the steep hill in Greenwich Park to the Royal Observatory.", "checked": false, "time": "1 hr" },
-{ "id": "g_t3", "text": "Wander through Greenwich Market to browse local arts, crafts, and antiques.", "checked": false, "time": "45 mins" },
-{ "id": "g_t4", "text": "Walk around the base of the Cutty Sark, the iconic 19th-century tea clipper ship.", "checked": false, "time": "45 mins" }
-],
-"photo": [
-{ "id": "g_p1", "text": "The viewpoint from the Royal Observatory hill: capture the Queens House with Canary Wharf behind it.", "checked": false, "time": "15 mins" },
-{ "id": "g_p2", "text": "The Painted Hall ceiling (a wide-angle lens is highly recommended here).", "checked": false, "time": "20 mins" },
-{ "id": "g_p3", "text": "The symmetrical colonnades of the Old Royal Naval College.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "g_e1", "text": "Arapina Bakery (Near Greenwich Market): Cozy spot for vegetarian, vegan, and GF artisan pastries/coffees.", "checked": false, "time": "30 mins" },
-{ "id": "g_e2", "text": "Prince of Greenwich Pub: Quirky Victorian decor. Excellent vegetarian and GF pizzas in a historic setting.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "hampstead", "name": "Hampstead & Highgate",
-"season": "November (for crisp, moody fog and autumn leaves) or May (to capture blooming wisteria).",
-"transport": "🚇 Northern Line to Hampstead (steepest lift in London) or Highgate.",
-"funFacts": [
-"Hampstead Heath has 3 swimming ponds (Men, Women, Mixed) that are strictly open year-round, even in freezing winter.",
-"Karl Marx, George Eliot, and Douglas Adams are all buried in Highgate Cemetery.",
-"Hampstead Tube station is the deepest on the entire network at 58.5 metres below ground."
-],
-"soul": "An intellectual and literary haven that feels like a rural 18th-century English village perched on a hill.",
-"day2": "Explore Highgate Village, Waterlow Park, and take the full architectural tour of Highgate West Cemetery.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "h_t1", "text": "Get lost in the wild woods, meadows, and swimming ponds of Hampstead Heath.", "checked": false, "time": "2 hrs" },
-{ "id": "h_t2", "text": "Wander the steep, cobbled streets and historic alleyways (like Flask Walk).", "checked": false, "time": "1 hr" },
-{ "id": "h_t3", "text": "Visit Kenwood House, a stunning stately home on the edge of the Heath.", "checked": false, "time": "1.5 hrs" },
-{ "id": "h_t4", "text": "Explore Highgate Cemetery, a world-famous Victorian gothic burial ground.", "checked": false, "time": "1.5 hrs" }
-],
-"photo": [
-{ "id": "h_p1", "text": "Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.", "checked": false, "time": "20 mins" },
-{ "id": "h_p2", "text": "The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.", "checked": false, "time": "30 mins" },
-{ "id": "h_p3", "text": "Flask Walk, with its picturesque vintage shopfronts and cobbled streets.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "h_e1", "text": "The Swing (West Hampstead): Vegetable-focused casual restaurant with vibrant small plates and marked GF options.", "checked": false, "time": "1 hr" },
-{ "id": "h_e2", "text": "The Holly Bush: Historic, Grade II listed pub. Excellent vegetarian roasts, very accommodating for GF.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "southwark", "name": "Southwark & Bermondsey",
-"season": "December (for festive market vibes) or April (for mild spring riverside walks).",
-"transport": "🚇 Jubilee or Northern Line to London Bridge.",
-"funFacts": [
-"Southwark was outside the City of Londons jurisdiction, making it the historic home of illegal theatres, brothels, and bear-baiting.",
-"The Golden Hinde is a full-scale reconstruction of the ship Sir Francis Drake used to circumnavigate the globe in the 1500s.",
-"Borough Market has existed in some form for over 1,000 years."
-],
-"soul": "The historic entertainment and vice district of Tudor London, now reborn as Londons premier culinary and cultural riverside stretch.",
-"day2": "Dedicate a Sunday morning to Maltby Street Market, explore the White Cube gallery, and cross Tower Bridge.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "s_t1", "text": "Stroll the Thames Path from the Tate Modern all the way down to Tower Bridge.", "checked": false, "time": "1.5 hrs" },
-{ "id": "s_t2", "text": "Explore the Gothic ruins of Winchester Palace and the Golden Hinde ship.", "checked": false, "time": "45 mins" },
-{ "id": "s_t3", "text": "Browse Borough Market, one of the oldest and largest food markets in London.", "checked": false, "time": "1.5 hrs" },
-{ "id": "s_t4", "text": "Wander down Bermondsey Street, known for glass-blowing studios and indie galleries.", "checked": false, "time": "1 hr" }
-],
-"photo": [
-{ "id": "s_p1", "text": "The Millennium Bridge looking straight towards the dome of St. Pauls Cathedral (golden hour).", "checked": false, "time": "15 mins" },
-{ "id": "s_p2", "text": "Shad Thames: historic Victorian cobbled street with overhead iron walkways.", "checked": false, "time": "20 mins" },
-{ "id": "s_p3", "text": "The Shard framing the historic wooden courtyard of The George Inn.", "checked": false, "time": "10 mins" }
-],
-"eat": [
-{ "id": "s_e1", "text": "Mallow (Borough Market): 100 percent plant-based restaurant, vibrant menu, almost everything adaptable to GF.", "checked": false, "time": "1.5 hrs" },
-{ "id": "s_e2", "text": "Horn OK Please (Borough Market): Indian street food. Fresh vegetarian food naturally GF (moong dal dosas).", "checked": false, "time": "45 mins" }
-]
-},
-{
-"id": "richmond", "name": "Richmond & Kew",
-"season": "Late April to early May. Isabella Plantation explodes with vibrant azaleas, and Kew Gardens is in full spring bloom.",
-"transport": "🚇 District Line or Overground to Richmond or Kew Gardens.",
-"funFacts": [
-"King Henrys Mound in Richmond Park offers a legally protected, uninterrupted view all the way to St Pauls Cathedral 10 miles away.",
-"Kew Gardens holds the largest and most diverse botanical and mycological collections in the world.",
-"Wild deer have roamed Richmond Park freely since 1637 when King Charles I enclosed it."
-],
-"soul": "Aristocratic, majestic, and green. A former countryside retreat for royalty blending botanical perfection with wild deer parks.",
-"day2": "Take a leisurely Thames riverboat cruise from Richmond down to Hampton Court Palace to explore Tudor history.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "r_t1", "text": "Walk or cycle through the vast Richmond Park to spot the wild red and fallow deer.", "checked": false, "time": "2.5 hrs" },
-{ "id": "r_t2", "text": "Explore the UNESCO-listed Kew Gardens, featuring massive Victorian glasshouses.", "checked": false, "time": "3 hrs" },
-{ "id": "r_t3", "text": "Stroll the Richmond Riverside and Richmond Green, surrounded by historic architecture.", "checked": false, "time": "1 hr" }
-],
-"photo": [
-{ "id": "r_p1", "text": "The Isabella Plantation in Richmond Park (macro shots of flowers and streams).", "checked": false, "time": "45 mins" },
-{ "id": "r_p2", "text": "The Temperate House at Kew Gardens (architectural geometry and symmetry).", "checked": false, "time": "30 mins" },
-{ "id": "r_p3", "text": "Richmond Hill Viewpoint (protected view looking down over a sweeping bend in the Thames).", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "r_e1", "text": "Tide Tables: Casual cafe under the arches on the riverside. Entirely vegetarian, dedicated GF menus.", "checked": false, "time": "1 hr" },
-{ "id": "r_e2", "text": "Petersham Nurseries Cafe: Magical greenhouse dining. Excellent vegetarian and GF options (book in advance).", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "city", "name": "The City of London",
-"season": "January or February. Winter light cuts beautifully through skyscrapers, highlighting ancient stonework.",
-"transport": "🚇 Central Line to Bank, or Circle/District to Monument.",
-"funFacts": [
-"The City has its own distinct police force, separate from the Metropolitan Police.",
-"Beneath the modern Bloomberg building lies the perfectly preserved Roman Temple of Mithras.",
-"Leadenhall Market was a Roman basilica and later became the filming location for Diagon Alley in Harry Potter."
-],
-"soul": "The ancient Roman heart of London, now the global financial district. A startling juxtaposition of hyper-modern skyscrapers and medieval ruins.",
-"day2": "Walk the perimeter of the ancient Roman Wall, visit the Museum of London, or explore the Monument to the Great Fire.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "c_t1", "text": "Marvel at St. Pauls Cathedral and walk through Paternoster Square.", "checked": false, "time": "1.5 hrs" },
-{ "id": "c_t2", "text": "Explore Leadenhall Market, a breathtaking Victorian covered market.", "checked": false, "time": "45 mins" },
-{ "id": "c_t3", "text": "Visit the free Sky Garden or Horizon 22 for panoramic views.", "checked": false, "time": "1.5 hrs" },
-{ "id": "c_t4", "text": "Discover the Roman Temple of Mithras hidden beneath the Bloomberg building.", "checked": false, "time": "45 mins" }
-],
-"photo": [
-{ "id": "c_p1", "text": "Looking up at the Gherkin from the ornate archways of Leadenhall Market.", "checked": false, "time": "15 mins" },
-{ "id": "c_p2", "text": "St. Dunstan-in-the-East: A ruined medieval church transformed into an overgrown garden.", "checked": false, "time": "30 mins" },
-{ "id": "c_p3", "text": "The reflection of St Pauls Cathedral in the modern glass of One New Change.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "c_e1", "text": "The Ned (Millies Lounge): Upscale 1920s bank building. Superb vegetarian and GF British classics.", "checked": false, "time": "1.5 hrs" },
-{ "id": "c_e2", "text": "Itsu / Leon: Reliable staples for weekends when indie cafes close. Clearly marked GF/Veg hot boxes.", "checked": false, "time": "45 mins" }
-]
-},
-{
-"id": "shoreditch", "name": "Shoreditch & Spitalfields",
-"season": "September. Pleasant weather for street art, and the London Design Festival activates spaces.",
-"transport": "🚇 Overground to Shoreditch High Street, or Central/Elizabeth Line to Liverpool Street.",
-"funFacts": [
-"Fournier Street has been home to French Huguenot silk weavers, Jewish immigrants, and Bangladeshi families across centuries.",
-"Shoreditch was home to The Theatre, Londons very first purpose-built playhouse, where Shakespeare early plays were staged.",
-"Street art here is constantly changing, with pieces by Banksy, ROA, and Stik hidden in alleyways."
-],
-"soul": "Historic home of silk weavers and immigrants, evolved into Londons vibrant, gritty capital of street art, vintage fashion, and indie culture.",
-"day2": "Sunday at Columbia Road Flower Market, walk to Hackney City Farm, and explore boutiques on Broadway Market.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "sh_t1", "text": "Hunt for world-class street art around Rivington Street and Redchurch Street.", "checked": false, "time": "1.5 hrs" },
-{ "id": "sh_t2", "text": "Browse Old Spitalfields Market for antiques, local designs, and art.", "checked": false, "time": "1.5 hrs" },
-{ "id": "sh_t3", "text": "Walk down Brick Lane, famous for vintage stores and record shops.", "checked": false, "time": "1 hr" },
-{ "id": "sh_t4", "text": "Admire the preserved 18th-century Huguenot silk weavers houses on Fournier Street.", "checked": false, "time": "30 mins" }
-],
-"photo": [
-{ "id": "sh_p1", "text": "Fournier Street: Contrast between Georgian townhouses and modern City skyscrapers.", "checked": false, "time": "15 mins" },
-{ "id": "sh_p2", "text": "Nomadic Community Gardens / Brick Lane murals for urban photography.", "checked": false, "time": "30 mins" },
-{ "id": "sh_p3", "text": "The glass canopy and Victorian ironwork of Old Spitalfields Market.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "sh_e1", "text": "Bubala (Spitalfields): Phenomenal Middle Eastern vegetarian food. Vibrant and almost entirely GF.", "checked": false, "time": "1.5 hrs" },
-{ "id": "sh_e2", "text": "Nude Espresso (Hanbury St): Great spot for a coffee break with GF treat options and plant milks.", "checked": false, "time": "45 mins" }
-]
-},
-{
-"id": "nottinghill", "name": "Notting Hill & Holland Park",
-"season": "April (cherry blossoms contrasting with pastel houses) or late August (Notting Hill Carnival).",
-"transport": "🚇 Central, Circle, or District Line to Notting Hill Gate.",
-"funFacts": [
-"The Notting Hill Carnival is the second-largest street festival in the world, behind only Rio de Janeiros.",
-"The area was known for its piggeries and brickfields in the 19th century before becoming a wealthy suburb.",
-"The Kyoto Garden in Holland Park was a gift from the city of Kyoto in 1991 to celebrate the Japan Festival in London."
-],
-"soul": "Famous for pastel-colored Victorian townhouses, cinematic charm, and Londons most famous antique market.",
-"day2": "Explore Kensington Gardens, visit the Design Museum, and tour the opulent Leighton House Museum.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "n_t1", "text": "Wander down Portobello Road Market (Saturday for antiques, Friday for fewer crowds).", "checked": false, "time": "2 hrs" },
-{ "id": "n_t2", "text": "Explore the Kyoto Garden, a stunning Japanese garden in Holland Park.", "checked": false, "time": "1 hr" },
-{ "id": "n_t3", "text": "Get lost in the mews streets (historic cobblestone alleyways).", "checked": false, "time": "45 mins" },
-{ "id": "n_t4", "text": "Catch a film at the Electric Cinema, one of the oldest working cinemas.", "checked": false, "time": "2.5 hrs" }
-],
-"photo": [
-{ "id": "n_p1", "text": "St Lukes Mews: Pretty cobbled mews with pink houses and trailing ivy.", "checked": false, "time": "15 mins" },
-{ "id": "n_p2", "text": "The sweeping curve of colorful houses on Lancaster Road or Elgin Crescent.", "checked": false, "time": "20 mins" },
-{ "id": "n_p3", "text": "The waterfall and roaming peacocks inside the Kyoto Garden.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "n_e1", "text": "Farm Girl: Photogenic Australian-style cafe. Fantastic vegetarian and naturally GF options.", "checked": false, "time": "1 hr" },
-{ "id": "n_e2", "text": "Haya: Mediterranean neighborhood restaurant with wonderful vegetarian sharing plates and GF options.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "camden", "name": "Camden Town & Regents Park",
-"season": "June or July. Long summer evenings for canal walks; Queen Marys Rose Garden in spectacular bloom.",
-"transport": "🚇 Northern Line to Camden Town, or Overground to Camden Road.",
-"funFacts": [
-"Camden Lock was originally a working industrial hub for gin and timber before becoming a massive alternative market in the 1970s.",
-"Regents Park was designed by John Nash as a huge hunting park for the Prince Regent (later King George IV).",
-"Primrose Hill is famously one of the 13 protected views of London, keeping the skyline to St Pauls clear."
-],
-"soul": "Camden is the historic hub for alternative subcultures, contrasting sharply with the aristocratic elegance of Regents Park.",
-"day2": "Take a narrowboat ride from Camden Lock to Little Venice, and explore the grand streets of Maida Vale.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "ca_t1", "text": "Get lost in the labyrinth of Camden Market (stables, vintage, alternative crafts).", "checked": false, "time": "2.5 hrs" },
-{ "id": "ca_t2", "text": "Walk along the Regents Canal towpath towards Little Venice.", "checked": false, "time": "1.5 hrs" },
-{ "id": "ca_t3", "text": "Explore Regents Park and walk through Queen Marys Rose Garden.", "checked": false, "time": "1.5 hrs" },
-{ "id": "ca_t4", "text": "Hike up Primrose Hill for beloved panoramic views of the city.", "checked": false, "time": "45 mins" }
-],
-"photo": [
-{ "id": "ca_p1", "text": "The vibrant, 3D shop fronts along Camden High Street.", "checked": false, "time": "15 mins" },
-{ "id": "ca_p2", "text": "Regents Canal at Camden Lock, with narrowboats and weeping willows.", "checked": false, "time": "20 mins" },
-{ "id": "ca_p3", "text": "The summit of Primrose Hill at sunset, capturing the London skyline.", "checked": false, "time": "30 mins" }
-],
-"eat": [
-{ "id": "ca_e1", "text": "Magic Falafel (Camden Market): 100 percent vegan and GF. Authentic, stress-free market eat.", "checked": false, "time": "30 mins" },
-{ "id": "ca_e2", "text": "Mildreds (Camden): Legendary plant-based food. Clearly marks plentiful GF options.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "kensington", "name": "Kensington & Chelsea",
-"season": "May (Chelsea Flower Show and floral displays) or December (Christmas lights and ice skating).",
-"transport": "🚇 Piccadilly, Circle, or District Line to South Kensington or Sloane Square.",
-"funFacts": [
-"The area is often called 'Albertopolis' because Prince Albert championed the building of the museums using profits from the 1851 Great Exhibition.",
-"The Natural History Museum building is covered in terracotta animal carvings—living species on the west wing, extinct ones on the east.",
-"The Kings Road got its name because it was King Charles IIs private road to travel to Kew."
-],
-"soul": "The Royal Borough. London at its most opulent, home to world-class Victorian museums, grand garden squares, and elegant streets.",
-"day2": "Walk the Thames Path along the Chelsea Embankment, visit the Saatchi Gallery, explore Royal Hospital Chelsea.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "k_t1", "text": "Visit Museum Row: The V&A, Natural History Museum, or Science Museum.", "checked": false, "time": "3 hrs" },
-{ "id": "k_t2", "text": "Walk through Kensington Gardens to see the Albert Memorial and Kensington Palace.", "checked": false, "time": "1.5 hrs" },
-{ "id": "k_t3", "text": "Stroll down the Kings Road in Chelsea for boutiques and architecture.", "checked": false, "time": "1.5 hrs" },
-{ "id": "k_t4", "text": "Visit the Chelsea Physic Garden, Londons oldest botanical garden.", "checked": false, "time": "1 hr" }
-],
-"photo": [
-{ "id": "k_p1", "text": "Hintze Hall inside the Natural History Museum (arches and whale skeleton).", "checked": false, "time": "20 mins" },
-{ "id": "k_p2", "text": "The John Madejski Garden inside the V&A Museum (late afternoon sun).", "checked": false, "time": "20 mins" },
-{ "id": "k_p3", "text": "The pastel houses and hidden squares around Bywater Street in Chelsea.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "k_e1", "text": "Dishoom (Kensington): Bombay-style cafe with dedicated vegan and GF menus. Legendary black daal.", "checked": false, "time": "1.5 hrs" },
-{ "id": "k_e2", "text": "Ceru (South Kensington): Levantine restaurant. Almost entirely naturally GF, wonderful vegetarian options.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "hackney", "name": "Hackney & Victoria Park",
-"season": "Sundays in Spring or Summer. Comes alive with markets and park culture.",
-"transport": "🚇 Overground to Hackney Central, Cambridge Heath, or London Fields.",
-"funFacts": [
-"Victoria Park is nicknamed the Peoples Park, built in 1845 specifically to improve the health of the working-class East End.",
-"Columbia Road was originally a pathway for driving sheep to the slaughterhouses at Smithfield Market.",
-"Hackney was once famous for its vast brickfields, providing the materials to build much of Victorian London."
-],
-"soul": "The beating heart of East Londons creative scene. An incredible mix of urban edge, hipster cafes, historic canals, and vast parks.",
-"day2": "Explore Hackney Marshes and Queen Elizabeth Olympic Park. Swim in the Aquatics Centre.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "ha_t1", "text": "Visit Columbia Road Flower Market (Sundays) to see the street explode with colour.", "checked": false, "time": "1.5 hrs" },
-{ "id": "ha_t2", "text": "Walk the Regents Canal from Broadway Market to Victoria Park.", "checked": false, "time": "1 hr" },
-{ "id": "ha_t3", "text": "Explore Victoria Park, featuring Chinese pagodas and boating lakes.", "checked": false, "time": "2 hrs" },
-{ "id": "ha_t4", "text": "Browse Broadway Market on a Saturday for artisan crafts and street food.", "checked": false, "time": "1.5 hrs" }
-],
-"photo": [
-{ "id": "ha_p1", "text": "Columbia Road on a Sunday morning (portrait lens for flower sellers).", "checked": false, "time": "30 mins" },
-{ "id": "ha_p2", "text": "The Chinese Pagoda on the island in Victoria Park.", "checked": false, "time": "15 mins" },
-{ "id": "ha_p3", "text": "Narrowboats passing through the historic locks along Regents Canal.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "ha_e1", "text": "The Spread Eagle (Homerton): Londons first 100 percent vegan pub. Excellent GF accommodations for roasts.", "checked": false, "time": "1.5 hrs" },
-{ "id": "ha_e2", "text": "Andu Ethiopian Cafe (Dalston): Vegan Ethiopian spot. Traditional teff injera is naturally GF.", "checked": false, "time": "1 hr" }
-]
-},
-{
-"id": "covent", "name": "Covent Garden & Soho",
-"season": "November or December for world-famous Christmas lights creating a magical atmosphere.",
-"transport": "🚇 Piccadilly Line to Covent Garden, or Central Line to Tottenham Court Road.",
-"funFacts": [
-"Covent Garden used to be Convent Garden, an actual garden providing vegetables for the monks of Westminster Abbey.",
-"Soho got its name from a 17th-century hunting cry used when the area was a royal hunting park.",
-"Carnaby Street in Soho was the absolute epicentre of 'Swinging London' in the 1960s."
-],
-"soul": "The bustling, theatrical heart of London. A mix of historic fruit markets, bohemian streets, and premier entertainment.",
-"day2": "Book a West End matinee, visit the National Gallery, and explore food halls at Fortnum & Mason.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "co_t1", "text": "Watch street performers in the historic Covent Garden Piazza.", "checked": false, "time": "1 hr" },
-{ "id": "co_t2", "text": "Get lost in the narrow, energetic streets of Soho (Carnaby St, Kingly Court).", "checked": false, "time": "2 hrs" },
-{ "id": "co_t3", "text": "Explore Neals Yard, a hidden, colourful courtyard in Seven Dials.", "checked": false, "time": "30 mins" },
-{ "id": "co_t4", "text": "Browse independent bookshops on Charing Cross Road.", "checked": false, "time": "1 hr" }
-],
-"photo": [
-{ "id": "co_p1", "text": "Neals Yard: Brightly painted buildings and overflowing window boxes.", "checked": false, "time": "15 mins" },
-{ "id": "co_p2", "text": "The elegant, symmetrical arches of the Covent Garden Market building.", "checked": false, "time": "20 mins" },
-{ "id": "co_p3", "text": "Neon signs of Soho at night, particularly around Old Compton Street.", "checked": false, "time": "30 mins" }
-],
-"eat": [
-{ "id": "co_e1", "text": "Mildreds (Soho): Iconic plant-based restaurant. Superb vegetarian food and excellent GF options.", "checked": false, "time": "1.5 hrs" },
-{ "id": "co_e2", "text": "Dishoom (Covent Garden): Incredible Bombay-style food with strict, dedicated GF/vegan menus.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "bloomsbury", "name": "Bloomsbury & Fitzrovia",
-"season": "September. 'Back to school' autumn air suits the academic and literary atmosphere.",
-"transport": "🚇 Northern Line to Goodge Street or Central/Piccadilly to Holborn.",
-"funFacts": [
-"The British Museum was the worlds first national public museum, opening in 1759.",
-"The famous Bloomsbury Group included writers and thinkers like Virginia Woolf and John Maynard Keynes.",
-"Senate House inspired George Orwells 'Ministry of Truth' in his novel 1984."
-],
-"soul": "The intellectual heartbeat of London, defined by gorgeous Georgian garden squares, universities, and world-class museums.",
-"day2": "Visit the Wellcome Collection (quirky medicine/art museum) and catch a fringe theatre show.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "bl_t1", "text": "Marvel at the Rosetta Stone and Parthenon Sculptures at the British Museum.", "checked": false, "time": "3 hrs" },
-{ "id": "bl_t2", "text": "Walk the leafy perimeter of Russell Square and Bedford Square.", "checked": false, "time": "45 mins" },
-{ "id": "bl_t3", "text": "Step back in time at the Charles Dickens Museum.", "checked": false, "time": "1.5 hrs" },
-{ "id": "bl_t4", "text": "Browse independent galleries and design stores along Store Street.", "checked": false, "time": "45 mins" }
-],
-"photo": [
-{ "id": "bl_p1", "text": "The Great Court inside the British Museum (tessellated glass roof).", "checked": false, "time": "20 mins" },
-{ "id": "bl_p2", "text": "Pastel shopfronts along Woburn Walk (pedestrianized Georgian street).", "checked": false, "time": "15 mins" },
-{ "id": "bl_p3", "text": "The brutalist, sweeping staircases inside the Senate House building.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "bl_e1", "text": "Honey & Co. (Bloomsbury): Cozy Middle Eastern offering vibrant vegetarian plates adapted for GF.", "checked": false, "time": "1.5 hrs" },
-{ "id": "bl_e2", "text": "Kin Cafe (Fitzrovia): Brilliant vegetarian cafe with clearly marked GF brunch/lunch options.", "checked": false, "time": "1 hr" }
-]
-},
-{
-"id": "kingscross", "name": "Kings Cross & St Pancras",
-"season": "December. Winter light installations and the massive Christmas tree in Coal Drops Yard.",
-"transport": "🚇 Northern, Piccadilly, Victoria, Circle, H&C, or Met Line to Kings Cross St Pancras.",
-"funFacts": [
-"Coal Drops Yard was literally where coal drops were located; 8 million tonnes of coal arrived here annually in the 1800s.",
-"St Pancras Station was almost demolished in the 1960s before a poet led a fierce campaign to save its gothic facade.",
-"Boudicca, the Celtic Queen, is rumored to be buried under Platform 9 at Kings Cross."
-],
-"soul": "A gritty industrial transport hub successfully regenerated into a blend of Victorian viaducts and sleek modern tech/arts hubs.",
-"day2": "Walk the Regents Canal towpath east towards Islington, or visit the London Canal Museum.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "kx_t1", "text": "Explore Coal Drops Yard, shopping/dining built into historic Victorian coal viaducts.", "checked": false, "time": "2 hrs" },
-{ "id": "kx_t2", "text": "See the Magna Carta in the Treasures Gallery at the British Library.", "checked": false, "time": "1.5 hrs" },
-{ "id": "kx_t3", "text": "Watch the synchronized fountains in Granary Square.", "checked": false, "time": "30 mins" },
-{ "id": "kx_t4", "text": "Get a photo at Platform 9 3/4 inside Kings Cross Station.", "checked": false, "time": "30 mins" }
-],
-"photo": [
-{ "id": "kx_p1", "text": "The Kissing Roof at Coal Drops Yard (modern architecture meets Victorian brick).", "checked": false, "time": "15 mins" },
-{ "id": "kx_p2", "text": "The breathtaking gothic-revival facade of the St Pancras Renaissance Hotel.", "checked": false, "time": "15 mins" },
-{ "id": "kx_p3", "text": "The futuristic, neon-lit pedestrian tunnel connecting Kings Cross to St Pancras.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "kx_e1", "text": "Caravan (Granary Square): Set in an old grain warehouse. Fantastic veg and GF options clearly marked.", "checked": false, "time": "1.5 hrs" },
-{ "id": "kx_e2", "text": "Hoppers (Kings Cross): Incredible Sri Lankan food. Much is naturally GF (like hoppers), superb veg curries.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "marylebone", "name": "Marylebone & Mayfair",
-"season": "May. Ideal for open-air cafe culture and the private garden squares turning vibrant green.",
-"transport": "🚇 Jubilee Line to Bond Street or Baker Street.",
-"funFacts": [
-"Mayfair gets its name from a raucous, two-week-long 'May Fair' festival that was eventually banned in the 1700s.",
-"Sherlock Holmes fictitious address, 221B Baker Street, is located in Marylebone.",
-"The Wallace Collection is entirely free and contains arms and armor alongside world-class paintings."
-],
-"soul": "Upscale London. Mayfair is a starchy enclave of luxe hotels/galleries; Marylebone is an elegant, relaxed urban village.",
-"day2": "Dedicate a day to Hyde Park, visit the Serpentine Galleries, or catch classical music at Wigmore Hall.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "ma_t1", "text": "View the free art collection at the opulent Wallace Collection.", "checked": false, "time": "2 hrs" },
-{ "id": "ma_t2", "text": "Window shop along Marylebone High Street.", "checked": false, "time": "1 hr" },
-{ "id": "ma_t3", "text": "Stroll through Grosvenor Square and Mount Street Gardens in Mayfair.", "checked": false, "time": "45 mins" },
-{ "id": "ma_t4", "text": "Browse flagship bookstores, including Daunt Books with its Edwardian oak galleries.", "checked": false, "time": "45 mins" }
-],
-"photo": [
-{ "id": "ma_p1", "text": "The grand, silk-lined rooms and armory at the Wallace Collection.", "checked": false, "time": "20 mins" },
-{ "id": "ma_p2", "text": "The terracotta-red Victorian architecture curving along Mount Street.", "checked": false, "time": "15 mins" },
-{ "id": "ma_p3", "text": "The elevated, hidden rooftop garden of Brown Hart Gardens.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "ma_e1", "text": "Plants by Deliciously Ella (Mayfair): 100 percent plant-based, entire menu naturally GF.", "checked": false, "time": "1.5 hrs" },
-{ "id": "ma_e2", "text": "The Gate (Marylebone): Pioneering vegetarian restaurant with a wealth of safe GF options.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "westminster", "name": "Westminster & St James's",
-"season": "October or November. Crisp autumn air suits the grand architecture, avoiding summer tourist crushes.",
-"transport": "🚇 Jubilee, District, or Circle Line to Westminster or St. James's Park.",
-"funFacts": [
-"Westminster Abbey has been the coronation church for British monarchs since 1066.",
-"St James's Park is home to resident pelicans, descendants of those gifted to King Charles II in 1664.",
-"Big Ben is actually the name of the bell inside, not the clock or the tower (which is the Elizabeth Tower)."
-],
-"soul": "The royal and political epicenter of the UK. Postcard London with soaring gothic architecture and exclusive royal streets.",
-"day2": "Explore Tate Britain, take a riverboat to Greenwich, or explore royal cavalry at Horse Guards Parade.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "we_t1", "text": "Walk from Trafalgar Square down Whitehall to see 10 Downing St and Parliament.", "checked": false, "time": "1.5 hrs" },
-{ "id": "we_t2", "text": "Explore the subterranean Churchill War Rooms.", "checked": false, "time": "2.5 hrs" },
-{ "id": "we_t3", "text": "Marvel at the gothic majesty of Westminster Abbey.", "checked": false, "time": "2 hrs" },
-{ "id": "we_t4", "text": "Feed pelicans and walk through St James's Park toward Buckingham Palace.", "checked": false, "time": "1.5 hrs" }
-],
-"photo": [
-{ "id": "we_p1", "text": "Westminster Bridge looking back at the Elizabeth Tower (Big Ben).", "checked": false, "time": "15 mins" },
-{ "id": "we_p2", "text": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall).", "checked": false, "time": "15 mins" },
-{ "id": "we_p3", "text": "The grand, sweeping staircase and facade of the Tate Britain gallery.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "we_e1", "text": "The Cinnamon Club: Upscale Indian dining in a former library. Caters exceptionally to Veg/GF.", "checked": false, "time": "2 hrs" },
-{ "id": "we_e2", "text": "Yaatra (Old Fire Station): Vibrant Indian cuisine with plenty of vegetarian and GF choices.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "southbank", "name": "The South Bank & Waterloo",
-"season": "July or August. Riverside comes alive with street performers, markets, and festivals.",
-"transport": "🚇 Jubilee, Northern, or Bakerloo Line to Waterloo.",
-"funFacts": [
-"The National Theatre requires tons of concrete and its unique texture comes from pouring concrete into wooden timber molds.",
-"The Tate Modern used to be the Bankside Power Station and still retains its massive brick chimney.",
-"The London Eye was originally intended to be a temporary structure for the year 2000."
-],
-"soul": "Londons premier arts promenade. Striking brutalist architecture housing the nations greatest theatres and galleries.",
-"day2": "See a play at Shakespeares Globe Theatre, ride the London Eye, or visit Florence Nightingale Museum.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "sb_t1", "text": "Walk the pedestrianized river path past the National Theatre.", "checked": false, "time": "1 hr" },
-{ "id": "sb_t2", "text": "Browse the Southbank Centre Book Market beneath Waterloo Bridge.", "checked": false, "time": "30 mins" },
-{ "id": "sb_t3", "text": "Visit the Tate Modern (specifically the massive Turbine Hall installations).", "checked": false, "time": "2.5 hrs" },
-{ "id": "sb_t4", "text": "Catch an indie film at the BFI (British Film Institute) Southbank.", "checked": false, "time": "2.5 hrs" }
-],
-"photo": [
-{ "id": "sb_p1", "text": "Sharp, concrete geometric lines of the National Theatre (brutalist masterpiece).", "checked": false, "time": "15 mins" },
-{ "id": "sb_p2", "text": "The Millennium Bridge leading directly to the dome of St Pauls Cathedral.", "checked": false, "time": "15 mins" },
-{ "id": "sb_p3", "text": "Leake Street Arches (Banksy Tunnel), an ever-changing canvas of street art.", "checked": false, "time": "30 mins" }
-],
-"eat": [
-{ "id": "sb_e1", "text": "Wahaca (Southbank): Vibrant Mexican street food, excellent vegetarian choices, strict GF menu.", "checked": false, "time": "1.5 hrs" },
-{ "id": "sb_e2", "text": "Skylon: Inside Royal Festival Hall. Upscale, highly trained to accommodate Veg/GF needs.", "checked": false, "time": "2 hrs" }
-]
-},
-{
-"id": "bayswater", "name": "Bayswater & Little Venice",
-"season": "April or May. Trees lining the canals burst into bloom for tranquil waterside walks.",
-"transport": "🚇 Bakerloo Line to Warwick Avenue or Paddington.",
-"funFacts": [
-"It is claimed the poet Robert Browning coined the name 'Little Venice' for this junction of canals.",
-"Leinster Gardens hides two completely fake houses (Nos 23 and 24) built to cover an old underground railway vent.",
-"Paddington Station was designed by Isambard Kingdom Brunel in 1854."
-],
-"soul": "A peaceful, affluent oasis where canals meet, characterized by colorful narrowboats and elegant white stucco terraces.",
-"day2": "Take a canal boat from Little Venice to Camden Lock, or spend the day in Hyde Park.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "ba_t1", "text": "Walk towpaths of Little Venice and admire decorated canal boats at Brownings Pool.", "checked": false, "time": "1 hr" },
-{ "id": "ba_t2", "text": "Relax in the Hyde Park Italian Gardens, a beautiful ornamental water garden.", "checked": false, "time": "45 mins" },
-{ "id": "ba_t3", "text": "See Victorian ironwork inside Paddington Station (by Brunel).", "checked": false, "time": "30 mins" },
-{ "id": "ba_t4", "text": "Catch a show at the unique Puppet Theatre Barge.", "checked": false, "time": "1.5 hrs" }
-],
-"photo": [
-{ "id": "ba_p1", "text": "Brownings Pool (reflection of weeping willows and narrowboats).", "checked": false, "time": "15 mins" },
-{ "id": "ba_p2", "text": "Symmetrical fountains and classical statues of the Italian Gardens.", "checked": false, "time": "20 mins" },
-{ "id": "ba_p3", "text": "The sweeping, white stucco crescents of Leinster Gardens.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "ba_e1", "text": "Darcie & May Green: Colorful canal boats serving Aussie brunch. Brilliant Veg/GF options.", "checked": false, "time": "1.5 hrs" },
-{ "id": "ba_e2", "text": "Kuro Eatery (Notting Hill Edge): Minimalist spot offering Mediterranean dishes with great care for Veg/GF.", "checked": false, "time": "1 hr" }
-]
-},
-{
-"id": "islington", "name": "Islington & Clerkenwell",
-"season": "October. Cozy gastropubs and leaf-strewn canals make for an atmospheric autumn weekend.",
-"transport": "🚇 Northern Line to Angel or Farringdon.",
-"funFacts": [
-"The Regent's Canal goes directly underneath Islington via a 900-metre dark brick tunnel built in 1820.",
-"Clerkenwell was the historic center of clockmaking in the 18th and 19th centuries.",
-"The Barbican Estate contains around 2,000 apartments and requires a color-coded line system to navigate its massive concrete maze."
-],
-"soul": "Perfect balance of feisty bohemianism and groomed prosperity. Known for street markets, design agencies, and antique arcades.",
-"day2": "Explore Museum of the Order of St John, catch a play at Almeida Theatre, or wander the Barbican Centre.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "is_t1", "text": "Hunt for vintage treasures in the cobbled alleys of Camden Passage.", "checked": false, "time": "1 hr" },
-{ "id": "is_t2", "text": "Eat your way through the independent food stalls at Exmouth Market.", "checked": false, "time": "1.5 hrs" },
-{ "id": "is_t3", "text": "Walk the Regents Canal towpath into the historic Islington Tunnel.", "checked": false, "time": "1 hr" },
-{ "id": "is_t4", "text": "Visit the peaceful historic ruins of the Charterhouse in Clerkenwell.", "checked": false, "time": "1.5 hrs" }
-],
-"photo": [
-{ "id": "is_p1", "text": "The fairy lights and bustling atmosphere of Exmouth Market at dusk.", "checked": false, "time": "15 mins" },
-{ "id": "is_p2", "text": "Charming, wonky antique storefronts tucked inside Camden Passage.", "checked": false, "time": "15 mins" },
-{ "id": "is_p3", "text": "The dramatic, brutalist concrete towers of the Barbican Estate.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "is_e1", "text": "The Gate (Islington): Highly creative, 100 percent meat-free menu with excellent, safe GF options.", "checked": false, "time": "1.5 hrs" },
-{ "id": "is_e2", "text": "Moro (Exmouth Market): Moorish/Mediterranean. Focus on veg and naturally GF ingredients.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "docklands", "name": "Docklands & Canary Wharf",
-"season": "January. Canary Wharf hosts a spectacular Winter Lights festival transforming the estate.",
-"transport": "🚇 DLR (Docklands Light Railway) or Jubilee/Elizabeth Line to Canary Wharf.",
-"funFacts": [
-"The West India Docks once formed the busiest port in the world, filled with rum and sugar from the Caribbean.",
-"Canary Wharf gets its name from the sea trade with the Canary Islands.",
-"The DLR trains are fully automated with no driver, allowing you to sit right at the front window."
-],
-"soul": "Historic East India Docks reborn as a futuristic financial district. Contrast between ancient brick and soaring glass.",
-"day2": "Take the Thames Clipper to the Thames Barrier, or visit Mudchute Park and Farm.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "do_t1", "text": "Visit the Museum of London Docklands (in an 1802 sugar warehouse).", "checked": false, "time": "2 hrs" },
-{ "id": "do_t2", "text": "Wander through Crossrail Place Roof Garden (indoor tropical garden on the Prime Meridian).", "checked": false, "time": "45 mins" },
-{ "id": "do_t3", "text": "Walk the docks to see historic cranes juxtaposed against the modern skyline.", "checked": false, "time": "1 hr" },
-{ "id": "do_t4", "text": "Take the DLR for incredible, elevated views winding through skyscrapers.", "checked": false, "time": "30 mins" }
-],
-"photo": [
-{ "id": "do_p1", "text": "Futuristic Adams Plaza Bridge (famous from Star Wars).", "checked": false, "time": "15 mins" },
-{ "id": "do_p2", "text": "Looking straight up at glass skyscrapers reflecting in the water at West India Quay.", "checked": false, "time": "15 mins" },
-{ "id": "do_p3", "text": "Lush pathways of Crossrail Place Roof Garden framed by geometric timber.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "do_e1", "text": "Mallow (Wood Wharf): 100 percent plant-based, beautifully designed, highly accommodating for GF.", "checked": false, "time": "1.5 hrs" },
-{ "id": "do_e2", "text": "The Ivy in the Park (Canary Wharf): Vibrant brasserie. Dedicated Veg/GF menus, careful prep.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "brixton", "name": "Brixton & Herne Hill",
-"season": "July or August. Vibrant outdoor markets, street music, and lush expanses best in summer.",
-"transport": "🚇 Victoria Line to Brixton or Southeastern rail to Herne Hill.",
-"funFacts": [
-"Electric Avenue in Brixton was the first market street in London to be lit by electricity in the 1880s.",
-"David Bowie was born in Brixton in 1947.",
-"Brockwell Lido is an original 1937 Art Deco outdoor swimming pool."
-],
-"soul": "The cultural beating heart of South London. Afro-Caribbean heritage, fierce independence, and incredible music history.",
-"day2": "Herne Hill Farmers Market, explore Black Cultural Archives, or catch a gig at O2 Academy.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "br_t1", "text": "Get lost in Brixton Village and Market Row, hunting for indie boutiques and global food.", "checked": false, "time": "2 hrs" },
-{ "id": "br_t2", "text": "Pay respects at the David Bowie Memorial mural.", "checked": false, "time": "15 mins" },
-{ "id": "br_t3", "text": "Catch a film at the Ritzy Picturehouse, one of South Londons oldest cinemas.", "checked": false, "time": "2.5 hrs" },
-{ "id": "br_t4", "text": "Walk to Brockwell Park and admire the 1930s Art Deco Lido.", "checked": false, "time": "1.5 hrs" }
-],
-"photo": [
-{ "id": "br_p1", "text": "Electric Avenue at golden hour (historic iron canopies).", "checked": false, "time": "15 mins" },
-{ "id": "br_p2", "text": "The colorful, overlapping neon signs inside Brixton Village market.", "checked": false, "time": "20 mins" },
-{ "id": "br_p3", "text": "Sweeping view of the London skyline from the top of Brockwell Park.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "br_e1", "text": "Senzala Creperie (Brixton Village): French galettes (naturally GF buckwheat) with huge vegetarian menu.", "checked": false, "time": "1 hr" },
-{ "id": "br_e2", "text": "En Root (Brixton): 100 percent plant-based Indian fusion. Almost everything naturally GF.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "battersea", "name": "Battersea & Clapham",
-"season": "September. Perfect for long walks across massive commons and the riverfront.",
-"transport": "🚇 Northern Line to Clapham Common, or Battersea Power Station.",
-"funFacts": [
-"Battersea Power Station once supplied a fifth of Londons electricity and burned 10,000 tonnes of coal a week.",
-"The iconic pink pig floating over the Power Station on Pink Floyd's 'Animals' album cover broke free and grounded flights at Heathrow.",
-"Clapham Common has a secret underground WWII bunker where hydroponic herbs are now grown."
-],
-"soul": "Leafy hubs and multi-billion-pound regeneration. The iconic coal power station is Londons newest architectural destination.",
-"day2": "Take the Lift 109 up the Power Station chimney, or visit Battersea Dogs & Cats Home.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "bat_t1", "text": "Marvel at the restored Battersea Power Station (shops/art in turbine halls).", "checked": false, "time": "2 hrs" },
-{ "id": "bat_t2", "text": "Walk the Thames Path through Battersea Park to the London Peace Pagoda.", "checked": false, "time": "1.5 hrs" },
-{ "id": "bat_t3", "text": "Stroll through Clapham Old Town, admiring Georgian architecture.", "checked": false, "time": "1 hr" },
-{ "id": "bat_t4", "text": "Spend an afternoon walking across the vast, 220-acre Clapham Common.", "checked": false, "time": "2 hrs" }
-],
-"photo": [
-{ "id": "bat_p1", "text": "Looking straight up at the four massive chimneys inside the Power Station courtyard.", "checked": false, "time": "15 mins" },
-{ "id": "bat_p2", "text": "Golden Buddha statues of the Peace Pagoda, framed against the Thames.", "checked": false, "time": "15 mins" },
-{ "id": "bat_p3", "text": "Colorful, independent shopfronts curving along Abbeville Road in Clapham.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "bat_e1", "text": "Where The Pancakes Are (Power Station): Specific 3-in-1 batter that is GF, dairy-free, and vegan.", "checked": false, "time": "1 hr" },
-{ "id": "bat_e2", "text": "Megans at the Power Station: Mediterranean spot heavily vegetable-focused, accommodating GF swaps.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "peckham", "name": "Peckham & Camberwell",
-"season": "June. Warm summer evenings required to appreciate rooftop bar culture and outdoor art.",
-"transport": "🚇 Overground to Peckham Rye or Denmark Hill.",
-"funFacts": [
-"Peckham is famous for 'Only Fools and Horses', though the classic British sitcom was largely filmed in Bristol.",
-"Artist Antony Gormley (creator of the Angel of the North) designed cast-iron bollards for Bellenden Road.",
-"Camberwell gets its name from a well with reputed healing properties (a 'camber' or crooked well)."
-],
-"soul": "Fiercely creative community hubs. Gritty urban architecture mixed with thriving contemporary art and trendy dining.",
-"day2": "Catch an indie film at Peckhamplex, walk Peckham Rye Park, or explore Camberwell College of Arts.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "pe_t1", "text": "Explore the South London Gallery in Camberwell.", "checked": false, "time": "1.5 hrs" },
-{ "id": "pe_t2", "text": "Walk down Bellenden Road, famous for boutiques and Antony Gormley bollards.", "checked": false, "time": "1 hr" },
-{ "id": "pe_t3", "text": "Browse the stacks at the quirky, independently run Review Bookshop.", "checked": false, "time": "30 mins" },
-{ "id": "pe_t4", "text": "Take in a sunset from a repurposed rooftop space (like the multi-storey car park).", "checked": false, "time": "1.5 hrs" }
-],
-"photo": [
-{ "id": "pe_p1", "text": "Franks Cafe / Peckham Levels: Pink staircases and unobstructed skyline views (summer).", "checked": false, "time": "20 mins" },
-{ "id": "pe_p2", "text": "The beautiful, overgrown ruins of the Asylum Chapel in Caroline Gardens.", "checked": false, "time": "30 mins" },
-{ "id": "pe_p3", "text": "Vibrant street art and murals scattered throughout alleys off Rye Lane.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "pe_e1", "text": "Forza Wine (Peckham): Trendy Italian rooftop. Fantastic small plates, highly adept at Veg/GF.", "checked": false, "time": "1.5 hrs" },
-{ "id": "pe_e2", "text": "Levan (Peckham): Stylish European. Highly creative veg dishes, excellent GF catering.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "dulwich", "name": "Dulwich & Crystal Palace",
-"season": "October. Ancient woods and leafy village streets turn gold and red like a countryside retreat.",
-"transport": "🚇 Overground to Crystal Palace, or Southeastern rail to North Dulwich.",
-"funFacts": [
-"Dulwich Picture Gallery was designed by Sir John Soane and is the world's first purpose-built public art gallery.",
-"The Crystal Palace dinosaurs were built in 1854 and represent the first ever attempt to sculpt life-size extinct animals.",
-"Dulwich remains so unspoiled because much of it is owned by a single historic charity estate from the 1600s."
-],
-"soul": "Deep South London elegance. Dulwich is a pristine affluent village; Crystal Palace is bohemian with a massive Victorian park.",
-"day2": "Explore Horniman Museum in Forest Hill (walrus and gardens), or get lost in Crystal Palace maze.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "du_t1", "text": "Visit Dulwich Picture Gallery, the worlds first purpose-built public art gallery.", "checked": false, "time": "2 hrs" },
-{ "id": "du_t2", "text": "Hunt for mid-century furniture in the Crystal Palace Antiques Market.", "checked": false, "time": "1 hr" },
-{ "id": "du_t3", "text": "Wander Crystal Palace Park to find the historically inaccurate Victorian Dinosaur statues.", "checked": false, "time": "1.5 hrs" },
-{ "id": "du_t4", "text": "Take a walk through Dulwich Park or ancient Sydenham Hill Wood.", "checked": false, "time": "1.5 hrs" }
-],
-"photo": [
-{ "id": "du_p1", "text": "Exterior brickwork and lighting enfilades of the Dulwich Picture Gallery.", "checked": false, "time": "15 mins" },
-{ "id": "du_p2", "text": "Eerie, overgrown Victorian dinosaur statues emerging from trees in the park.", "checked": false, "time": "20 mins" },
-{ "id": "du_p3", "text": "Sweeping panoramic city views from the top of Crystal Palace hill.", "checked": false, "time": "15 mins" }
-],
-"eat": [
-{ "id": "du_e1", "text": "Megans in the Hamlet (Dulwich): Rustic space with adaptable Mediterranean menu (great Veg/GF).", "checked": false, "time": "1.5 hrs" },
-{ "id": "du_e2", "text": "Brown & Green Cafe (Crystal Palace Park): Community cafe with massive brunch menu (abundant Veg/GF choices).", "checked": false, "time": "1 hr" }
-]
-},
-{
-"id": "wimbledon", "name": "Wimbledon & Putney",
-"season": "Late June to early July. Buzzes with energy during Tennis Championships, pubs overflow with flowers.",
-"transport": "🚇 District Line to Wimbledon or Putney Bridge.",
-"funFacts": [
-"Wimbledon is the oldest tennis tournament in the world, founded in 1877.",
-"Wimbledon Common features an original 1817 windmill where Lord Baden-Powell wrote parts of 'Scouting for Boys'.",
-"The famous Oxford vs Cambridge Boat Race starts its 4-mile course at Putney Bridge every spring."
-],
-"soul": "Leafy, sporty, and upper-crust. A stunning hilltop Village surrounded by massive commons, plus serene riverside rowing.",
-"day2": "Tour the All England Lawn Tennis Club, visit Buddhapadipa Temple, or explore Richmond Park.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "wi_t1", "text": "Explore Wimbledon Village, browsing boutiques and historic pubs.", "checked": false, "time": "1.5 hrs" },
-{ "id": "wi_t2", "text": "Hike or horseback ride across Wimbledon Common (features a working windmill).", "checked": false, "time": "2 hrs" },
-{ "id": "wi_t3", "text": "Walk the Thames Path from Putney Bridge, watching rowing clubs practice.", "checked": false, "time": "1 hr" },
-{ "id": "wi_t4", "text": "Visit the calm, beautiful walled gardens of Cannizaro Park.", "checked": false, "time": "1 hr" }
-],
-"photo": [
-{ "id": "wi_p1", "text": "Wimbledon Windmill standing isolated on the wild expanse of the Common.", "checked": false, "time": "15 mins" },
-{ "id": "wi_p2", "text": "Historic, flower-draped pub facades in Wimbledon Village (Dog & Fox).", "checked": false, "time": "10 mins" },
-{ "id": "wi_p3", "text": "Colorful rowing boats lined up along the Thames at Putney Embankment at sunset.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "wi_e1", "text": "Lu-Ma Cafe (Wimbledon): Health-focused. No red meat/dairy, huge focus on plant-based and GF foods.", "checked": false, "time": "1 hr" },
-{ "id": "wi_e2", "text": "The Ivy Cafe (Wimbledon Village): Upscale. Dedicated Veg/Vegan menu and a separate GF menu.", "checked": false, "time": "1.5 hrs" }
-]
-},
-{
-"id": "walthamstow", "name": "Walthamstow & The Wetlands",
-"season": "November. Early, dark evenings are perfect for Gods Own Junkyard neon lights.",
-"transport": "🚇 Victoria Line or Overground to Walthamstow Central or Blackhorse Road.",
-"funFacts": [
-"Walthamstow Wetlands is Europe's largest urban wetland reserve, supplying water to millions of Londoners.",
-"William Morris, one of the most significant cultural figures of Victorian Britain, lived in Walthamstow.",
-"God's Own Junkyard contains the oldest neon sign business in London and props from major Hollywood movies."
-],
-"soul": "Rich Arts & Crafts history meets massive nature reserves and quirky, hyper-modern industrial art spaces.",
-"day2": "Explore the Blackhorse Beer Mile (street food pop-ups), or visit Queen Elizabeth Olympic Park.",
-"visitedDate": "", "rating": 0, "notes": "",
-"todo": [
-{ "id": "wa_t1", "text": "Be overwhelmed by neon at Gods Own Junkyard, a warehouse of vintage signs.", "checked": false, "time": "1 hr" },
-{ "id": "wa_t2", "text": "Explore Walthamstow Wetlands, Europes largest urban wetland reserve.", "checked": false, "time": "2.5 hrs" },
-{ "id": "wa_t3", "text": "Visit the William Morris Gallery in a beautiful Georgian home.", "checked": false, "time": "1.5 hrs" },
-{ "id": "wa_t4", "text": "Stroll Walthamstow Village (Orford Road), a pedestrianized pocket of independent shops.", "checked": false, "time": "1 hr" }
-],
-"photo": [
-{ "id": "wa_p1", "text": "Sensory overload of neon lights inside Gods Own Junkyard.", "checked": false, "time": "20 mins" },
-{ "id": "wa_p2", "text": "The Engine House at Wetlands, with its Victorian chimney reflected in water.", "checked": false, "time": "15 mins" },
-{ "id": "wa_p3", "text": "Intricate Arts and Crafts wallpaper patterns preserved inside William Morris Gallery.", "checked": false, "time": "20 mins" }
-],
-"eat": [
-{ "id": "wa_e1", "text": "Wood St Coffee (Walthamstow): Excellent indie brunch. Great vegetarian dishes with easy GF bread swaps.", "checked": false, "time": "1 hr" },
-{ "id": "wa_e2", "text": "The Bell (Walthamstow): Massive gastropub. Fantastic Sunday roasts with dedicated Vegan and GF alternatives.", "checked": false, "time": "1.5 hrs" }
-]
-}
+  {
+    "id": "greenwich",
+    "name": "Greenwich ⛵",
+    "season": "October. The autumn foliage in Greenwich Park against the backdrop of the city skyline is stunning.",
+    "transport": "🚇 DLR to Cutty Sark or Greenwich Station. ⛴️ Uber Boat (Thames Clipper) to Greenwich Pier.",
+    "funFacts": [
+      "Greenwich Mean Time (GMT) was globally adopted here in 1884 to sync ship navigation.",
+      "The Painted Hall took 19 years to complete and is often called the Sistine Chapel of the UK.",
+      "The Cutty Sark was once the fastest ship in the world, bringing tea back from China."
+    ],
+    "soul": "The maritime epicentre of Britain, a royal birthplace, and the historic home of time. It feels like a grand, nautical village completely removed from the frantic energy of central London.",
+    "day2": "Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "g_t1",
+        "title": "Old Royal Naval College",
+        "description": "A masterpiece of baroque architecture by Sir Christopher Wren, the birthplace of Tudor monarchs like Henry VIII and Elizabeth I, and a major filming location for Hollywood movies.",
+        "action": "Do not miss the breathtaking Painted Hall.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "g_t2",
+        "title": "Royal Observatory",
+        "description": "The historic home of British astronomy, established in the 17th century to solve the problem of determining longitude at sea.",
+        "action": "Stand on the Prime Meridian line with one foot in the eastern hemisphere and one in the west.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "g_t3",
+        "title": "Greenwich Market",
+        "description": "Established in 1730, this covered market is housed in a classic Victorian iron-and-glass structure.",
+        "action": "Browse for unique local arts, crafts, and grab some artisanal street food.",
+        "checked": false,
+        "time": "45 mins"
+      },
+      {
+        "id": "g_t4",
+        "title": "Cutty Sark",
+        "description": "The world's sole surviving extreme tea clipper, famous for racing across the globe to bring fresh tea crops from China to London.",
+        "action": "Walk directly beneath the gleaming copper hull in the dry dock.",
+        "checked": false,
+        "time": "45 mins"
+      }
+    ],
+    "photo": [
+      {
+        "id": "g_p1",
+        "text": "The viewpoint from the Royal Observatory hill: capture the Queens House with Canary Wharf behind it.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "g_p2",
+        "text": "The Painted Hall ceiling (a wide-angle lens is highly recommended here).",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "g_p3",
+        "text": "The symmetrical colonnades of the Old Royal Naval College.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "g_e1",
+        "text": "Arapina Bakery (Near Greenwich Market): Cozy spot for vegetarian, vegan, and GF artisan pastries/coffees.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "g_e2",
+        "text": "Prince of Greenwich Pub: Quirky Victorian decor. Excellent vegetarian and GF pizzas in a historic setting.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "hampstead",
+    "name": "Hampstead & Highgate 📜",
+    "season": "November (for crisp, moody fog and autumn leaves) or May (to capture blooming wisteria).",
+    "transport": "🚇 Northern Line to Hampstead (steepest lift in London) or Highgate.",
+    "funFacts": [
+      "Hampstead Heath has 3 swimming ponds (Men, Women, Mixed) that are strictly open year-round, even in freezing winter.",
+      "Karl Marx, George Eliot, and Douglas Adams are all buried in Highgate Cemetery.",
+      "Hampstead Tube station is the deepest on the entire network at 58.5 metres below ground."
+    ],
+    "soul": "An intellectual and literary haven that feels like a rural 18th-century English village perched on a hill.",
+    "day2": "Explore Highgate Village, Waterlow Park, and take the full architectural tour of Highgate West Cemetery.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "h_t1",
+        "title": "Hampstead Heath",
+        "description": "An ancient, sprawling 790-acre parkland that inspired authors like C.S. Lewis. It remains deliberately wild and untamed compared to London's manicured Royal Parks.",
+        "action": "Get lost in the wild woods, meadows, and spot the famous swimming ponds.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "h_t2",
+        "title": "Flask Walk & The Village",
+        "description": "A perfectly preserved Victorian pedestrian alleyway that captures the essence of Hampstead's literary, village-like history.",
+        "action": "Wander the cobbled streets, looking at vintage shopfronts and antique stores.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "h_t3",
+        "title": "Kenwood House",
+        "description": "A breathtaking neoclassical stately home on the edge of the Heath, containing a world-class art collection including works by Rembrandt and Vermeer.",
+        "action": "Explore the grand library and view the free art exhibitions.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "h_t4",
+        "title": "Highgate Cemetery",
+        "description": "One of London's 'Magnificent Seven' Victorian burial grounds, famous for its overgrown, gothic romance architecture.",
+        "action": "Take the guided tour of the West Cemetery to see the Egyptian Avenue.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "h_p1",
+        "text": "Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "h_p2",
+        "text": "The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "h_p3",
+        "text": "Flask Walk, with its picturesque vintage shopfronts and cobbled streets.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "h_e1",
+        "text": "The Swing (West Hampstead): Vegetable-focused casual restaurant with vibrant small plates and marked GF options.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "h_e2",
+        "text": "The Holly Bush: Historic, Grade II listed pub. Excellent vegetarian roasts, very accommodating for GF.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "southwark",
+    "name": "Southwark & Bermondsey 🧀",
+    "season": "December (for festive market vibes) or April (for mild spring riverside walks).",
+    "transport": "🚇 Jubilee or Northern Line to London Bridge.",
+    "funFacts": [
+      "Southwark was outside the City of Londons jurisdiction, making it the historic home of illegal theatres, brothels, and bear-baiting.",
+      "The Golden Hinde is a full-scale reconstruction of the ship Sir Francis Drake used to circumnavigate the globe in the 1500s.",
+      "Borough Market has existed in some form for over 1,000 years."
+    ],
+    "soul": "The historic entertainment and vice district of Tudor London, now reborn as Londons premier culinary and cultural riverside stretch.",
+    "day2": "Dedicate a Sunday morning to Maltby Street Market, explore the White Cube gallery, and cross Tower Bridge.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "s_t1",
+        "title": "The Thames Path",
+        "description": "A pedestrianized walkway stretching along the South Bank, offering uninterrupted views of London's financial district across the water.",
+        "action": "Stroll the path from the Tate Modern all the way down to Tower Bridge.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "s_t2",
+        "title": "Winchester Palace & Golden Hinde",
+        "description": "The ruins of the 12th-century palace of the powerful Bishops of Winchester, juxtaposed against a full-scale galleon ship.",
+        "action": "Admire the medieval rose window ruins and the pirate-era ship docked nearby.",
+        "checked": false,
+        "time": "45 mins"
+      },
+      {
+        "id": "s_t3",
+        "title": "Borough Market",
+        "description": "Operating in some capacity since the 11th century, this is London's premier wholesale and retail food market.",
+        "action": "Eat your way through the artisanal cheese, bread, and street food stalls.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "s_t4",
+        "title": "Bermondsey Street",
+        "description": "Once an industrial area famous for leather tanning, it's now a trendy, village-like street packed with independent creators.",
+        "action": "Wander the street, looking out for glass-blowing studios and indie galleries.",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ],
+    "photo": [
+      {
+        "id": "s_p1",
+        "text": "The Millennium Bridge looking straight towards the dome of St. Pauls Cathedral (golden hour).",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "s_p2",
+        "text": "Shad Thames: historic Victorian cobbled street with overhead iron walkways.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "s_p3",
+        "text": "The Shard framing the historic wooden courtyard of The George Inn.",
+        "checked": false,
+        "time": "10 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "s_e1",
+        "text": "Mallow (Borough Market): 100 percent plant-based restaurant, vibrant menu, almost everything adaptable to GF.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "s_e2",
+        "text": "Horn OK Please (Borough Market): Indian street food. Fresh vegetarian food naturally GF (moong dal dosas).",
+        "checked": false,
+        "time": "45 mins"
+      }
+    ]
+  },
+  {
+    "id": "richmond",
+    "name": "Richmond & Kew 🦌",
+    "season": "Late April to early May. Isabella Plantation explodes with vibrant azaleas, and Kew Gardens is in full spring bloom.",
+    "transport": "🚇 District Line or Overground to Richmond or Kew Gardens.",
+    "funFacts": [
+      "King Henrys Mound in Richmond Park offers a legally protected, uninterrupted view all the way to St Pauls Cathedral 10 miles away.",
+      "Kew Gardens holds the largest and most diverse botanical and mycological collections in the world.",
+      "Wild deer have roamed Richmond Park freely since 1637 when King Charles I enclosed it."
+    ],
+    "soul": "Aristocratic, majestic, and green. A former countryside retreat for royalty blending botanical perfection with wild deer parks.",
+    "day2": "Take a leisurely Thames riverboat cruise from Richmond down to Hampton Court Palace to explore Tudor history.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "r_t1",
+        "title": "Richmond Park",
+        "description": "Created in 1637 by Charles I as a hunting ground, it remains the largest of London's Royal Parks and a National Nature Reserve.",
+        "action": "Walk or cycle through the vast expanses to spot the 600+ wild red and fallow deer.",
+        "checked": false,
+        "time": "2.5 hrs"
+      },
+      {
+        "id": "r_t2",
+        "title": "Kew Gardens",
+        "description": "A UNESCO World Heritage site boasting the most diverse botanical collections globally, set amid spectacular Victorian iron-and-glass architecture.",
+        "action": "Explore the massive Temperate House and walk the treetop canopy walkway.",
+        "checked": false,
+        "time": "3 hrs"
+      },
+      {
+        "id": "r_t3",
+        "title": "Richmond Riverside & Green",
+        "description": "A highly affluent, picturesque stretch of the Thames that has historically been the playground for English royalty.",
+        "action": "Stroll the riverside paths, surrounded by historic architecture and traditional pubs.",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ],
+    "photo": [
+      {
+        "id": "r_p1",
+        "text": "The Isabella Plantation in Richmond Park (macro shots of flowers and streams).",
+        "checked": false,
+        "time": "45 mins"
+      },
+      {
+        "id": "r_p2",
+        "text": "The Temperate House at Kew Gardens (architectural geometry and symmetry).",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "r_p3",
+        "text": "Richmond Hill Viewpoint (protected view looking down over a sweeping bend in the Thames).",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "r_e1",
+        "text": "Tide Tables: Casual cafe under the arches on the riverside. Entirely vegetarian, dedicated GF menus.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "r_e2",
+        "text": "Petersham Nurseries Cafe: Magical greenhouse dining. Excellent vegetarian and GF options (book in advance).",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "city",
+    "name": "The City of London 🏛️",
+    "season": "January or February. Winter light cuts beautifully through skyscrapers, highlighting ancient stonework.",
+    "transport": "🚇 Central Line to Bank, or Circle/District to Monument.",
+    "funFacts": [
+      "The City has its own distinct police force, separate from the Metropolitan Police.",
+      "Beneath the modern Bloomberg building lies the perfectly preserved Roman Temple of Mithras.",
+      "Leadenhall Market was a Roman basilica and later became the filming location for Diagon Alley in Harry Potter."
+    ],
+    "soul": "The ancient Roman heart of London, now the global financial district. A startling juxtaposition of hyper-modern skyscrapers and medieval ruins.",
+    "day2": "Walk the perimeter of the ancient Roman Wall, visit the Museum of London, or explore the Monument to the Great Fire.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "c_t1",
+        "title": "St. Paul's Cathedral",
+        "description": "Designed by Sir Christopher Wren after the Great Fire of 1666, its iconic dome dominated the London skyline for 300 years.",
+        "action": "Marvel at the exterior from Paternoster Square, noting the grand Corinthian columns.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "c_t2",
+        "title": "Leadenhall Market",
+        "description": "Built on the site of a Roman Basilica, this stunning Victorian covered market features ornate painted roofs and cobblestones.",
+        "action": "Explore the intersecting arcades, famous as a Harry Potter filming location.",
+        "checked": false,
+        "time": "45 mins"
+      },
+      {
+        "id": "c_t3",
+        "title": "Sky Garden or Horizon 22",
+        "description": "The highest public viewing galleries in London, offering free access to indoor gardens and panoramic views of the entire city.",
+        "action": "Book free tickets well in advance and enjoy unparalleled views of the Thames.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "c_t4",
+        "title": "London Mithraeum",
+        "description": "A restored Roman Temple of Mithras from the 3rd century, discovered deep beneath the modern Bloomberg headquarters.",
+        "action": "Experience the highly immersive, subterranean light and sound installation.",
+        "checked": false,
+        "time": "45 mins"
+      }
+    ],
+    "photo": [
+      {
+        "id": "c_p1",
+        "text": "Looking up at the Gherkin from the ornate archways of Leadenhall Market.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "c_p2",
+        "text": "St. Dunstan-in-the-East: A ruined medieval church transformed into an overgrown garden.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "c_p3",
+        "text": "The reflection of St Pauls Cathedral in the modern glass of One New Change.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "c_e1",
+        "text": "The Ned (Millies Lounge): Upscale 1920s bank building. Superb vegetarian and GF British classics.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "c_e2",
+        "text": "Itsu / Leon: Reliable staples for weekends when indie cafes close. Clearly marked GF/Veg hot boxes.",
+        "checked": false,
+        "time": "45 mins"
+      }
+    ]
+  },
+  {
+    "id": "shoreditch",
+    "name": "Shoreditch & Spitalfields 🎨",
+    "season": "September. Pleasant weather for street art, and the London Design Festival activates spaces.",
+    "transport": "🚇 Overground to Shoreditch High Street, or Central/Elizabeth Line to Liverpool Street.",
+    "funFacts": [
+      "Fournier Street has been home to French Huguenot silk weavers, Jewish immigrants, and Bangladeshi families across centuries.",
+      "Shoreditch was home to The Theatre, Londons very first purpose-built playhouse, where Shakespeare early plays were staged.",
+      "Street art here is constantly changing, with pieces by Banksy, ROA, and Stik hidden in alleyways."
+    ],
+    "soul": "Historic home of silk weavers and immigrants, evolved into Londons vibrant, gritty capital of street art, vintage fashion, and indie culture.",
+    "day2": "Sunday at Columbia Road Flower Market, walk to Hackney City Farm, and explore boutiques on Broadway Market.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "sh_t1",
+        "title": "Rivington & Redchurch Street Art",
+        "description": "The epicenter of London's world-class street art scene, featuring constantly changing works by globally renowned artists.",
+        "action": "Hunt for hidden murals by Banksy, ROA, and Stik in the surrounding alleyways.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "sh_t2",
+        "title": "Old Spitalfields Market",
+        "description": "A beautifully restored Victorian market hall that has operated for over 350 years, now a major hub for independent designers.",
+        "action": "Browse the stalls for local art, clothing, and unique antiques.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "sh_t3",
+        "title": "Brick Lane",
+        "description": "The historic heart of London's Bangladeshi community, famous for its rich history of immigration, vintage clothing emporiums, and record shops.",
+        "action": "Walk the lane, popping into the massive vintage basements at the Truman Brewery.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "sh_t4",
+        "title": "Fournier Street",
+        "description": "One of London's most perfectly preserved streets, lined with the 18th-century townhouses of French Huguenot silk weavers.",
+        "action": "Admire the oversized attic windows, built to let in maximum light for weaving.",
+        "checked": false,
+        "time": "30 mins"
+      }
+    ],
+    "photo": [
+      {
+        "id": "sh_p1",
+        "text": "Fournier Street: Contrast between Georgian townhouses and modern City skyscrapers.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "sh_p2",
+        "text": "Nomadic Community Gardens / Brick Lane murals for urban photography.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "sh_p3",
+        "text": "The glass canopy and Victorian ironwork of Old Spitalfields Market.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "sh_e1",
+        "text": "Bubala (Spitalfields): Phenomenal Middle Eastern vegetarian food. Vibrant and almost entirely GF.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "sh_e2",
+        "text": "Nude Espresso (Hanbury St): Great spot for a coffee break with GF treat options and plant milks.",
+        "checked": false,
+        "time": "45 mins"
+      }
+    ]
+  },
+  {
+    "id": "nottinghill",
+    "name": "Notting Hill & Holland Park 🌸",
+    "season": "April (cherry blossoms contrasting with pastel houses) or late August (Notting Hill Carnival).",
+    "transport": "🚇 Central, Circle, or District Line to Notting Hill Gate.",
+    "funFacts": [
+      "The Notting Hill Carnival is the second-largest street festival in the world, behind only Rio de Janeiros.",
+      "The area was known for its piggeries and brickfields in the 19th century before becoming a wealthy suburb.",
+      "The Kyoto Garden in Holland Park was a gift from the city of Kyoto in 1991 to celebrate the Japan Festival in London."
+    ],
+    "soul": "Famous for pastel-colored Victorian townhouses, cinematic charm, and Londons most famous antique market.",
+    "day2": "Explore Kensington Gardens, visit the Design Museum, and tour the opulent Leighton House Museum.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "n_t1",
+        "title": "Portobello Road Market",
+        "description": "The world's largest antiques market, stretching for over a mile. It dates back to the 19th century when it was a fresh food market.",
+        "action": "Wander the stalls (Saturdays are best for antiques) and hunt for silver and vintage maps.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "n_t2",
+        "title": "Kyoto Garden in Holland Park",
+        "description": "A stunning, tranquil Japanese garden gifted by the city of Kyoto in 1991 to celebrate the Japan Festival in London.",
+        "action": "Find the tiered waterfalls and look out for the roaming resident peacocks.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "n_t3",
+        "title": "St Luke's & Local Mews",
+        "description": "Mews streets were originally service roads behind grand houses where horses and carriages were kept, now highly coveted pastel homes.",
+        "action": "Get lost exploring these historic, cobbled, and heavily flowered alleyways.",
+        "checked": false,
+        "time": "45 mins"
+      },
+      {
+        "id": "n_t4",
+        "title": "Electric Cinema",
+        "description": "Opened in 1910, it is one of the oldest working cinemas in the country, surviving two world wars and surviving demolition.",
+        "action": "Book a ticket in advance to watch a film from a plush velvet bed or armchair.",
+        "checked": false,
+        "time": "2.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "n_p1",
+        "text": "St Lukes Mews: Pretty cobbled mews with pink houses and trailing ivy.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "n_p2",
+        "text": "The sweeping curve of colorful houses on Lancaster Road or Elgin Crescent.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "n_p3",
+        "text": "The waterfall and roaming peacocks inside the Kyoto Garden.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "n_e1",
+        "text": "Farm Girl: Photogenic Australian-style cafe. Fantastic vegetarian and naturally GF options.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "n_e2",
+        "text": "Haya: Mediterranean neighborhood restaurant with wonderful vegetarian sharing plates and GF options.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "camden",
+    "name": "Camden Town & Regents Park 🎸",
+    "season": "June or July. Long summer evenings for canal walks; Queen Marys Rose Garden in spectacular bloom.",
+    "transport": "🚇 Northern Line to Camden Town, or Overground to Camden Road.",
+    "funFacts": [
+      "Camden Lock was originally a working industrial hub for gin and timber before becoming a massive alternative market in the 1970s.",
+      "Regents Park was designed by John Nash as a huge hunting park for the Prince Regent (later King George IV).",
+      "Primrose Hill is famously one of the 13 protected views of London, keeping the skyline to St Pauls clear."
+    ],
+    "soul": "Camden is the historic hub for alternative subcultures, contrasting sharply with the aristocratic elegance of Regents Park.",
+    "day2": "Take a narrowboat ride from Camden Lock to Little Venice, and explore the grand streets of Maida Vale.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "ca_t1",
+        "title": "Camden Market & Stables",
+        "description": "Originally a complex for horses moving goods along the canal, it is now a sprawling labyrinth of alternative culture, vintage clothes, and goth stores.",
+        "action": "Explore the catacombs of the stables and browse the independent craft stalls.",
+        "checked": false,
+        "time": "2.5 hrs"
+      },
+      {
+        "id": "ca_t2",
+        "title": "Regents Canal Towpath",
+        "description": "Built in 1820, this industrial waterway connected the docks to the rest of England. Today, it's a peaceful urban walking route lined with narrowboats.",
+        "action": "Walk the towpath away from the market crowds towards London Zoo.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "ca_t3",
+        "title": "Regents Park",
+        "description": "Designed by celebrated architect John Nash in 1811, this former royal hunting ground is a masterpiece of landscape design.",
+        "action": "Smell the thousands of blooms inside Queen Mary's spectacular Rose Garden.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "ca_t4",
+        "title": "Primrose Hill",
+        "description": "A highly affluent village attached to a grassy hill that offers one of the most famous, legally protected panoramic views in London.",
+        "action": "Hike to the summit marker and try to identify landmarks across the skyline.",
+        "checked": false,
+        "time": "45 mins"
+      }
+    ],
+    "photo": [
+      {
+        "id": "ca_p1",
+        "text": "The vibrant, 3D shop fronts along Camden High Street.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "ca_p2",
+        "text": "Regents Canal at Camden Lock, with narrowboats and weeping willows.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "ca_p3",
+        "text": "The summit of Primrose Hill at sunset, capturing the London skyline.",
+        "checked": false,
+        "time": "30 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "ca_e1",
+        "text": "Magic Falafel (Camden Market): 100 percent vegan and GF. Authentic, stress-free market eat.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "ca_e2",
+        "text": "Mildreds (Camden): Legendary plant-based food. Clearly marks plentiful GF options.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "kensington",
+    "name": "Kensington & Chelsea 👑",
+    "season": "May (Chelsea Flower Show and floral displays) or December (Christmas lights and ice skating).",
+    "transport": "🚇 Piccadilly, Circle, or District Line to South Kensington or Sloane Square.",
+    "funFacts": [
+      "The area is often called 'Albertopolis' because Prince Albert championed the building of the museums using profits from the 1851 Great Exhibition.",
+      "The Natural History Museum building is covered in terracotta animal carvings—living species on the west wing, extinct ones on the east.",
+      "The Kings Road got its name because it was King Charles IIs private road to travel to Kew."
+    ],
+    "soul": "The Royal Borough. London at its most opulent, home to world-class Victorian museums, grand garden squares, and elegant streets.",
+    "day2": "Walk the Thames Path along the Chelsea Embankment, visit the Saatchi Gallery, explore Royal Hospital Chelsea.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "k_t1",
+        "title": "Museum Row (V&A or Natural History)",
+        "description": "These staggering Victorian institutions were built using profits from the 1851 Great Exhibition to educate the British public on science and art.",
+        "action": "Marvel at the terracotta architecture of the NHM or the sculptures at the V&A.",
+        "checked": false,
+        "time": "3 hrs"
+      },
+      {
+        "id": "k_t2",
+        "title": "Kensington Gardens",
+        "description": "Once the private gardens of Kensington Palace (current home to Prince William and Kate), it features grand avenues and historic monuments.",
+        "action": "Walk to the highly ornate, gold-gilded Albert Memorial.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "k_t3",
+        "title": "The Kings Road, Chelsea",
+        "description": "Originally Charles II's private road, it became the global epicenter of 1960s 'Swinging London' fashion and is now a high-end shopping artery.",
+        "action": "Stroll down the street, admiring the boutiques and affluent architecture.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "k_t4",
+        "title": "Chelsea Physic Garden",
+        "description": "Established in 1673 by the Worshipful Society of Apothecaries, this is London's oldest botanical garden.",
+        "action": "Discover rare medicinal, edible, and poisonous plants in the walled sanctuary.",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ],
+    "photo": [
+      {
+        "id": "k_p1",
+        "text": "Hintze Hall inside the Natural History Museum (arches and whale skeleton).",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "k_p2",
+        "text": "The John Madejski Garden inside the V&A Museum (late afternoon sun).",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "k_p3",
+        "text": "The pastel houses and hidden squares around Bywater Street in Chelsea.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "k_e1",
+        "text": "Dishoom (Kensington): Bombay-style cafe with dedicated vegan and GF menus. Legendary black daal.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "k_e2",
+        "text": "Ceru (South Kensington): Levantine restaurant. Almost entirely naturally GF, wonderful vegetarian options.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "hackney",
+    "name": "Hackney & Victoria Park 🌿",
+    "season": "Sundays in Spring or Summer. Comes alive with markets and park culture.",
+    "transport": "🚇 Overground to Hackney Central, Cambridge Heath, or London Fields.",
+    "funFacts": [
+      "Victoria Park is nicknamed the Peoples Park, built in 1845 specifically to improve the health of the working-class East End.",
+      "Columbia Road was originally a pathway for driving sheep to the slaughterhouses at Smithfield Market.",
+      "Hackney was once famous for its vast brickfields, providing the materials to build much of Victorian London."
+    ],
+    "soul": "The beating heart of East Londons creative scene. An incredible mix of urban edge, hipster cafes, historic canals, and vast parks.",
+    "day2": "Explore Hackney Marshes and Queen Elizabeth Olympic Park. Swim in the Aquatics Centre.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "ha_t1",
+        "title": "Columbia Road Flower Market",
+        "description": "Operating only on Sundays, this narrow Victorian street transforms into a dense, screaming, colorful jungle of flower sellers.",
+        "action": "Arrive early, listen to the cockney barrow boys shouting, and admire the blooms.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "ha_t2",
+        "title": "Regents Canal Walk",
+        "description": "This eastern stretch of the canal runs through old industrial Hackney, lined with graffiti, converted warehouses, and trendy cafes.",
+        "action": "Walk the towpath from Broadway Market down to the edge of Victoria Park.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "ha_t3",
+        "title": "Victoria Park",
+        "description": "Known affectionately as the 'People's Park', it was created in the 1840s to offer clean air to the impoverished East End.",
+        "action": "Explore the vast park, specifically seeking out the ornate Chinese pagodas.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "ha_t4",
+        "title": "Broadway Market",
+        "description": "A historic working-class street that has transformed into a bustling Saturday hub of artisan food, vintage clothing, and crafts.",
+        "action": "Browse the Saturday stalls for incredible street food and independent zines.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "ha_p1",
+        "text": "Columbia Road on a Sunday morning (portrait lens for flower sellers).",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "ha_p2",
+        "text": "The Chinese Pagoda on the island in Victoria Park.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "ha_p3",
+        "text": "Narrowboats passing through the historic locks along Regents Canal.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "ha_e1",
+        "text": "The Spread Eagle (Homerton): Londons first 100 percent vegan pub. Excellent GF accommodations for roasts.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "ha_e2",
+        "text": "Andu Ethiopian Cafe (Dalston): Vegan Ethiopian spot. Traditional teff injera is naturally GF.",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ]
+  },
+  {
+    "id": "covent",
+    "name": "Covent Garden & Soho 🎭",
+    "season": "November or December for world-famous Christmas lights creating a magical atmosphere.",
+    "transport": "🚇 Piccadilly Line to Covent Garden, or Central Line to Tottenham Court Road.",
+    "funFacts": [
+      "Covent Garden used to be Convent Garden, an actual garden providing vegetables for the monks of Westminster Abbey.",
+      "Soho got its name from a 17th-century hunting cry used when the area was a royal hunting park.",
+      "Carnaby Street in Soho was the absolute epicentre of 'Swinging London' in the 1960s."
+    ],
+    "soul": "The bustling, theatrical heart of London. A mix of historic fruit markets, bohemian streets, and premier entertainment.",
+    "day2": "Book a West End matinee, visit the National Gallery, and explore food halls at Fortnum & Mason.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "co_t1",
+        "title": "Covent Garden Piazza",
+        "description": "Originally an orchard for Westminster Abbey, then London's main fruit and vegetable market, it is now the city's street-performance hub.",
+        "action": "Watch the licensed street performers and explore the elegant Apple Market building.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "co_t2",
+        "title": "The Streets of Soho",
+        "description": "Historically the red-light and bohemian district, Soho is a dense grid of energetic streets famous for jazz clubs, media hubs, and LGBTQ+ culture.",
+        "action": "Get lost exploring Carnaby Street, Old Compton Street, and Kingly Court.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "co_t3",
+        "title": "Neals Yard",
+        "description": "A secret, micro-village courtyard hidden down an alley in Seven Dials, characterized by wildly colourful, ivy-covered brick buildings.",
+        "action": "Find the hidden entrance and grab a photo of the brightly painted window frames.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "co_t4",
+        "title": "Charing Cross Road",
+        "description": "World-renowned as the historic street of booksellers, featured heavily in literature (like '84 Charing Cross Road').",
+        "action": "Browse the dusty, towering shelves of independent and antiquarian bookshops.",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ],
+    "photo": [
+      {
+        "id": "co_p1",
+        "text": "Neals Yard: Brightly painted buildings and overflowing window boxes.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "co_p2",
+        "text": "The elegant, symmetrical arches of the Covent Garden Market building.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "co_p3",
+        "text": "Neon signs of Soho at night, particularly around Old Compton Street.",
+        "checked": false,
+        "time": "30 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "co_e1",
+        "text": "Mildreds (Soho): Iconic plant-based restaurant. Superb vegetarian food and excellent GF options.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "co_e2",
+        "text": "Dishoom (Covent Garden): Incredible Bombay-style food with strict, dedicated GF/vegan menus.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "bloomsbury",
+    "name": "Bloomsbury & Fitzrovia 📚",
+    "season": "September. 'Back to school' autumn air suits the academic and literary atmosphere.",
+    "transport": "🚇 Northern Line to Goodge Street or Central/Piccadilly to Holborn.",
+    "funFacts": [
+      "The British Museum was the worlds first national public museum, opening in 1759.",
+      "The famous Bloomsbury Group included writers and thinkers like Virginia Woolf and John Maynard Keynes.",
+      "Senate House inspired George Orwells 'Ministry of Truth' in his novel 1984."
+    ],
+    "soul": "The intellectual heartbeat of London, defined by gorgeous Georgian garden squares, universities, and world-class museums.",
+    "day2": "Visit the Wellcome Collection (quirky medicine/art museum) and catch a fringe theatre show.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "bl_t1",
+        "title": "The British Museum",
+        "description": "The world's first national public museum, holding a vast, controversial, and breathtaking collection of human history spanning two million years.",
+        "action": "Marvel at the Rosetta Stone, the Parthenon Sculptures, and the Great Court roof.",
+        "checked": false,
+        "time": "3 hrs"
+      },
+      {
+        "id": "bl_t2",
+        "title": "Georgian Garden Squares",
+        "description": "Bloomsbury was London's first planned residential suburb, setting the standard for the leafy, private garden squares seen across the city.",
+        "action": "Walk the perimeter of Russell Square and perfectly preserved Bedford Square.",
+        "checked": false,
+        "time": "45 mins"
+      },
+      {
+        "id": "bl_t3",
+        "title": "Charles Dickens Museum",
+        "description": "The Victorian author's former family home, completely preserved as it was when he wrote Oliver Twist and Nicholas Nickleby here.",
+        "action": "Step back in time, walking through his original study and writing desk.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "bl_t4",
+        "title": "Store Street & Woburn Walk",
+        "description": "Architecturally beautiful pedestrian pockets of Bloomsbury, favored by academics, architects, and artists.",
+        "action": "Browse independent galleries, ceramic studios, and design stores.",
+        "checked": false,
+        "time": "45 mins"
+      }
+    ],
+    "photo": [
+      {
+        "id": "bl_p1",
+        "text": "The Great Court inside the British Museum (tessellated glass roof).",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "bl_p2",
+        "text": "Pastel shopfronts along Woburn Walk (pedestrianized Georgian street).",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "bl_p3",
+        "text": "The brutalist, sweeping staircases inside the Senate House building.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "bl_e1",
+        "text": "Honey & Co. (Bloomsbury): Cozy Middle Eastern offering vibrant vegetarian plates adapted for GF.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "bl_e2",
+        "text": "Kin Cafe (Fitzrovia): Brilliant vegetarian cafe with clearly marked GF brunch/lunch options.",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ]
+  },
+  {
+    "id": "kingscross",
+    "name": "Kings Cross & St Pancras 🚂",
+    "season": "December. Winter light installations and the massive Christmas tree in Coal Drops Yard.",
+    "transport": "🚇 Northern, Piccadilly, Victoria, Circle, H&C, or Met Line to Kings Cross St Pancras.",
+    "funFacts": [
+      "Coal Drops Yard was literally where coal drops were located; 8 million tonnes of coal arrived here annually in the 1800s.",
+      "St Pancras Station was almost demolished in the 1960s before a poet led a fierce campaign to save its gothic facade.",
+      "Boudicca, the Celtic Queen, is rumored to be buried under Platform 9 at Kings Cross."
+    ],
+    "soul": "A gritty industrial transport hub successfully regenerated into a blend of Victorian viaducts and sleek modern tech/arts hubs.",
+    "day2": "Walk the Regents Canal towpath east towards Islington, or visit the London Canal Museum.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "kx_t1",
+        "title": "Coal Drops Yard",
+        "description": "A masterclass in urban regeneration. These vast Victorian brick viaducts used to receive 8 million tonnes of coal a year, now housing chic stores.",
+        "action": "Explore the unique shops beneath the 'Kissing Roof' architecture.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "kx_t2",
+        "title": "The British Library",
+        "description": "The national library of the UK, receiving a copy of every publication produced in the UK and Ireland. The Treasures Gallery is phenomenal.",
+        "action": "See the original Magna Carta and Beatles' lyrics in the free gallery.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "kx_t3",
+        "title": "Granary Square",
+        "description": "A massive public square built where barges used to unload their goods, famously known for its 1,000 choreographed fountains.",
+        "action": "Watch the synchronized fountains and walk down the steps to the canal.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "kx_t4",
+        "title": "Kings Cross Station & Platform 9 3/4",
+        "description": "A stunning mix of 1852 Victorian brickwork and a hyper-modern steel diagrid roof, famous globally for its Harry Potter connection.",
+        "action": "Admire the sweeping roof and get a photo at the famous trolley in the wall.",
+        "checked": false,
+        "time": "30 mins"
+      }
+    ],
+    "photo": [
+      {
+        "id": "kx_p1",
+        "text": "The Kissing Roof at Coal Drops Yard (modern architecture meets Victorian brick).",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "kx_p2",
+        "text": "The breathtaking gothic-revival facade of the St Pancras Renaissance Hotel.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "kx_p3",
+        "text": "The futuristic, neon-lit pedestrian tunnel connecting Kings Cross to St Pancras.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "kx_e1",
+        "text": "Caravan (Granary Square): Set in an old grain warehouse. Fantastic veg and GF options clearly marked.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "kx_e2",
+        "text": "Hoppers (Kings Cross): Incredible Sri Lankan food. Much is naturally GF (like hoppers), superb veg curries.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "marylebone",
+    "name": "Marylebone & Mayfair 🎩",
+    "season": "May. Ideal for open-air cafe culture and the private garden squares turning vibrant green.",
+    "transport": "🚇 Jubilee Line to Bond Street or Baker Street.",
+    "funFacts": [
+      "Mayfair gets its name from a raucous, two-week-long 'May Fair' festival that was eventually banned in the 1700s.",
+      "Sherlock Holmes fictitious address, 221B Baker Street, is located in Marylebone.",
+      "The Wallace Collection is entirely free and contains arms and armor alongside world-class paintings."
+    ],
+    "soul": "Upscale London. Mayfair is a starchy enclave of luxe hotels/galleries; Marylebone is an elegant, relaxed urban village.",
+    "day2": "Dedicate a day to Hyde Park, visit the Serpentine Galleries, or catch classical music at Wigmore Hall.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "ma_t1",
+        "title": "The Wallace Collection",
+        "description": "A spectacular national museum housed in a historic London town house, featuring world-class French 18th-century art and vast armories.",
+        "action": "View the free art collection (including Fragonard's 'The Swing') in the silk-lined rooms.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "ma_t2",
+        "title": "Marylebone High Street",
+        "description": "Carefully managed by the local Howard de Walden Estate, this street avoids generic chains in favor of high-quality independent boutiques.",
+        "action": "Window shop and soak up the sophisticated, village-like atmosphere.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "ma_t3",
+        "title": "Mayfair Garden Squares",
+        "description": "Mayfair is dominated by massive, manicured squares that historically hosted the most powerful aristocratic families in England.",
+        "action": "Stroll through Grosvenor Square and Mount Street Gardens.",
+        "checked": false,
+        "time": "45 mins"
+      },
+      {
+        "id": "ma_t4",
+        "title": "Daunt Books",
+        "description": "An original Edwardian bookshop boasting long oak galleries, skylights, and William Morris prints, renowned for its travel writing collection.",
+        "action": "Browse the flagship store, categorized uniquely by country rather than genre.",
+        "checked": false,
+        "time": "45 mins"
+      }
+    ],
+    "photo": [
+      {
+        "id": "ma_p1",
+        "text": "The grand, silk-lined rooms and armory at the Wallace Collection.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "ma_p2",
+        "text": "The terracotta-red Victorian architecture curving along Mount Street.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "ma_p3",
+        "text": "The elevated, hidden rooftop garden of Brown Hart Gardens.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "ma_e1",
+        "text": "Plants by Deliciously Ella (Mayfair): 100 percent plant-based, entire menu naturally GF.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "ma_e2",
+        "text": "The Gate (Marylebone): Pioneering vegetarian restaurant with a wealth of safe GF options.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "westminster",
+    "name": "Westminster & St James's 🏰",
+    "season": "October or November. Crisp autumn air suits the grand architecture, avoiding summer tourist crushes.",
+    "transport": "🚇 Jubilee, District, or Circle Line to Westminster or St. James's Park.",
+    "funFacts": [
+      "Westminster Abbey has been the coronation church for British monarchs since 1066.",
+      "St James's Park is home to resident pelicans, descendants of those gifted to King Charles II in 1664.",
+      "Big Ben is actually the name of the bell inside, not the clock or the tower (which is the Elizabeth Tower)."
+    ],
+    "soul": "The royal and political epicenter of the UK. Postcard London with soaring gothic architecture and exclusive royal streets.",
+    "day2": "Explore Tate Britain, take a riverboat to Greenwich, or explore royal cavalry at Horse Guards Parade.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "we_t1",
+        "title": "Whitehall & Parliament",
+        "description": "The nerve center of the British government, a grand thoroughfare lined with ministries, leading directly to the gothic Palace of Westminster.",
+        "action": "Walk down Whitehall to glimpse 10 Downing St and hear Big Ben chime.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "we_t2",
+        "title": "Churchill War Rooms",
+        "description": "The actual subterranean bunker where Winston Churchill and his cabinet directed the Second World War, perfectly preserved since 1945.",
+        "action": "Explore the underground labyrinth and the Map Room.",
+        "checked": false,
+        "time": "2.5 hrs"
+      },
+      {
+        "id": "we_t3",
+        "title": "Westminster Abbey",
+        "description": "A stunning, massive gothic abbey church that has hosted every British coronation since 1066, as well as 16 royal weddings.",
+        "action": "Marvel at the soaring architecture and seek out Poets' Corner.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "we_t4",
+        "title": "St James's Park",
+        "description": "The oldest of the Royal Parks, featuring a beautiful lake and stunning sightlines toward Buckingham Palace and Whitehall.",
+        "action": "Look for the resident pelicans and walk across the famous Blue Bridge.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "we_p1",
+        "text": "Westminster Bridge looking back at the Elizabeth Tower (Big Ben).",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "we_p2",
+        "text": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall).",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "we_p3",
+        "text": "The grand, sweeping staircase and facade of the Tate Britain gallery.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "we_e1",
+        "text": "The Cinnamon Club: Upscale Indian dining in a former library. Caters exceptionally to Veg/GF.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "we_e2",
+        "text": "Yaatra (Old Fire Station): Vibrant Indian cuisine with plenty of vegetarian and GF choices.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "southbank",
+    "name": "The South Bank & Waterloo 🎡",
+    "season": "July or August. Riverside comes alive with street performers, markets, and festivals.",
+    "transport": "🚇 Jubilee, Northern, or Bakerloo Line to Waterloo.",
+    "funFacts": [
+      "The National Theatre requires tons of concrete and its unique texture comes from pouring concrete into wooden timber molds.",
+      "The Tate Modern used to be the Bankside Power Station and still retains its massive brick chimney.",
+      "The London Eye was originally intended to be a temporary structure for the year 2000."
+    ],
+    "soul": "Londons premier arts promenade. Striking brutalist architecture housing the nations greatest theatres and galleries.",
+    "day2": "See a play at Shakespeares Globe Theatre, ride the London Eye, or visit Florence Nightingale Museum.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "sb_t1",
+        "title": "South Bank Promenade",
+        "description": "Created largely for the 1951 Festival of Britain, this pedestrianized river path connects London's greatest brutalist arts venues.",
+        "action": "Walk the riverfront, passing the National Theatre and street performers.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "sb_t2",
+        "title": "Southbank Centre Book Market",
+        "description": "One of the only outdoor, open-air second-hand and antique book markets in southern England, tucked under a concrete bridge.",
+        "action": "Browse the trestle tables of books sheltered beneath Waterloo Bridge.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "sb_t3",
+        "title": "Tate Modern",
+        "description": "Housed in the colossal, decommissioned Bankside Power Station, it is Britain's national gallery of international modern art.",
+        "action": "Enter via the massive Turbine Hall and explore the monumental installations.",
+        "checked": false,
+        "time": "2.5 hrs"
+      },
+      {
+        "id": "sb_t4",
+        "title": "BFI Southbank",
+        "description": "The leading repertory cinema in the UK, operated by the British Film Institute, featuring four screens tucked under Waterloo Bridge.",
+        "action": "Catch a classic or indie film screening in the historic venue.",
+        "checked": false,
+        "time": "2.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "sb_p1",
+        "text": "Sharp, concrete geometric lines of the National Theatre (brutalist masterpiece).",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "sb_p2",
+        "text": "The Millennium Bridge leading directly to the dome of St Pauls Cathedral.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "sb_p3",
+        "text": "Leake Street Arches (Banksy Tunnel), an ever-changing canvas of street art.",
+        "checked": false,
+        "time": "30 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "sb_e1",
+        "text": "Wahaca (Southbank): Vibrant Mexican street food, excellent vegetarian choices, strict GF menu.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "sb_e2",
+        "text": "Skylon: Inside Royal Festival Hall. Upscale, highly trained to accommodate Veg/GF needs.",
+        "checked": false,
+        "time": "2 hrs"
+      }
+    ]
+  },
+  {
+    "id": "bayswater",
+    "name": "Bayswater & Little Venice 🦢",
+    "season": "April or May. Trees lining the canals burst into bloom for tranquil waterside walks.",
+    "transport": "🚇 Bakerloo Line to Warwick Avenue or Paddington.",
+    "funFacts": [
+      "It is claimed the poet Robert Browning coined the name 'Little Venice' for this junction of canals.",
+      "Leinster Gardens hides two completely fake houses (Nos 23 and 24) built to cover an old underground railway vent.",
+      "Paddington Station was designed by Isambard Kingdom Brunel in 1854."
+    ],
+    "soul": "A peaceful, affluent oasis where canals meet, characterized by colorful narrowboats and elegant white stucco terraces.",
+    "day2": "Take a canal boat from Little Venice to Camden Lock, or spend the day in Hyde Park.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "ba_t1",
+        "title": "Little Venice Canals",
+        "description": "A highly picturesque junction where the Grand Union and Regent's Canals meet, originally built for industrial transport but now a leisure oasis.",
+        "action": "Walk the towpaths and admire the painted, decorative narrowboats at Brownings Pool.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "ba_t2",
+        "title": "Hyde Park Italian Gardens",
+        "description": "A 150-year-old ornamental water garden located at the head of The Long Water, believed to be a gift from Prince Albert to Queen Victoria.",
+        "action": "Relax by the carved stone urns, classical statues, and symmetric fountains.",
+        "checked": false,
+        "time": "45 mins"
+      },
+      {
+        "id": "ba_t3",
+        "title": "Paddington Station",
+        "description": "Designed by legendary engineer Isambard Kingdom Brunel in 1854, featuring a breathtaking wrought-iron and glass vaulted roof.",
+        "action": "Look up to see the Victorian ironwork spanning the main train platforms.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "ba_t4",
+        "title": "Puppet Theatre Barge",
+        "description": "A highly unique, 50-seat marionette theatre housed entirely inside a converted Thames lighter barge.",
+        "action": "Catch a charming, surprisingly complex marionette show on the water.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "ba_p1",
+        "text": "Brownings Pool (reflection of weeping willows and narrowboats).",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "ba_p2",
+        "text": "Symmetrical fountains and classical statues of the Italian Gardens.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "ba_p3",
+        "text": "The sweeping, white stucco crescents of Leinster Gardens.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "ba_e1",
+        "text": "Darcie & May Green: Colorful canal boats serving Aussie brunch. Brilliant Veg/GF options.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "ba_e2",
+        "text": "Kuro Eatery (Notting Hill Edge): Minimalist spot offering Mediterranean dishes with great care for Veg/GF.",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ]
+  },
+  {
+    "id": "islington",
+    "name": "Islington & Clerkenwell 🕰️",
+    "season": "October. Cozy gastropubs and leaf-strewn canals make for an atmospheric autumn weekend.",
+    "transport": "🚇 Northern Line to Angel or Farringdon.",
+    "funFacts": [
+      "The Regent's Canal goes directly underneath Islington via a 900-metre dark brick tunnel built in 1820.",
+      "Clerkenwell was the historic center of clockmaking in the 18th and 19th centuries.",
+      "The Barbican Estate contains around 2,000 apartments and requires a color-coded line system to navigate its massive concrete maze."
+    ],
+    "soul": "Perfect balance of feisty bohemianism and groomed prosperity. Known for street markets, design agencies, and antique arcades.",
+    "day2": "Explore Museum of the Order of St John, catch a play at Almeida Theatre, or wander the Barbican Centre.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "is_t1",
+        "title": "Camden Passage",
+        "description": "A picturesque, car-free cobblestone alleyway in Islington that has been famous for its concentrated antique markets since the 1960s.",
+        "action": "Hunt for vintage treasures and silverware in the wonky, historic storefronts.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "is_t2",
+        "title": "Exmouth Market",
+        "description": "A vibrant, semi-pedestrianized street in Clerkenwell lined with fairy lights, independent restaurants, and a renowned weekday food market.",
+        "action": "Eat your way through the artisan stalls and grab a coffee at a pavement cafe.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "is_t3",
+        "title": "Islington Tunnel & Canal",
+        "description": "To bypass the hill, the Regent's Canal goes completely pitch black underground for nearly a kilometre via this 1820 tunnel.",
+        "action": "Walk the towpath right up to the dark, eerie entrance of the brick tunnel.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "is_t4",
+        "title": "The Charterhouse",
+        "description": "A historic complex dating back to 1348, having served as a Carthusian monastery, a Tudor mansion, a boys' school, and an almshouse.",
+        "action": "Visit the peaceful ruins, courtyards, and the fascinating free museum.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "is_p1",
+        "text": "The fairy lights and bustling atmosphere of Exmouth Market at dusk.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "is_p2",
+        "text": "Charming, wonky antique storefronts tucked inside Camden Passage.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "is_p3",
+        "text": "The dramatic, brutalist concrete towers of the Barbican Estate.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "is_e1",
+        "text": "The Gate (Islington): Highly creative, 100 percent meat-free menu with excellent, safe GF options.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "is_e2",
+        "text": "Moro (Exmouth Market): Moorish/Mediterranean. Focus on veg and naturally GF ingredients.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "docklands",
+    "name": "Docklands & Canary Wharf 🏙️",
+    "season": "January. Canary Wharf hosts a spectacular Winter Lights festival transforming the estate.",
+    "transport": "🚇 DLR (Docklands Light Railway) or Jubilee/Elizabeth Line to Canary Wharf.",
+    "funFacts": [
+      "The West India Docks once formed the busiest port in the world, filled with rum and sugar from the Caribbean.",
+      "Canary Wharf gets its name from the sea trade with the Canary Islands.",
+      "The DLR trains are fully automated with no driver, allowing you to sit right at the front window."
+    ],
+    "soul": "Historic East India Docks reborn as a futuristic financial district. Contrast between ancient brick and soaring glass.",
+    "day2": "Take the Thames Clipper to the Thames Barrier, or visit Mudchute Park and Farm.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "do_t1",
+        "title": "Museum of London Docklands",
+        "description": "Housed in an incredibly rare, surviving 1802 Georgian sugar warehouse, this museum explores London's history as a global trading port.",
+        "action": "Explore the multi-level exhibits covering trade, slavery, and the Blitz.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "do_t2",
+        "title": "Crossrail Place Roof Garden",
+        "description": "An indoor tropical garden sitting exactly on the Prime Meridian line, dividing plants from the Eastern and Western hemispheres.",
+        "action": "Wander the lush, geometric timber-framed pathways.",
+        "checked": false,
+        "time": "45 mins"
+      },
+      {
+        "id": "do_t3",
+        "title": "West India Docks",
+        "description": "Once the busiest port in the world, the massive water basins are now surrounded by some of Europe's tallest skyscrapers.",
+        "action": "Walk the docks to see preserved historic cranes juxtaposed against modern glass.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "do_t4",
+        "title": "The DLR (Docklands Light Railway)",
+        "description": "A fully automated, driverless light rail network built in 1987 to serve the redeveloping Docklands area.",
+        "action": "Sit right at the front window for a rollercoaster-like view winding through skyscrapers.",
+        "checked": false,
+        "time": "30 mins"
+      }
+    ],
+    "photo": [
+      {
+        "id": "do_p1",
+        "text": "Futuristic Adams Plaza Bridge (famous from Star Wars).",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "do_p2",
+        "text": "Looking straight up at glass skyscrapers reflecting in the water at West India Quay.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "do_p3",
+        "text": "Lush pathways of Crossrail Place Roof Garden framed by geometric timber.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "do_e1",
+        "text": "Mallow (Wood Wharf): 100 percent plant-based, beautifully designed, highly accommodating for GF.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "do_e2",
+        "text": "The Ivy in the Park (Canary Wharf): Vibrant brasserie. Dedicated Veg/GF menus, careful prep.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "brixton",
+    "name": "Brixton & Herne Hill 🎧",
+    "season": "July or August. Vibrant outdoor markets, street music, and lush expanses best in summer.",
+    "transport": "🚇 Victoria Line to Brixton or Southeastern rail to Herne Hill.",
+    "funFacts": [
+      "Electric Avenue in Brixton was the first market street in London to be lit by electricity in the 1880s.",
+      "David Bowie was born in Brixton in 1947.",
+      "Brockwell Lido is an original 1937 Art Deco outdoor swimming pool."
+    ],
+    "soul": "The cultural beating heart of South London. Afro-Caribbean heritage, fierce independence, and incredible music history.",
+    "day2": "Herne Hill Farmers Market, explore Black Cultural Archives, or catch a gig at O2 Academy.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "br_t1",
+        "title": "Brixton Village & Market Row",
+        "description": "Two historic, 1920s covered arcades that were saved from demolition by locals, now housing a staggeringly diverse array of global food and indie boutiques.",
+        "action": "Get lost in the maze, hunting for unique vintage gear and street food.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "br_t2",
+        "title": "David Bowie Memorial",
+        "description": "A striking street mural of Ziggy Stardust painted by artist Jimmy C, dedicated to the legendary musician who was born locally in 1947.",
+        "action": "Pay your respects at the mural, often surrounded by fan tributes.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "br_t3",
+        "title": "Ritzy Picturehouse",
+        "description": "Opened in 1911 as the 'Electric Pavilion', it is one of South London's oldest and most beloved independent cinemas.",
+        "action": "Catch an indie film screening in the grand, restored Edwardian auditorium.",
+        "checked": false,
+        "time": "2.5 hrs"
+      },
+      {
+        "id": "br_t4",
+        "title": "Brockwell Park & Lido",
+        "description": "A sweeping, hilly historic park featuring walled gardens and a Grade II listed, 1930s Art Deco outdoor swimming pool.",
+        "action": "Walk to the top of the park for views, then admire the original architecture of the Lido.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "br_p1",
+        "text": "Electric Avenue at golden hour (historic iron canopies).",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "br_p2",
+        "text": "The colorful, overlapping neon signs inside Brixton Village market.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "br_p3",
+        "text": "Sweeping view of the London skyline from the top of Brockwell Park.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "br_e1",
+        "text": "Senzala Creperie (Brixton Village): French galettes (naturally GF buckwheat) with huge vegetarian menu.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "br_e2",
+        "text": "En Root (Brixton): 100 percent plant-based Indian fusion. Almost everything naturally GF.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "battersea",
+    "name": "Battersea & Clapham ⚡",
+    "season": "September. Perfect for long walks across massive commons and the riverfront.",
+    "transport": "🚇 Northern Line to Clapham Common, or Battersea Power Station.",
+    "funFacts": [
+      "Battersea Power Station once supplied a fifth of Londons electricity and burned 10,000 tonnes of coal a week.",
+      "The iconic pink pig floating over the Power Station on Pink Floyd's 'Animals' album cover broke free and grounded flights at Heathrow.",
+      "Clapham Common has a secret underground WWII bunker where hydroponic herbs are now grown."
+    ],
+    "soul": "Leafy hubs and multi-billion-pound regeneration. The iconic coal power station is Londons newest architectural destination.",
+    "day2": "Take the Lift 109 up the Power Station chimney, or visit Battersea Dogs & Cats Home.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "bat_t1",
+        "title": "Battersea Power Station",
+        "description": "One of the largest brick buildings in the world, this decommissioned coal power plant is a masterpiece of Art Deco industrial design, recently reborn.",
+        "action": "Marvel at the restored brickwork and explore the shops inside the massive Turbine Halls.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "bat_t2",
+        "title": "Battersea Park & Peace Pagoda",
+        "description": "A 200-acre Victorian park hugging the Thames, famous for its fountains, boating lake, and a striking Buddhist pagoda gifted by Japanese monks.",
+        "action": "Walk the Thames Path to the pagoda and watch the river traffic.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "bat_t3",
+        "title": "Clapham Old Town",
+        "description": "A picturesque, village-like enclave that contrasts heavily with the busy high street, featuring well-preserved Georgian architecture and cozy pubs.",
+        "action": "Stroll the quiet residential streets and admire the historic housing stock.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "bat_t4",
+        "title": "Clapham Common",
+        "description": "A vast, 220-acre triangular green space that has been a public common since the Middle Ages, complete with Victorian bandstands.",
+        "action": "Spend an afternoon walking the perimeter and watching local cricket or football matches.",
+        "checked": false,
+        "time": "2 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "bat_p1",
+        "text": "Looking straight up at the four massive chimneys inside the Power Station courtyard.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "bat_p2",
+        "text": "Golden Buddha statues of the Peace Pagoda, framed against the Thames.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "bat_p3",
+        "text": "Colorful, independent shopfronts curving along Abbeville Road in Clapham.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "bat_e1",
+        "text": "Where The Pancakes Are (Power Station): Specific 3-in-1 batter that is GF, dairy-free, and vegan.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "bat_e2",
+        "text": "Megans at the Power Station: Mediterranean spot heavily vegetable-focused, accommodating GF swaps.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "peckham",
+    "name": "Peckham & Camberwell 🏙️",
+    "season": "June. Warm summer evenings required to appreciate rooftop bar culture and outdoor art.",
+    "transport": "🚇 Overground to Peckham Rye or Denmark Hill.",
+    "funFacts": [
+      "Peckham is famous for 'Only Fools and Horses', though the classic British sitcom was largely filmed in Bristol.",
+      "Artist Antony Gormley (creator of the Angel of the North) designed cast-iron bollards for Bellenden Road.",
+      "Camberwell gets its name from a well with reputed healing properties (a 'camber' or crooked well)."
+    ],
+    "soul": "Fiercely creative community hubs. Gritty urban architecture mixed with thriving contemporary art and trendy dining.",
+    "day2": "Catch an indie film at Peckhamplex, walk Peckham Rye Park, or explore Camberwell College of Arts.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "pe_t1",
+        "title": "South London Gallery",
+        "description": "Founded in the 19th century to bring art to the people of South London, it is now an internationally recognized contemporary art space.",
+        "action": "Explore the cutting-edge exhibitions and the beautiful rear garden.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "pe_t2",
+        "title": "Bellenden Road",
+        "description": "The gentrified, artistic artery of Peckham, famous for its independent boutiques, restaurants, and street furniture.",
+        "action": "Walk the road, specifically looking for the unique cast-iron bollards designed by Antony Gormley.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "pe_t3",
+        "title": "Review Bookshop",
+        "description": "A highly beloved, fiercely independent local bookshop that acts as a cultural anchor for the neighborhood's literary scene.",
+        "action": "Browse the quirky, hand-curated stacks and support local booksellers.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "pe_t4",
+        "title": "Peckham Rooftop Culture",
+        "description": "Peckham pioneered the trend of repurposing brutalist multi-storey car parks into sprawling, vibrant community art spaces and bars.",
+        "action": "Take the stairs to the roof of Peckham Levels or Frank's Cafe for a sunset skyline view.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "pe_p1",
+        "text": "Franks Cafe / Peckham Levels: Pink staircases and unobstructed skyline views (summer).",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "pe_p2",
+        "text": "The beautiful, overgrown ruins of the Asylum Chapel in Caroline Gardens.",
+        "checked": false,
+        "time": "30 mins"
+      },
+      {
+        "id": "pe_p3",
+        "text": "Vibrant street art and murals scattered throughout alleys off Rye Lane.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "pe_e1",
+        "text": "Forza Wine (Peckham): Trendy Italian rooftop. Fantastic small plates, highly adept at Veg/GF.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "pe_e2",
+        "text": "Levan (Peckham): Stylish European. Highly creative veg dishes, excellent GF catering.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "dulwich",
+    "name": "Dulwich & Crystal Palace 🦕",
+    "season": "October. Ancient woods and leafy village streets turn gold and red like a countryside retreat.",
+    "transport": "🚇 Overground to Crystal Palace, or Southeastern rail to North Dulwich.",
+    "funFacts": [
+      "Dulwich Picture Gallery was designed by Sir John Soane and is the world's first purpose-built public art gallery.",
+      "The Crystal Palace dinosaurs were built in 1854 and represent the first ever attempt to sculpt life-size extinct animals.",
+      "Dulwich remains so unspoiled because much of it is owned by a single historic charity estate from the 1600s."
+    ],
+    "soul": "Deep South London elegance. Dulwich is a pristine affluent village; Crystal Palace is bohemian with a massive Victorian park.",
+    "day2": "Explore Horniman Museum in Forest Hill (walrus and gardens), or get lost in Crystal Palace maze.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "du_t1",
+        "title": "Dulwich Picture Gallery",
+        "description": "Designed by Sir John Soane in 1811, this is the world's first purpose-built public art gallery, bathed in innovative natural top-lighting.",
+        "action": "Visit the gallery to see masterpieces by Rembrandt, Rubens, and Canaletto.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "du_t2",
+        "title": "Crystal Palace Antiques Market",
+        "description": "The Crystal Palace 'Triangle' is renowned for its bohemian, slightly eccentric collection of sprawling vintage and antique stores.",
+        "action": "Hunt through the multi-level warehouses for mid-century furniture and bizarre oddities.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "du_t3",
+        "title": "Crystal Palace Dinosaurs",
+        "description": "Created in 1854, these are the world's first dinosaur sculptures. They are delightfully historically inaccurate based on modern science.",
+        "action": "Wander the park's waterways to find these towering, eerie Victorian statues hidden in the trees.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "du_t4",
+        "title": "Sydenham Hill Wood",
+        "description": "A unique tract of ancient woodland inside the city, featuring the remains of a Victorian railway line and a ruined folly.",
+        "action": "Take a tranquil walk through the dense canopy to find the abandoned railway tunnel.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ],
+    "photo": [
+      {
+        "id": "du_p1",
+        "text": "Exterior brickwork and lighting enfilades of the Dulwich Picture Gallery.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "du_p2",
+        "text": "Eerie, overgrown Victorian dinosaur statues emerging from trees in the park.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "du_p3",
+        "text": "Sweeping panoramic city views from the top of Crystal Palace hill.",
+        "checked": false,
+        "time": "15 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "du_e1",
+        "text": "Megans in the Hamlet (Dulwich): Rustic space with adaptable Mediterranean menu (great Veg/GF).",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "du_e2",
+        "text": "Brown & Green Cafe (Crystal Palace Park): Community cafe with massive brunch menu (abundant Veg/GF choices).",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ]
+  },
+  {
+    "id": "wimbledon",
+    "name": "Wimbledon & Putney 🎾",
+    "season": "Late June to early July. Buzzes with energy during Tennis Championships, pubs overflow with flowers.",
+    "transport": "🚇 District Line to Wimbledon or Putney Bridge.",
+    "funFacts": [
+      "Wimbledon is the oldest tennis tournament in the world, founded in 1877.",
+      "Wimbledon Common features an original 1817 windmill where Lord Baden-Powell wrote parts of 'Scouting for Boys'.",
+      "The famous Oxford vs Cambridge Boat Race starts its 4-mile course at Putney Bridge every spring."
+    ],
+    "soul": "Leafy, sporty, and upper-crust. A stunning hilltop Village surrounded by massive commons, plus serene riverside rowing.",
+    "day2": "Tour the All England Lawn Tennis Club, visit Buddhapadipa Temple, or explore Richmond Park.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "wi_t1",
+        "title": "Wimbledon Village",
+        "description": "Separated from the busy main town, the 'Village' sits on a hill and retains a pristine, 17th-century rural charm favored by affluent locals.",
+        "action": "Explore the high-end boutiques and stop for a pint at a historic, flower-draped pub.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "wi_t2",
+        "title": "Wimbledon Common & Windmill",
+        "description": "A massive 1,140-acre expanse of wild heathland, ponds, and woods, featuring a fully restored working windmill from 1817.",
+        "action": "Hike or horseback ride across the wilderness to find the isolated windmill museum.",
+        "checked": false,
+        "time": "2 hrs"
+      },
+      {
+        "id": "wi_t3",
+        "title": "Putney Embankment",
+        "description": "The undisputed home of British rowing. This stretch of the Thames is lined with historic boat clubs and is the starting point for the Oxford-Cambridge race.",
+        "action": "Walk the Thames Path, watching the rowing eights practice on the river.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "wi_t4",
+        "title": "Cannizaro Park",
+        "description": "A much-loved, Grade II listed historic park situated behind a luxury hotel, renowned for its ornamental landscaping and rare trees.",
+        "action": "Visit the calm, beautiful walled gardens and the sunken garden.",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ],
+    "photo": [
+      {
+        "id": "wi_p1",
+        "text": "Wimbledon Windmill standing isolated on the wild expanse of the Common.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "wi_p2",
+        "text": "Historic, flower-draped pub facades in Wimbledon Village (Dog & Fox).",
+        "checked": false,
+        "time": "10 mins"
+      },
+      {
+        "id": "wi_p3",
+        "text": "Colorful rowing boats lined up along the Thames at Putney Embankment at sunset.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "wi_e1",
+        "text": "Lu-Ma Cafe (Wimbledon): Health-focused. No red meat/dairy, huge focus on plant-based and GF foods.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "wi_e2",
+        "text": "The Ivy Cafe (Wimbledon Village): Upscale. Dedicated Veg/Vegan menu and a separate GF menu.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  },
+  {
+    "id": "walthamstow",
+    "name": "Walthamstow & The Wetlands 🦢",
+    "season": "November. Early, dark evenings are perfect for Gods Own Junkyard neon lights.",
+    "transport": "🚇 Victoria Line or Overground to Walthamstow Central or Blackhorse Road.",
+    "funFacts": [
+      "Walthamstow Wetlands is Europe's largest urban wetland reserve, supplying water to millions of Londoners.",
+      "William Morris, one of the most significant cultural figures of Victorian Britain, lived in Walthamstow.",
+      "God's Own Junkyard contains the oldest neon sign business in London and props from major Hollywood movies."
+    ],
+    "soul": "Rich Arts & Crafts history meets massive nature reserves and quirky, hyper-modern industrial art spaces.",
+    "day2": "Explore the Blackhorse Beer Mile (street food pop-ups), or visit Queen Elizabeth Olympic Park.",
+    "visitedDate": "",
+    "rating": 0,
+    "notes": "",
+    "todo": [
+      {
+        "id": "wa_t1",
+        "title": "God's Own Junkyard",
+        "description": "A chaotic, eye-popping warehouse packed to the rafters with vintage neon signs, movie props, and disco balls salvaged over decades.",
+        "action": "Grab a drink at their cafe and be completely overwhelmed by the neon glow.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "wa_t2",
+        "title": "Walthamstow Wetlands",
+        "description": "Europe's largest urban wetland reserve. This functioning water reservoir network is a vital sanctuary for migrating birds and local wildlife.",
+        "action": "Hike the pathways between the reservoirs, looking out for the Victorian Engine House.",
+        "checked": false,
+        "time": "2.5 hrs"
+      },
+      {
+        "id": "wa_t3",
+        "title": "William Morris Gallery",
+        "description": "Set in a beautiful 18th-century Georgian house where the famous Arts and Crafts pioneer lived, showcasing his intricate textiles and wallpapers.",
+        "action": "Admire the revolutionary floral prints and original weaving looms on display.",
+        "checked": false,
+        "time": "1.5 hrs"
+      },
+      {
+        "id": "wa_t4",
+        "title": "Walthamstow Village (Orford Road)",
+        "description": "A fiercely protected, pedestrianized pocket of E17 that retains a deeply historic, village feel despite the surrounding urbanization.",
+        "action": "Stroll down Orford Road, popping into the high-end independent delis and shops.",
+        "checked": false,
+        "time": "1 hr"
+      }
+    ],
+    "photo": [
+      {
+        "id": "wa_p1",
+        "text": "Sensory overload of neon lights inside Gods Own Junkyard.",
+        "checked": false,
+        "time": "20 mins"
+      },
+      {
+        "id": "wa_p2",
+        "text": "The Engine House at Wetlands, with its Victorian chimney reflected in water.",
+        "checked": false,
+        "time": "15 mins"
+      },
+      {
+        "id": "wa_p3",
+        "text": "Intricate Arts and Crafts wallpaper patterns preserved inside William Morris Gallery.",
+        "checked": false,
+        "time": "20 mins"
+      }
+    ],
+    "eat": [
+      {
+        "id": "wa_e1",
+        "text": "Wood St Coffee (Walthamstow): Excellent indie brunch. Great vegetarian dishes with easy GF bread swaps.",
+        "checked": false,
+        "time": "1 hr"
+      },
+      {
+        "id": "wa_e,2",
+        "text": "The Bell (Walthamstow): Massive gastropub. Fantastic Sunday roasts with dedicated Vegan and GF alternatives.",
+        "checked": false,
+        "time": "1.5 hrs"
+      }
+    ]
+  }
 ]
