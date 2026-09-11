@@ -1,539 +1,653 @@
-const { useState, useEffect, useMemo, useRef } = React;
-
-const initialData = [
-  {
-    id: 'greenwich', name: 'Greenwich ⛵',
-    season: 'October. The autumn foliage in Greenwich Park against the backdrop of the city skyline is stunning.',
-    transport: '🚆 DLR to Cutty Sark or Greenwich Station. ⛴️ Uber Boat (Thames Clipper) to Greenwich Pier.',
-    funFacts: [
-      "Greenwich Mean Time (GMT) was globally adopted here in 1884 to sync ship navigation.",
-      "The Painted Hall took 19 years to complete and is often called the Sistine Chapel of the UK.",
-      "The Cutty Sark was once the fastest ship in the world, bringing tea back from China."
-    ],
-    soul: 'The maritime epicentre of Britain, a royal birthplace, and the historic home of time. It feels like a grand, nautical village completely removed from the frantic energy of central London.',
-    day2: 'Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography.',
-    visitedDate: '', rating: 0, notes: '',
-    todo: [
-      { 
-        id: 'g_t1', 
-        title: 'Old Royal Naval College', 
-        description: 'A masterpiece of baroque architecture by Sir Christopher Wren, the birthplace of Tudor monarchs like Henry VIII and Elizabeth I, and a major filming location for Hollywood movies.', 
-        action: 'Do not miss the breathtaking Painted Hall.', 
-        photoTip: 'The Painted Hall ceiling (a wide-angle lens is highly recommended here) and the symmetrical colonnades.',
-        checked: false, 
-        time: '1.5 hrs' 
-      },
-      { 
-        id: 'g_t2', 
-        title: 'Royal Observatory', 
-        description: 'The historic home of British astronomy, established in the 17th century to solve the problem of determining longitude at sea.', 
-        action: 'Stand on the Prime Meridian line with one foot in the eastern hemisphere and one in the west.', 
-        photoTip: 'Capture the Queens House with Canary Wharf glowing behind it from the hill viewpoint.',
-        checked: false, 
-        time: '1 hr' 
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London Weekend Explorer</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'media',
       }
-    ],
-    eat: [
-      { 
-        id: 'g_e1', 
-        title: 'Arapina Bakery', 
-        description: 'Cozy artisan bakery located near Greenwich Market specializing in healthy treats.', 
-        mustTry: 'Plant-based artisan pastries and gluten-free almond cakes with oat milk lattes.', 
-        checked: false, 
-        time: '30 mins' 
-      }
-    ]
-  }
-];
+    </script>
+    
+    <!-- React and Babel CDNs -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-const seasonKeywords = {
-  'Spring': ['march', 'april', 'may', 'spring'],
-  'Summer': ['june', 'july', 'august', 'summer'],
-  'Autumn': ['september', 'october', 'november', 'autumn', 'fall'],
-  'Winter': ['december', 'january', 'february', 'winter']
-};
+    <style>
+        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-[#F4F5F8] dark:bg-gray-950 text-gray-900 dark:text-gray-100 font-sans pb-16 selection:bg-indigo-200 dark:selection:bg-indigo-500 transition-colors duration-300 h-full">
+    <div id="root"></div>
 
-const StarRating = ({ rating, onChange, readOnly = false }) => {
-  return (
-    <div className="flex space-x-1">
-      {[1, 2, 3, 4, 5].map(star => (
-        <svg
-          key={star}
-          onClick={() => !readOnly && onChange(star)}
-          className={`w-7 h-7 ${readOnly ? '' : 'cursor-pointer hover:scale-110 hover:-translate-y-1'} transition-all duration-300 ${star <= rating ? 'text-amber-500 dark:text-amber-400 drop-shadow-md' : 'text-gray-300 dark:text-gray-700'}`}
-          fill="currentColor"
-          viewBox="0 0 20 20"
-        >
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-        </svg>
-      ))}
-    </div>
-  );
-};
+    <script type="text/babel">
+        const { useState, useEffect, useMemo, useRef } = React;
 
-const ChecklistItem = ({ item, onToggle, areaName, isEatery = false }) => {
-  const mapQuery = useMemo(() => {
-    let baseText = item.title || item.text;
-    let queryText = baseText.split(/[:\.\(]/)[0].trim();
-    queryText = queryText.replace(/^(Explore|Wander|Walk|Visit|Marvel at|Hunt for|Browse|Catch|See|Relax in|Get lost in|Walk around|Watch|Take|Pay respects at|Spend an afternoon|Be overwhelmed by|Eat your way through|Stroll|Hike|Tour|Discover)\s+/i, '');
-    const cleanAreaName = areaName.replace(/[\u{1F600}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F300}-\u{1F5FF}\u{1F900}-\u{1F9FF}\u{1FA70}-\u{1FAFF}]/gu, '').trim();
-    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryText + ', ' + cleanAreaName + ', London')}`;
-  }, [item.title, item.text, areaName]);
+        const initialData = [
+          {
+            id: 'greenwich', name: 'Greenwich ⛵',
+            season: 'October. The autumn foliage in Greenwich Park against the backdrop of the city skyline is stunning.',
+            transport: '🚆 DLR to Cutty Sark or Greenwich Station. ⛴️ Uber Boat (Thames Clipper) to Greenwich Pier.',
+            soul: 'The maritime epicentre of Britain, a royal birthplace, and the historic home of time. It feels like a grand, nautical village completely removed from the frantic energy of central London.',
+            day2: 'Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography.',
+            visitedDate: '', rating: 0, notes: '',
+            todo: [
+              { 
+                id: 'g_t1', 
+                title: 'Old Royal Naval College', 
+                description: 'A masterpiece of baroque architecture by Sir Christopher Wren, the birthplace of Tudor monarchs like Henry VIII and Elizabeth I, and a major filming location for Hollywood movies.', 
+                action: 'Do not miss the breathtaking Painted Hall.', 
+                photoTip: 'The Painted Hall ceiling (a wide-angle lens is highly recommended here) and the symmetrical colonnades.',
+                checked: false, 
+                time: '1.5 hrs' 
+              },
+              { 
+                id: 'g_t2', 
+                title: 'Royal Observatory', 
+                description: 'The historic home of British astronomy, established in the 17th century to solve the problem of determining longitude at sea.', 
+                action: 'Stand on the Prime Meridian line with one foot in the eastern hemisphere and one in the west.', 
+                photoTip: 'Capture the Queens House with Canary Wharf glowing behind it from the hill viewpoint.',
+                checked: false, 
+                time: '1 hr' 
+              },
+              { 
+                id: 'g_t3', 
+                title: 'Greenwich Market', 
+                description: 'Established in 1730, this covered market is housed in a classic Victorian iron-and-glass structure.', 
+                action: 'Browse for unique local arts, crafts, and grab some artisanal street food.', 
+                checked: false, 
+                time: '45 mins' 
+              },
+              { 
+                id: 'g_t4', 
+                title: 'Cutty Sark', 
+                description: "The world's sole surviving extreme tea clipper, famous for racing across the globe to bring fresh tea crops from China to London.", 
+                action: 'Walk directly beneath the gleaming copper hull in the dry dock.', 
+                checked: false, 
+                time: '45 mins' 
+              }
+            ],
+            eat: [
+              { 
+                id: 'g_e1', 
+                title: 'Arapina Bakery', 
+                description: 'Cozy artisan bakery located near Greenwich Market specializing in healthy treats.', 
+                mustTry: 'Plant-based artisan pastries and gluten-free almond cakes with oat milk lattes.', 
+                checked: false, 
+                time: '30 mins' 
+              },
+              { 
+                id: 'g_e2', 
+                title: 'Prince of Greenwich Pub', 
+                description: 'Quirky Victorian corner pub with eccentric maximalist decor and a warm atmosphere.', 
+                mustTry: 'Wood-fired vegetarian and gluten-free pizzas in a historic setting.', 
+                checked: false, 
+                time: '1.5 hrs' 
+              }
+            ]
+          },
+          {
+            id: 'hampstead', name: 'Hampstead & Highgate 📜',
+            season: 'November (for crisp, moody fog and autumn leaves) or May (to capture blooming wisteria).',
+            transport: '🚆 Northern Line to Hampstead (steepest lift in London) or Highgate.',
+            soul: 'An intellectual and literary haven that feels like a rural 18th-century English village perched on a hill.',
+            day2: 'Explore Highgate Village, Waterlow Park, and take the full architectural tour of Highgate West Cemetery.',
+            visitedDate: '', rating: 0, notes: '',
+            todo: [
+              { 
+                id: 'h_t1', 
+                title: 'Hampstead Heath', 
+                description: 'An ancient, sprawling 790-acre parkland that inspired authors like C.S. Lewis. It remains deliberately wild and untamed compared to London\'s manicured Royal Parks.', 
+                action: 'Get lost in the wild woods, meadows, and spot the famous swimming ponds.', 
+                photoTip: 'Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.',
+                checked: false, 
+                time: '2 hrs' 
+              },
+              { 
+                id: 'h_t2', 
+                title: 'Flask Walk & The Village', 
+                description: "A perfectly preserved Victorian pedestrian alleyway that captures the essence of Hampstead's literary, village-like history.", 
+                action: 'Wander the cobbled streets, looking at vintage shopfronts and antique stores.', 
+                photoTip: 'Flask Walk, with its picturesque vintage shopfronts and cobbled streets.',
+                checked: false, 
+                time: '1 hr' 
+              },
+              { 
+                id: 'h_t3', 
+                title: 'Kenwood House', 
+                description: 'A breathtaking neoclassical stately home on the edge of the Heath, containing a world-class art collection including works by Rembrandt and Vermeer.', 
+                action: 'Explore the grand library and view the free art exhibitions.', 
+                checked: false, 
+                time: '1.5 hrs' 
+              },
+              { 
+                id: 'h_t4', 
+                title: 'Highgate Cemetery', 
+                description: "One of London's 'Magnificent Seven' Victorian burial grounds, famous for its overgrown, gothic romance architecture.", 
+                action: 'Take the guided tour of the West Cemetery to see the Egyptian Avenue.', 
+                photoTip: 'The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.',
+                checked: false, 
+                time: '1.5 hrs' 
+              }
+            ],
+            eat: [
+              { 
+                id: 'h_e1', 
+                title: 'The Swing', 
+                description: 'Vegetable-focused casual restaurant located in West Hampstead with vibrant small plates.', 
+                mustTry: 'Seasonal vegan small plates and clearly marked gluten-free tapas options.', 
+                checked: false, 
+                time: '1 hr' 
+              },
+              { 
+                id: 'h_e2', 
+                title: 'The Holly Bush', 
+                description: 'Historic, Grade II listed 18th-century pub tucked away down a charming village alleyway.', 
+                mustTry: 'Famous vegetarian nut roast and naturally gluten-free pub classics.', 
+                checked: false, 
+                time: '1.5 hrs' 
+              }
+            ]
+          }
+        ];
 
-  return (
-    <div className={`flex flex-col p-5 mb-4 rounded-3xl transition-all duration-300 border ${item.checked ? 'bg-gray-100 dark:bg-gray-900/40 opacity-75 border-transparent' : 'bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-800 shadow-xs hover:shadow-md'}`}>
-      <div className="w-full">
-        {item.title ? (
-          <div>
-            <strong className={`block text-[19px] font-bold mb-2.5 ${item.checked ? 'line-through text-gray-500 dark:text-gray-500' : 'text-gray-900 dark:text-gray-100'}`}>{item.title}</strong>
-            {item.description && <span className={`block text-[16px] leading-relaxed mb-3 font-normal ${item.checked ? 'line-through opacity-70' : 'text-gray-700 dark:text-gray-300'}`}>{item.description}</span>}
-            
-            {item.action && (
-              <div className="my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200">
-                <span className="flex-shrink-0 mr-3 text-base">👉</span>
-                <div className="pl-3.5 border-l-2 border-indigo-500 dark:border-indigo-400">
-                  <span className={item.checked ? 'line-through opacity-70' : ''}>{item.action}</span>
-                </div>
-              </div>
-            )}
-            
-            {item.photoTip && (
-              <div className="my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200">
-                <span className="flex-shrink-0 mr-3 text-base">📸</span>
-                <div className="pl-3.5 border-l-2 border-emerald-500 dark:border-emerald-400">
-                  <span className={item.checked ? 'line-through opacity-70' : ''}>{item.photoTip}</span>
-                </div>
-              </div>
-            )}
-            
-            {item.mustTry && (
-              <div className="my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200">
-                <span className="flex-shrink-0 mr-3 text-base">🍽️</span>
-                <div className="pl-3.5 border-l-2 border-amber-500 dark:border-amber-400">
-                  <span className={item.checked ? 'line-through opacity-70' : ''}>{item.mustTry}</span>
-                </div>
-              </div>
-            )}
-          </div>
-        ) : (
-          <span className={`text-[16px] leading-relaxed font-normal ${item.checked ? 'line-through text-gray-500' : 'text-gray-900 dark:text-gray-100'}`}>{item.text}</span>
-        )}
-      </div>
+        const seasonKeywords = {
+          'Spring': ['march', 'april', 'may', 'spring'],
+          'Summer': ['june', 'july', 'august', 'summer'],
+          'Autumn': ['september', 'october', 'november', 'autumn', 'fall'],
+          'Winter': ['december', 'january', 'february', 'winter']
+        };
 
-      <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-800 flex items-center justify-between text-sm font-semibold">
-        <button 
-          onClick={() => onToggle(item.id)}
-          className={`inline-flex items-center space-x-2 px-4 py-2 rounded-xl transition-all duration-300 border ${item.checked ? 'bg-indigo-600 text-white border-transparent' : 'bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-700 hover:border-indigo-600'}`}
-        >
-          <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors ${item.checked ? 'bg-white text-indigo-600' : 'bg-white dark:bg-gray-900 border border-gray-400 dark:border-gray-600'}`}>
-            {item.checked && (
-              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
-            )}
-          </div>
-          <span>Done</span>
-        </button>
-
-        <div className="flex items-center space-x-2">
-          {item.time && (
-            <span className="text-sky-900 dark:text-sky-300 bg-sky-100 dark:bg-sky-950/60 px-3 py-1 rounded-lg border border-sky-300 dark:border-sky-800/40 text-xs font-semibold">
-              ⏱️ {item.time}
-            </span>
-          )}
-          <a 
-            href={mapQuery} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="inline-flex items-center space-x-1 text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-800 hover:bg-indigo-100 dark:hover:bg-indigo-950/60 hover:text-indigo-600 dark:hover:text-indigo-300 px-3 py-1 rounded-lg transition-colors border border-gray-300 dark:border-gray-700 text-xs font-semibold"
-          >
-            <span>🗺️</span>
-            <span>Maps</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const ChecklistGroup = ({ title, items, icon, onToggle, areaName, isEatery = false }) => {
-  if (!items || items.length === 0) return null;
-  return (
-    <div className="mb-8 last:mb-0">
-      <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-gray-100 mb-4 px-1">
-        <span className="mr-3 p-2 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 rounded-xl shadow-xs">{icon}</span>
-        {title}
-      </h3>
-      <div>
-        {items.map((item) => (
-          <ChecklistItem 
-            key={item.id} 
-            item={item} 
-            onToggle={onToggle}
-            areaName={areaName}
-            isEatery={isEatery}
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
-
-function LondonExplorerApp() {
-  const [areas, setAreas] = useState([]);
-  const [currentView, setCurrentView] = useState('list');
-  const [activeAreaId, setActiveAreaId] = useState(null);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedSeason, setSelectedSeason] = useState('All');
-  const trackerRef = useRef(null);
-
-  useEffect(() => {
-    const loadData = async () => {
-      const savedData = localStorage.getItem('londonWeekendTrackerDataV35');
-      const parsedData = savedData ? JSON.parse(savedData) : null;
-      
-      if (parsedData && parsedData.length > 2) {
-        setAreas(parsedData);
-        return;
-      }
-
-      try {
-        const response = await fetch('./london_data.json');
-        if (!response.ok) throw new Error('Network response was not ok');
-        let jsonData = await response.json();
-        setAreas(jsonData);
-        localStorage.setItem('londonWeekendTrackerDataV35', JSON.stringify(jsonData));
-      } catch (error) {
-        console.warn("Could not load external JSON. Falling back to sample data.", error);
-        setAreas(initialData);
-        localStorage.setItem('londonWeekendTrackerDataV35', JSON.stringify(initialData));
-      }
-    };
-    loadData();
-  }, []);
-
-  useEffect(() => {
-    if (areas.length > 0) {
-      localStorage.setItem('londonWeekendTrackerDataV35', JSON.stringify(areas));
-    }
-  }, [areas]);
-
-  const updateArea = (areaId, field, value) => {
-    setAreas(prev => prev.map(a => a.id === areaId ? { ...a, [field]: value } : a));
-  };
-
-  const toggleCheck = (areaId, category, itemId) => {
-    setAreas(prev => prev.map(a => {
-      if (a.id !== areaId) return a;
-      return {
-        ...a,
-        [category]: a[category].map(item => item.id === itemId ? { ...item, checked: !item.checked } : item)
-      };
-    }));
-  };
-
-  const openDetail = (id) => {
-    setActiveAreaId(id);
-    setCurrentView('detail');
-    window.scrollTo(0, 0);
-  };
-
-  const goBack = () => {
-    setCurrentView('list');
-    setActiveAreaId(null);
-    window.scrollTo(0, 0);
-  };
-
-  const scrollToTracker = () => {
-    if (trackerRef.current) {
-      trackerRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
-  const filteredAreas = useMemo(() => {
-    return areas.filter(area => {
-      const lowerSearch = searchTerm.toLowerCase();
-      const matchesSearch = !searchTerm || 
-        area.name.toLowerCase().includes(lowerSearch) || 
-        area.soul.toLowerCase().includes(lowerSearch) ||
-        area.season.toLowerCase().includes(lowerSearch);
-
-      let matchesSeason = true;
-      if (selectedSeason !== 'All') {
-        const keywords = seasonKeywords[selectedSeason];
-        const lowerAreaSeason = area.season.toLowerCase();
-        matchesSeason = keywords.some(kw => lowerAreaSeason.includes(kw));
-      }
-
-      return matchesSearch && matchesSeason;
-    });
-  }, [areas, searchTerm, selectedSeason]);
-
-  const activeArea = areas.find(a => a.id === activeAreaId);
-  const visitedCount = areas.filter(a => a.visitedDate !== '' || a.rating > 0).length;
-
-  if (currentView === 'list') {
-    return (
-      <div className="min-h-screen bg-[#F4F5F8] dark:bg-gray-950 font-sans pb-16 selection:bg-indigo-200 dark:selection:bg-indigo-500 transition-colors duration-300">
-        <header className="bg-[#F4F5F8] dark:bg-gray-950 text-gray-900 dark:text-white px-6 pt-8 pb-4 sticky top-0 z-10">
-          <div className="max-w-3xl mx-auto flex justify-between items-end">
-            <div>
-              <h1 className="text-3xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-600 dark:from-indigo-400 dark:to-pink-400">🇬🇧 London Explorer</h1>
-              <p className="text-indigo-600 dark:text-indigo-400 text-xs mt-1 font-bold tracking-widest uppercase">✨ Weekend Series Tracker</p>
-            </div>
-            <div className="text-right">
-              <span className="block text-3xl font-black text-black dark:text-white">{visitedCount}<span className="text-lg text-gray-500 dark:text-gray-400">/{areas.length}</span></span>
-              <span className="text-xs text-gray-600 dark:text-gray-400 uppercase font-black tracking-widest">Visited</span>
-            </div>
-          </div>
-        </header>
-
-        <div className="max-w-3xl mx-auto px-4 mt-2">
-          <div className="relative mb-4 group">
-            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-               <span className="text-lg">🔍</span>
-            </div>
-            <input 
-              type="text" 
-              placeholder="Search neighbourhoods, vibes, or seasons..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-12 pr-4 py-3.5 bg-white dark:bg-gray-900 text-gray-900 dark:text-white rounded-2xl font-bold placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:focus:ring-indigo-500 shadow-sm transition-all border border-gray-300 dark:border-gray-800"
-            />
-          </div>
-
-          <div className="flex space-x-2 overflow-x-auto pb-6 scrollbar-hide">
-            {[
-              { name: 'All', emoji: '🌍' },
-              { name: 'Spring', emoji: '🌸' },
-              { name: 'Summer', emoji: '☀️' },
-              { name: 'Autumn', emoji: '🍂' },
-              { name: 'Winter', emoji: '❄️' }
-            ].map(({name, emoji}) => (
-              <button
-                key={name}
-                onClick={() => setSelectedSeason(name)}
-                className={`px-4 py-2 rounded-full whitespace-nowrap text-sm font-bold transition-all duration-300 flex items-center space-x-1.5 ${
-                  selectedSeason === name 
-                  ? 'bg-indigo-600 text-white shadow-md transform hover:scale-105' 
-                  : 'bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 border border-gray-300 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800'
-                }`}
-              >
-                <span>{emoji}</span>
-                <span>{name}</span>
-              </button>
-            ))}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {filteredAreas.length === 0 && (
-              <div className="col-span-1 sm:col-span-2 text-center py-12 text-gray-600 dark:text-gray-400 font-bold">
-                No neighbourhoods match your search. 🕵️‍♂️
-              </div>
-            )}
-            
-            {filteredAreas.map(area => {
-              const isVisited = area.visitedDate !== '' || area.rating > 0;
-              const todoList = area.todo || [];
-
-              return (
-                <div 
-                  key={area.id} 
-                  onClick={() => openDetail(area.id)}
-                  className={`bg-white dark:bg-gray-900 rounded-3xl p-5 cursor-pointer transition-all duration-300 hover:-translate-y-1 relative overflow-hidden group flex flex-col justify-between border ${isVisited ? 'border-emerald-600 dark:border-emerald-500/60 bg-emerald-50/50 dark:bg-emerald-950/20 shadow-md' : 'border-gray-300 dark:border-gray-800 shadow-xs hover:shadow-lg'}`}
+        const StarRating = ({ rating, onChange, readOnly = false }) => {
+          return (
+            <div className="flex space-x-1">
+              {[1, 2, 3, 4, 5].map(star => (
+                <svg
+                  key={star}
+                  onClick={() => !readOnly && onChange(star)}
+                  className={`w-7 h-7 ${readOnly ? '' : 'cursor-pointer hover:scale-110 hover:-translate-y-1'} transition-all duration-300 ${star <= rating ? 'text-[#D97706] dark:text-[#FBBF24] drop-shadow-md' : 'text-gray-300 dark:text-gray-700'}`}
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
                 >
-                  {isVisited && (
-                    <div className="absolute top-0 right-0 bg-emerald-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-bl-2xl shadow-xs z-10">
-                      ✅ Visited
-                    </div>
-                  )}
-                  
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              ))}
+            </div>
+          );
+        };
+
+        const ChecklistItem = ({ item, onToggle, areaName, isEatery = false }) => {
+          const mapQuery = useMemo(() => {
+            let baseText = item.title || item.text;
+            let queryText = baseText.split(/[:\.\(]/)[0].trim();
+            queryText = queryText.replace(/^(Explore|Wander|Walk|Visit|Marvel at|Hunt for|Browse|Catch|See|Relax in|Get lost in|Walk around|Watch|Take|Pay respects at|Spend an afternoon|Be overwhelmed by|Eat your way through|Stroll|Hike|Tour|Discover)\s+/i, '');
+            const cleanAreaName = areaName.replace(/[\u{1F600}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F300}-\u{1F5FF}\u{1F900}-\u{1F9FF}\u{1FA70}-\u{1FAFF}]/gu, '').trim();
+            return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryText + ', ' + cleanAreaName + ', London')}`;
+          }, [item.title, item.text, areaName]);
+
+          return (
+            <div className={`flex flex-col p-5 mb-4 rounded-3xl transition-all duration-300 border ${item.checked ? 'bg-gray-100 dark:bg-gray-900/40 opacity-75 border-transparent' : 'bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-800 shadow-xs hover:shadow-md'}`}>
+              <div className="w-full">
+                {item.title ? (
                   <div>
-                    <h2 className="text-[19px] font-bold text-gray-900 dark:text-white pr-10 mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">{area.name}</h2>
-                    <p className="text-[15px] text-gray-700 dark:text-gray-300 line-clamp-2 leading-relaxed font-normal">
-                      {area.soul}
-                    </p>
-                  </div>
-                  
-                  <div className="flex justify-between items-end mt-5 pt-3 border-t border-gray-200 dark:border-gray-800">
-                    <div>
-                      <span className="block text-[11px] font-black uppercase tracking-wider text-gray-600 dark:text-gray-400 mb-1.5">Things to Do</span>
-                      <div className="flex items-center space-x-1.5 flex-wrap gap-y-1">
-                        {todoList.map((item, idx) => (
-                          <div 
-                            key={item.id || idx}
-                            className={`w-3.5 h-3.5 rounded-full transition-all duration-300 ${item.checked ? 'bg-indigo-600 dark:bg-indigo-400 scale-110 shadow-xs' : 'bg-gray-300 dark:bg-gray-800 border border-gray-400 dark:border-gray-700'}`}
-                            title={`Task ${idx + 1}: ${item.checked ? 'Completed' : 'Pending'}`}
-                          />
-                        ))}
+                    <strong className={`block text-[19px] font-bold mb-2.5 ${item.checked ? 'line-through text-gray-500 dark:text-gray-500' : 'text-gray-900 dark:text-gray-100'}`}>{item.title}</strong>
+                    {item.description && <span className={`block text-[16px] leading-relaxed mb-3 font-normal ${item.checked ? 'line-through opacity-70' : 'text-gray-700 dark:text-gray-300'}`}>{item.description}</span>}
+                    
+                    {item.action && (
+                      <div className={`my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 ${item.checked ? 'opacity-60' : ''}`}>
+                        <span className="flex-shrink-0 mr-3 text-base">👉</span>
+                        <div className="pl-3.5 border-l-2 border-indigo-500 dark:border-indigo-400">
+                          <span className="font-normal">{item.action}</span>
+                        </div>
                       </div>
+                    )}
+                    
+                    {item.photoTip && (
+                      <div className={`my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 ${item.checked ? 'opacity-60' : ''}`}>
+                        <span className="flex-shrink-0 mr-3 text-base">📸</span>
+                        <div className="pl-3.5 border-l-2 border-emerald-500 dark:border-emerald-400">
+                          <span className="font-normal">{item.photoTip}</span>
+                        </div>
+                      </div>
+                    )}
+                    
+                    {item.mustTry && (
+                      <div className={`my-2.5 flex items-start text-[15px] leading-relaxed text-gray-800 dark:text-gray-200 ${item.checked ? 'opacity-60' : ''}`}>
+                        <span className="flex-shrink-0 mr-3 text-base">🍽️</span>
+                        <div className="pl-3.5 border-l-2 border-amber-500 dark:border-amber-400">
+                          <span className="font-normal">{item.mustTry}</span>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <span className={`text-[16px] leading-relaxed font-normal ${item.checked ? 'line-through text-gray-500' : 'text-gray-900 dark:text-gray-100'}`}>{item.text}</span>
+                )}
+              </div>
+
+              <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-800 flex items-center justify-between text-sm font-semibold">
+                <button 
+                  onClick={() => onToggle(item.id)}
+                  className={`inline-flex items-center space-x-2 px-4 py-2 rounded-xl transition-all duration-300 border ${item.checked ? 'bg-indigo-600 text-white border-transparent' : 'bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-700 hover:border-indigo-600'}`}
+                >
+                  <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors ${item.checked ? 'bg-white text-indigo-600' : 'bg-white dark:bg-gray-900 border border-gray-400 dark:border-gray-600'}`}>
+                    {item.checked && (
+                      <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                    )}
+                  </div>
+                  <span>Done</span>
+                </button>
+
+                <div className="flex items-center space-x-2">
+                  {item.time && (
+                    <span className="text-sky-900 dark:text-sky-300 bg-sky-100 dark:bg-sky-950/60 px-3 py-1 rounded-lg border border-sky-300 dark:border-sky-800/40 text-xs font-semibold">
+                      ⏱️ {item.time}
+                    </span>
+                  )}
+                  <a 
+                    href={mapQuery} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center space-x-1 text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-800 hover:bg-indigo-100 dark:hover:bg-indigo-950/60 hover:text-indigo-600 dark:hover:text-indigo-300 px-3 py-1 rounded-lg transition-colors border border-gray-300 dark:border-gray-700 text-xs font-semibold"
+                  >
+                    <span>🗺️</span>
+                    <span>Maps</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          );
+        };
+
+        const ChecklistGroup = ({ title, items, icon, onToggle, areaName, isEatery = false }) => {
+          if (!items || items.length === 0) return null;
+          return (
+            <div className="mb-8 last:mb-0">
+              <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-gray-100 mb-4 px-1">
+                <span className="mr-3 p-2 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 rounded-xl shadow-xs">{icon}</span>
+                {title}
+              </h3>
+              <div>
+                {items.map((item) => (
+                  <ChecklistItem 
+                    key={item.id} 
+                    item={item} 
+                    onToggle={onToggle}
+                    areaName={areaName}
+                    isEatery={isEatery}
+                  />
+                ))}
+              </div>
+            </div>
+          );
+        };
+
+        function LondonExplorerApp() {
+          const [areas, setAreas] = useState([]);
+          const [currentView, setCurrentView] = useState('list');
+          const [activeAreaId, setActiveAreaId] = useState(null);
+          const [searchTerm, setSearchTerm] = useState('');
+          const [selectedSeason, setSelectedSeason] = useState('All');
+          const trackerRef = useRef(null);
+
+          useEffect(() => {
+            const loadData = async () => {
+              const savedData = localStorage.getItem('londonWeekendTrackerDataV39');
+              const parsedData = savedData ? JSON.parse(savedData) : null;
+              
+              if (parsedData && parsedData.length > 0) {
+                setAreas(parsedData);
+                return;
+              }
+
+              try {
+                const response = await fetch('./london_data.json');
+                if (!response.ok) throw new Error('Network response was not ok');
+                let jsonData = await response.json();
+                setAreas(jsonData);
+                localStorage.setItem('londonWeekendTrackerDataV39', JSON.stringify(jsonData));
+              } catch (error) {
+                console.warn("Could not load external JSON. Falling back to sample data.", error);
+                setAreas(initialData);
+                localStorage.setItem('londonWeekendTrackerDataV39', JSON.stringify(initialData));
+              }
+            };
+            loadData();
+          }, []);
+
+          useEffect(() => {
+            if (areas.length > 0) {
+              localStorage.setItem('londonWeekendTrackerDataV39', JSON.stringify(areas));
+            }
+          }, [areas]);
+
+          const updateArea = (areaId, field, value) => {
+            setAreas(prev => prev.map(a => a.id === areaId ? { ...a, [field]: value } : a));
+          };
+
+          const toggleCheck = (areaId, category, itemId) => {
+            setAreas(prev => prev.map(a => {
+              if (a.id !== areaId) return a;
+              return {
+                ...a,
+                [category]: a[category].map(item => item.id === itemId ? { ...item, checked: !item.checked } : item)
+              };
+            }));
+          };
+
+          const openDetail = (id) => {
+            setActiveAreaId(id);
+            setCurrentView('detail');
+            window.scrollTo(0, 0);
+          };
+
+          const goBack = () => {
+            setCurrentView('list');
+            setActiveAreaId(null);
+            window.scrollTo(0, 0);
+          };
+
+          const scrollToTracker = () => {
+            if (trackerRef.current) {
+              trackerRef.current.scrollIntoView({ behavior: 'smooth' });
+            }
+          };
+
+          const filteredAreas = useMemo(() => {
+            return areas.filter(area => {
+              const lowerSearch = searchTerm.toLowerCase();
+              const matchesSearch = !searchTerm || 
+                area.name.toLowerCase().includes(lowerSearch) || 
+                area.soul.toLowerCase().includes(lowerSearch) ||
+                area.season.toLowerCase().includes(lowerSearch);
+
+              let matchesSeason = true;
+              if (selectedSeason !== 'All') {
+                const keywords = seasonKeywords[selectedSeason];
+                const lowerAreaSeason = area.season.toLowerCase();
+                matchesSeason = keywords.some(kw => lowerAreaSeason.includes(kw));
+              }
+
+              return matchesSearch && matchesSeason;
+            });
+          }, [areas, searchTerm, selectedSeason]);
+
+          const activeArea = areas.find(a => a.id === activeAreaId);
+          const visitedCount = areas.filter(a => a.visitedDate !== '' || a.rating > 0).length;
+
+          if (currentView === 'list') {
+            return (
+              <div className="min-h-screen bg-[#F4F5F8] dark:bg-gray-950 font-sans pb-16 selection:bg-indigo-200 dark:selection:bg-indigo-500 transition-colors duration-300">
+                <header className="bg-[#F4F5F8] dark:bg-gray-950 text-gray-900 dark:text-white px-6 pt-8 pb-4 sticky top-0 z-10">
+                  <div className="max-w-3xl mx-auto flex justify-between items-end">
+                    <div>
+                      <h1 className="text-3xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-600 dark:from-indigo-400 dark:to-pink-400">🇬🇧 London Explorer</h1>
+                      <p className="text-indigo-600 dark:text-indigo-400 text-xs mt-1 font-bold tracking-widest uppercase">✨ Weekend Series Tracker</p>
+                    </div>
+                    <div className="text-right">
+                      <span className="block text-3xl font-black text-black dark:text-white">{visitedCount}<span className="text-lg text-gray-500 dark:text-gray-400">/{areas.length}</span></span>
+                      <span className="text-xs text-gray-600 dark:text-gray-400 uppercase font-black tracking-widest">Visited</span>
+                    </div>
+                  </div>
+                </header>
+
+                <div className="max-w-3xl mx-auto px-4 mt-2">
+                  <div className="relative mb-4 group">
+                    <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                       <span className="text-lg">🔍</span>
+                    </div>
+                    <input 
+                      type="text" 
+                      placeholder="Search neighbourhoods, vibes, or seasons..."
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      className="w-full pl-12 pr-4 py-3.5 bg-white dark:bg-gray-900 text-gray-900 dark:text-white rounded-2xl font-bold placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:focus:ring-indigo-500 shadow-sm transition-all border border-gray-300 dark:border-gray-800"
+                    />
+                  </div>
+
+                  <div className="flex space-x-2 overflow-x-auto pb-6 scrollbar-hide">
+                    {[
+                      { name: 'All', emoji: '🌍' },
+                      { name: 'Spring', emoji: '🌸' },
+                      { name: 'Summer', emoji: '☀️' },
+                      { name: 'Autumn', emoji: '🍂' },
+                      { name: 'Winter', emoji: '❄️' }
+                    ].map(({name, emoji}) => (
+                      <button
+                        key={name}
+                        onClick={() => setSelectedSeason(name)}
+                        className={`px-4 py-2 rounded-full whitespace-nowrap text-sm font-bold transition-all duration-300 flex items-center space-x-1.5 ${
+                          selectedSeason === name 
+                          ? 'bg-indigo-600 text-white shadow-md transform hover:scale-105' 
+                          : 'bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 border border-gray-300 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800'
+                        }`}
+                      >
+                        <span>{emoji}</span>
+                        <span>{name}</span>
+                      </button>
+                    ))}
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {filteredAreas.length === 0 && (
+                      <div className="col-span-1 sm:col-span-2 text-center py-12 text-gray-600 dark:text-gray-400 font-bold">
+                        No neighbourhoods match your search. 🕵️‍♂️
+                      </div>
+                    )}
+                    
+                    {filteredAreas.map(area => {
+                      const isVisited = area.visitedDate !== '' || area.rating > 0;
+                      const todoList = area.todo || [];
+
+                      return (
+                        <div 
+                          key={area.id} 
+                          onClick={() => openDetail(area.id)}
+                          className={`bg-white dark:bg-gray-900 rounded-3xl p-5 cursor-pointer transition-all duration-300 hover:-translate-y-1 relative overflow-hidden group flex flex-col justify-between border ${isVisited ? 'border-emerald-600 dark:border-emerald-500/60 bg-emerald-50/50 dark:bg-emerald-950/20 shadow-md' : 'border-gray-300 dark:border-gray-800 shadow-xs hover:shadow-lg'}`}
+                        >
+                          {isVisited && (
+                            <div className="absolute top-0 right-0 bg-emerald-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-bl-2xl shadow-xs z-10">
+                              ✅ Visited
+                            </div>
+                          )}
+                          
+                          <div>
+                            <h2 className="text-[19px] font-bold text-gray-900 dark:text-white pr-10 mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">{area.name}</h2>
+                            <p className="text-[15px] text-gray-700 dark:text-gray-300 line-clamp-2 leading-relaxed font-normal">
+                              {area.soul}
+                            </p>
+                          </div>
+                          
+                          <div className="flex justify-between items-end mt-5 pt-3 border-t border-gray-200 dark:border-gray-800">
+                            <div>
+                              <span className="block text-[11px] font-black uppercase tracking-wider text-gray-600 dark:text-gray-400 mb-1.5">Things to Do</span>
+                              <div className="flex items-center space-x-1.5 flex-wrap gap-y-1">
+                                {todoList.map((item, idx) => (
+                                  <div 
+                                    key={item.id || idx}
+                                    className={`w-3.5 h-3.5 rounded-full transition-all duration-300 ${item.checked ? 'bg-indigo-600 dark:bg-indigo-400 scale-110 shadow-xs' : 'bg-gray-300 dark:bg-gray-800 border border-gray-400 dark:border-gray-700'}`}
+                                    title={`Task ${idx + 1}: ${item.checked ? 'Completed' : 'Pending'}`}
+                                  />
+                                ))}
+                              </div>
+                            </div>
+                            
+                            <div className="flex-shrink-0">
+                              {isVisited ? (
+                                 <StarRating rating={area.rating} readOnly={true} />
+                              ) : (
+                                <span className="bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-3 py-1.5 rounded-full text-xs font-bold group-hover:bg-indigo-100 dark:group-hover:bg-indigo-950/60 group-hover:text-indigo-600 dark:group-hover:text-indigo-300 transition-colors">
+                                  Explore 🚀
+                                </span>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            );
+          }
+
+          if (currentView === 'detail' && activeArea) {
+            const cleanAreaName = activeArea.name.replace(/[\u{1F600}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F300}-\u{1F5FF}\u{1F900}-\u{1F9FF}\u{1FA70}-\u{1FAFF}]/gu, '').trim();
+
+            return (
+              <div className="min-h-screen bg-[#F4F5F8] dark:bg-gray-950 font-sans pb-24 selection:bg-indigo-200 dark:selection:bg-indigo-500 transition-colors duration-300">
+                <header className="bg-white/95 dark:bg-gray-900/95 sticky top-0 z-25 py-3 px-4 backdrop-blur-md border-b border-gray-300 dark:border-gray-800 shadow-xs">
+                  <div className="max-w-2xl mx-auto flex items-center justify-between">
+                    <div className="flex items-center overflow-hidden pr-2">
+                      <button 
+                        onClick={goBack}
+                        className="flex-shrink-0 mr-3 p-2 bg-gray-200 dark:bg-gray-800 rounded-full shadow-xs hover:bg-gray-300 dark:hover:bg-gray-700 transition-all text-gray-900 dark:text-white font-bold"
+                      >
+                        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                      </button>
+                      <h1 className="text-lg font-bold text-gray-900 dark:text-white truncate">{activeArea.name}</h1>
+                      <a 
+                        href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cleanAreaName + ', London')}`} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="ml-2.5 flex-shrink-0 text-lg hover:scale-125 transition-transform" 
+                        title="Search Area in Google Maps"
+                      >
+                        📍
+                      </a>
+                    </div>
+                    <button 
+                      onClick={scrollToTracker} 
+                      className="flex-shrink-0 text-xs font-black uppercase tracking-wider text-indigo-600 dark:text-indigo-300 bg-indigo-100 dark:bg-indigo-950/60 px-3.5 py-2 rounded-full hover:bg-indigo-200 dark:hover:bg-indigo-900/60 transition-colors shadow-xs border border-indigo-300 dark:border-indigo-800"
+                    >
+                      Tracker 👇
+                    </button>
+                  </div>
+                </header>
+
+                <div className="max-w-2xl mx-auto px-4 mt-4 space-y-4">
+                  <div className="grid sm:grid-cols-2 gap-3.5">
+                    <div className="bg-indigo-100/90 dark:bg-indigo-950/40 border border-indigo-300 dark:border-indigo-900/60 rounded-3xl p-5 shadow-xs">
+                      <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-indigo-200 mb-3 px-1">
+                        <span className="mr-2 text-lg">🌦️</span>
+                        Best Season
+                      </h3>
+                      <p className="text-[15px] font-normal text-gray-900 dark:text-indigo-200 leading-relaxed">{activeArea.season}</p>
                     </div>
                     
-                    <div className="flex-shrink-0">
-                      {isVisited ? (
-                         <StarRating rating={area.rating} readOnly={true} />
-                      ) : (
-                        <span className="bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-3 py-1.5 rounded-full text-xs font-bold group-hover:bg-indigo-100 dark:group-hover:bg-indigo-950/60 group-hover:text-indigo-600 dark:group-hover:text-indigo-300 transition-colors">
-                          Explore 🚀
-                        </span>
-                      )}
+                    <div className="bg-sky-100/90 dark:bg-sky-950/40 border border-sky-300 dark:border-sky-900/60 rounded-3xl p-5 shadow-xs">
+                      <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-sky-200 mb-3 px-1">
+                        <span className="mr-2 text-lg">🚆</span>
+                        Getting There
+                      </h3>
+                      <p className="text-[15px] font-normal text-gray-900 dark:text-sky-200 leading-relaxed">{activeArea.transport}</p>
                     </div>
                   </div>
+
+                  <div className="bg-orange-100/90 dark:bg-orange-950/40 border border-orange-300 dark:border-orange-900/60 rounded-3xl p-5 shadow-xs">
+                    <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-orange-200 mb-3 px-1">
+                      <span className="mr-2 text-lg">✨</span>
+                      The Soul
+                    </h3>
+                    <p className="text-[15px] font-normal text-gray-900 dark:text-orange-200 leading-relaxed">{activeArea.soul}</p>
+                  </div>
+                  
+                  {activeArea.funFacts && activeArea.funFacts.length > 0 && (
+                    <div className="bg-emerald-100/90 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-900/60 rounded-3xl p-5 shadow-xs">
+                      <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-emerald-200 mb-3 px-1">
+                        <span className="mr-2 text-lg">💡</span>
+                        Virtual Tour Guide
+                      </h3>
+                      <ul className="space-y-2">
+                        {activeArea.funFacts.map((fact, idx) => (
+                          <li key={idx} className="text-[15px] font-normal text-gray-900 dark:text-emerald-200 leading-relaxed flex items-start">
+                            <span className="mr-2 text-emerald-700 dark:text-emerald-400">•</span>
+                            <span>{fact}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  <div className="bg-white dark:bg-gray-900 rounded-3xl shadow-sm border border-gray-300 dark:border-gray-800 p-4 sm:p-6 mt-6">
+                    <ChecklistGroup 
+                      title="Things to Do" 
+                      items={activeArea.todo} 
+                      icon={<span className="text-lg">📍</span>}
+                      areaName={activeArea.name}
+                      onToggle={(itemId) => toggleCheck(activeArea.id, 'todo', itemId)}
+                    />
+
+                    <ChecklistGroup 
+                      title="Eateries (Veg + GF Friendly)" 
+                      items={activeArea.eat} 
+                      icon={<span className="text-lg">🥑</span>}
+                      areaName={activeArea.name}
+                      isEatery={true}
+                      onToggle={(itemId) => toggleCheck(activeArea.id, 'eat', itemId)}
+                    />
+                  </div>
+
+                  <div className="bg-purple-100/90 dark:bg-purple-950/40 border border-purple-300 dark:border-purple-900/60 rounded-3xl p-6 shadow-xs">
+                    <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-purple-200 mb-3 px-1">
+                      <span className="mr-2 text-lg">🎒</span>
+                      Weekend Extension (Day 2)
+                    </h3>
+                    <p className="text-[15px] font-normal text-gray-900 dark:text-purple-200 leading-relaxed">{activeArea.day2}</p>
+                  </div>
+
+                  <div ref={trackerRef} className="bg-white dark:bg-gray-900 rounded-3xl shadow-sm border border-gray-300 dark:border-gray-800 p-6 scroll-mt-24 mt-6">
+                    <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-gray-100 mb-5 px-1">
+                      <span className="mr-3 text-lg">📝</span>
+                      Your Tracker
+                    </h3>
+                    
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-5 space-y-4 sm:space-y-0">
+                      <div className="flex-1 sm:mr-4">
+                        <label className="block text-xs font-black uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-2">Date Visited 📅</label>
+                        <input 
+                          type="date" 
+                          value={activeArea.visitedDate}
+                          onChange={(e) => updateArea(activeArea.id, 'visitedDate', e.target.value)}
+                          className="w-full sm:w-auto px-4 py-2.5 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-700 rounded-xl text-sm font-bold focus:ring-2 focus:ring-indigo-600 dark:focus:ring-indigo-500 outline-none"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-xs font-black uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-2">Overall Rating ⭐</label>
+                        <StarRating 
+                          rating={activeArea.rating} 
+                          onChange={(val) => updateArea(activeArea.id, 'rating', val)} 
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="block text-xs font-black uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-2">Personal Notes 💭</label>
+                      <textarea 
+                        value={activeArea.notes}
+                        onChange={(e) => updateArea(activeArea.id, 'notes', e.target.value)}
+                        placeholder="Write your memories, favorite moments, or things to remember..."
+                        className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-700 rounded-2xl text-sm font-normal focus:ring-2 focus:ring-indigo-600 dark:focus:ring-indigo-500 outline-none min-h-[120px] resize-y placeholder-gray-500 dark:placeholder-gray-400"
+                      />
+                    </div>
+                  </div>
+
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (currentView === 'detail' && activeArea) {
-    const cleanAreaName = activeArea.name.replace(/[\u{1F600}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F300}-\u{1F5FF}\u{1F900}-\u{1F9FF}\u{1FA70}-\u{1FAFF}]/gu, '').trim();
-
-    return (
-      <div className="min-h-screen bg-[#F4F5F8] dark:bg-gray-950 font-sans pb-24 selection:bg-indigo-200 dark:selection:bg-indigo-500 transition-colors duration-300">
-        <header className="bg-white/95 dark:bg-gray-900/95 sticky top-0 z-25 py-3 px-4 backdrop-blur-md border-b border-gray-300 dark:border-gray-800 shadow-xs">
-          <div className="max-w-2xl mx-auto flex items-center justify-between">
-            <div className="flex items-center overflow-hidden pr-2">
-              <button 
-                onClick={goBack}
-                className="flex-shrink-0 mr-3 p-2 bg-gray-200 dark:bg-gray-800 rounded-full shadow-xs hover:bg-gray-300 dark:hover:bg-gray-700 transition-all text-gray-900 dark:text-white font-bold"
-              >
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
-              </button>
-              <h1 className="text-lg font-bold text-gray-900 dark:text-white truncate">{activeArea.name}</h1>
-              <a 
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cleanAreaName + ', London')}`} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="ml-2.5 flex-shrink-0 text-lg hover:scale-125 transition-transform" 
-                title="Search Area in Google Maps"
-              >
-                📍
-              </a>
-            </div>
-            <button 
-              onClick={scrollToTracker} 
-              className="flex-shrink-0 text-xs font-black uppercase tracking-wider text-indigo-600 dark:text-indigo-300 bg-indigo-100 dark:bg-indigo-950/60 px-3.5 py-2 rounded-full hover:bg-indigo-200 dark:hover:bg-indigo-900/60 transition-colors shadow-xs border border-indigo-300 dark:border-indigo-800"
-            >
-              Tracker 👇
-            </button>
-          </div>
-        </header>
-
-        <div className="max-w-2xl mx-auto px-4 mt-4 space-y-4">
-          <div className="grid sm:grid-cols-2 gap-3.5">
-            <div className="bg-indigo-100/90 dark:bg-indigo-950/40 border border-indigo-300 dark:border-indigo-900/60 rounded-3xl p-5 shadow-xs">
-              <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-indigo-200 mb-3 px-1">
-                <span className="mr-2.5 text-lg">🌦️</span>
-                Best Season
-              </h3>
-              <p className="text-[15px] font-normal text-gray-900 dark:text-indigo-200 leading-relaxed">{activeArea.season}</p>
-            </div>
-            
-            <div className="bg-sky-100/90 dark:bg-sky-950/40 border border-sky-300 dark:border-sky-900/60 rounded-3xl p-5 shadow-xs">
-              <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-sky-200 mb-3 px-1">
-                <span className="mr-2.5 text-lg">🚆</span>
-                Getting There
-              </h3>
-              <p className="text-[15px] font-normal text-gray-900 dark:text-sky-200 leading-relaxed">{activeArea.transport}</p>
-            </div>
-          </div>
-
-          <div className="bg-orange-100/90 dark:bg-orange-950/40 border border-orange-300 dark:border-orange-900/60 rounded-3xl p-5 shadow-xs">
-            <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-orange-200 mb-3 px-1">
-              <span className="mr-2.5 text-lg">✨</span>
-              The Soul
-            </h3>
-            <p className="text-[15px] font-normal text-gray-900 dark:text-orange-200 leading-relaxed">{activeArea.soul}</p>
-          </div>
-          
-          {activeArea.funFacts && activeArea.funFacts.length > 0 && (
-            <div className="bg-emerald-100/90 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-900/60 rounded-3xl p-5 shadow-xs">
-              <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-emerald-200 mb-3 px-1">
-                <span className="mr-2.5 text-lg">💡</span>
-                Virtual Tour Guide
-              </h3>
-              <ul className="space-y-2">
-                {activeArea.funFacts.map((fact, idx) => (
-                  <li key={idx} className="text-[15px] font-normal text-gray-900 dark:text-emerald-200 leading-relaxed flex items-start">
-                    <span className="mr-2 text-emerald-700 dark:text-emerald-400">•</span>
-                    <span>{fact}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
-          <div className="bg-white dark:bg-gray-900 rounded-3xl shadow-sm border border-gray-300 dark:border-gray-800 p-4 sm:p-6 mt-6">
-            <ChecklistGroup 
-              title="Things to Do" 
-              items={activeArea.todo} 
-              icon={<span className="text-lg">📍</span>}
-              areaName={activeArea.name}
-              onToggle={(itemId) => toggleCheck(activeArea.id, 'todo', itemId)}
-            />
-
-            <ChecklistGroup 
-              title="Eateries (Veg + GF Friendly)" 
-              items={activeArea.eat} 
-              icon={<span className="text-lg">🥑</span>}
-              areaName={activeArea.name}
-              isEatery={true}
-              onToggle={(itemId) => toggleCheck(activeArea.id, 'eat', itemId)}
-            />
-          </div>
-
-          <div className="bg-purple-100/90 dark:bg-purple-950/40 border border-purple-300 dark:border-purple-900/60 rounded-3xl p-6 shadow-xs">
-            <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-purple-200 mb-3 px-1">
-              <span className="mr-2.5 text-lg">🎒</span>
-              Weekend Extension (Day 2)
-            </h3>
-            <p className="text-[15px] font-normal text-gray-900 dark:text-purple-200 leading-relaxed">{activeArea.day2}</p>
-          </div>
-
-          <div ref={trackerRef} className="bg-white dark:bg-gray-900 rounded-3xl shadow-sm border border-gray-300 dark:border-gray-800 p-6 scroll-mt-24 mt-6">
-            <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-gray-100 mb-5 px-1">
-              <span className="mr-3 p-2 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 rounded-xl shadow-xs">📝</span>
-              Your Tracker
-            </h3>
-            
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-5 space-y-4 sm:space-y-0">
-              <div className="flex-1 sm:mr-4">
-                <label className="block text-xs font-black uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-2">Date Visited 📅</label>
-                <input 
-                  type="date" 
-                  value={activeArea.visitedDate}
-                  onChange={(e) => updateArea(activeArea.id, 'visitedDate', e.target.value)}
-                  className="w-full sm:w-auto px-4 py-2.5 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-700 rounded-xl text-sm font-bold focus:ring-2 focus:ring-indigo-600 dark:focus:ring-indigo-500 outline-none"
-                />
               </div>
-              <div>
-                <label className="block text-xs font-black uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-2">Overall Rating ⭐</label>
-                <StarRating 
-                  rating={activeArea.rating} 
-                  onChange={(val) => updateArea(activeArea.id, 'rating', val)} 
-                />
-              </div>
-            </div>
+            );
+          }
 
-            <div>
-              <label className="block text-xs font-black uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-2">Personal Notes 💭</label>
-              <textarea 
-                value={activeArea.notes}
-                onChange={(e) => updateArea(activeArea.id, 'notes', e.target.value)}
-                placeholder="Write your memories, favorite moments, or things to remember..."
-                className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-700 rounded-2xl text-sm font-normal focus:ring-2 focus:ring-indigo-600 dark:focus:ring-indigo-500 outline-none min-h-[120px] resize-y placeholder-gray-500 dark:placeholder-gray-400"
-              />
-            </div>
-          </div>
+          return null;
+        }
 
-        </div>
-      </div>
-    );
-  }
-
-  return null;
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<LondonExplorerApp />);
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<LondonExplorerApp />);
+    </script>
+</body>
+</html>
