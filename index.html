@@ -34,45 +34,50 @@
         const { useState, useEffect, useMemo, useRef } = React;
 
         // Small fallback dataset just in case the external JSON file fails to load
-        // This is perfect for quick testing directly in the browser or Canvas.
         const initialData = [
           {
             id: 'greenwich', name: 'Greenwich',
-            season: 'October. The autumn foliage in Greenwich Park against the backdrop of the Royal Observatory and the city skyline is stunning.',
+            season: 'October. The autumn foliage in Greenwich Park against the backdrop of the city skyline is stunning.',
+            transport: '🚇 DLR to Cutty Sark or Greenwich Station. ⛴️ Uber Boat (Thames Clipper) to Greenwich Pier.',
+            funFacts: [
+              "Greenwich Mean Time (GMT) was globally adopted here in 1884 to sync ship navigation.",
+              "The Painted Hall took 19 years to complete and is often called the Sistine Chapel of the UK.",
+              "The Cutty Sark was once the fastest ship in the world, bringing tea back from China."
+            ],
             soul: 'The maritime epicentre of Britain, a royal birthplace, and the historic home of time. It feels like a grand, nautical village completely removed from the frantic energy of central London.',
-            day2: 'Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography. Alternatively, dive deep into the National Maritime Museum.',
+            day2: 'Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography.',
             visitedDate: '', rating: 0, notes: '',
             todo: [
-              { id: 'g_t1', text: 'Explore the Old Royal Naval College, specifically the breathtaking Painted Hall.', checked: false },
-              { id: 'g_t2', text: 'Walk up the steep hill in Greenwich Park to the Royal Observatory.', checked: false },
-              { id: 'g_t3', text: 'Wander through Greenwich Market to browse local arts, crafts, and antiques.', checked: false }
+              { id: 'g_t1', text: 'Explore the Old Royal Naval College, specifically the breathtaking Painted Hall.', checked: false, time: '1.5 hrs' },
+              { id: 'g_t2', text: 'Walk up the steep hill in Greenwich Park to the Royal Observatory.', checked: false, time: '1 hr' }
             ],
             photo: [
-              { id: 'g_p1', text: "The viewpoint from the Royal Observatory hill: capture the Queen's House with Canary Wharf behind it.", checked: false },
-              { id: 'g_p2', text: 'The Painted Hall ceiling (a wide-angle lens is highly recommended here).', checked: false }
+              { id: 'g_p1', text: "The viewpoint from the Royal Observatory hill: capture the Queens House with Canary Wharf behind it.", checked: false, time: '15 mins' }
             ],
             eat: [
-              { id: 'g_e1', text: 'Arapina Bakery: Cozy spot for vegetarian, vegan, and GF artisan pastries/coffees.', checked: false },
-              { id: 'g_e2', text: 'Prince of Greenwich Pub: Quirky Victorian decor. Excellent vegetarian and GF pizzas.', checked: false }
+              { id: 'g_e1', text: 'Arapina Bakery: Cozy spot for vegetarian, vegan, and GF artisan pastries/coffees.', checked: false, time: '30 mins' }
             ]
           },
           {
             id: 'hampstead', name: 'Hampstead & Highgate',
             season: 'November (for crisp, moody fog and autumn leaves) or May (to capture blooming wisteria).',
+            transport: '🚇 Northern Line to Hampstead (steepest lift in London) or Highgate.',
+            funFacts: [
+              "Hampstead Heath has 3 swimming ponds (Men, Women, Mixed) that are strictly open year-round.",
+              "Karl Marx, George Eliot, and Douglas Adams are all buried in Highgate Cemetery."
+            ],
             soul: 'An intellectual and literary haven that feels like a rural 18th-century English village perched on a hill.',
             day2: 'Explore Highgate Village, Waterlow Park, and take the full architectural tour of Highgate West Cemetery.',
             visitedDate: '', rating: 0, notes: '',
             todo: [
-              { id: 'h_t1', text: 'Get lost in the wild woods, meadows, and swimming ponds of Hampstead Heath.', checked: false },
-              { id: 'h_t2', text: 'Wander the steep, cobbled streets and historic alleyways (like Flask Walk).', checked: false }
+              { id: 'h_t1', text: 'Get lost in the wild woods, meadows, and swimming ponds of Hampstead Heath.', checked: false, time: '2 hrs' },
+              { id: 'h_t2', text: 'Wander the steep, cobbled streets and historic alleyways (like Flask Walk).', checked: false, time: '1 hr' }
             ],
             photo: [
-              { id: 'h_p1', text: 'Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.', checked: false },
-              { id: 'h_p2', text: 'The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.', checked: false }
+              { id: 'h_p1', text: 'Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.', checked: false, time: '20 mins' }
             ],
             eat: [
-              { id: 'h_e1', text: 'The Swing (West Hampstead): Vegetable-focused casual restaurant with vibrant small plates.', checked: false },
-              { id: 'h_e2', text: 'The Holly Bush: Historic pub. Excellent vegetarian roasts, very accommodating for GF.', checked: false }
+              { id: 'h_e1', text: 'The Swing (West Hampstead): Vegetable-focused casual restaurant with vibrant small plates.', checked: false, time: '1 hr' }
             ]
           }
         ];
@@ -135,6 +140,11 @@
                 </button>
                 <span className={`text-[15px] leading-relaxed transition-colors ${item.checked ? 'line-through text-gray-500 dark:text-gray-500' : 'text-gray-800 dark:text-gray-100 font-medium'}`}>
                   {item.text}
+                  {item.time && (
+                    <span className="block mt-2 mb-1 text-[11px] font-bold tracking-wide uppercase text-[#0EA5E9] dark:text-sky-400 bg-[#F0F9FF] dark:bg-sky-900/30 w-max px-2.5 py-1 rounded-md shadow-sm border border-sky-100 dark:border-sky-800/50">
+                      ⏱️ {item.time}
+                    </span>
+                  )}
                 </span>
               </div>
               
@@ -461,7 +471,8 @@
                   </div>
                 </header>
 
-                <div className="max-w-2xl mx-auto px-4 mt-4 space-y-8">
+                <div className="max-w-2xl mx-auto px-4 mt-4 space-y-4">
+                  {/* Row 1: Season and Transport */}
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div className="bg-[#E0E7FF] dark:bg-indigo-900/30 rounded-[24px] p-5 shadow-sm transform transition hover:-translate-y-1">
                       <h4 className="text-xs font-black uppercase tracking-widest text-[#4F46E5] dark:text-indigo-300 mb-2 flex items-center">
@@ -470,15 +481,40 @@
                       <p className="text-[15px] font-medium text-[#3730A3] dark:text-indigo-200 leading-relaxed">{activeArea.season}</p>
                     </div>
                     
-                    <div className="bg-[#FFEDD5] dark:bg-orange-900/30 rounded-[24px] p-5 shadow-sm transform transition hover:-translate-y-1">
-                      <h4 className="text-xs font-black uppercase tracking-widest text-[#EA580C] dark:text-orange-300 mb-2 flex items-center">
-                        <span className="text-base mr-1.5">✨</span> The Soul
+                    <div className="bg-[#E0F2FE] dark:bg-sky-900/30 rounded-[24px] p-5 shadow-sm transform transition hover:-translate-y-1">
+                      <h4 className="text-xs font-black uppercase tracking-widest text-[#0284C7] dark:text-sky-300 mb-2 flex items-center">
+                        <span className="text-base mr-1.5">🚇</span> Getting There
                       </h4>
-                      <p className="text-[15px] font-medium text-[#9A3412] dark:text-orange-200 leading-relaxed">{activeArea.soul}</p>
+                      <p className="text-[15px] font-medium text-[#075985] dark:text-sky-200 leading-relaxed">{activeArea.transport}</p>
                     </div>
                   </div>
 
-                  <div className="bg-white dark:bg-gray-800 rounded-[28px] shadow-sm border border-gray-100 dark:border-gray-700 p-2 pt-6 sm:p-6">
+                  {/* Row 2: Soul */}
+                  <div className="bg-[#FFEDD5] dark:bg-orange-900/30 rounded-[24px] p-5 shadow-sm transform transition hover:-translate-y-1">
+                    <h4 className="text-xs font-black uppercase tracking-widest text-[#EA580C] dark:text-orange-300 mb-2 flex items-center">
+                      <span className="text-base mr-1.5">✨</span> The Soul
+                    </h4>
+                    <p className="text-[15px] font-medium text-[#9A3412] dark:text-orange-200 leading-relaxed">{activeArea.soul}</p>
+                  </div>
+                  
+                  {/* Row 3: Virtual Tour Guide (Fun Facts) */}
+                  {activeArea.funFacts && activeArea.funFacts.length > 0 && (
+                    <div className="bg-[#D1FAE5] dark:bg-emerald-900/30 rounded-[24px] p-5 shadow-sm transform transition hover:-translate-y-1 mb-8 border border-emerald-100 dark:border-emerald-800/50">
+                      <h4 className="text-xs font-black uppercase tracking-widest text-[#059669] dark:text-emerald-300 mb-3 flex items-center">
+                        <span className="text-base mr-1.5">💡</span> Virtual Tour Guide: Did you know?
+                      </h4>
+                      <ul className="space-y-2">
+                        {activeArea.funFacts.map((fact, idx) => (
+                          <li key={idx} className="text-[15px] font-medium text-[#065F46] dark:text-emerald-200 leading-relaxed flex items-start">
+                            <span className="mr-2 text-emerald-500 dark:text-emerald-400">•</span>
+                            <span>{fact}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  <div className="bg-white dark:bg-gray-800 rounded-[28px] shadow-sm border border-gray-100 dark:border-gray-700 p-2 pt-6 sm:p-6 mt-8">
                     <ChecklistGroup 
                       title="Things to Do" 
                       items={activeArea.todo} 
