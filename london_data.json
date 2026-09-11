@@ -20,6 +20,7 @@
         "title": "Old Royal Naval College",
         "description": "A masterpiece of baroque architecture by Sir Christopher Wren, the birthplace of Tudor monarchs like Henry VIII and Elizabeth I, and a major filming location for Hollywood movies.",
         "action": "Do not miss the breathtaking Painted Hall.",
+        "photoTip": "The Painted Hall ceiling (a wide-angle lens is highly recommended here) and the symmetrical colonnades.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -28,6 +29,7 @@
         "title": "Royal Observatory",
         "description": "The historic home of British astronomy, established in the 17th century to solve the problem of determining longitude at sea.",
         "action": "Stand on the Prime Meridian line with one foot in the eastern hemisphere and one in the west.",
+        "photoTip": "Capture the Queens House with Canary Wharf glowing behind it from the hill viewpoint.",
         "checked": false,
         "time": "1 hr"
       },
@@ -46,30 +48,6 @@
         "action": "Walk directly beneath the gleaming copper hull in the dry dock.",
         "checked": false,
         "time": "45 mins"
-      },
-      {
-        "id": "g_p1",
-        "title": "Royal Observatory Viewpoint",
-        "description": "The classic hilltop vantage point overlooking the grounds.",
-        "photoTip": "Capture the Queens House with Canary Wharf glowing behind it from the hill viewpoint.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "g_p2",
-        "title": "Painted Hall Ceiling",
-        "description": "Magnificent baroque painted hall ceiling by Sir James Thornhill.",
-        "photoTip": "The Painted Hall ceiling (a wide-angle lens is highly recommended here).",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "g_p3",
-        "title": "Colonnades",
-        "description": "Classical architectural symmetry by Christopher Wren.",
-        "photoTip": "The symmetrical colonnades of the Old Royal Naval College.",
-        "checked": false,
-        "time": "15 mins"
       }
     ],
     "eat": [
@@ -112,6 +90,7 @@
         "title": "Hampstead Heath",
         "description": "An ancient, sprawling 790-acre parkland that inspired authors like C.S. Lewis. It remains deliberately wild and untamed compared to London's manicured Royal Parks.",
         "action": "Get lost in the wild woods, meadows, and spot the famous swimming ponds.",
+        "photoTip": "Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.",
         "checked": false,
         "time": "2 hrs"
       },
@@ -120,6 +99,7 @@
         "title": "Flask Walk & The Village",
         "description": "A perfectly preserved Victorian pedestrian alleyway that captures the essence of Hampstead's literary, village-like history.",
         "action": "Wander the cobbled streets, looking at vintage shopfronts and antique stores.",
+        "photoTip": "Flask Walk, with its picturesque vintage shopfronts and cobbled streets.",
         "checked": false,
         "time": "1 hr"
       },
@@ -136,32 +116,9 @@
         "title": "Highgate Cemetery",
         "description": "One of London's 'Magnificent Seven' Victorian burial grounds, famous for its overgrown, gothic romance architecture.",
         "action": "Take the guided tour of the West Cemetery to see the Egyptian Avenue.",
-        "checked": false,
-        "time": "1.5 hrs"
-      },
-      {
-        "id": "h_p1",
-        "title": "Parliament Hill",
-        "description": "The famous summit view across London.",
-        "photoTip": "Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "h_p2",
-        "title": "West Cemetery Graves",
-        "description": "Historic gothic graves covered in ivy.",
         "photoTip": "The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.",
         "checked": false,
-        "time": "30 mins"
-      },
-      {
-        "id": "h_p3",
-        "title": "Flask Walk",
-        "description": "Picturesque village alleyway.",
-        "photoTip": "Flask Walk, with its picturesque vintage shopfronts and cobbled streets.",
-        "checked": false,
-        "time": "15 mins"
+        "time": "1.5 hrs"
       }
     ],
     "eat": [
@@ -204,6 +161,7 @@
         "title": "The Thames Path",
         "description": "A pedestrianized walkway stretching along the South Bank, offering uninterrupted views of London's financial district across the water.",
         "action": "Stroll the path from the Tate Modern all the way down to Tower Bridge.",
+        "photoTip": "The Millennium Bridge looking straight towards the dome of St. Pauls Cathedral (golden hour).",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -220,6 +178,7 @@
         "title": "Borough Market",
         "description": "Operating in some capacity since the 11th century, this is London's premier wholesale and retail food market.",
         "action": "Eat your way through the artisanal cheese, bread, and street food stalls.",
+        "photoTip": "The Shard framing the historic wooden courtyard of The George Inn.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -228,32 +187,9 @@
         "title": "Bermondsey Street",
         "description": "Once an industrial area famous for leather tanning, it's now a trendy, village-like street packed with independent creators.",
         "action": "Wander the street, looking out for glass-blowing studios and indie galleries.",
-        "checked": false,
-        "time": "1 hr"
-      },
-      {
-        "id": "s_p1",
-        "title": "Millennium Bridge",
-        "description": "Pedestrian suspension bridge across the Thames.",
-        "photoTip": "The Millennium Bridge looking straight towards the dome of St. Pauls Cathedral (golden hour).",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "s_p2",
-        "title": "Shad Thames",
-        "description": "Historic warehouse canyon.",
         "photoTip": "Shad Thames: historic Victorian cobbled street with overhead iron walkways.",
         "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "s_p3",
-        "title": "The George Inn",
-        "description": "Historic galleried courtyard.",
-        "photoTip": "The Shard framing the historic wooden courtyard of The George Inn.",
-        "checked": false,
-        "time": "10 mins"
+        "time": "1 hr"
       }
     ],
     "eat": [
@@ -296,6 +232,7 @@
         "title": "Richmond Park",
         "description": "Created in 1637 by Charles I as a hunting ground, it remains the largest of London's Royal Parks and a National Nature Reserve.",
         "action": "Walk or cycle through the vast expanses to spot the 600+ wild red and fallow deer.",
+        "photoTip": "The Isabella Plantation in Richmond Park (macro shots of flowers and streams).",
         "checked": false,
         "time": "2.5 hrs"
       },
@@ -304,6 +241,7 @@
         "title": "Kew Gardens",
         "description": "A UNESCO World Heritage site boasting the most diverse botanical collections globally, set amid spectacular Victorian iron-and-glass architecture.",
         "action": "Explore the massive Temperate House and walk the treetop canopy walkway.",
+        "photoTip": "The Temperate House at Kew Gardens (architectural geometry and symmetry).",
         "checked": false,
         "time": "3 hrs"
       },
@@ -312,32 +250,9 @@
         "title": "Richmond Riverside & Green",
         "description": "A highly affluent, picturesque stretch of the Thames that has historically been the playground for English royalty.",
         "action": "Stroll the riverside paths, surrounded by historic architecture and traditional pubs.",
-        "checked": false,
-        "time": "1 hr"
-      },
-      {
-        "id": "r_p1",
-        "title": "Isabella Plantation",
-        "description": "Woodland garden bursting with vibrant color.",
-        "photoTip": "The Isabella Plantation in Richmond Park (macro shots of flowers and streams).",
-        "checked": false,
-        "time": "45 mins"
-      },
-      {
-        "id": "r_p2",
-        "title": "Temperate House",
-        "description": "Victorian iron and glass greenhouse.",
-        "photoTip": "The Temperate House at Kew Gardens (architectural geometry and symmetry).",
-        "checked": false,
-        "time": "30 mins"
-      },
-      {
-        "id": "r_p3",
-        "title": "Richmond Hill",
-        "description": "Protected scenic bend in the Thames.",
         "photoTip": "Richmond Hill Viewpoint (protected view looking down over a sweeping bend in the Thames).",
         "checked": false,
-        "time": "15 mins"
+        "time": "1 hr"
       }
     ],
     "eat": [
@@ -380,6 +295,7 @@
         "title": "St. Paul's Cathedral",
         "description": "Designed by Sir Christopher Wren after the Great Fire of 1666, its iconic dome dominated the London skyline for 300 years.",
         "action": "Marvel at the exterior from Paternoster Square, noting the grand Corinthian columns.",
+        "photoTip": "The reflection of St Pauls Cathedral in the modern glass of One New Change.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -388,6 +304,7 @@
         "title": "Leadenhall Market",
         "description": "Built on the site of a Roman Basilica, this stunning Victorian covered market features ornate painted roofs and cobblestones.",
         "action": "Explore the intersecting arcades, famous as a Harry Potter filming location.",
+        "photoTip": "Looking up at the Gherkin from the ornate archways of Leadenhall Market.",
         "checked": false,
         "time": "45 mins"
       },
@@ -404,32 +321,9 @@
         "title": "London Mithraeum",
         "description": "A restored Roman Temple of Mithras from the 3rd century, discovered deep beneath the modern Bloomberg headquarters.",
         "action": "Experience the highly immersive, subterranean light and sound installation.",
-        "checked": false,
-        "time": "45 mins"
-      },
-      {
-        "id": "c_p1",
-        "title": "Gherkin & Leadenhall",
-        "description": "Architectural contrast of old and new.",
-        "photoTip": "Looking up at the Gherkin from the ornate archways of Leadenhall Market.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "c_p2",
-        "title": "St. Dunstan-in-the-East",
-        "description": "Ruined church garden oasis.",
         "photoTip": "St. Dunstan-in-the-East: A ruined medieval church transformed into an overgrown garden.",
         "checked": false,
-        "time": "30 mins"
-      },
-      {
-        "id": "c_p3",
-        "title": "One New Change",
-        "description": "Modern glass reflecting St Pauls.",
-        "photoTip": "The reflection of St Pauls Cathedral in the modern glass of One New Change.",
-        "checked": false,
-        "time": "15 mins"
+        "time": "45 mins"
       }
     ],
     "eat": [
@@ -472,6 +366,7 @@
         "title": "Rivington & Redchurch Street Art",
         "description": "The epicenter of London's world-class street art scene, featuring constantly changing works by globally renowned artists.",
         "action": "Hunt for hidden murals by Banksy, ROA, and Stik in the surrounding alleyways.",
+        "photoTip": "Nomadic Community Gardens / Brick Lane murals for urban photography.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -480,6 +375,7 @@
         "title": "Old Spitalfields Market",
         "description": "A beautifully restored Victorian market hall that has operated for over 350 years, now a major hub for independent designers.",
         "action": "Browse the stalls for local art, clothing, and unique antiques.",
+        "photoTip": "The glass canopy and Victorian ironwork of Old Spitalfields Market.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -496,32 +392,9 @@
         "title": "Fournier Street",
         "description": "One of London's most perfectly preserved streets, lined with the 18th-century townhouses of French Huguenot silk weavers.",
         "action": "Admire the oversized attic windows, built to let in maximum light for weaving.",
-        "checked": false,
-        "time": "30 mins"
-      },
-      {
-        "id": "sh_p1",
-        "title": "Fournier Street Architecture",
-        "description": "Georgian homes meeting modern skyscrapers.",
         "photoTip": "Fournier Street: Contrast between Georgian townhouses and modern City skyscrapers.",
         "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "sh_p2",
-        "title": "Brick Lane Murrals",
-        "description": "Vibrant East End street art.",
-        "photoTip": "Nomadic Community Gardens / Brick Lane murals for urban photography.",
-        "checked": false,
         "time": "30 mins"
-      },
-      {
-        "id": "sh_p3",
-        "title": "Spitalfields Canopy",
-        "description": "Victorian ironwork and glass.",
-        "photoTip": "The glass canopy and Victorian ironwork of Old Spitalfields Market.",
-        "checked": false,
-        "time": "15 mins"
       }
     ],
     "eat": [
@@ -564,6 +437,7 @@
         "title": "Portobello Road Market",
         "description": "The world's largest antiques market, stretching for over a mile. It dates back to the 19th century when it was a fresh food market.",
         "action": "Wander the stalls (Saturdays are best for antiques) and hunt for silver and vintage maps.",
+        "photoTip": "The sweeping curve of colorful houses on Lancaster Road or Elgin Crescent.",
         "checked": false,
         "time": "2 hrs"
       },
@@ -572,6 +446,7 @@
         "title": "Kyoto Garden in Holland Park",
         "description": "A stunning, tranquil Japanese garden gifted by the city of Kyoto in 1991 to celebrate the Japan Festival in London.",
         "action": "Find the tiered waterfalls and look out for the roaming resident peacocks.",
+        "photoTip": "The waterfall and roaming peacocks inside the Kyoto Garden.",
         "checked": false,
         "time": "1 hr"
       },
@@ -580,6 +455,7 @@
         "title": "St Luke's & Local Mews",
         "description": "Mews streets were originally service roads behind grand houses where horses and carriages were kept, now highly coveted pastel homes.",
         "action": "Get lost exploring these historic, cobbled, and heavily flowered alleyways.",
+        "photoTip": "St Lukes Mews: Pretty cobbled mews with pink houses and trailing ivy.",
         "checked": false,
         "time": "45 mins"
       },
@@ -590,30 +466,6 @@
         "action": "Book a ticket in advance to watch a film from a plush velvet bed or armchair.",
         "checked": false,
         "time": "2.5 hrs"
-      },
-      {
-        "id": "n_p1",
-        "title": "St Lukes Mews",
-        "description": "Cobbled mews with pink townhouses.",
-        "photoTip": "St Lukes Mews: Pretty cobbled mews with pink houses and trailing ivy.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "n_p2",
-        "title": "Lancaster Road",
-        "description": "Brightly colored Victorian terraces.",
-        "photoTip": "The sweeping curve of colorful houses on Lancaster Road or Elgin Crescent.",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "n_p3",
-        "title": "Kyoto Garden Waterfall",
-        "description": "Japanese garden ponds and wildlife.",
-        "photoTip": "The waterfall and roaming peacocks inside the Kyoto Garden.",
-        "checked": false,
-        "time": "20 mins"
       }
     ],
     "eat": [
@@ -656,6 +508,7 @@
         "title": "Camden Market & Stables",
         "description": "Originally a complex for horses moving goods along the canal, it is now a sprawling labyrinth of alternative culture, vintage clothes, and goth stores.",
         "action": "Explore the catacombs of the stables and browse the independent craft stalls.",
+        "photoTip": "The vibrant, 3D shop fronts along Camden High Street.",
         "checked": false,
         "time": "2.5 hrs"
       },
@@ -664,6 +517,7 @@
         "title": "Regents Canal Towpath",
         "description": "Built in 1820, this industrial waterway connected the docks to the rest of England. Today, it's a peaceful urban walking route lined with narrowboats.",
         "action": "Walk the towpath away from the market crowds towards London Zoo.",
+        "photoTip": "Regents Canal at Camden Lock, with narrowboats and weeping willows.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -680,32 +534,9 @@
         "title": "Primrose Hill",
         "description": "A highly affluent village attached to a grassy hill that offers one of the most famous, legally protected panoramic views in London.",
         "action": "Hike to the summit marker and try to identify landmarks across the skyline.",
-        "checked": false,
-        "time": "45 mins"
-      },
-      {
-        "id": "ca_p1",
-        "title": "Camden High Street",
-        "description": "Iconic 3D storefront sculptures.",
-        "photoTip": "The vibrant, 3D shop fronts along Camden High Street.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "ca_p2",
-        "title": "Canal Lock",
-        "description": "Narrowboats and weeping willows.",
-        "photoTip": "Regents Canal at Camden Lock, with narrowboats and weeping willows.",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "ca_p3",
-        "title": "Primrose Hill Summit",
-        "description": "Sunset views over the city skyline.",
         "photoTip": "The summit of Primrose Hill at sunset, capturing the London skyline.",
         "checked": false,
-        "time": "30 mins"
+        "time": "45 mins"
       }
     ],
     "eat": [
@@ -748,6 +579,7 @@
         "title": "Museum Row (V&A or Natural History)",
         "description": "These staggering Victorian institutions were built using profits from the 1851 Great Exhibition to educate the British public on science and art.",
         "action": "Marvel at the terracotta architecture of the NHM or the sculptures at the V&A.",
+        "photoTip": "Hintze Hall inside the Natural History Museum (arches and whale skeleton) and the V&A Courtyard pond.",
         "checked": false,
         "time": "3 hrs"
       },
@@ -764,6 +596,7 @@
         "title": "The Kings Road, Chelsea",
         "description": "Originally Charles II's private road, it became the global epicenter of 1960s 'Swinging London' fashion and is now a high-end shopping artery.",
         "action": "Stroll down the street, admiring the boutiques and affluent architecture.",
+        "photoTip": "The pastel houses and hidden squares around Bywater Street in Chelsea.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -774,30 +607,6 @@
         "action": "Discover rare medicinal, edible, and poisonous plants in the walled sanctuary.",
         "checked": false,
         "time": "1 hr"
-      },
-      {
-        "id": "k_p1",
-        "title": "Hintze Hall",
-        "description": "Romanesque arches and whale skeleton.",
-        "photoTip": "Hintze Hall inside the Natural History Museum (arches and whale skeleton).",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "k_p2",
-        "title": "V&A Courtyard",
-        "description": "Pond and architectural facade.",
-        "photoTip": "The John Madejski Garden inside the V&A Museum (late afternoon sun).",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "k_p3",
-        "title": "Bywater Street",
-        "description": "Pastel townhouses in Chelsea.",
-        "photoTip": "The pastel houses and hidden squares around Bywater Street in Chelsea.",
-        "checked": false,
-        "time": "15 mins"
       }
     ],
     "eat": [
@@ -840,6 +649,7 @@
         "title": "Columbia Road Flower Market",
         "description": "Operating only on Sundays, this narrow Victorian street transforms into a dense, screaming, colorful jungle of flower sellers.",
         "action": "Arrive early, listen to the cockney barrow boys shouting, and admire the blooms.",
+        "photoTip": "Columbia Road on a Sunday morning (portrait lens for flower sellers).",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -848,6 +658,7 @@
         "title": "Regents Canal Walk",
         "description": "This eastern stretch of the canal runs through old industrial Hackney, lined with graffiti, converted warehouses, and trendy cafes.",
         "action": "Walk the towpath from Broadway Market down to the edge of Victoria Park.",
+        "photoTip": "Narrowboats passing through the historic locks along Regents Canal.",
         "checked": false,
         "time": "1 hr"
       },
@@ -856,6 +667,7 @@
         "title": "Victoria Park",
         "description": "Known affectionately as the 'People's Park', it was created in the 1840s to offer clean air to the impoverished East End.",
         "action": "Explore the vast park, specifically seeking out the ornate Chinese pagodas.",
+        "photoTip": "The Chinese Pagoda on the island in Victoria Park.",
         "checked": false,
         "time": "2 hrs"
       },
@@ -866,30 +678,6 @@
         "action": "Browse the Saturday stalls for incredible street food and independent zines.",
         "checked": false,
         "time": "1.5 hrs"
-      },
-      {
-        "id": "ha_p1",
-        "title": "Columbia Road Stalls",
-        "description": "Colorful flower market portraits.",
-        "photoTip": "Columbia Road on a Sunday morning (portrait lens for flower sellers).",
-        "checked": false,
-        "time": "30 mins"
-      },
-      {
-        "id": "ha_p2",
-        "title": "Victoria Park Pagoda",
-        "description": "Ornate island pavilion.",
-        "photoTip": "The Chinese Pagoda on the island in Victoria Park.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "ha_p3",
-        "title": "Canal Locks",
-        "description": "Industrial locks and narrowboats.",
-        "photoTip": "Narrowboats passing through the historic locks along Regents Canal.",
-        "checked": false,
-        "time": "20 mins"
       }
     ],
     "eat": [
@@ -932,6 +720,7 @@
         "title": "Covent Garden Piazza",
         "description": "Originally an orchard for Westminster Abbey, then London's main fruit and vegetable market, it is now the city's street-performance hub.",
         "action": "Watch the licensed street performers and explore the elegant Apple Market building.",
+        "photoTip": "The elegant, symmetrical arches of the Covent Garden Market building.",
         "checked": false,
         "time": "1 hr"
       },
@@ -940,6 +729,7 @@
         "title": "The Streets of Soho",
         "description": "Historically the red-light and bohemian district, Soho is a dense grid of energetic streets famous for jazz clubs, media hubs, and LGBTQ+ culture.",
         "action": "Get lost exploring Carnaby Street, Old Compton Street, and Kingly Court.",
+        "photoTip": "Neon signs of Soho at night, particularly around Old Compton Street.",
         "checked": false,
         "time": "2 hrs"
       },
@@ -948,6 +738,7 @@
         "title": "Neals Yard",
         "description": "A secret, micro-village courtyard hidden down an alley in Seven Dials, characterized by wildly colourful, ivy-covered brick buildings.",
         "action": "Find the hidden entrance and grab a photo of the brightly painted window frames.",
+        "photoTip": "Neals Yard: Brightly painted buildings and overflowing window boxes.",
         "checked": false,
         "time": "30 mins"
       },
@@ -958,30 +749,6 @@
         "action": "Browse the dusty, towering shelves of independent and antiquarian bookshops.",
         "checked": false,
         "time": "1 hr"
-      },
-      {
-        "id": "co_p1",
-        "title": "Neals Yard Courtyard",
-        "description": "Colorful buildings and flower boxes.",
-        "photoTip": "Neals Yard: Brightly painted buildings and overflowing window boxes.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "co_p2",
-        "title": "Market Arches",
-        "description": "Symmetrical architectural lines.",
-        "photoTip": "The elegant, symmetrical arches of the Covent Garden Market building.",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "co_p3",
-        "title": "Soho Neon Lights",
-        "description": "Vibrant night street atmosphere.",
-        "photoTip": "Neon signs of Soho at night, particularly around Old Compton Street.",
-        "checked": false,
-        "time": "30 mins"
       }
     ],
     "eat": [
@@ -1024,6 +791,7 @@
         "title": "The British Museum",
         "description": "The world's first national public museum, holding a vast, controversial, and breathtaking collection of human history spanning two million years.",
         "action": "Marvel at the Rosetta Stone, the Parthenon Sculptures, and the Great Court roof.",
+        "photoTip": "The Great Court inside the British Museum (tessellated glass roof).",
         "checked": false,
         "time": "3 hrs"
       },
@@ -1048,32 +816,9 @@
         "title": "Store Street & Woburn Walk",
         "description": "Architecturally beautiful pedestrian pockets of Bloomsbury, favored by academics, architects, and artists.",
         "action": "Browse independent galleries, ceramic studios, and design stores.",
-        "checked": false,
-        "time": "45 mins"
-      },
-      {
-        "id": "bl_p1",
-        "title": "British Museum Great Court",
-        "description": "Tessellated glass and steel roof.",
-        "photoTip": "The Great Court inside the British Museum (tessellated glass roof).",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "bl_p2",
-        "title": "Woburn Walk",
-        "description": "Historic pedestrian Georgian shopfronts.",
         "photoTip": "Pastel shopfronts along Woburn Walk (pedestrianized Georgian street).",
         "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "bl_p3",
-        "title": "Senate House",
-        "description": "Sweeping art deco and brutalist staircases.",
-        "photoTip": "The brutalist, sweeping staircases inside the Senate House building.",
-        "checked": false,
-        "time": "15 mins"
+        "time": "45 mins"
       }
     ],
     "eat": [
@@ -1116,6 +861,7 @@
         "title": "Coal Drops Yard",
         "description": "A masterclass in urban regeneration. These vast Victorian brick viaducts used to receive 8 million tonnes of coal a year, now housing chic stores.",
         "action": "Explore the unique shops beneath the 'Kissing Roof' architecture.",
+        "photoTip": "The Kissing Roof at Coal Drops Yard (modern architecture meets Victorian brick).",
         "checked": false,
         "time": "2 hrs"
       },
@@ -1140,32 +886,9 @@
         "title": "Kings Cross Station & Platform 9 3/4",
         "description": "A stunning mix of 1852 Victorian brickwork and a hyper-modern steel diagrid roof, famous globally for its Harry Potter connection.",
         "action": "Admire the sweeping roof and get a photo at the famous trolley in the wall.",
+        "photoTip": "The breathtaking gothic-revival facade of the St Pancras Renaissance Hotel and the neon tunnel.",
         "checked": false,
         "time": "30 mins"
-      },
-      {
-        "id": "kx_p1",
-        "title": "Coal Drops Kissing Roof",
-        "description": "Modern architecture meeting Victorian brick.",
-        "photoTip": "The Kissing Roof at Coal Drops Yard (modern architecture meets Victorian brick).",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "kx_p2",
-        "title": "St Pancras Hotel Facade",
-        "description": "Breathtaking gothic revival architecture.",
-        "photoTip": "The breathtaking gothic-revival facade of the St Pancras Renaissance Hotel.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "kx_p3",
-        "title": "Neon Tunnel",
-        "description": "Futuristic curved pedestrian tunnel.",
-        "photoTip": "The futuristic, neon-lit pedestrian tunnel connecting Kings Cross to St Pancras.",
-        "checked": false,
-        "time": "15 mins"
       }
     ],
     "eat": [
@@ -1208,6 +931,7 @@
         "title": "The Wallace Collection",
         "description": "A spectacular national museum housed in a historic London town house, featuring world-class French 18th-century art and vast armories.",
         "action": "View the free art collection (including Fragonard's 'The Swing') in the silk-lined rooms.",
+        "photoTip": "The grand, silk-lined rooms and armory at the Wallace Collection.",
         "checked": false,
         "time": "2 hrs"
       },
@@ -1224,6 +948,7 @@
         "title": "Mayfair Garden Squares",
         "description": "Mayfair is dominated by massive, manicured squares that historically hosted the most powerful aristocratic families in England.",
         "action": "Stroll through Grosvenor Square and Mount Street Gardens.",
+        "photoTip": "The terracotta-red Victorian architecture curving along Mount Street and Brown Hart Gardens.",
         "checked": false,
         "time": "45 mins"
       },
@@ -1234,30 +959,6 @@
         "action": "Browse the flagship store, categorized uniquely by country rather than genre.",
         "checked": false,
         "time": "45 mins"
-      },
-      {
-        "id": "ma_p1",
-        "title": "Wallace Collection Rooms",
-        "description": "Silk-lined galleries and historic armory.",
-        "photoTip": "The grand, silk-lined rooms and armory at the Wallace Collection.",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "ma_p2",
-        "title": "Mount Street",
-        "description": "Terracotta-red Victorian architecture.",
-        "photoTip": "The terracotta-red Victorian architecture curving along Mount Street.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "ma_p3",
-        "title": "Brown Hart Gardens",
-        "description": "Elevated rooftop garden oasis.",
-        "photoTip": "The elevated, hidden rooftop garden of Brown Hart Gardens.",
-        "checked": false,
-        "time": "15 mins"
       }
     ],
     "eat": [
@@ -1300,6 +1001,7 @@
         "title": "Whitehall & Parliament",
         "description": "The nerve center of the British government, a grand thoroughfare lined with ministries, leading directly to the gothic Palace of Westminster.",
         "action": "Walk down Whitehall to glimpse 10 Downing St and hear Big Ben chime.",
+        "photoTip": "Westminster Bridge looking back at the Elizabeth Tower (Big Ben).",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -1324,32 +1026,9 @@
         "title": "St James's Park",
         "description": "The oldest of the Royal Parks, featuring a beautiful lake and stunning sightlines toward Buckingham Palace and Whitehall.",
         "action": "Look for the resident pelicans and walk across the famous Blue Bridge.",
+        "photoTip": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall) and Tate Britain facade.",
         "checked": false,
         "time": "1.5 hrs"
-      },
-      {
-        "id": "we_p1",
-        "title": "Westminster Bridge",
-        "description": "Iconic view of Big Ben and Parliament.",
-        "photoTip": "Westminster Bridge looking back at the Elizabeth Tower (Big Ben).",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "we_p2",
-        "title": "St James's Blue Bridge",
-        "description": "Framed views of the London Eye.",
-        "photoTip": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall).",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "we_p3",
-        "title": "Tate Britain Façade",
-        "description": "Grand gallery staircase and stone columns.",
-        "photoTip": "The grand, sweeping staircase and facade of the Tate Britain gallery.",
-        "checked": false,
-        "time": "20 mins"
       }
     ],
     "eat": [
@@ -1392,6 +1071,7 @@
         "title": "South Bank Promenade",
         "description": "Created largely for the 1951 Festival of Britain, this pedestrianized river path connects London's greatest brutalist arts venues.",
         "action": "Walk the riverfront, passing the National Theatre and street performers.",
+        "photoTip": "Sharp, concrete geometric lines of the National Theatre (brutalist masterpiece).",
         "checked": false,
         "time": "1 hr"
       },
@@ -1408,6 +1088,7 @@
         "title": "Tate Modern",
         "description": "Housed in the colossal, decommissioned Bankside Power Station, it is Britain's national gallery of international modern art.",
         "action": "Enter via the massive Turbine Hall and explore the monumental installations.",
+        "photoTip": "The Millennium Bridge leading directly to the dome of St Pauls Cathedral.",
         "checked": false,
         "time": "2.5 hrs"
       },
@@ -1416,32 +1097,9 @@
         "title": "BFI Southbank",
         "description": "The leading repertory cinema in the UK, operated by the British Film Institute, featuring four screens tucked under Waterloo Bridge.",
         "action": "Catch a classic or indie film screening in the historic venue.",
-        "checked": false,
-        "time": "2.5 hrs"
-      },
-      {
-        "id": "sb_p1",
-        "title": "National Theatre",
-        "description": "Geometric brutalist concrete textures.",
-        "photoTip": "Sharp, concrete geometric lines of the National Theatre (brutalist masterpiece).",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "sb_p2",
-        "title": "Millennium Bridge",
-        "description": "Direct sightline to St Pauls dome.",
-        "photoTip": "The Millennium Bridge leading directly to the dome of St Pauls Cathedral.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "sb_p3",
-        "title": "Leake Street Arches",
-        "description": "Legal underground street art tunnel.",
         "photoTip": "Leake Street Arches (Banksy Tunnel), an ever-changing canvas of street art.",
         "checked": false,
-        "time": "30 mins"
+        "time": "2.5 hrs"
       }
     ],
     "eat": [
@@ -1484,6 +1142,7 @@
         "title": "Little Venice Canals",
         "description": "A highly picturesque junction where the Grand Union and Regent's Canals meet, originally built for industrial transport but now a leisure oasis.",
         "action": "Walk the towpaths and admire the painted, decorative narrowboats at Brownings Pool.",
+        "photoTip": "Brownings Pool (reflection of weeping willows and narrowboats).",
         "checked": false,
         "time": "1 hr"
       },
@@ -1492,6 +1151,7 @@
         "title": "Hyde Park Italian Gardens",
         "description": "A 150-year-old ornamental water garden located at the head of The Long Water, believed to be a gift from Prince Albert to Queen Victoria.",
         "action": "Relax by the carved stone urns, classical statues, and symmetric fountains.",
+        "photoTip": "Symmetrical fountains and classical statues of the Italian Gardens.",
         "checked": false,
         "time": "45 mins"
       },
@@ -1500,6 +1160,7 @@
         "title": "Paddington Station",
         "description": "Designed by legendary engineer Isambard Kingdom Brunel in 1854, featuring a breathtaking wrought-iron and glass vaulted roof.",
         "action": "Look up to see the Victorian ironwork spanning the main train platforms.",
+        "photoTip": "The sweeping, white stucco crescents of Leinster Gardens.",
         "checked": false,
         "time": "30 mins"
       },
@@ -1510,30 +1171,6 @@
         "action": "Catch a charming, surprisingly complex marionette show on the water.",
         "checked": false,
         "time": "1.5 hrs"
-      },
-      {
-        "id": "ba_p1",
-        "title": "Brownings Pool",
-        "description": "Reflections of willows and narrowboats.",
-        "photoTip": "Brownings Pool (reflection of weeping willows and narrowboats).",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "ba_p2",
-        "title": "Italian Gardens Fountains",
-        "description": "Classical statues and water basins.",
-        "photoTip": "Symmetrical fountains and classical statues of the Italian Gardens.",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "ba_p3",
-        "title": "Leinster Gardens",
-        "description": "Architectural illusion facades.",
-        "photoTip": "The sweeping, white stucco crescents of Leinster Gardens.",
-        "checked": false,
-        "time": "15 mins"
       }
     ],
     "eat": [
@@ -1576,6 +1213,7 @@
         "title": "Camden Passage",
         "description": "A picturesque, car-free cobblestone alleyway in Islington that has been famous for its concentrated antique markets since the 1960s.",
         "action": "Hunt for vintage treasures and silverware in the wonky, historic storefronts.",
+        "photoTip": "Charming, wonky antique storefronts tucked inside Camden Passage.",
         "checked": false,
         "time": "1 hr"
       },
@@ -1584,6 +1222,7 @@
         "title": "Exmouth Market",
         "description": "A vibrant, semi-pedestrianized street in Clerkenwell lined with fairy lights, independent restaurants, and a renowned weekday food market.",
         "action": "Eat your way through the artisan stalls and grab a coffee at a pavement cafe.",
+        "photoTip": "The fairy lights and bustling atmosphere of Exmouth Market at dusk.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -1600,32 +1239,9 @@
         "title": "The Charterhouse",
         "description": "A historic complex dating back to 1348, having served as a Carthusian monastery, a Tudor mansion, a boys' school, and an almshouse.",
         "action": "Visit the peaceful ruins, courtyards, and the fascinating free museum.",
-        "checked": false,
-        "time": "1.5 hrs"
-      },
-      {
-        "id": "is_p1",
-        "title": "Exmouth Market Fairy Lights",
-        "description": "Charming evening street atmosphere.",
-        "photoTip": "The fairy lights and bustling atmosphere of Exmouth Market at dusk.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "is_p2",
-        "title": "Camden Passage Shopfronts",
-        "description": "Quaint wonky antique store exteriors.",
-        "photoTip": "Charming, wonky antique storefronts tucked inside Camden Passage.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "is_p3",
-        "title": "Barbican Estate",
-        "description": "Dramatic brutalist concrete towers.",
         "photoTip": "The dramatic, brutalist concrete towers of the Barbican Estate.",
         "checked": false,
-        "time": "20 mins"
+        "time": "1.5 hrs"
       }
     ],
     "eat": [
@@ -1676,6 +1292,7 @@
         "title": "Crossrail Place Roof Garden",
         "description": "An indoor tropical garden sitting exactly on the Prime Meridian line, dividing plants from the Eastern and Western hemispheres.",
         "action": "Wander the lush, geometric timber-framed pathways.",
+        "photoTip": "Lush pathways of Crossrail Place Roof Garden framed by geometric timber.",
         "checked": false,
         "time": "45 mins"
       },
@@ -1684,6 +1301,7 @@
         "title": "West India Docks",
         "description": "Once the busiest port in the world, the massive water basins are now surrounded by some of Europe's tallest skyscrapers.",
         "action": "Walk the docks to see preserved historic cranes juxtaposed against modern glass.",
+        "photoTip": "Looking up at glass skyscrapers reflecting in the water at West India Quay.",
         "checked": false,
         "time": "1 hr"
       },
@@ -1692,32 +1310,9 @@
         "title": "The DLR (Docklands Light Railway)",
         "description": "A fully automated, driverless light rail network built in 1987 to serve the redeveloping Docklands area.",
         "action": "Sit right at the front window for a rollercoaster-like view winding through skyscrapers.",
-        "checked": false,
-        "time": "30 mins"
-      },
-      {
-        "id": "do_p1",
-        "title": "Adams Plaza Bridge",
-        "description": "Futuristic sci-fi neon corridor.",
         "photoTip": "Futuristic Adams Plaza Bridge (famous from Star Wars).",
         "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "do_p2",
-        "title": "West India Quay Waterway",
-        "description": "Skyscrapers reflecting in the docks.",
-        "photoTip": "Looking up at glass skyscrapers reflecting in the water at West India Quay.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "do_p3",
-        "title": "Crossrail Roof Garden",
-        "description": "Timber frame framing tropical foliage.",
-        "photoTip": "Lush pathways of Crossrail Place Roof Garden framed by geometric timber.",
-        "checked": false,
-        "time": "20 mins"
+        "time": "30 mins"
       }
     ],
     "eat": [
@@ -1760,6 +1355,7 @@
         "title": "Brixton Village & Market Row",
         "description": "Two historic, 1920s covered arcades that were saved from demolition by locals, now housing a staggeringly diverse array of global food and indie boutiques.",
         "action": "Get lost in the maze, hunting for unique vintage gear and street food.",
+        "photoTip": "The colorful, overlapping neon signs inside Brixton Village market.",
         "checked": false,
         "time": "2 hrs"
       },
@@ -1784,32 +1380,9 @@
         "title": "Brockwell Park & Lido",
         "description": "A sweeping, hilly historic park featuring walled gardens and a Grade II listed, 1930s Art Deco outdoor swimming pool.",
         "action": "Walk the top of the park for views, then admire the original architecture of the Lido.",
+        "photoTip": "Electric Avenue at golden hour (historic iron canopies) and sweeping views from Brockwell Park.",
         "checked": false,
         "time": "1.5 hrs"
-      },
-      {
-        "id": "br_p1",
-        "title": "Electric Avenue",
-        "description": "Historic market iron canopies at dusk.",
-        "photoTip": "Electric Avenue at golden hour (historic iron canopies).",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "br_p2",
-        "title": "Brixton Village Neon",
-        "description": "Colorful overlapping market neon signs.",
-        "photoTip": "The colorful, overlapping neon signs inside Brixton Village market.",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "br_p3",
-        "title": "Brockwell Park Viewpoint",
-        "description": "Panoramic South London skyline.",
-        "photoTip": "Sweeping view of the London skyline from the top of Brockwell Park.",
-        "checked": false,
-        "time": "20 mins"
       }
     ],
     "eat": [
@@ -1852,6 +1425,7 @@
         "title": "Battersea Power Station",
         "description": "One of the largest brick buildings in the world, this decommissioned coal power plant is a masterpiece of Art Deco industrial design, recently reborn.",
         "action": "Marvel at the restored brickwork and explore the shops inside the massive Turbine Halls.",
+        "photoTip": "Looking straight up at the four massive chimneys inside the Power Station courtyard.",
         "checked": false,
         "time": "2 hrs"
       },
@@ -1860,6 +1434,7 @@
         "title": "Battersea Park & Peace Pagoda",
         "description": "A 200-acre Victorian park hugging the Thames, famous for its fountains, boating lake, and a striking Buddhist pagoda gifted by Japanese monks.",
         "action": "Walk the Thames Path to the pagoda and watch the river traffic.",
+        "photoTip": "Golden Buddha statues of the Peace Pagoda, framed against the Thames.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -1868,6 +1443,7 @@
         "title": "Clapham Old Town",
         "description": "A picturesque, village-like enclave that contrasts heavily with the busy high street, featuring well-preserved Georgian architecture and cozy pubs.",
         "action": "Stroll the quiet residential streets and admire the historic housing stock.",
+        "photoTip": "Colorful, independent shopfronts curving along Abbeville Road in Clapham.",
         "checked": false,
         "time": "1 hr"
       },
@@ -1878,30 +1454,6 @@
         "action": "Spend an afternoon walking the perimeter and watching local cricket or football matches.",
         "checked": false,
         "time": "2 hrs"
-      },
-      {
-        "id": "bat_p1",
-        "title": "Power Station Chimneys",
-        "description": "Looking up inside the giant central courtyard.",
-        "photoTip": "Looking straight up at the four massive chimneys inside the Power Station courtyard.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "bat_p2",
-        "title": "Peace Pagoda",
-        "description": "Golden Buddha statues framed against the Thames.",
-        "photoTip": "Golden Buddha statues of the Peace Pagoda, framed against the Thames.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "bat_p3",
-        "title": "Abbeville Road",
-        "description": "Charming boutique shopfronts in Clapham.",
-        "photoTip": "Colorful, independent shopfronts curving along Abbeville Road in Clapham.",
-        "checked": false,
-        "time": "20 mins"
       }
     ],
     "eat": [
@@ -1952,6 +1504,7 @@
         "title": "Bellenden Road",
         "description": "The gentrified, artistic artery of Peckham, famous for its independent boutiques, restaurants, and street furniture.",
         "action": "Walk the road, specifically looking for the unique cast-iron bollards designed by Antony Gormley.",
+        "photoTip": "Vibrant street art and murals scattered throughout alleys off Rye Lane.",
         "checked": false,
         "time": "1 hr"
       },
@@ -1968,32 +1521,9 @@
         "title": "Peckham Rooftop Culture",
         "description": "Peckham pioneered the trend of repurposing brutalist multi-storey car parks into sprawling, vibrant community art spaces and bars.",
         "action": "Take the stairs to the roof of Peckham Levels or Frank's Cafe for a sunset skyline view.",
+        "photoTip": "Franks Cafe / Peckham Levels: Pink staircases and unobstructed skyline views and Asylum Chapel ruins.",
         "checked": false,
         "time": "1.5 hrs"
-      },
-      {
-        "id": "pe_p1",
-        "title": "Franks Cafe Rooftop",
-        "description": "Pink staircases and skyline views.",
-        "photoTip": "Franks Cafe / Peckham Levels: Pink staircases and unobstructed skyline views (summer).",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "pe_p2",
-        "title": "Asylum Chapel",
-        "description": "Overgrown historic ruined chapel.",
-        "photoTip": "The beautiful, overgrown ruins of the Asylum Chapel in Caroline Gardens.",
-        "checked": false,
-        "time": "30 mins"
-      },
-      {
-        "id": "pe_p3",
-        "title": "Rye Lane Murrals",
-        "description": "Vibrant South London street art.",
-        "photoTip": "Vibrant street art and murals scattered throughout alleys off Rye Lane.",
-        "checked": false,
-        "time": "20 mins"
       }
     ],
     "eat": [
@@ -2036,6 +1566,7 @@
         "title": "Dulwich Picture Gallery",
         "description": "Designed by Sir John Soane in 1811, this is the world's first purpose-built public art gallery, bathed in innovative natural top-lighting.",
         "action": "Visit the gallery to see masterpieces by Rembrandt, Rubens, and Canaletto.",
+        "photoTip": "Exterior brickwork and lighting enfilades of the Dulwich Picture Gallery.",
         "checked": false,
         "time": "2 hrs"
       },
@@ -2052,6 +1583,7 @@
         "title": "Crystal Palace Dinosaurs",
         "description": "Created in 1854, these are the world's first dinosaur sculptures. They are delightfully historically inaccurate based on modern science.",
         "action": "Wander the park's waterways to find these towering, eerie Victorian statues hidden in the trees.",
+        "photoTip": "Eerie, overgrown Victorian dinosaur statues emerging from trees in the park.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -2060,32 +1592,9 @@
         "title": "Sydenham Hill Wood",
         "description": "A unique tract of ancient woodland inside the city, featuring the remains of a Victorian railway line and a ruined folly.",
         "action": "Take a tranquil walk through the dense canopy to find the abandoned railway tunnel.",
-        "checked": false,
-        "time": "1.5 hrs"
-      },
-      {
-        "id": "du_p1",
-        "title": "Dulwich Gallery Brickwork",
-        "description": "Soane-designed architectural lighting.",
-        "photoTip": "Exterior brickwork and lighting enfilades of the Dulwich Picture Gallery.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "du_p2",
-        "title": "Victorian Dinosaurs",
-        "description": "Overgrown historic statues in the trees.",
-        "photoTip": "Eerie, overgrown Victorian dinosaur statues emerging from trees in the park.",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "du_p3",
-        "title": "Crystal Palace Hill Viewpoint",
-        "description": "Sweeping panoramic city views.",
         "photoTip": "Sweeping panoramic city views from the top of Crystal Palace hill.",
         "checked": false,
-        "time": "15 mins"
+        "time": "1.5 hrs"
       }
     ],
     "eat": [
@@ -2128,6 +1637,7 @@
         "title": "Wimbledon Village",
         "description": "Separated from the busy main town, the 'Village' sits on a hill and retains a pristine, 17th-century rural charm favored by affluent locals.",
         "action": "Explore the high-end boutiques and stop for a pint at a historic, flower-draped pub.",
+        "photoTip": "Historic, flower-draped pub facades in Wimbledon Village (Dog & Fox).",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -2136,6 +1646,7 @@
         "title": "Wimbledon Common & Windmill",
         "description": "A massive 1,140-acre expanse of wild heathland, ponds, and woods, featuring a fully restored working windmill from 1817.",
         "action": "Hike or horseback ride across the wilderness to find the isolated windmill museum.",
+        "photoTip": "Wimbledon Windmill standing isolated on the wild expanse of the Common.",
         "checked": false,
         "time": "2 hrs"
       },
@@ -2144,6 +1655,7 @@
         "title": "Putney Embankment",
         "description": "The undisputed home of British rowing. This stretch of the Thames is lined with historic boat clubs and is the starting point for the Oxford-Cambridge race.",
         "action": "Walk the Thames Path, watching the rowing eights practice on the river.",
+        "photoTip": "Colorful rowing boats lined up along the Thames at Putney Embankment at sunset.",
         "checked": false,
         "time": "1 hr"
       },
@@ -2154,30 +1666,6 @@
         "action": "Visit the calm, beautiful walled gardens and the sunken garden.",
         "checked": false,
         "time": "1 hr"
-      },
-      {
-        "id": "wi_p1",
-        "title": "Wimbledon Windmill",
-        "description": "Historic mill on the open common.",
-        "photoTip": "Wimbledon Windmill standing isolated on the wild expanse of the Common.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "wi_p2",
-        "title": "Village Pubs",
-        "description": "Historic flower-draped tavern facades.",
-        "photoTip": "Historic, flower-draped pub facades in Wimbledon Village (Dog & Fox).",
-        "checked": false,
-        "time": "10 mins"
-      },
-      {
-        "id": "wi_p3",
-        "title": "Putney Embankment Sunset",
-        "description": "Rowing boats lined up by the river.",
-        "photoTip": "Colorful rowing boats lined up along the Thames at Putney Embankment at sunset.",
-        "checked": false,
-        "time": "20 mins"
       }
     ],
     "eat": [
@@ -2220,6 +1708,7 @@
         "title": "God's Own Junkyard",
         "description": "A chaotic, eye-popping warehouse packed to the rafters with vintage neon signs, movie props, and disco balls salvaged over decades.",
         "action": "Grab a drink at their cafe and be completely overwhelmed by the neon glow.",
+        "photoTip": "Sensory overload of neon lights inside Gods Own Junkyard.",
         "checked": false,
         "time": "1 hr"
       },
@@ -2228,6 +1717,7 @@
         "title": "Walthamstow Wetlands",
         "description": "Europe's largest urban wetland reserve. This functioning water reservoir network is a vital sanctuary for migrating birds and local wildlife.",
         "action": "Hike the pathways between the reservoirs, looking out for the Victorian Engine House.",
+        "photoTip": "The Engine House at Wetlands, with its Victorian chimney reflected in water.",
         "checked": false,
         "time": "2.5 hrs"
       },
@@ -2236,6 +1726,7 @@
         "title": "William Morris Gallery",
         "description": "Set in a beautiful 18th-century Georgian house where the famous Arts and Crafts pioneer lived, showcasing his intricate textiles and wallpapers.",
         "action": "Admire the revolutionary floral prints and original weaving looms on display.",
+        "photoTip": "Intricate Arts and Crafts wallpaper patterns preserved inside William Morris Gallery.",
         "checked": false,
         "time": "1.5 hrs"
       },
@@ -2246,30 +1737,6 @@
         "action": "Stroll down Orford Road, popping into the high-end independent delis and shops.",
         "checked": false,
         "time": "1 hr"
-      },
-      {
-        "id": "wa_p1",
-        "title": "God's Own Junkyard Neon",
-        "description": "Sensory overload of vintage neon signs.",
-        "photoTip": "Sensory overload of neon lights inside Gods Own Junkyard.",
-        "checked": false,
-        "time": "20 mins"
-      },
-      {
-        "id": "wa_p2",
-        "title": "Wetlands Engine House",
-        "description": "Victorian chimney reflected in reservoirs.",
-        "photoTip": "The Engine House at Wetlands, with its Victorian chimney reflected in water.",
-        "checked": false,
-        "time": "15 mins"
-      },
-      {
-        "id": "wa_p3",
-        "title": "William Morris Patterns",
-        "description": "Intricate Arts and Crafts wallpaper designs.",
-        "photoTip": "Intricate Arts and Crafts wallpaper patterns preserved inside William Morris Gallery.",
-        "checked": false,
-        "time": "20 mins"
       }
     ],
     "eat": [
