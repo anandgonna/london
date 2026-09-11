@@ -46,24 +46,28 @@
         "action": "Walk directly beneath the gleaming copper hull in the dry dock.",
         "checked": false,
         "time": "45 mins"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "g_p1",
-        "text": "The viewpoint from the Royal Observatory hill: capture the Queens House with Canary Wharf behind it.",
+        "title": "Royal Observatory Viewpoint",
+        "description": "The classic hilltop vantage point overlooking the grounds.",
+        "photoTip": "Capture the Queens House with Canary Wharf glowing behind it from the hill viewpoint.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "g_p2",
-        "text": "The Painted Hall ceiling (a wide-angle lens is highly recommended here).",
+        "title": "Painted Hall Ceiling",
+        "description": "Magnificent baroque painted hall ceiling by Sir James Thornhill.",
+        "photoTip": "The Painted Hall ceiling (a wide-angle lens is highly recommended here).",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "g_p3",
-        "text": "The symmetrical colonnades of the Old Royal Naval College.",
+        "title": "Colonnades",
+        "description": "Classical architectural symmetry by Christopher Wren.",
+        "photoTip": "The symmetrical colonnades of the Old Royal Naval College.",
         "checked": false,
         "time": "15 mins"
       }
@@ -71,13 +75,17 @@
     "eat": [
       {
         "id": "g_e1",
-        "text": "Arapina Bakery (Near Greenwich Market): Cozy spot for vegetarian, vegan, and GF artisan pastries/coffees.",
+        "title": "Arapina Bakery",
+        "description": "Cozy artisan bakery located near Greenwich Market specializing in healthy treats.",
+        "mustTry": "Plant-based artisan pastries and gluten-free almond cakes with oat milk lattes.",
         "checked": false,
         "time": "30 mins"
       },
       {
         "id": "g_e2",
-        "text": "Prince of Greenwich Pub: Quirky Victorian decor. Excellent vegetarian and GF pizzas in a historic setting.",
+        "title": "Prince of Greenwich Pub",
+        "description": "Quirky Victorian corner pub with eccentric maximalist decor and a warm atmosphere.",
+        "mustTry": "Wood-fired vegetarian and gluten-free pizzas in a historic setting.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -130,24 +138,28 @@
         "action": "Take the guided tour of the West Cemetery to see the Egyptian Avenue.",
         "checked": false,
         "time": "1.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "h_p1",
-        "text": "Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.",
+        "title": "Parliament Hill",
+        "description": "The famous summit view across London.",
+        "photoTip": "Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "h_p2",
-        "text": "The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.",
+        "title": "West Cemetery Graves",
+        "description": "Historic gothic graves covered in ivy.",
+        "photoTip": "The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.",
         "checked": false,
         "time": "30 mins"
       },
       {
         "id": "h_p3",
-        "text": "Flask Walk, with its picturesque vintage shopfronts and cobbled streets.",
+        "title": "Flask Walk",
+        "description": "Picturesque village alleyway.",
+        "photoTip": "Flask Walk, with its picturesque vintage shopfronts and cobbled streets.",
         "checked": false,
         "time": "15 mins"
       }
@@ -155,13 +167,17 @@
     "eat": [
       {
         "id": "h_e1",
-        "text": "The Swing (West Hampstead): Vegetable-focused casual restaurant with vibrant small plates and marked GF options.",
+        "title": "The Swing",
+        "description": "Vegetable-focused casual restaurant located in West Hampstead with vibrant small plates.",
+        "mustTry": "Seasonal vegan small plates and clearly marked gluten-free tapas options.",
         "checked": false,
         "time": "1 hr"
       },
       {
         "id": "h_e2",
-        "text": "The Holly Bush: Historic, Grade II listed pub. Excellent vegetarian roasts, very accommodating for GF.",
+        "title": "The Holly Bush",
+        "description": "Historic, Grade II listed 18th-century pub tucked away down a charming village alleyway.",
+        "mustTry": "Famous vegetarian nut roast and naturally gluten-free pub classics.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -214,24 +230,28 @@
         "action": "Wander the street, looking out for glass-blowing studios and indie galleries.",
         "checked": false,
         "time": "1 hr"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "s_p1",
-        "text": "The Millennium Bridge looking straight towards the dome of St. Pauls Cathedral (golden hour).",
+        "title": "Millennium Bridge",
+        "description": "Pedestrian suspension bridge across the Thames.",
+        "photoTip": "The Millennium Bridge looking straight towards the dome of St. Pauls Cathedral (golden hour).",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "s_p2",
-        "text": "Shad Thames: historic Victorian cobbled street with overhead iron walkways.",
+        "title": "Shad Thames",
+        "description": "Historic warehouse canyon.",
+        "photoTip": "Shad Thames: historic Victorian cobbled street with overhead iron walkways.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "s_p3",
-        "text": "The Shard framing the historic wooden courtyard of The George Inn.",
+        "title": "The George Inn",
+        "description": "Historic galleried courtyard.",
+        "photoTip": "The Shard framing the historic wooden courtyard of The George Inn.",
         "checked": false,
         "time": "10 mins"
       }
@@ -239,13 +259,17 @@
     "eat": [
       {
         "id": "s_e1",
-        "text": "Mallow (Borough Market): 100 percent plant-based restaurant, vibrant menu, almost everything adaptable to GF.",
+        "title": "Mallow",
+        "description": "100 percent plant-based restaurant located in Borough Market with vibrant seasonal menus.",
+        "mustTry": "Vibrant plant-based small plates and bowls, almost everything adaptable to be gluten-free.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "s_e2",
-        "text": "Horn OK Please (Borough Market): Indian street food. Fresh vegetarian food naturally GF (moong dal dosas).",
+        "title": "Horn OK Please",
+        "description": "Bustling Indian street food stall inside Borough Market serving fresh vegetarian snacks.",
+        "mustTry": "Fresh vegetarian street food naturally gluten-free, especially the moong dal dosas.",
         "checked": false,
         "time": "45 mins"
       }
@@ -290,24 +314,28 @@
         "action": "Stroll the riverside paths, surrounded by historic architecture and traditional pubs.",
         "checked": false,
         "time": "1 hr"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "r_p1",
-        "text": "The Isabella Plantation in Richmond Park (macro shots of flowers and streams).",
+        "title": "Isabella Plantation",
+        "description": "Woodland garden bursting with vibrant color.",
+        "photoTip": "The Isabella Plantation in Richmond Park (macro shots of flowers and streams).",
         "checked": false,
         "time": "45 mins"
       },
       {
         "id": "r_p2",
-        "text": "The Temperate House at Kew Gardens (architectural geometry and symmetry).",
+        "title": "Temperate House",
+        "description": "Victorian iron and glass greenhouse.",
+        "photoTip": "The Temperate House at Kew Gardens (architectural geometry and symmetry).",
         "checked": false,
         "time": "30 mins"
       },
       {
         "id": "r_p3",
-        "text": "Richmond Hill Viewpoint (protected view looking down over a sweeping bend in the Thames).",
+        "title": "Richmond Hill",
+        "description": "Protected scenic bend in the Thames.",
+        "photoTip": "Richmond Hill Viewpoint (protected view looking down over a sweeping bend in the Thames).",
         "checked": false,
         "time": "15 mins"
       }
@@ -315,13 +343,17 @@
     "eat": [
       {
         "id": "r_e1",
-        "text": "Tide Tables: Casual cafe under the arches on the riverside. Entirely vegetarian, dedicated GF menus.",
+        "title": "Tide Tables",
+        "description": "Casual cafe tucked under the arches right on the Richmond riverside.",
+        "mustTry": "Entirely vegetarian cafe with dedicated vegan and gluten-free menus.",
         "checked": false,
         "time": "1 hr"
       },
       {
         "id": "r_e2",
-        "text": "Petersham Nurseries Cafe: Magical greenhouse dining. Excellent vegetarian and GF options (book in advance).",
+        "title": "Petersham Nurseries Cafe",
+        "description": "Magical greenhouse dining experience surrounded by lush botanical plants.",
+        "mustTry": "Exquisite vegetarian dishes and gluten-free gourmet plates (book in advance).",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -374,24 +406,28 @@
         "action": "Experience the highly immersive, subterranean light and sound installation.",
         "checked": false,
         "time": "45 mins"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "c_p1",
-        "text": "Looking up at the Gherkin from the ornate archways of Leadenhall Market.",
+        "title": "Gherkin & Leadenhall",
+        "description": "Architectural contrast of old and new.",
+        "photoTip": "Looking up at the Gherkin from the ornate archways of Leadenhall Market.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "c_p2",
-        "text": "St. Dunstan-in-the-East: A ruined medieval church transformed into an overgrown garden.",
+        "title": "St. Dunstan-in-the-East",
+        "description": "Ruined church garden oasis.",
+        "photoTip": "St. Dunstan-in-the-East: A ruined medieval church transformed into an overgrown garden.",
         "checked": false,
         "time": "30 mins"
       },
       {
         "id": "c_p3",
-        "text": "The reflection of St Pauls Cathedral in the modern glass of One New Change.",
+        "title": "One New Change",
+        "description": "Modern glass reflecting St Pauls.",
+        "photoTip": "The reflection of St Pauls Cathedral in the modern glass of One New Change.",
         "checked": false,
         "time": "15 mins"
       }
@@ -399,13 +435,17 @@
     "eat": [
       {
         "id": "c_e1",
-        "text": "The Ned (Millies Lounge): Upscale 1920s bank building. Superb vegetarian and GF British classics.",
+        "title": "The Ned (Millies Lounge)",
+        "description": "Upscale dining room inside a grand 1920s former bank building.",
+        "mustTry": "Superb vegetarian and gluten-free British classics crafted with precision.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "c_e2",
-        "text": "Itsu / Leon: Reliable staples for weekends when indie cafes close. Clearly marked GF/Veg hot boxes.",
+        "title": "Leon / Itsu",
+        "description": "Reliable fast-casual stops for weekends when financial district indie cafes close.",
+        "mustTry": "Clearly marked gluten-free and vegetarian warm boxes and noodle salads.",
         "checked": false,
         "time": "45 mins"
       }
@@ -458,24 +498,28 @@
         "action": "Admire the oversized attic windows, built to let in maximum light for weaving.",
         "checked": false,
         "time": "30 mins"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "sh_p1",
-        "text": "Fournier Street: Contrast between Georgian townhouses and modern City skyscrapers.",
+        "title": "Fournier Street Architecture",
+        "description": "Georgian homes meeting modern skyscrapers.",
+        "photoTip": "Fournier Street: Contrast between Georgian townhouses and modern City skyscrapers.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "sh_p2",
-        "text": "Nomadic Community Gardens / Brick Lane murals for urban photography.",
+        "title": "Brick Lane Murrals",
+        "description": "Vibrant East End street art.",
+        "photoTip": "Nomadic Community Gardens / Brick Lane murals for urban photography.",
         "checked": false,
         "time": "30 mins"
       },
       {
         "id": "sh_p3",
-        "text": "The glass canopy and Victorian ironwork of Old Spitalfields Market.",
+        "title": "Spitalfields Canopy",
+        "description": "Victorian ironwork and glass.",
+        "photoTip": "The glass canopy and Victorian ironwork of Old Spitalfields Market.",
         "checked": false,
         "time": "15 mins"
       }
@@ -483,13 +527,17 @@
     "eat": [
       {
         "id": "sh_e1",
-        "text": "Bubala (Spitalfields): Phenomenal Middle Eastern vegetarian food. Vibrant and almost entirely GF.",
+        "title": "Bubala",
+        "description": "Acclaimed Middle Eastern restaurant in Spitalfields focusing on creative vegetarian small plates.",
+        "mustTry": "Phenomenal vegetarian dishes with a vibrant menu almost entirely gluten-free.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "sh_e2",
-        "text": "Nude Espresso (Hanbury St): Great spot for a coffee break with GF treat options and plant milks.",
+        "title": "Nude Espresso",
+        "description": "Independent specialty coffee shop located right on Hanbury Street.",
+        "mustTry": "Artisan coffees with plant milks and tasty gluten-free treat options.",
         "checked": false,
         "time": "45 mins"
       }
@@ -542,24 +590,28 @@
         "action": "Book a ticket in advance to watch a film from a plush velvet bed or armchair.",
         "checked": false,
         "time": "2.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "n_p1",
-        "text": "St Lukes Mews: Pretty cobbled mews with pink houses and trailing ivy.",
+        "title": "St Lukes Mews",
+        "description": "Cobbled mews with pink townhouses.",
+        "photoTip": "St Lukes Mews: Pretty cobbled mews with pink houses and trailing ivy.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "n_p2",
-        "text": "The sweeping curve of colorful houses on Lancaster Road or Elgin Crescent.",
+        "title": "Lancaster Road",
+        "description": "Brightly colored Victorian terraces.",
+        "photoTip": "The sweeping curve of colorful houses on Lancaster Road or Elgin Crescent.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "n_p3",
-        "text": "The waterfall and roaming peacocks inside the Kyoto Garden.",
+        "title": "Kyoto Garden Waterfall",
+        "description": "Japanese garden ponds and wildlife.",
+        "photoTip": "The waterfall and roaming peacocks inside the Kyoto Garden.",
         "checked": false,
         "time": "20 mins"
       }
@@ -567,13 +619,17 @@
     "eat": [
       {
         "id": "n_e1",
-        "text": "Farm Girl: Photogenic Australian-style cafe. Fantastic vegetarian and naturally GF options.",
+        "title": "Farm Girl",
+        "description": "Photogenic Australian-style health cafe tucked in a quiet Notting Hill courtyard.",
+        "mustTry": "Famous rose lattes, vegetarian bowls, and naturally gluten-free buckwheat pancakes.",
         "checked": false,
         "time": "1 hr"
       },
       {
         "id": "n_e2",
-        "text": "Haya: Mediterranean neighborhood restaurant with wonderful vegetarian sharing plates and GF options.",
+        "title": "Haya",
+        "description": "Mediterranean-inspired neighborhood restaurant with a warm and welcoming ambiance.",
+        "mustTry": "Wonderful vegetarian sharing plates and clearly marked gluten-free dishes.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -626,24 +682,28 @@
         "action": "Hike to the summit marker and try to identify landmarks across the skyline.",
         "checked": false,
         "time": "45 mins"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "ca_p1",
-        "text": "The vibrant, 3D shop fronts along Camden High Street.",
+        "title": "Camden High Street",
+        "description": "Iconic 3D storefront sculptures.",
+        "photoTip": "The vibrant, 3D shop fronts along Camden High Street.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "ca_p2",
-        "text": "Regents Canal at Camden Lock, with narrowboats and weeping willows.",
+        "title": "Canal Lock",
+        "description": "Narrowboats and weeping willows.",
+        "photoTip": "Regents Canal at Camden Lock, with narrowboats and weeping willows.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "ca_p3",
-        "text": "The summit of Primrose Hill at sunset, capturing the London skyline.",
+        "title": "Primrose Hill Summit",
+        "description": "Sunset views over the city skyline.",
+        "photoTip": "The summit of Primrose Hill at sunset, capturing the London skyline.",
         "checked": false,
         "time": "30 mins"
       }
@@ -651,13 +711,17 @@
     "eat": [
       {
         "id": "ca_e1",
-        "text": "Magic Falafel (Camden Market): 100 percent vegan and GF. Authentic, stress-free market eat.",
+        "title": "Magic Falafel",
+        "description": "Dedicated street food stall located right inside Camden Market.",
+        "mustTry": "100 percent vegan and gluten-free authentic crispy falafel boxes.",
         "checked": false,
         "time": "30 mins"
       },
       {
         "id": "ca_e2",
-        "text": "Mildreds (Camden): Legendary plant-based food. Clearly marks plentiful GF options.",
+        "title": "Mildreds Camden",
+        "description": "Legendary plant-based restaurant serving globally inspired comfort food.",
+        "mustTry": "Vibrant vegetarian mains with clearly marked and plentiful gluten-free options.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -710,24 +774,28 @@
         "action": "Discover rare medicinal, edible, and poisonous plants in the walled sanctuary.",
         "checked": false,
         "time": "1 hr"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "k_p1",
-        "text": "Hintze Hall inside the Natural History Museum (arches and whale skeleton).",
+        "title": "Hintze Hall",
+        "description": "Romanesque arches and whale skeleton.",
+        "photoTip": "Hintze Hall inside the Natural History Museum (arches and whale skeleton).",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "k_p2",
-        "text": "The John Madejski Garden inside the V&A Museum (late afternoon sun).",
+        "title": "V&A Courtyard",
+        "description": "Pond and architectural facade.",
+        "photoTip": "The John Madejski Garden inside the V&A Museum (late afternoon sun).",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "k_p3",
-        "text": "The pastel houses and hidden squares around Bywater Street in Chelsea.",
+        "title": "Bywater Street",
+        "description": "Pastel townhouses in Chelsea.",
+        "photoTip": "The pastel houses and hidden squares around Bywater Street in Chelsea.",
         "checked": false,
         "time": "15 mins"
       }
@@ -735,13 +803,17 @@
     "eat": [
       {
         "id": "k_e1",
-        "text": "Dishoom (Kensington): Bombay-style cafe with dedicated vegan and GF menus. Legendary black daal.",
+        "title": "Dishoom Kensington",
+        "description": "Stunning Bombay-style cafe inspired by the old Irani cafes of Mumbai.",
+        "mustTry": "Dedicated vegan and gluten-free menus featuring their legendary black daal.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "k_e2",
-        "text": "Ceru (South Kensington): Levantine restaurant. Almost entirely naturally GF, wonderful vegetarian options.",
+        "title": "Ceru South Kensington",
+        "description": "Vibrant Levantine restaurant located moments away from the museums.",
+        "mustTry": "Almost entirely naturally gluten-free menu with wonderful vegetarian mezze plates.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -794,24 +866,28 @@
         "action": "Browse the Saturday stalls for incredible street food and independent zines.",
         "checked": false,
         "time": "1.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "ha_p1",
-        "text": "Columbia Road on a Sunday morning (portrait lens for flower sellers).",
+        "title": "Columbia Road Stalls",
+        "description": "Colorful flower market portraits.",
+        "photoTip": "Columbia Road on a Sunday morning (portrait lens for flower sellers).",
         "checked": false,
         "time": "30 mins"
       },
       {
         "id": "ha_p2",
-        "text": "The Chinese Pagoda on the island in Victoria Park.",
+        "title": "Victoria Park Pagoda",
+        "description": "Ornate island pavilion.",
+        "photoTip": "The Chinese Pagoda on the island in Victoria Park.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "ha_p3",
-        "text": "Narrowboats passing through the historic locks along Regents Canal.",
+        "title": "Canal Locks",
+        "description": "Industrial locks and narrowboats.",
+        "photoTip": "Narrowboats passing through the historic locks along Regents Canal.",
         "checked": false,
         "time": "20 mins"
       }
@@ -819,13 +895,17 @@
     "eat": [
       {
         "id": "ha_e1",
-        "text": "The Spread Eagle (Homerton): Londons first 100 percent vegan pub. Excellent GF accommodations for roasts.",
+        "title": "The Spread Eagle",
+        "description": "London's first fully plant-based pub located in Homerton.",
+        "mustTry": "Exceptional vegan pub food and Sunday roasts with gluten-free accommodations.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "ha_e2",
-        "text": "Andu Ethiopian Cafe (Dalston): Vegan Ethiopian spot. Traditional teff injera is naturally GF.",
+        "title": "Andu Ethiopian Cafe",
+        "description": "Cozy, highly rated vegan Ethiopian eatery in Dalston.",
+        "mustTry": "Traditional communal platters served on teff injera which is naturally gluten-free.",
         "checked": false,
         "time": "1 hr"
       }
@@ -878,24 +958,28 @@
         "action": "Browse the dusty, towering shelves of independent and antiquarian bookshops.",
         "checked": false,
         "time": "1 hr"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "co_p1",
-        "text": "Neals Yard: Brightly painted buildings and overflowing window boxes.",
+        "title": "Neals Yard Courtyard",
+        "description": "Colorful buildings and flower boxes.",
+        "photoTip": "Neals Yard: Brightly painted buildings and overflowing window boxes.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "co_p2",
-        "text": "The elegant, symmetrical arches of the Covent Garden Market building.",
+        "title": "Market Arches",
+        "description": "Symmetrical architectural lines.",
+        "photoTip": "The elegant, symmetrical arches of the Covent Garden Market building.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "co_p3",
-        "text": "Neon signs of Soho at night, particularly around Old Compton Street.",
+        "title": "Soho Neon Lights",
+        "description": "Vibrant night street atmosphere.",
+        "photoTip": "Neon signs of Soho at night, particularly around Old Compton Street.",
         "checked": false,
         "time": "30 mins"
       }
@@ -903,13 +987,17 @@
     "eat": [
       {
         "id": "co_e1",
-        "text": "Mildreds (Soho): Iconic plant-based restaurant. Superb vegetarian food and excellent GF options.",
+        "title": "Mildreds Soho",
+        "description": "The original iconic plant-based restaurant in the heart of Soho.",
+        "mustTry": "Superb vegetarian dishes and excellent gluten-free lunch and dinner options.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "co_e2",
-        "text": "Dishoom (Covent Garden): Incredible Bombay-style food with strict, dedicated GF/vegan menus.",
+        "title": "Dishoom Covent Garden",
+        "description": "Bustling Bombay cafe set near St Martin's Courtyard.",
+        "mustTry": "Dedicated vegan and gluten-free menus with flavorful spiced vegetarian plates.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -962,24 +1050,28 @@
         "action": "Browse independent galleries, ceramic studios, and design stores.",
         "checked": false,
         "time": "45 mins"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "bl_p1",
-        "text": "The Great Court inside the British Museum (tessellated glass roof).",
+        "title": "British Museum Great Court",
+        "description": "Tessellated glass and steel roof.",
+        "photoTip": "The Great Court inside the British Museum (tessellated glass roof).",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "bl_p2",
-        "text": "Pastel shopfronts along Woburn Walk (pedestrianized Georgian street).",
+        "title": "Woburn Walk",
+        "description": "Historic pedestrian Georgian shopfronts.",
+        "photoTip": "Pastel shopfronts along Woburn Walk (pedestrianized Georgian street).",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "bl_p3",
-        "text": "The brutalist, sweeping staircases inside the Senate House building.",
+        "title": "Senate House",
+        "description": "Sweeping art deco and brutalist staircases.",
+        "photoTip": "The brutalist, sweeping staircases inside the Senate House building.",
         "checked": false,
         "time": "15 mins"
       }
@@ -987,13 +1079,17 @@
     "eat": [
       {
         "id": "bl_e1",
-        "text": "Honey & Co. (Bloomsbury): Cozy Middle Eastern offering vibrant vegetarian plates adapted for GF.",
+        "title": "Honey & Co.",
+        "description": "Cozy Middle Eastern restaurant serving vibrant, aromatic dishes.",
+        "mustTry": "Vibrant vegetarian plates with easily adapted gluten-free options.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "bl_e2",
-        "text": "Kin Cafe (Fitzrovia): Brilliant vegetarian cafe with clearly marked GF brunch/lunch options.",
+        "title": "Kin Cafe",
+        "description": "Bright and welcoming vegetarian cafe located in Fitzrovia.",
+        "mustTry": "Clearly marked gluten-free brunch dishes and wholesome plant-based lunch bowls.",
         "checked": false,
         "time": "1 hr"
       }
@@ -1046,24 +1142,28 @@
         "action": "Admire the sweeping roof and get a photo at the famous trolley in the wall.",
         "checked": false,
         "time": "30 mins"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "kx_p1",
-        "text": "The Kissing Roof at Coal Drops Yard (modern architecture meets Victorian brick).",
+        "title": "Coal Drops Kissing Roof",
+        "description": "Modern architecture meeting Victorian brick.",
+        "photoTip": "The Kissing Roof at Coal Drops Yard (modern architecture meets Victorian brick).",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "kx_p2",
-        "text": "The breathtaking gothic-revival facade of the St Pancras Renaissance Hotel.",
+        "title": "St Pancras Hotel Facade",
+        "description": "Breathtaking gothic revival architecture.",
+        "photoTip": "The breathtaking gothic-revival facade of the St Pancras Renaissance Hotel.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "kx_p3",
-        "text": "The futuristic, neon-lit pedestrian tunnel connecting Kings Cross to St Pancras.",
+        "title": "Neon Tunnel",
+        "description": "Futuristic curved pedestrian tunnel.",
+        "photoTip": "The futuristic, neon-lit pedestrian tunnel connecting Kings Cross to St Pancras.",
         "checked": false,
         "time": "15 mins"
       }
@@ -1071,13 +1171,17 @@
     "eat": [
       {
         "id": "kx_e1",
-        "text": "Caravan (Granary Square): Set in an old grain warehouse. Fantastic veg and GF options clearly marked.",
+        "title": "Caravan Granary Square",
+        "description": "Spacious restaurant set inside a historic former grain warehouse.",
+        "mustTry": "Globally inspired vegetarian dishes with clearly marked gluten-free options.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "kx_e2",
-        "text": "Hoppers (Kings Cross): Incredible Sri Lankan food. Much is naturally GF (like hoppers), superb veg curries.",
+        "title": "Hoppers Kings Cross",
+        "description": "Vibrant Sri Lankan restaurant inspired by the roadside shacks of Ceylon.",
+        "mustTry": "Naturally gluten-free hopper bowls and delicious spiced vegetarian curries.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -1130,24 +1234,28 @@
         "action": "Browse the flagship store, categorized uniquely by country rather than genre.",
         "checked": false,
         "time": "45 mins"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "ma_p1",
-        "text": "The grand, silk-lined rooms and armory at the Wallace Collection.",
+        "title": "Wallace Collection Rooms",
+        "description": "Silk-lined galleries and historic armory.",
+        "photoTip": "The grand, silk-lined rooms and armory at the Wallace Collection.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "ma_p2",
-        "text": "The terracotta-red Victorian architecture curving along Mount Street.",
+        "title": "Mount Street",
+        "description": "Terracotta-red Victorian architecture.",
+        "photoTip": "The terracotta-red Victorian architecture curving along Mount Street.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "ma_p3",
-        "text": "The elevated, hidden rooftop garden of Brown Hart Gardens.",
+        "title": "Brown Hart Gardens",
+        "description": "Elevated rooftop garden oasis.",
+        "photoTip": "The elevated, hidden rooftop garden of Brown Hart Gardens.",
         "checked": false,
         "time": "15 mins"
       }
@@ -1155,13 +1263,17 @@
     "eat": [
       {
         "id": "ma_e1",
-        "text": "Plants by Deliciously Ella (Mayfair): 100 percent plant-based, entire menu naturally GF.",
+        "title": "Plants by Deliciously Ella",
+        "description": "Chic Mayfair restaurant dedicated entirely to wholesome plant-based dining.",
+        "mustTry": "100 percent plant-based menu with every dish naturally gluten-free.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "ma_e2",
-        "text": "The Gate (Marylebone): Pioneering vegetarian restaurant with a wealth of safe GF options.",
+        "title": "The Gate Marylebone",
+        "description": "Pioneering upscale vegetarian restaurant with a sophisticated atmosphere.",
+        "mustTry": "Creative plant-based gourmet dishes with a wide selection of safe gluten-free options.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -1214,24 +1326,28 @@
         "action": "Look for the resident pelicans and walk across the famous Blue Bridge.",
         "checked": false,
         "time": "1.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "we_p1",
-        "text": "Westminster Bridge looking back at the Elizabeth Tower (Big Ben).",
+        "title": "Westminster Bridge",
+        "description": "Iconic view of Big Ben and Parliament.",
+        "photoTip": "Westminster Bridge looking back at the Elizabeth Tower (Big Ben).",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "we_p2",
-        "text": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall).",
+        "title": "St James's Blue Bridge",
+        "description": "Framed views of the London Eye.",
+        "photoTip": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall).",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "we_p3",
-        "text": "The grand, sweeping staircase and facade of the Tate Britain gallery.",
+        "title": "Tate Britain Façade",
+        "description": "Grand gallery staircase and stone columns.",
+        "photoTip": "The grand, sweeping staircase and facade of the Tate Britain gallery.",
         "checked": false,
         "time": "20 mins"
       }
@@ -1239,13 +1355,17 @@
     "eat": [
       {
         "id": "we_e1",
-        "text": "The Cinnamon Club: Upscale Indian dining in a former library. Caters exceptionally to Veg/GF.",
+        "title": "The Cinnamon Club",
+        "description": "Refined Indian dining housed inside a spectacular former Westminster library.",
+        "mustTry": "Upscale vegetarian tasting menus and expertly accommodated gluten-free courses.",
         "checked": false,
         "time": "2 hrs"
       },
       {
         "id": "we_e2",
-        "text": "Yaatra (Old Fire Station): Vibrant Indian cuisine with plenty of vegetarian and GF choices.",
+        "title": "Yaatra",
+        "description": "Vibrant Indian restaurant set within the historic Old Westminster Fire Station.",
+        "mustTry": "Flavorful vegetarian curries and well-marked gluten-free dishes.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -1298,24 +1418,28 @@
         "action": "Catch a classic or indie film screening in the historic venue.",
         "checked": false,
         "time": "2.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "sb_p1",
-        "text": "Sharp, concrete geometric lines of the National Theatre (brutalist masterpiece).",
+        "title": "National Theatre",
+        "description": "Geometric brutalist concrete textures.",
+        "photoTip": "Sharp, concrete geometric lines of the National Theatre (brutalist masterpiece).",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "sb_p2",
-        "text": "The Millennium Bridge leading directly to the dome of St Pauls Cathedral.",
+        "title": "Millennium Bridge",
+        "description": "Direct sightline to St Pauls dome.",
+        "photoTip": "The Millennium Bridge leading directly to the dome of St Pauls Cathedral.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "sb_p3",
-        "text": "Leake Street Arches (Banksy Tunnel), an ever-changing canvas of street art.",
+        "title": "Leake Street Arches",
+        "description": "Legal underground street art tunnel.",
+        "photoTip": "Leake Street Arches (Banksy Tunnel), an ever-changing canvas of street art.",
         "checked": false,
         "time": "30 mins"
       }
@@ -1323,13 +1447,17 @@
     "eat": [
       {
         "id": "sb_e1",
-        "text": "Wahaca (Southbank): Vibrant Mexican street food, excellent vegetarian choices, strict GF menu.",
+        "title": "Wahaca Southbank",
+        "description": "Vibrant Mexican street food restaurant located right by the river.",
+        "mustTry": "Excellent vegetarian street food items and a strict dedicated gluten-free menu.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "sb_e2",
-        "text": "Skylon: Inside Royal Festival Hall. Upscale, highly trained to accommodate Veg/GF needs.",
+        "title": "Skylon",
+        "description": "Upscale British grill inside the Royal Festival Hall with floor-to-ceiling windows.",
+        "mustTry": "Sophisticated vegetarian mains and carefully catered gluten-free dining options.",
         "checked": false,
         "time": "2 hrs"
       }
@@ -1382,24 +1510,28 @@
         "action": "Catch a charming, surprisingly complex marionette show on the water.",
         "checked": false,
         "time": "1.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "ba_p1",
-        "text": "Brownings Pool (reflection of weeping willows and narrowboats).",
+        "title": "Brownings Pool",
+        "description": "Reflections of willows and narrowboats.",
+        "photoTip": "Brownings Pool (reflection of weeping willows and narrowboats).",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "ba_p2",
-        "text": "Symmetrical fountains and classical statues of the Italian Gardens.",
+        "title": "Italian Gardens Fountains",
+        "description": "Classical statues and water basins.",
+        "photoTip": "Symmetrical fountains and classical statues of the Italian Gardens.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "ba_p3",
-        "text": "The sweeping, white stucco crescents of Leinster Gardens.",
+        "title": "Leinster Gardens",
+        "description": "Architectural illusion facades.",
+        "photoTip": "The sweeping, white stucco crescents of Leinster Gardens.",
         "checked": false,
         "time": "15 mins"
       }
@@ -1407,13 +1539,17 @@
     "eat": [
       {
         "id": "ba_e1",
-        "text": "Darcie & May Green: Colorful canal boats serving Aussie brunch. Brilliant Veg/GF options.",
+        "title": "Darcie & May Green",
+        "description": "Vibrant, art-covered canal boats serving Australian-style brunch.",
+        "mustTry": "Brilliant vegetarian brunch plates and great gluten-free options.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "ba_e2",
-        "text": "Kuro Eatery (Notting Hill Edge): Minimalist spot offering Mediterranean dishes with great care for Veg/GF.",
+        "title": "Kuro Eatery",
+        "description": "Minimalist bakery and cafe nestled on the edge of Notting Hill.",
+        "mustTry": "Artisan Mediterranean-inspired dishes with careful attention to dietary needs.",
         "checked": false,
         "time": "1 hr"
       }
@@ -1466,24 +1602,28 @@
         "action": "Visit the peaceful ruins, courtyards, and the fascinating free museum.",
         "checked": false,
         "time": "1.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "is_p1",
-        "text": "The fairy lights and bustling atmosphere of Exmouth Market at dusk.",
+        "title": "Exmouth Market Fairy Lights",
+        "description": "Charming evening street atmosphere.",
+        "photoTip": "The fairy lights and bustling atmosphere of Exmouth Market at dusk.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "is_p2",
-        "text": "Charming, wonky antique storefronts tucked inside Camden Passage.",
+        "title": "Camden Passage Shopfronts",
+        "description": "Quaint wonky antique store exteriors.",
+        "photoTip": "Charming, wonky antique storefronts tucked inside Camden Passage.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "is_p3",
-        "text": "The dramatic, brutalist concrete towers of the Barbican Estate.",
+        "title": "Barbican Estate",
+        "description": "Dramatic brutalist concrete towers.",
+        "photoTip": "The dramatic, brutalist concrete towers of the Barbican Estate.",
         "checked": false,
         "time": "20 mins"
       }
@@ -1491,13 +1631,17 @@
     "eat": [
       {
         "id": "is_e1",
-        "text": "The Gate (Islington): Highly creative, 100 percent meat-free menu with excellent, safe GF options.",
+        "title": "The Gate Islington",
+        "description": "Pioneering vegetarian restaurant offering creative meat-free dining.",
+        "mustTry": "Highly inventive vegetarian dishes with safe, delicious gluten-free options.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "is_e2",
-        "text": "Moro (Exmouth Market): Moorish/Mediterranean. Focus on veg and naturally GF ingredients.",
+        "title": "Moro",
+        "description": "Beloved Exmouth Market restaurant celebrating Moorish and Mediterranean flavours.",
+        "mustTry": "Vegetable-forward plates and naturally gluten-free culinary creations.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -1550,24 +1694,28 @@
         "action": "Sit right at the front window for a rollercoaster-like view winding through skyscrapers.",
         "checked": false,
         "time": "30 mins"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "do_p1",
-        "text": "Futuristic Adams Plaza Bridge (famous from Star Wars).",
+        "title": "Adams Plaza Bridge",
+        "description": "Futuristic sci-fi neon corridor.",
+        "photoTip": "Futuristic Adams Plaza Bridge (famous from Star Wars).",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "do_p2",
-        "text": "Looking straight up at glass skyscrapers reflecting in the water at West India Quay.",
+        "title": "West India Quay Waterway",
+        "description": "Skyscrapers reflecting in the docks.",
+        "photoTip": "Looking up at glass skyscrapers reflecting in the water at West India Quay.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "do_p3",
-        "text": "Lush pathways of Crossrail Place Roof Garden framed by geometric timber.",
+        "title": "Crossrail Roof Garden",
+        "description": "Timber frame framing tropical foliage.",
+        "photoTip": "Lush pathways of Crossrail Place Roof Garden framed by geometric timber.",
         "checked": false,
         "time": "20 mins"
       }
@@ -1575,13 +1723,17 @@
     "eat": [
       {
         "id": "do_e1",
-        "text": "Mallow (Wood Wharf): 100 percent plant-based, beautifully designed, highly accommodating for GF.",
+        "title": "Mallow Wood Wharf",
+        "description": "Spectacular 100 percent plant-based restaurant set in a stunning waterfront pavilion.",
+        "mustTry": "Creative plant-based plates with extensive, clearly marked gluten-free options.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "do_e2",
-        "text": "The Ivy in the Park (Canary Wharf): Vibrant brasserie. Dedicated Veg/GF menus, careful prep.",
+        "title": "The Ivy in the Park",
+        "description": "Vibrant, upscale brasserie surrounded by Canada Square Park greenery.",
+        "mustTry": "Dedicated vegetarian menu and strict gluten-free kitchen protocols.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -1631,27 +1783,31 @@
         "id": "br_t4",
         "title": "Brockwell Park & Lido",
         "description": "A sweeping, hilly historic park featuring walled gardens and a Grade II listed, 1930s Art Deco outdoor swimming pool.",
-        "action": "Walk to the top of the park for views, then admire the original architecture of the Lido.",
+        "action": "Walk the top of the park for views, then admire the original architecture of the Lido.",
         "checked": false,
         "time": "1.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "br_p1",
-        "text": "Electric Avenue at golden hour (historic iron canopies).",
+        "title": "Electric Avenue",
+        "description": "Historic market iron canopies at dusk.",
+        "photoTip": "Electric Avenue at golden hour (historic iron canopies).",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "br_p2",
-        "text": "The colorful, overlapping neon signs inside Brixton Village market.",
+        "title": "Brixton Village Neon",
+        "description": "Colorful overlapping market neon signs.",
+        "photoTip": "The colorful, overlapping neon signs inside Brixton Village market.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "br_p3",
-        "text": "Sweeping view of the London skyline from the top of Brockwell Park.",
+        "title": "Brockwell Park Viewpoint",
+        "description": "Panoramic South London skyline.",
+        "photoTip": "Sweeping view of the London skyline from the top of Brockwell Park.",
         "checked": false,
         "time": "20 mins"
       }
@@ -1659,13 +1815,17 @@
     "eat": [
       {
         "id": "br_e1",
-        "text": "Senzala Creperie (Brixton Village): French galettes (naturally GF buckwheat) with huge vegetarian menu.",
+        "title": "Senzala Creperie",
+        "description": "Lively bohemian spot inside Brixton Village serving French galettes.",
+        "mustTry": "Buckwheat galettes which are naturally gluten-free, alongside a huge vegetarian menu.",
         "checked": false,
         "time": "1 hr"
       },
       {
         "id": "br_e2",
-        "text": "En Root (Brixton): 100 percent plant-based Indian fusion. Almost everything naturally GF.",
+        "title": "En Root",
+        "description": "Phenomenal plant-based Indian fusion restaurant in the heart of Brixton.",
+        "mustTry": "100 percent plant-based thalis and curries that are almost entirely naturally gluten-free.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -1718,24 +1878,28 @@
         "action": "Spend an afternoon walking the perimeter and watching local cricket or football matches.",
         "checked": false,
         "time": "2 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "bat_p1",
-        "text": "Looking straight up at the four massive chimneys inside the Power Station courtyard.",
+        "title": "Power Station Chimneys",
+        "description": "Looking up inside the giant central courtyard.",
+        "photoTip": "Looking straight up at the four massive chimneys inside the Power Station courtyard.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "bat_p2",
-        "text": "Golden Buddha statues of the Peace Pagoda, framed against the Thames.",
+        "title": "Peace Pagoda",
+        "description": "Golden Buddha statues framed against the Thames.",
+        "photoTip": "Golden Buddha statues of the Peace Pagoda, framed against the Thames.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "bat_p3",
-        "text": "Colorful, independent shopfronts curving along Abbeville Road in Clapham.",
+        "title": "Abbeville Road",
+        "description": "Charming boutique shopfronts in Clapham.",
+        "photoTip": "Colorful, independent shopfronts curving along Abbeville Road in Clapham.",
         "checked": false,
         "time": "20 mins"
       }
@@ -1743,13 +1907,17 @@
     "eat": [
       {
         "id": "bat_e1",
-        "text": "Where The Pancakes Are (Power Station): Specific 3-in-1 batter that is GF, dairy-free, and vegan.",
+        "title": "Where The Pancakes Are",
+        "description": "Bright, modern eatery situated right by Battersea Power Station.",
+        "mustTry": "Special 3-in-1 batter that is simultaneously gluten-free, dairy-free, and vegan.",
         "checked": false,
         "time": "1 hr"
       },
       {
         "id": "bat_e2",
-        "text": "Megans at the Power Station: Mediterranean spot heavily vegetable-focused, accommodating GF swaps.",
+        "title": "Megans at the Power Station",
+        "description": "Fairy-lit Mediterranean restaurant with a cozy neighborhood feel.",
+        "mustTry": "Vegetable-focused sharing plates with easy gluten-free flatbread swaps.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -1802,24 +1970,28 @@
         "action": "Take the stairs to the roof of Peckham Levels or Frank's Cafe for a sunset skyline view.",
         "checked": false,
         "time": "1.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "pe_p1",
-        "text": "Franks Cafe / Peckham Levels: Pink staircases and unobstructed skyline views (summer).",
+        "title": "Franks Cafe Rooftop",
+        "description": "Pink staircases and skyline views.",
+        "photoTip": "Franks Cafe / Peckham Levels: Pink staircases and unobstructed skyline views (summer).",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "pe_p2",
-        "text": "The beautiful, overgrown ruins of the Asylum Chapel in Caroline Gardens.",
+        "title": "Asylum Chapel",
+        "description": "Overgrown historic ruined chapel.",
+        "photoTip": "The beautiful, overgrown ruins of the Asylum Chapel in Caroline Gardens.",
         "checked": false,
         "time": "30 mins"
       },
       {
         "id": "pe_p3",
-        "text": "Vibrant street art and murals scattered throughout alleys off Rye Lane.",
+        "title": "Rye Lane Murrals",
+        "description": "Vibrant South London street art.",
+        "photoTip": "Vibrant street art and murals scattered throughout alleys off Rye Lane.",
         "checked": false,
         "time": "20 mins"
       }
@@ -1827,13 +1999,17 @@
     "eat": [
       {
         "id": "pe_e1",
-        "text": "Forza Wine (Peckham): Trendy Italian rooftop. Fantastic small plates, highly adept at Veg/GF.",
+        "title": "Forza Wine",
+        "description": "Trendy Italian rooftop wine bar overlooking the South London skyline.",
+        "mustTry": "Fantastic vegetarian small plates with great gluten-free adaptations.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "pe_e2",
-        "text": "Levan (Peckham): Stylish European. Highly creative veg dishes, excellent GF catering.",
+        "title": "Levan",
+        "description": "Stylish contemporary European restaurant inspired by Parisian bistros.",
+        "mustTry": "Creative vegetarian seasonal dishes with excellent gluten-free support.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -1886,24 +2062,28 @@
         "action": "Take a tranquil walk through the dense canopy to find the abandoned railway tunnel.",
         "checked": false,
         "time": "1.5 hrs"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "du_p1",
-        "text": "Exterior brickwork and lighting enfilades of the Dulwich Picture Gallery.",
+        "title": "Dulwich Gallery Brickwork",
+        "description": "Soane-designed architectural lighting.",
+        "photoTip": "Exterior brickwork and lighting enfilades of the Dulwich Picture Gallery.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "du_p2",
-        "text": "Eerie, overgrown Victorian dinosaur statues emerging from trees in the park.",
+        "title": "Victorian Dinosaurs",
+        "description": "Overgrown historic statues in the trees.",
+        "photoTip": "Eerie, overgrown Victorian dinosaur statues emerging from trees in the park.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "du_p3",
-        "text": "Sweeping panoramic city views from the top of Crystal Palace hill.",
+        "title": "Crystal Palace Hill Viewpoint",
+        "description": "Sweeping panoramic city views.",
+        "photoTip": "Sweeping panoramic city views from the top of Crystal Palace hill.",
         "checked": false,
         "time": "15 mins"
       }
@@ -1911,13 +2091,17 @@
     "eat": [
       {
         "id": "du_e1",
-        "text": "Megans in the Hamlet (Dulwich): Rustic space with adaptable Mediterranean menu (great Veg/GF).",
+        "title": "Megans in the Hamlet",
+        "description": "Rustic, beautifully decorated Mediterranean spot in Dulwich Village.",
+        "mustTry": "Highly adaptable Mediterranean vegetarian dishes with great gluten-free options.",
         "checked": false,
         "time": "1.5 hrs"
       },
       {
         "id": "du_e2",
-        "text": "Brown & Green Cafe (Crystal Palace Park): Community cafe with massive brunch menu (abundant Veg/GF choices).",
+        "title": "Brown & Green Cafe",
+        "description": "Bustling community cafe located right inside Crystal Palace Park.",
+        "mustTry": "Massive weekend brunch menu featuring abundant vegetarian and gluten-free choices.",
         "checked": false,
         "time": "1 hr"
       }
@@ -1970,24 +2154,28 @@
         "action": "Visit the calm, beautiful walled gardens and the sunken garden.",
         "checked": false,
         "time": "1 hr"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "wi_p1",
-        "text": "Wimbledon Windmill standing isolated on the wild expanse of the Common.",
+        "title": "Wimbledon Windmill",
+        "description": "Historic mill on the open common.",
+        "photoTip": "Wimbledon Windmill standing isolated on the wild expanse of the Common.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "wi_p2",
-        "text": "Historic, flower-draped pub facades in Wimbledon Village (Dog & Fox).",
+        "title": "Village Pubs",
+        "description": "Historic flower-draped tavern facades.",
+        "photoTip": "Historic, flower-draped pub facades in Wimbledon Village (Dog & Fox).",
         "checked": false,
         "time": "10 mins"
       },
       {
         "id": "wi_p3",
-        "text": "Colorful rowing boats lined up along the Thames at Putney Embankment at sunset.",
+        "title": "Putney Embankment Sunset",
+        "description": "Rowing boats lined up by the river.",
+        "photoTip": "Colorful rowing boats lined up along the Thames at Putney Embankment at sunset.",
         "checked": false,
         "time": "20 mins"
       }
@@ -1995,13 +2183,17 @@
     "eat": [
       {
         "id": "wi_e1",
-        "text": "Lu-Ma Cafe (Wimbledon): Health-focused. No red meat/dairy, huge focus on plant-based and GF foods.",
+        "title": "Lu-Ma Cafe",
+        "description": "Health-focused independent cafe championing wellness and clean eating.",
+        "mustTry": "Dairy-free and meat-free menu with a huge focus on plant-based and gluten-free foods.",
         "checked": false,
         "time": "1 hr"
       },
       {
         "id": "wi_e2",
-        "text": "The Ivy Cafe (Wimbledon Village): Upscale. Dedicated Veg/Vegan menu and a separate GF menu.",
+        "title": "The Ivy Cafe Wimbledon",
+        "description": "Sophisticated neighborhood brasserie in Wimbledon Village.",
+        "mustTry": "Dedicated vegetarian menu and a separate comprehensive gluten-free menu.",
         "checked": false,
         "time": "1.5 hrs"
       }
@@ -2054,24 +2246,28 @@
         "action": "Stroll down Orford Road, popping into the high-end independent delis and shops.",
         "checked": false,
         "time": "1 hr"
-      }
-    ],
-    "photo": [
+      },
       {
         "id": "wa_p1",
-        "text": "Sensory overload of neon lights inside Gods Own Junkyard.",
+        "title": "God's Own Junkyard Neon",
+        "description": "Sensory overload of vintage neon signs.",
+        "photoTip": "Sensory overload of neon lights inside Gods Own Junkyard.",
         "checked": false,
         "time": "20 mins"
       },
       {
         "id": "wa_p2",
-        "text": "The Engine House at Wetlands, with its Victorian chimney reflected in water.",
+        "title": "Wetlands Engine House",
+        "description": "Victorian chimney reflected in reservoirs.",
+        "photoTip": "The Engine House at Wetlands, with its Victorian chimney reflected in water.",
         "checked": false,
         "time": "15 mins"
       },
       {
         "id": "wa_p3",
-        "text": "Intricate Arts and Crafts wallpaper patterns preserved inside William Morris Gallery.",
+        "title": "William Morris Patterns",
+        "description": "Intricate Arts and Crafts wallpaper designs.",
+        "photoTip": "Intricate Arts and Crafts wallpaper patterns preserved inside William Morris Gallery.",
         "checked": false,
         "time": "20 mins"
       }
@@ -2079,13 +2275,17 @@
     "eat": [
       {
         "id": "wa_e1",
-        "text": "Wood St Coffee (Walthamstow): Excellent indie brunch. Great vegetarian dishes with easy GF bread swaps.",
+        "title": "Wood St Coffee",
+        "description": "Independent specialty coffee shop and brunch spot.",
+        "mustTry": "Excellent vegetarian brunch dishes with easy gluten-free bread swaps.",
         "checked": false,
         "time": "1 hr"
       },
       {
-        "id": "wa_e,2",
-        "text": "The Bell (Walthamstow): Massive gastropub. Fantastic Sunday roasts with dedicated Vegan and GF alternatives.",
+        "id": "wa_e2",
+        "title": "The Bell Walthamstow",
+        "description": "Massive community gastropub anchored in the heart of E17.",
+        "mustTry": "Fantastic Sunday roasts with dedicated vegan and gluten-free alternatives.",
         "checked": false,
         "time": "1.5 hrs"
       }
