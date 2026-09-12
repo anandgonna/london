@@ -2,15 +2,16 @@
   {
     "id": "greenwich",
     "name": "Greenwich ⛵",
-    "season": "October. The autumn foliage in Greenwich Park against the backdrop of the city skyline is stunning.",
-    "transport": "🚇 DLR to Cutty Sark or Greenwich Station. ⛴️ Uber Boat (Thames Clipper) to Greenwich Pier.",
+    "durationRec": "2 Days (Weekend)",
+    "durationReason": "Spanning maritime museums, the Royal Observatory, vast historic parklands, and riverside walks requires a full weekend to experience without rushing.",
+    "season": "October. Autumn foliage in Greenwich Park against the city skyline is stunning.",
+    "transport": "🚆 DLR to Cutty Sark or Greenwich Station. ⛴️ Uber Boat (Thames Clipper) to Greenwich Pier.",
     "funFacts": [
       "Greenwich Mean Time (GMT) was globally adopted here in 1884 to sync ship navigation.",
       "The Painted Hall took 19 years to complete and is often called the Sistine Chapel of the UK.",
       "The Cutty Sark was once the fastest ship in the world, bringing tea back from China."
     ],
     "soul": "The maritime epicentre of Britain, a royal birthplace, and the historic home of time. It feels like a grand, nautical village completely removed from the frantic energy of central London.",
-    "day2": "Walk the Thames Path to the O2 Peninsula and take the IFS Cloud Cable Car across the river for aerial photography.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -18,265 +19,486 @@
       {
         "id": "g_t1",
         "title": "Old Royal Naval College",
-        "description": "A masterpiece of baroque architecture by Sir Christopher Wren, the birthplace of Tudor monarchs like Henry VIII and Elizabeth I, and a major filming location for Hollywood movies.",
+        "entry": "Free (Grounds) / £16.50 (Painted Hall)",
+        "booking": "Advance booking recommended for Painted Hall",
+        "time": "1.5 hrs",
+        "description": "A masterpiece of baroque architecture by Sir Christopher Wren, the birthplace of Tudor monarchs like Henry VIII and Elizabeth I.",
         "action": "Do not miss the breathtaking Painted Hall.",
-        "photoTip": "The Painted Hall ceiling (a wide-angle lens is highly recommended here) and the symmetrical colonnades.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "photoTip": "The Painted Hall ceiling (wide-angle lens recommended) and the symmetrical colonnades.",
+        "checked": false
       },
       {
         "id": "g_t2",
         "title": "Royal Observatory",
+        "entry": "Paid (£20)",
+        "booking": "Advance booking recommended",
+        "time": "1 hr",
         "description": "The historic home of British astronomy, established in the 17th century to solve the problem of determining longitude at sea.",
         "action": "Stand on the Prime Meridian line with one foot in the eastern hemisphere and one in the west.",
-        "photoTip": "Capture the Queens House with Canary Wharf glowing behind it from the hill viewpoint.",
-        "checked": false,
-        "time": "1 hr"
+        "photoTip": "Capture the Queen's House with Canary Wharf glowing behind it from the hill viewpoint.",
+        "checked": false
       },
       {
         "id": "g_t3",
         "title": "Greenwich Market",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
         "description": "Established in 1730, this covered market is housed in a classic Victorian iron-and-glass structure.",
         "action": "Browse for unique local arts, crafts, and grab some artisanal street food.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       },
       {
         "id": "g_t4",
         "title": "Cutty Sark",
+        "entry": "Paid (£20)",
+        "booking": "Advance booking recommended",
+        "time": "45 mins",
         "description": "The world's sole surviving extreme tea clipper, famous for racing across the globe to bring fresh tea crops from China to London.",
         "action": "Walk directly beneath the gleaming copper hull in the dry dock.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
+      },
+      {
+        "id": "g_t5",
+        "title": "IFS Cloud Cable Car & Thames Path",
+        "entry": "Paid (£6 single)",
+        "booking": "Tap contactless / Walk-in",
+        "time": "1 hr",
+        "description": "Walk the scenic Thames Path to the O2 Peninsula and soar 90 metres above the River Thames across to the Royal Docks.",
+        "action": "Take the cable car at golden hour for stunning aerial vistas across Canary Wharf.",
+        "photoTip": "Panoramic aerial shots of the Thames bend and Canary Wharf skyscrapers from the cable car cabin.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "g_m1",
+        "title": "National Maritime Museum",
+        "entry": "Free",
+        "booking": "Free advance booking recommended",
+        "time": "1.5 hrs",
+        "description": "The world's largest maritime museum, housing Lord Nelson's Trafalgar uniform and thousands of historic sea relics.",
+        "action": "See the uniform Admiral Nelson was wearing when shot at Trafalgar.",
+        "photoTip": "The colossal Great Map courtyard atrium and historic royal gilded barges.",
+        "checked": false
+      },
+      {
+        "id": "g_m2",
+        "title": "Queen's House & Tulip Stairs",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "45 mins",
+        "description": "Designed by Inigo Jones in 1616, England's first classical Renaissance villa, home to an exquisite art gallery.",
+        "action": "Climb up to gaze down the iconic geometric blue spiral of the Tulip Stairs.",
+        "photoTip": "Looking straight up the spiralling wrought-iron floral balustrade of the Tulip Stairs.",
+        "checked": false
+      },
+      {
+        "id": "g_m3",
+        "title": "Greenwich Foot Tunnel",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "30 mins",
+        "description": "An atmospheric cast-iron pedestrian tunnel opened in 1902 passing 15 metres beneath the River Thames bed.",
+        "action": "Walk beneath the river to Island Gardens for the postcard panoramic view of the Naval College.",
+        "photoTip": "The symmetrical tiled tunnel corridor and the iconic Greenwich view from Island Gardens.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "g_e1",
         "title": "Arapina Bakery",
+        "cuisine": "Artisan Bakery & Coffee",
+        "price": "£ (~£8-15)",
+        "reservation": "Walk-ins only",
+        "time": "30 mins",
         "description": "Cozy artisan bakery located near Greenwich Market specializing in healthy treats.",
         "mustTry": "Plant-based artisan pastries and gluten-free almond cakes with oat milk lattes.",
-        "checked": false,
-        "time": "30 mins"
+        "checked": false
       },
       {
         "id": "g_e2",
         "title": "Prince of Greenwich Pub",
+        "cuisine": "Italian / Wood-Fired Pizza & Pub",
+        "price": "££ (~£15-25)",
+        "reservation": "Recommended on weekends",
+        "time": "1.5 hrs",
         "description": "Quirky Victorian corner pub with eccentric maximalist decor and a warm atmosphere.",
         "mustTry": "Wood-fired vegetarian and gluten-free pizzas in a historic setting.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "hampstead",
     "name": "Hampstead & Highgate 📜",
-    "season": "November (for crisp, moody fog and autumn leaves) or May (to capture blooming wisteria).",
-    "transport": "🚇 Northern Line to Hampstead (steepest lift in London) or Highgate.",
+    "durationRec": "2 Days (Weekend)",
+    "durationReason": "Hampstead Heath spans nearly 800 acres alone; splitting the Hampstead village side and Highgate cemetery side makes for an unhurried, rich weekend.",
+    "season": "November (crisp, moody fog and autumn leaves) or May (blooming wisteria).",
+    "transport": "🚇 Northern Line to Hampstead (deepest lift in London) or Highgate.",
     "funFacts": [
-      "Hampstead Heath has 3 swimming ponds (Men, Women, Mixed) that are strictly open year-round, even in freezing winter.",
+      "Hampstead Heath has 3 swimming ponds that are open year-round, even in freezing winter.",
       "Karl Marx, George Eliot, and Douglas Adams are all buried in Highgate Cemetery.",
       "Hampstead Tube station is the deepest on the entire network at 58.5 metres below ground."
     ],
     "soul": "An intellectual and literary haven that feels like a rural 18th-century English village perched on a hill.",
-    "day2": "Explore Highgate Village, Waterlow Park, and take the full architectural tour of Highgate West Cemetery.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
     "todo": [
       {
         "id": "h_t1",
-        "title": "Hampstead Heath",
-        "description": "An ancient, sprawling 790-acre parkland that inspired authors like C.S. Lewis. It remains deliberately wild and untamed compared to London's manicured Royal Parks.",
-        "action": "Get lost in the wild woods, meadows, and spot the famous swimming ponds.",
+        "title": "Hampstead Heath & Parliament Hill",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2 hrs",
+        "description": "An ancient 790-acre parkland that inspired authors like C.S. Lewis. It remains wild and untamed compared to London's manicured Royal Parks.",
+        "action": "Hike up to Parliament Hill viewpoint for sweeping skyline views.",
         "photoTip": "Parliament Hill viewpoint on Hampstead Heath for sweeping skyline views.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "h_t2",
         "title": "Flask Walk & The Village",
-        "description": "A perfectly preserved Victorian pedestrian alleyway that captures the essence of Hampstead's literary, village-like history.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A perfectly preserved Victorian pedestrian alleyway capturing the essence of Hampstead's literary, village-like history.",
         "action": "Wander the cobbled streets, looking at vintage shopfronts and antique stores.",
         "photoTip": "Flask Walk, with its picturesque vintage shopfronts and cobbled streets.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "h_t3",
         "title": "Kenwood House",
-        "description": "A breathtaking neoclassical stately home on the edge of the Heath, containing a world-class art collection including works by Rembrandt and Vermeer.",
-        "action": "Explore the grand library and view the free art exhibitions.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1.5 hrs",
+        "description": "A neoclassical stately home on the edge of the Heath, containing a world-class art collection including works by Rembrandt and Vermeer.",
+        "action": "Explore the grand Robert Adam library and view the free art exhibitions.",
+        "checked": false
       },
       {
         "id": "h_t4",
         "title": "Highgate Cemetery",
+        "entry": "Paid (£10 East / £16 West)",
+        "booking": "Advance booking essential for West Cemetery guided tour",
+        "time": "1.5 hrs",
         "description": "One of London's 'Magnificent Seven' Victorian burial grounds, famous for its overgrown, gothic romance architecture.",
-        "action": "Take the guided tour of the West Cemetery to see the Egyptian Avenue.",
+        "action": "Take the guided tour of the West Cemetery to see the Egyptian Avenue and Circle of Lebanon.",
         "photoTip": "The overgrown, ivy-draped Victorian gravestones in the West Cemetery of Highgate.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
+      },
+      {
+        "id": "h_t5",
+        "title": "Waterlow Park & Highgate Village",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A 26-acre hillside park bequeathed by Sir Sydney Waterlow as a 'garden for the gardenless', sloping down from Highgate Village.",
+        "action": "Stroll down Swain's Lane from the historic Highgate Village squares toward Lauderdale House.",
+        "photoTip": "Panoramic city views across the tiered duck ponds of Waterlow Park.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "h_m1",
+        "title": "Keats House",
+        "entry": "Paid (£8.50)",
+        "booking": "Walk-in / Advance online",
+        "time": "1 hr",
+        "description": "The tranquil Regency villa where romantic poet John Keats wrote 'Ode to a Nightingale' beneath a plum tree in the garden.",
+        "action": "Sit in the peaceful garden and inspect Keats's original engagement ring and manuscripts.",
+        "photoTip": "The white stucco Regency facade surrounded by historic wisteria and garden flowerbeds.",
+        "checked": false
+      },
+      {
+        "id": "h_m2",
+        "title": "Hampstead Bathing Ponds",
+        "entry": "Paid (£4.50 swim)",
+        "booking": "Walk-in / Online",
+        "time": "1 hr",
+        "description": "Historic natural freshwater swimming ponds nestled deep within the willow trees of Hampstead Heath.",
+        "action": "Take a refreshing wild swim or walk the secluded woodland trails surrounding the ponds.",
+        "photoTip": "Mist rising off the tranquil pond waters through dense weeping willows at early dawn.",
+        "checked": false
+      },
+      {
+        "id": "h_m3",
+        "title": "Fenton House & Sunken Garden",
+        "entry": "Paid (£11 National Trust / Free for members)",
+        "booking": "Walk-in",
+        "time": "1 hr",
+        "description": "A 17th-century merchant mansion with a 300-year-old walled orchard, rose gardens, and collections of early musical instruments.",
+        "action": "Climb to the rooftop balcony for one of the highest vantage points in London.",
+        "photoTip": "Topiary yew hedges and antique apple trees in the walled garden.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "h_e1",
         "title": "The Swing",
+        "cuisine": "Plant-Forward Global Small Plates",
+        "price": "££ (~£18-28)",
+        "reservation": "Recommended on weekends",
+        "time": "1 hr",
         "description": "Vegetable-focused casual restaurant located in West Hampstead with vibrant small plates.",
         "mustTry": "Seasonal vegan small plates and clearly marked gluten-free tapas options.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "h_e2",
         "title": "The Holly Bush",
+        "cuisine": "Historic British Gastropub",
+        "price": "££ (~£20-30)",
+        "reservation": "Highly recommended",
+        "time": "1.5 hrs",
         "description": "Historic, Grade II listed 18th-century pub tucked away down a charming village alleyway.",
         "mustTry": "Famous vegetarian nut roast and naturally gluten-free pub classics.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "southwark",
     "name": "Southwark & Bermondsey 🧀",
-    "season": "December (for festive market vibes) or April (for mild spring riverside walks).",
+    "durationRec": "1 Day",
+    "durationReason": "A tightly clustered riverside route that pairs seamlessly into a single walking day of markets, galleries, and historic wharves.",
+    "season": "December (festive market vibes) or April (mild spring riverside walks).",
     "transport": "🚇 Jubilee or Northern Line to London Bridge.",
     "funFacts": [
-      "Southwark was outside the City of Londons jurisdiction, making it the historic home of illegal theatres, brothels, and bear-baiting.",
-      "The Golden Hinde is a full-scale reconstruction of the ship Sir Francis Drake used to circumnavigate the globe in the 1500s.",
+      "Southwark was outside the City of London's jurisdiction, making it the historic home of illegal theatres and bear-baiting.",
+      "The Golden Hinde is a full-scale reconstruction of the ship Sir Francis Drake used to circumnavigate the globe.",
       "Borough Market has existed in some form for over 1,000 years."
     ],
-    "soul": "The historic entertainment and vice district of Tudor London, now reborn as Londons premier culinary and cultural riverside stretch.",
-    "day2": "Dedicate a Sunday morning to Maltby Street Market, explore the White Cube gallery, and cross Tower Bridge.",
+    "soul": "The historic entertainment and vice district of Tudor London, now reborn as London's premier culinary and cultural riverside stretch.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
     "todo": [
       {
         "id": "s_t1",
-        "title": "The Thames Path",
+        "title": "The Thames Path & Millennium Bridge",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
         "description": "A pedestrianized walkway stretching along the South Bank, offering uninterrupted views of London's financial district across the water.",
         "action": "Stroll the path from the Tate Modern all the way down to Tower Bridge.",
-        "photoTip": "The Millennium Bridge looking straight towards the dome of St. Pauls Cathedral (golden hour).",
-        "checked": false,
-        "time": "1.5 hrs"
+        "photoTip": "The Millennium Bridge looking straight towards the dome of St. Paul's Cathedral (golden hour).",
+        "checked": false
       },
       {
         "id": "s_t2",
         "title": "Winchester Palace & Golden Hinde",
-        "description": "The ruins of the 12th-century palace of the powerful Bishops of Winchester, juxtaposed against a full-scale galleon ship.",
+        "entry": "Free (Palace ruins) / Paid (£6 Golden Hinde)",
+        "booking": "Walk-in",
+        "time": "45 mins",
+        "description": "The ruins of the 12th-century palace of the Bishops of Winchester, juxtaposed against a full-scale Tudor galleon ship.",
         "action": "Admire the medieval rose window ruins and the pirate-era ship docked nearby.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       },
       {
         "id": "s_t3",
         "title": "Borough Market",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
         "description": "Operating in some capacity since the 11th century, this is London's premier wholesale and retail food market.",
-        "action": "Eat your way through the artisanal cheese, bread, and street food stalls.",
+        "action": "Eat your way through artisanal cheese, freshly baked bread, and street food stalls.",
         "photoTip": "The Shard framing the historic wooden courtyard of The George Inn.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "s_t4",
-        "title": "Bermondsey Street",
-        "description": "Once an industrial area famous for leather tanning, it's now a trendy, village-like street packed with independent creators.",
-        "action": "Wander the street, looking out for glass-blowing studios and indie galleries.",
+        "title": "Bermondsey Street & White Cube",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "Once an industrial leather tanning area, now a trendy street packed with independent creators, cafes, and modern art.",
+        "action": "Explore the pioneering White Cube art gallery and contemporary glass-blowing studios.",
         "photoTip": "Shad Thames: historic Victorian cobbled street with overhead iron walkways.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
+      },
+      {
+        "id": "s_t5",
+        "title": "Maltby Street Market & Shad Thames",
+        "entry": "Free",
+        "booking": "No booking required (Weekends only)",
+        "time": "1 hr",
+        "description": "A picturesque, narrow weekend street food haven tucked beneath historic Victorian railway arches at the Ropewalk.",
+        "action": "Sample artisan delicacies from railway arch stalls and walk through the atmospheric canyon of Shad Thames.",
+        "photoTip": "Steam rising from food stalls beneath fairy-lit Victorian railway arches at Maltby Street.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "s_m1",
+        "title": "Southwark Cathedral",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "45 mins",
+        "description": "The oldest Gothic church building in London, where William Shakespeare worshipped and John Harvard was baptized.",
+        "action": "Find the Shakespeare memorial window and say hello to the resident cathedral cat.",
+        "photoTip": "Intricate stone rib-vaulted ceiling contrasting with Borough Market's green ironwork outside.",
+        "checked": false
+      },
+      {
+        "id": "s_m2",
+        "title": "HMS Belfast",
+        "entry": "Paid (£24.50)",
+        "booking": "Advance booking recommended",
+        "time": "1.5 hrs",
+        "description": "The legendary WWII Royal Navy light cruiser permanently moored on the Thames, with 9 decks to explore.",
+        "action": "Climb down into the massive engine rooms and sit in the Captain's chair on the bridge.",
+        "photoTip": "The towering gun turrets framing Tower Bridge and the Tower of London.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "s_e1",
-        "title": "Mallow",
+        "title": "Mallow Borough Market",
+        "cuisine": "100% Plant-Based International",
+        "price": "££ (~£22-35)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "100 percent plant-based restaurant located in Borough Market with vibrant seasonal menus.",
         "mustTry": "Vibrant plant-based small plates and bowls, almost everything adaptable to be gluten-free.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "s_e2",
         "title": "Horn OK Please",
+        "cuisine": "Indian Vegetarian Street Food",
+        "price": "£ (~£8-14)",
+        "reservation": "Walk-ins only",
+        "time": "45 mins",
         "description": "Bustling Indian street food stall inside Borough Market serving fresh vegetarian snacks.",
         "mustTry": "Fresh vegetarian street food naturally gluten-free, especially the moong dal dosas.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       }
     ]
   },
   {
     "id": "richmond",
     "name": "Richmond & Kew 🦌",
-    "season": "Late April to early May. Isabella Plantation explodes with vibrant azaleas, and Kew Gardens is in full spring bloom.",
+    "durationRec": "2 Days (Weekend)",
+    "durationReason": "Kew Gardens takes a full day on its own; dedicating a second day to Richmond Park, the Riverside, and Ham House avoids exhaustion.",
+    "season": "Late April to early May. Isabella Plantation explodes with vibrant azaleas; Kew Gardens is in full spring bloom.",
     "transport": "🚇 District Line or Overground to Richmond or Kew Gardens.",
     "funFacts": [
-      "King Henrys Mound in Richmond Park offers a legally protected, uninterrupted view all the way to St Pauls Cathedral 10 miles away.",
+      "King Henry's Mound in Richmond Park offers a legally protected, uninterrupted view all the way to St Paul's Cathedral 10 miles away.",
       "Kew Gardens holds the largest and most diverse botanical and mycological collections in the world.",
       "Wild deer have roamed Richmond Park freely since 1637 when King Charles I enclosed it."
     ],
     "soul": "Aristocratic, majestic, and green. A former countryside retreat for royalty blending botanical perfection with wild deer parks.",
-    "day2": "Take a leisurely Thames riverboat cruise from Richmond down to Hampton Court Palace to explore Tudor history.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
     "todo": [
       {
         "id": "r_t1",
-        "title": "Richmond Park",
+        "title": "Richmond Park & Isabella Plantation",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2.5 hrs",
         "description": "Created in 1637 by Charles I as a hunting ground, it remains the largest of London's Royal Parks and a National Nature Reserve.",
         "action": "Walk or cycle through the vast expanses to spot the 600+ wild red and fallow deer.",
         "photoTip": "The Isabella Plantation in Richmond Park (macro shots of flowers and streams).",
-        "checked": false,
-        "time": "2.5 hrs"
+        "checked": false
       },
       {
         "id": "r_t2",
         "title": "Kew Gardens",
+        "entry": "Paid (£22-24)",
+        "booking": "Advance booking recommended for peak weekends",
+        "time": "3 hrs",
         "description": "A UNESCO World Heritage site boasting the most diverse botanical collections globally, set amid spectacular Victorian iron-and-glass architecture.",
         "action": "Explore the massive Temperate House and walk the treetop canopy walkway.",
         "photoTip": "The Temperate House at Kew Gardens (architectural geometry and symmetry).",
-        "checked": false,
-        "time": "3 hrs"
+        "checked": false
       },
       {
         "id": "r_t3",
         "title": "Richmond Riverside & Green",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
         "description": "A highly affluent, picturesque stretch of the Thames that has historically been the playground for English royalty.",
         "action": "Stroll the riverside paths, surrounded by historic architecture and traditional pubs.",
         "photoTip": "Richmond Hill Viewpoint (protected view looking down over a sweeping bend in the Thames).",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
+      },
+      {
+        "id": "r_t4",
+        "title": "Ham House & Thames Riverside Trail",
+        "entry": "Paid (£15 National Trust / Free for members)",
+        "booking": "Walk-in / Advance booking optional",
+        "time": "1.5 hrs",
+        "description": "A rare surviving 17th-century Stuart mansion situated right on the banks of the Thames with historic formal gardens and orange groves.",
+        "action": "Take the tranquil riverside walk from Richmond Bridge down to Ham House.",
+        "photoTip": "The grand brick facade of Ham House reflected across the symmetrical 17th-century formal gardens.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "r_m1",
+        "title": "Marble Hill House & Twickenham Ferry",
+        "entry": "Free (House & Park)",
+        "booking": "Free timed house tickets online",
+        "time": "1.5 hrs",
+        "description": "A Palladian villa built for Henrietta Howard, mistress of King George II, reached via the historic Hammerton's Ferry across the Thames.",
+        "action": "Ring the bell at Hammerton's Ferry to cross the river and tour the restored Georgian salon.",
+        "photoTip": "The pristine white Palladian facade glowing against sweeping green lawns leading to the river.",
+        "checked": false
+      },
+      {
+        "id": "r_m2",
+        "title": "Terrace Gardens & Richmond Hill Viewpoint",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "Sloping ornamental public gardens with a Victorian fountain leading up to the only panorama protected by an Act of Parliament.",
+        "action": "Sit on the hilltop benches gazing down at the bend of the Thames that inspired painter J.M.W. Turner.",
+        "photoTip": "Sunset over the misty curve of the Thames framed by ancient weeping willow branches.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "r_e1",
         "title": "Tide Tables",
+        "cuisine": "Vegetarian Waterside Cafe",
+        "price": "£ (~£10-18)",
+        "reservation": "Walk-ins only",
+        "time": "1 hr",
         "description": "Casual cafe tucked under the arches right on the Richmond riverside.",
         "mustTry": "Entirely vegetarian cafe with dedicated vegan and gluten-free menus.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "r_e2",
         "title": "Petersham Nurseries Cafe",
+        "cuisine": "Organic Botanical Italian / British",
+        "price": "£££ (~£35-65)",
+        "reservation": "Essential in advance",
+        "time": "1.5 hrs",
         "description": "Magical greenhouse dining experience surrounded by lush botanical plants.",
         "mustTry": "Exquisite vegetarian dishes and gluten-free gourmet plates (book in advance).",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "city",
     "name": "The City of London 🏛️",
+    "durationRec": "1 Day",
+    "durationReason": "The compact historic 'Square Mile' is largely pedestrianized and quiet on weekends, making it ideal to conquer in one full walking day.",
     "season": "January or February. Winter light cuts beautifully through skyscrapers, highlighting ancient stonework.",
     "transport": "🚇 Central Line to Bank, or Circle/District to Monument.",
     "funFacts": [
@@ -285,7 +507,6 @@
       "Leadenhall Market was a Roman basilica and later became the filming location for Diagon Alley in Harry Potter."
     ],
     "soul": "The ancient Roman heart of London, now the global financial district. A startling juxtaposition of hyper-modern skyscrapers and medieval ruins.",
-    "day2": "Walk the perimeter of the ancient Roman Wall, visit the Museum of London, or explore the Monument to the Great Fire.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -293,70 +514,120 @@
       {
         "id": "c_t1",
         "title": "St. Paul's Cathedral",
+        "entry": "Free (Exterior / Churchyard) / Paid (£25 interior)",
+        "booking": "Advance ticket recommended for dome climb",
+        "time": "1.5 hrs",
         "description": "Designed by Sir Christopher Wren after the Great Fire of 1666, its iconic dome dominated the London skyline for 300 years.",
         "action": "Marvel at the exterior from Paternoster Square, noting the grand Corinthian columns.",
-        "photoTip": "The reflection of St Pauls Cathedral in the modern glass of One New Change.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "photoTip": "The reflection of St Paul's Cathedral in the modern glass of One New Change.",
+        "checked": false
       },
       {
         "id": "c_t2",
         "title": "Leadenhall Market",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
         "description": "Built on the site of a Roman Basilica, this stunning Victorian covered market features ornate painted roofs and cobblestones.",
         "action": "Explore the intersecting arcades, famous as a Harry Potter filming location.",
         "photoTip": "Looking up at the Gherkin from the ornate archways of Leadenhall Market.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       },
       {
         "id": "c_t3",
         "title": "Sky Garden or Horizon 22",
+        "entry": "Free",
+        "booking": "Essential 2-3 weeks in advance online",
+        "time": "1.5 hrs",
         "description": "The highest public viewing galleries in London, offering free access to indoor gardens and panoramic views of the entire city.",
         "action": "Book free tickets well in advance and enjoy unparalleled views of the Thames.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "c_t4",
-        "title": "London Mithraeum",
-        "description": "A restored Roman Temple of Mithras from the 3rd century, discovered deep beneath the modern Bloomberg headquarters.",
-        "action": "Experience the highly immersive, subterranean light and sound installation.",
+        "title": "London Mithraeum & St Dunstan-in-the-East",
+        "entry": "Free",
+        "booking": "Advance booking recommended for Mithraeum",
+        "time": "1 hr",
+        "description": "A restored Roman Temple of Mithras from the 3rd century, paired with a ruined medieval church transformed into an overgrown garden.",
+        "action": "Experience the subterranean Roman light installation, then walk to St Dunstan's overgrown ruins.",
         "photoTip": "St. Dunstan-in-the-East: A ruined medieval church transformed into an overgrown garden.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
+      },
+      {
+        "id": "c_t5",
+        "title": "The Monument & Ancient Roman Wall",
+        "entry": "Paid (£6 Monument) / Free Roman Wall",
+        "booking": "Walk-in",
+        "time": "1 hr",
+        "description": "Wren's 202-foot fluted column marking the 1666 Great Fire, situated moments from surviving sections of the 2,000-year-old Roman wall.",
+        "action": "Climb the 311 spiral stairs of the Monument and inspect the ancient Roman stonework near Tower Hill.",
+        "photoTip": "Looking straight up the fluted stone pillar of The Monument against the glass financial towers.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "c_m1",
+        "title": "Postman's Park & Watts Memorial",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "30 mins",
+        "description": "A tranquil former churchyard containing George Frederic Watts' moving Victorian tile memorial commemorating everyday heroic self-sacrifice.",
+        "action": "Read the poignant hand-painted Doulton ceramic tiles honouring citizens who died saving others.",
+        "photoTip": "The sheltered wooden gallery of commemorative ceramic plaques framed by rose beds.",
+        "checked": false
+      },
+      {
+        "id": "c_m2",
+        "title": "Guildhall & Roman Amphitheatre",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1 hr",
+        "description": "The medieval seat of city government dating back to 1411; beneath its art gallery lie the stone remains of London's Roman gladiator amphitheatre.",
+        "action": "Descend into the dimly lit subterranean basement to walk the dark outline of the Roman arena.",
+        "photoTip": "The medieval vaulted crypt ceilings and the eerie neon circular floor of the Roman arena.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "c_e1",
-        "title": "The Ned (Millies Lounge)",
+        "title": "The Ned (Millie's Lounge)",
+        "cuisine": "Classic British / European Brasserie",
+        "price": "£££ (~£30-50)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Upscale dining room inside a grand 1920s former bank building.",
         "mustTry": "Superb vegetarian and gluten-free British classics crafted with precision.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "c_e2",
-        "title": "Leon / Itsu",
+        "title": "Leon / Itsu Fenchurch",
+        "cuisine": "Healthy Fast-Casual / Mediterranean",
+        "price": "£ (~£8-14)",
+        "reservation": "Walk-ins only",
+        "time": "45 mins",
         "description": "Reliable fast-casual stops for weekends when financial district indie cafes close.",
         "mustTry": "Clearly marked gluten-free and vegetarian warm boxes and noodle salads.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       }
     ]
   },
   {
     "id": "shoreditch",
     "name": "Shoreditch & Spitalfields 🎨",
+    "durationRec": "1 Day",
+    "durationReason": "A dynamic, compact East End neighborhood best savoured as a continuous walking day of street art, markets, and vintage browsing.",
     "season": "September. Pleasant weather for street art, and the London Design Festival activates spaces.",
     "transport": "🚇 Overground to Shoreditch High Street, or Central/Elizabeth Line to Liverpool Street.",
     "funFacts": [
-      "Fournier Street has been home to French Huguenot silk weavers, Jewish immigrants, and Bangladeshi families across centuries.",
-      "Shoreditch was home to The Theatre, Londons very first purpose-built playhouse, where Shakespeare early plays were staged.",
+      "Fournier Street has been home to French Huguenot silk weavers, Jewish immigrants, and Bangladeshi families.",
+      "Shoreditch was home to The Theatre, London's very first purpose-built playhouse, where Shakespeare's early plays were staged.",
       "Street art here is constantly changing, with pieces by Banksy, ROA, and Stik hidden in alleyways."
     ],
-    "soul": "Historic home of silk weavers and immigrants, evolved into Londons vibrant, gritty capital of street art, vintage fashion, and indie culture.",
-    "day2": "Sunday at Columbia Road Flower Market, walk to Hackney City Farm, and explore boutiques on Broadway Market.",
+    "soul": "Historic home of silk weavers and immigrants, evolved into London's vibrant, gritty capital of street art, vintage fashion, and indie culture.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -364,70 +635,120 @@
       {
         "id": "sh_t1",
         "title": "Rivington & Redchurch Street Art",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
         "description": "The epicenter of London's world-class street art scene, featuring constantly changing works by globally renowned artists.",
         "action": "Hunt for hidden murals by Banksy, ROA, and Stik in the surrounding alleyways.",
         "photoTip": "Nomadic Community Gardens / Brick Lane murals for urban photography.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "sh_t2",
         "title": "Old Spitalfields Market",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
         "description": "A beautifully restored Victorian market hall that has operated for over 350 years, now a major hub for independent designers.",
         "action": "Browse the stalls for local art, clothing, and unique antiques.",
         "photoTip": "The glass canopy and Victorian ironwork of Old Spitalfields Market.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "sh_t3",
         "title": "Brick Lane",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
         "description": "The historic heart of London's Bangladeshi community, famous for its rich history of immigration, vintage clothing emporiums, and record shops.",
         "action": "Walk the lane, popping into the massive vintage basements at the Truman Brewery.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "sh_t4",
         "title": "Fournier Street",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "30 mins",
         "description": "One of London's most perfectly preserved streets, lined with the 18th-century townhouses of French Huguenot silk weavers.",
         "action": "Admire the oversized attic windows, built to let in maximum light for weaving.",
         "photoTip": "Fournier Street: Contrast between Georgian townhouses and modern City skyscrapers.",
-        "checked": false,
-        "time": "30 mins"
+        "checked": false
+      },
+      {
+        "id": "sh_t5",
+        "title": "Dennis Severs' House",
+        "entry": "Paid (£16-20)",
+        "booking": "Essential in advance online",
+        "time": "1 hr",
+        "description": "A spellbinding 'still life drama' where an 18th-century Huguenot silk weaver's home is kept in an eerie, candlelit, sensory state of paused time.",
+        "action": "Walk through the silent, candlelit rooms smelling burnt embers and pomander perfumes.",
+        "photoTip": "The evocative 18th-century brick facade and gas-lamp exterior along Folgate Street.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "sh_m1",
+        "title": "Whitechapel Gallery",
+        "entry": "Free (General exhibitions)",
+        "booking": "Walk-in / Free online booking",
+        "time": "1.5 hrs",
+        "description": "The pioneering East End contemporary art institution that premiered Picasso's 'Guernica' to Britain in 1939.",
+        "action": "Explore the experimental contemporary installations and the historic art bookshop.",
+        "photoTip": "The distinctive Arts and Crafts stone frontage adorned with tree-of-life motifs.",
+        "checked": false
+      },
+      {
+        "id": "sh_m2",
+        "title": "Christ Church Spitalfields",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "Nicholas Hawksmoor's soaring 1729 English Baroque masterpiece dominating the Commercial Street skyline.",
+        "action": "Step inside the monumental nave to see the grand Tuscan columns and restored organ.",
+        "photoTip": "Hawksmoor's monumental stone spire cutting through the sky directly opposite Spitalfields Market.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "sh_e1",
-        "title": "Bubala",
+        "title": "Bubala Spitalfields",
+        "cuisine": "Middle Eastern Vegetarian",
+        "price": "££ (~£22-35)",
+        "reservation": "Essential in advance",
+        "time": "1.5 hrs",
         "description": "Acclaimed Middle Eastern restaurant in Spitalfields focusing on creative vegetarian small plates.",
         "mustTry": "Phenomenal vegetarian dishes with a vibrant menu almost entirely gluten-free.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "sh_e2",
         "title": "Nude Espresso",
+        "cuisine": "Artisan Specialty Coffee & Bakery",
+        "price": "£ (~£5-12)",
+        "reservation": "Walk-ins only",
+        "time": "45 mins",
         "description": "Independent specialty coffee shop located right on Hanbury Street.",
         "mustTry": "Artisan coffees with plant milks and tasty gluten-free treat options.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       }
     ]
   },
   {
     "id": "nottinghill",
     "name": "Notting Hill & Holland Park 🌸",
+    "durationRec": "1 Day",
+    "durationReason": "Easily explored as a delightful single day combining morning antique browsing on Portobello Road with an afternoon in Holland Park.",
     "season": "April (cherry blossoms contrasting with pastel houses) or late August (Notting Hill Carnival).",
     "transport": "🚇 Central, Circle, or District Line to Notting Hill Gate.",
     "funFacts": [
-      "The Notting Hill Carnival is the second-largest street festival in the world, behind only Rio de Janeiros.",
+      "The Notting Hill Carnival is the second-largest street festival in the world, behind only Rio de Janeiro's.",
       "The area was known for its piggeries and brickfields in the 19th century before becoming a wealthy suburb.",
-      "The Kyoto Garden in Holland Park was a gift from the city of Kyoto in 1991 to celebrate the Japan Festival in London."
+      "The Kyoto Garden in Holland Park was a gift from the city of Kyoto in 1991."
     ],
-    "soul": "Famous for pastel-colored Victorian townhouses, cinematic charm, and Londons most famous antique market.",
-    "day2": "Explore Kensington Gardens, visit the Design Museum, and tour the opulent Leighton House Museum.",
+    "soul": "Famous for pastel-colored Victorian townhouses, cinematic charm, and London's most famous antique market.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -435,70 +756,120 @@
       {
         "id": "n_t1",
         "title": "Portobello Road Market",
-        "description": "The world's largest antiques market, stretching for over a mile. It dates back to the 19th century when it was a fresh food market.",
-        "action": "Wander the stalls (Saturdays are best for antiques) and hunt for silver and vintage maps.",
+        "entry": "Free",
+        "booking": "No booking required (Saturdays best for antiques)",
+        "time": "2 hrs",
+        "description": "The world's largest antiques market, stretching for over a mile. It dates back to the 19th century.",
+        "action": "Wander the stalls and hunt for antique silverware, vintage cameras, and historic maps.",
         "photoTip": "The sweeping curve of colorful houses on Lancaster Road or Elgin Crescent.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "n_t2",
         "title": "Kyoto Garden in Holland Park",
-        "description": "A stunning, tranquil Japanese garden gifted by the city of Kyoto in 1991 to celebrate the Japan Festival in London.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A tranquil Japanese garden gifted by the city of Kyoto in 1991 to celebrate Anglo-Japanese friendship.",
         "action": "Find the tiered waterfalls and look out for the roaming resident peacocks.",
         "photoTip": "The waterfall and roaming peacocks inside the Kyoto Garden.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "n_t3",
         "title": "St Luke's & Local Mews",
-        "description": "Mews streets were originally service roads behind grand houses where horses and carriages were kept, now highly coveted pastel homes.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "Mews streets were originally service roads behind grand houses, now coveted pastel homes covered in wisteria.",
         "action": "Get lost exploring these historic, cobbled, and heavily flowered alleyways.",
-        "photoTip": "St Lukes Mews: Pretty cobbled mews with pink houses and trailing ivy.",
-        "checked": false,
-        "time": "45 mins"
+        "photoTip": "St Luke's Mews: Pretty cobbled mews with pink houses and trailing ivy.",
+        "checked": false
       },
       {
         "id": "n_t4",
         "title": "Electric Cinema",
-        "description": "Opened in 1910, it is one of the oldest working cinemas in the country, surviving two world wars and surviving demolition.",
-        "action": "Book a ticket in advance to watch a film from a plush velvet bed or armchair.",
-        "checked": false,
-        "time": "2.5 hrs"
+        "entry": "Paid (£18-25)",
+        "booking": "Essential in advance online",
+        "time": "2.5 hrs",
+        "description": "Opened in 1910, it is one of the oldest working cinemas in the country, featuring plush velvet beds and armchairs.",
+        "action": "Book a ticket in advance to watch a film in opulent historic comfort.",
+        "checked": false
+      },
+      {
+        "id": "n_t5",
+        "title": "Leighton House Museum",
+        "entry": "Paid (£14)",
+        "booking": "Advance booking recommended",
+        "time": "1.5 hrs",
+        "description": "The opulent former studio home of Victorian artist Frederic Leighton, featuring an extraordinary gilded Arab Hall lined with 16th-century Syrian tiles.",
+        "action": "Gaze into the domed fountain hall and inspect the glittering gold mosaic frieze.",
+        "photoTip": "The light reflecting off the indoor fountain and cobalt tiles in the Arab Hall.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "n_m1",
+        "title": "The Design Museum",
+        "entry": "Free (Permanent displays)",
+        "booking": "Free advance timed ticket recommended",
+        "time": "1.5 hrs",
+        "description": "Set inside the 1960s Commonwealth Institute building in Holland Park, featuring an astonishing hyperbolic paraboloid copper roof.",
+        "action": "Walk beneath the breathtaking wooden ceiling geometry and explore modern consumer design history.",
+        "photoTip": "Looking up from the ground atrium into the soaring curves of the wooden ceiling.",
+        "checked": false
+      },
+      {
+        "id": "n_m2",
+        "title": "Museum of Brands",
+        "entry": "Paid (£9)",
+        "booking": "Walk-in",
+        "time": "1 hr",
+        "description": "A nostalgic journey through 200 years of consumer culture, packaging, toys, and advertising design.",
+        "action": "Walk the 'Time Tunnel' to track how everyday household items and sweets evolved since Victorian times.",
+        "photoTip": "Vintage Victorian biscuit tins and retro mid-century packaging displays.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "n_e1",
-        "title": "Farm Girl",
+        "title": "Farm Girl Notting Hill",
+        "cuisine": "Australian Health Brunch",
+        "price": "££ (~£15-24)",
+        "reservation": "Walk-ins only (queue on weekends)",
+        "time": "1 hr",
         "description": "Photogenic Australian-style health cafe tucked in a quiet Notting Hill courtyard.",
         "mustTry": "Famous rose lattes, vegetarian bowls, and naturally gluten-free buckwheat pancakes.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "n_e2",
         "title": "Haya",
+        "cuisine": "Mediterranean / Tel Aviv-Inspired",
+        "price": "££ (~£20-32)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Mediterranean-inspired neighborhood restaurant with a warm and welcoming ambiance.",
         "mustTry": "Wonderful vegetarian sharing plates and clearly marked gluten-free dishes.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "camden",
     "name": "Camden Town & Regents Park 🎸",
-    "season": "June or July. Long summer evenings for canal walks; Queen Marys Rose Garden in spectacular bloom.",
+    "durationRec": "1 Day",
+    "durationReason": "A classic linear route connecting market culture, canal towpaths, and Regent's Park landscapes within a relaxed 5-7 hour itinerary.",
+    "season": "June or July. Long summer evenings for canal walks; Queen Mary's Rose Garden in spectacular bloom.",
     "transport": "🚇 Northern Line to Camden Town, or Overground to Camden Road.",
     "funFacts": [
-      "Camden Lock was originally a working industrial hub for gin and timber before becoming a massive alternative market in the 1970s.",
-      "Regents Park was designed by John Nash as a huge hunting park for the Prince Regent (later King George IV).",
-      "Primrose Hill is famously one of the 13 protected views of London, keeping the skyline to St Pauls clear."
+      "Camden Lock was originally a working industrial hub for gin and timber before becoming an alternative market in the 1970s.",
+      "Regent's Park was designed by John Nash as a hunting park for the Prince Regent.",
+      "Primrose Hill is famously one of the 13 protected views of London, keeping the skyline to St Paul's clear."
     ],
-    "soul": "Camden is the historic hub for alternative subcultures, contrasting sharply with the aristocratic elegance of Regents Park.",
-    "day2": "Take a narrowboat ride from Camden Lock to Little Venice, and explore the grand streets of Maida Vale.",
+    "soul": "Camden is the historic hub for alternative subcultures, contrasting sharply with the aristocratic elegance of Regent's Park.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -506,70 +877,120 @@
       {
         "id": "ca_t1",
         "title": "Camden Market & Stables",
-        "description": "Originally a complex for horses moving goods along the canal, it is now a sprawling labyrinth of alternative culture, vintage clothes, and goth stores.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2.5 hrs",
+        "description": "Originally a horse hospital along the canal, now a sprawling labyrinth of alternative fashion, vintage gear, and craft stalls.",
         "action": "Explore the catacombs of the stables and browse the independent craft stalls.",
         "photoTip": "The vibrant, 3D shop fronts along Camden High Street.",
-        "checked": false,
-        "time": "2.5 hrs"
+        "checked": false
       },
       {
         "id": "ca_t2",
-        "title": "Regents Canal Towpath",
-        "description": "Built in 1820, this industrial waterway connected the docks to the rest of England. Today, it's a peaceful urban walking route lined with narrowboats.",
-        "action": "Walk the towpath away from the market crowds towards London Zoo.",
-        "photoTip": "Regents Canal at Camden Lock, with narrowboats and weeping willows.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "title": "Regent's Canal Towpath",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "Built in 1820, this industrial waterway connected the docks to the rest of England. Today, it's a peaceful urban walking route.",
+        "action": "Walk the towpath away from the market crowds towards London Zoo and Primrose Hill.",
+        "photoTip": "Regent's Canal at Camden Lock, with narrowboats and weeping willows.",
+        "checked": false
       },
       {
         "id": "ca_t3",
-        "title": "Regents Park",
-        "description": "Designed by celebrated architect John Nash in 1811, this former royal hunting ground is a masterpiece of landscape design.",
+        "title": "Regent's Park & Queen Mary's Gardens",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "Designed by celebrated architect John Nash in 1811, featuring 12,000 blooming roses and grand neoclassical villas.",
         "action": "Smell the thousands of blooms inside Queen Mary's spectacular Rose Garden.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "ca_t4",
         "title": "Primrose Hill",
-        "description": "A highly affluent village attached to a grassy hill that offers one of the most famous, legally protected panoramic views in London.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "A grassy hill that offers one of the most famous, legally protected panoramic views in London.",
         "action": "Hike to the summit marker and try to identify landmarks across the skyline.",
         "photoTip": "The summit of Primrose Hill at sunset, capturing the London skyline.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
+      },
+      {
+        "id": "ca_t5",
+        "title": "Regent's Canal Waterbus to Little Venice",
+        "entry": "Paid (£14-16)",
+        "booking": "Walk-in / Advance booking online",
+        "time": "50 mins",
+        "description": "A traditional painted London canal narrowboat journey cruising through the grounds of London Zoo and beneath Maida Hill Tunnel.",
+        "action": "Catch the canal boat from Camden Lock and glide past waterside villas toward Little Venice.",
+        "photoTip": "The prow of the canal boat slicing through weeping willow reflections on the water.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "ca_m1",
+        "title": "ZSL London Zoo & Aviary",
+        "entry": "Paid (£27-33)",
+        "booking": "Advance online booking recommended",
+        "time": "2.5 hrs",
+        "description": "The world's oldest scientific zoo, opened in 1828, featuring Lord Snowdon's groundbreaking brutalist aviary now home to colobus monkeys.",
+        "action": "Walk through the Snowdon Aviary bridge overlooking the Regent's Canal canal-side path.",
+        "photoTip": "The geometric aluminium tension-cables of the Snowdon Aviary against the green tree canopies.",
+        "checked": false
+      },
+      {
+        "id": "ca_m2",
+        "title": "The Roundhouse",
+        "entry": "Free exterior / Event tickets vary",
+        "booking": "Tickets for concerts / Walk-in exterior",
+        "time": "45 mins",
+        "description": "A circular 1847 Victorian railway engine turntable shed turned into a legendary concert venue that hosted Pink Floyd, Jimi Hendrix, and The Doors.",
+        "action": "Admire the circular iron-column architecture on Chalk Farm Road.",
+        "photoTip": "The curved brick and iron conical roof of the Roundhouse illuminated at dusk.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "ca_e1",
         "title": "Magic Falafel",
+        "cuisine": "100% Vegan Middle Eastern Street Food",
+        "price": "£ (~£9-14)",
+        "reservation": "Walk-ins only",
+        "time": "30 mins",
         "description": "Dedicated street food stall located right inside Camden Market.",
         "mustTry": "100 percent vegan and gluten-free authentic crispy falafel boxes.",
-        "checked": false,
-        "time": "30 mins"
+        "checked": false
       },
       {
         "id": "ca_e2",
         "title": "Mildreds Camden",
+        "cuisine": "100% Plant-Based International",
+        "price": "££ (~£20-30)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Legendary plant-based restaurant serving globally inspired comfort food.",
         "mustTry": "Vibrant vegetarian mains with clearly marked and plentiful gluten-free options.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "kensington",
     "name": "Kensington & Chelsea 👑",
-    "season": "May (Chelsea Flower Show and floral displays) or December (Christmas lights and ice skating).",
+    "durationRec": "2 Days (Weekend)",
+    "durationReason": "The V&A and Natural History Museum easily require 3 hours each; spreading the museums, royal gardens, and Chelsea King's Road over two days prevents museum fatigue.",
+    "season": "May (Chelsea Flower Show and floral displays) or December (Christmas lights).",
     "transport": "🚇 Piccadilly, Circle, or District Line to South Kensington or Sloane Square.",
     "funFacts": [
       "The area is often called 'Albertopolis' because Prince Albert championed the building of the museums using profits from the 1851 Great Exhibition.",
-      "The Natural History Museum building is covered in terracotta animal carvings—living species on the west wing, extinct ones on the east.",
-      "The Kings Road got its name because it was King Charles IIs private road to travel to Kew."
+      "The Natural History Museum building is covered in terracotta animal carvings—living on the west, extinct on the east.",
+      "The King's Road got its name because it was King Charles II's private road."
     ],
     "soul": "The Royal Borough. London at its most opulent, home to world-class Victorian museums, grand garden squares, and elegant streets.",
-    "day2": "Walk the Thames Path along the Chelsea Embankment, visit the Saatchi Gallery, explore Royal Hospital Chelsea.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -577,69 +998,119 @@
       {
         "id": "k_t1",
         "title": "Museum Row (V&A or Natural History)",
+        "entry": "Free (General admission)",
+        "booking": "Free advance timed ticket recommended",
+        "time": "3 hrs",
         "description": "These staggering Victorian institutions were built using profits from the 1851 Great Exhibition to educate the British public on science and art.",
-        "action": "Marvel at the terracotta architecture of the NHM or the sculptures at the V&A.",
+        "action": "Marvel at the terracotta architecture of the NHM or the sculptures and courtyard at the V&A.",
         "photoTip": "Hintze Hall inside the Natural History Museum (arches and whale skeleton) and the V&A Courtyard pond.",
-        "checked": false,
-        "time": "3 hrs"
+        "checked": false
       },
       {
         "id": "k_t2",
         "title": "Kensington Gardens",
-        "description": "Once the private gardens of Kensington Palace (current home to Prince William and Kate), it features grand avenues and historic monuments.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "Once the private gardens of Kensington Palace, it features grand tree-lined avenues and historic royal monuments.",
         "action": "Walk to the highly ornate, gold-gilded Albert Memorial.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "k_t3",
-        "title": "The Kings Road, Chelsea",
-        "description": "Originally Charles II's private road, it became the global epicenter of 1960s 'Swinging London' fashion and is now a high-end shopping artery.",
+        "title": "The King's Road, Chelsea",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "Originally Charles II's private road, it became the epicenter of 1960s 'Swinging London' fashion and is now a luxury boutique artery.",
         "action": "Stroll down the street, admiring the boutiques and affluent architecture.",
         "photoTip": "The pastel houses and hidden squares around Bywater Street in Chelsea.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "k_t4",
         "title": "Chelsea Physic Garden",
+        "entry": "Paid (£13-15)",
+        "booking": "Recommended on weekends",
+        "time": "1 hr",
         "description": "Established in 1673 by the Worshipful Society of Apothecaries, this is London's oldest botanical garden.",
         "action": "Discover rare medicinal, edible, and poisonous plants in the walled sanctuary.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
+      },
+      {
+        "id": "k_t5",
+        "title": "Saatchi Gallery & Chelsea Embankment",
+        "entry": "Free (General admission)",
+        "booking": "Walk-in / No booking required",
+        "time": "1.5 hrs",
+        "description": "A world-renowned contemporary art gallery housed in the neoclassical Duke of York's Headquarters moments from the Thames Embankment.",
+        "action": "Explore provocative modern art exhibitions then walk down to the ornate Albert Bridge.",
+        "photoTip": "The illuminated fairy lights of the Albert Bridge reflecting on the water at dusk.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "k_m1",
+        "title": "Kensington Palace State Apartments",
+        "entry": "Paid (£20-25)",
+        "booking": "Advance online booking recommended",
+        "time": "1.5 hrs",
+        "description": "The official royal residence of William and Kate, and the childhood home of Queen Victoria, featuring the King's State Apartments and Sunken Garden.",
+        "action": "Stroll the perimeter of the Sunken Garden where the Princess Diana statue stands.",
+        "photoTip": "The red-brick Stuart palace facade framed by weeping floral arches in the Sunken Garden.",
+        "checked": false
+      },
+      {
+        "id": "k_m2",
+        "title": "Royal Albert Hall Tour",
+        "entry": "Paid (£18 tour)",
+        "booking": "Advance online booking required",
+        "time": "1 hr",
+        "description": "Opened by Queen Victoria in 1871, this world-famous circular concert hall hosts the annual BBC Proms beneath an 85-foot domed ceiling.",
+        "action": "Step into the royal box and view the massive 9,997-pipe organ.",
+        "photoTip": "The grand terracotta mosaic frieze wrapping around the entire circular exterior.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "k_e1",
         "title": "Dishoom Kensington",
+        "cuisine": "Bombay Comfort Dining",
+        "price": "££ (~£20-32)",
+        "reservation": "Recommended for groups (walk-in queue otherwise)",
+        "time": "1.5 hrs",
         "description": "Stunning Bombay-style cafe inspired by the old Irani cafes of Mumbai.",
         "mustTry": "Dedicated vegan and gluten-free menus featuring their legendary black daal.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "k_e2",
         "title": "Ceru South Kensington",
+        "cuisine": "Levantine / Eastern Mediterranean",
+        "price": "££ (~£18-28)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Vibrant Levantine restaurant located moments away from the museums.",
         "mustTry": "Almost entirely naturally gluten-free menu with wonderful vegetarian mezze plates.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "hackney",
     "name": "Hackney & Victoria Park 🌿",
+    "durationRec": "1 Day",
+    "durationReason": "A classic Sunday market-and-canal itinerary that flows seamlessly through Columbia Road, Broadway Market, and Victoria Park.",
     "season": "Sundays in Spring or Summer. Comes alive with markets and park culture.",
     "transport": "🚇 Overground to Hackney Central, Cambridge Heath, or London Fields.",
     "funFacts": [
-      "Victoria Park is nicknamed the Peoples Park, built in 1845 specifically to improve the health of the working-class East End.",
+      "Victoria Park is nicknamed the People's Park, built in 1845 specifically to improve the health of the working-class East End.",
       "Columbia Road was originally a pathway for driving sheep to the slaughterhouses at Smithfield Market.",
-      "Hackney was once famous for its vast brickfields, providing the materials to build much of Victorian London."
+      "Hackney was once famous for its vast brickfields, providing materials to build Victorian London."
     ],
-    "soul": "The beating heart of East Londons creative scene. An incredible mix of urban edge, hipster cafes, historic canals, and vast parks.",
-    "day2": "Explore Hackney Marshes and Queen Elizabeth Olympic Park. Swim in the Aquatics Centre.",
+    "soul": "The beating heart of East London's creative scene. An incredible mix of urban edge, hipster cafes, historic canals, and vast parks.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -647,70 +1118,120 @@
       {
         "id": "ha_t1",
         "title": "Columbia Road Flower Market",
+        "entry": "Free",
+        "booking": "No booking required (Sundays only 8am-2pm)",
+        "time": "1.5 hrs",
         "description": "Operating only on Sundays, this narrow Victorian street transforms into a dense, screaming, colorful jungle of flower sellers.",
         "action": "Arrive early, listen to the cockney barrow boys shouting, and admire the blooms.",
         "photoTip": "Columbia Road on a Sunday morning (portrait lens for flower sellers).",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "ha_t2",
-        "title": "Regents Canal Walk",
+        "title": "Regent's Canal Walk",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
         "description": "This eastern stretch of the canal runs through old industrial Hackney, lined with graffiti, converted warehouses, and trendy cafes.",
         "action": "Walk the towpath from Broadway Market down to the edge of Victoria Park.",
-        "photoTip": "Narrowboats passing through the historic locks along Regents Canal.",
-        "checked": false,
-        "time": "1 hr"
+        "photoTip": "Narrowboats passing through the historic locks along Regent's Canal.",
+        "checked": false
       },
       {
         "id": "ha_t3",
         "title": "Victoria Park",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2 hrs",
         "description": "Known affectionately as the 'People's Park', it was created in the 1840s to offer clean air to the impoverished East End.",
         "action": "Explore the vast park, specifically seeking out the ornate Chinese pagodas.",
         "photoTip": "The Chinese Pagoda on the island in Victoria Park.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "ha_t4",
         "title": "Broadway Market",
+        "entry": "Free",
+        "booking": "No booking required (Saturdays best)",
+        "time": "1.5 hrs",
         "description": "A historic working-class street that has transformed into a bustling Saturday hub of artisan food, vintage clothing, and crafts.",
         "action": "Browse the Saturday stalls for incredible street food and independent zines.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
+      },
+      {
+        "id": "ha_t5",
+        "title": "Queen Elizabeth Olympic Park & Wetlands",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "The award-winning 2012 Olympic grounds transformed into sweeping public parklands, waterways, and world-class architectural venues.",
+        "action": "Stroll the river trails past Zaha Hadid's London Aquatics Centre and the ArcelorMittal Orbit.",
+        "photoTip": "The sweeping parabolic curve of the London Aquatics Centre roof reflected in the River Lee.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "ha_m1",
+        "title": "Hackney City Farm",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "45 mins",
+        "description": "A charming community farm operating on an old brewery site since 1984, housing sheep, donkeys, pigs, and community gardens.",
+        "action": "Meet the friendly resident farm animals and explore the pottery and plant workshops.",
+        "photoTip": "Cute farm animals framed against the rustic brick workshops and lush courtyards.",
+        "checked": false
+      },
+      {
+        "id": "ha_m2",
+        "title": "ArcelorMittal Orbit & Slide",
+        "entry": "Paid (£12 viewing / £17 slide)",
+        "booking": "Advance online booking recommended",
+        "time": "1 hr",
+        "description": "Britain's tallest sculpture designed by Anish Kapoor, wrapped in the world's longest tunnel slide dropping 178 metres.",
+        "action": "Ride the twisting slide down through 12 corkscrews, or enjoy the 360-degree panorama from the top deck.",
+        "photoTip": "The giant looping red steel lattice rising dramatically above the Olympic stadium.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "ha_e1",
         "title": "The Spread Eagle",
+        "cuisine": "100% Vegan British Gastropub",
+        "price": "££ (~£16-25)",
+        "reservation": "Recommended for Sunday Roast",
+        "time": "1.5 hrs",
         "description": "London's first fully plant-based pub located in Homerton.",
         "mustTry": "Exceptional vegan pub food and Sunday roasts with gluten-free accommodations.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "ha_e2",
         "title": "Andu Ethiopian Cafe",
+        "cuisine": "100% Vegan Ethiopian",
+        "price": "£ (~£9-13)",
+        "reservation": "Walk-ins welcome",
+        "time": "1 hr",
         "description": "Cozy, highly rated vegan Ethiopian eatery in Dalston.",
         "mustTry": "Traditional communal platters served on teff injera which is naturally gluten-free.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       }
     ]
   },
   {
     "id": "covent",
     "name": "Covent Garden & Soho 🎭",
+    "durationRec": "2 Days (Weekend)",
+    "durationReason": "Between the National Gallery, West End theatres, street performers, and the dense labyrinth of Soho alleyways, two days allows you to soak up daytime culture and world-famous night entertainment.",
     "season": "November or December for world-famous Christmas lights creating a magical atmosphere.",
     "transport": "🚇 Piccadilly Line to Covent Garden, or Central Line to Tottenham Court Road.",
     "funFacts": [
-      "Covent Garden used to be Convent Garden, an actual garden providing vegetables for the monks of Westminster Abbey.",
+      "Covent Garden used to be Convent Garden, an actual garden providing vegetables for monks of Westminster Abbey.",
       "Soho got its name from a 17th-century hunting cry used when the area was a royal hunting park.",
       "Carnaby Street in Soho was the absolute epicentre of 'Swinging London' in the 1960s."
     ],
     "soul": "The bustling, theatrical heart of London. A mix of historic fruit markets, bohemian streets, and premier entertainment.",
-    "day2": "Book a West End matinee, visit the National Gallery, and explore food halls at Fortnum & Mason.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -718,70 +1239,120 @@
       {
         "id": "co_t1",
         "title": "Covent Garden Piazza",
-        "description": "Originally an orchard for Westminster Abbey, then London's main fruit and vegetable market, it is now the city's street-performance hub.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "Originally an orchard for Westminster Abbey, then London's main fruit market, it is now the city's street-performance hub.",
         "action": "Watch the licensed street performers and explore the elegant Apple Market building.",
         "photoTip": "The elegant, symmetrical arches of the Covent Garden Market building.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "co_t2",
         "title": "The Streets of Soho",
-        "description": "Historically the red-light and bohemian district, Soho is a dense grid of energetic streets famous for jazz clubs, media hubs, and LGBTQ+ culture.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2 hrs",
+        "description": "Historically the red-light and bohemian district, Soho is a dense grid of energetic streets famous for jazz clubs and media hubs.",
         "action": "Get lost exploring Carnaby Street, Old Compton Street, and Kingly Court.",
         "photoTip": "Neon signs of Soho at night, particularly around Old Compton Street.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "co_t3",
-        "title": "Neals Yard",
-        "description": "A secret, micro-village courtyard hidden down an alley in Seven Dials, characterized by wildly colourful, ivy-covered brick buildings.",
+        "title": "Neal's Yard",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "30 mins",
+        "description": "A secret micro-village courtyard hidden down an alley in Seven Dials, characterized by wildly colourful brick buildings.",
         "action": "Find the hidden entrance and grab a photo of the brightly painted window frames.",
-        "photoTip": "Neals Yard: Brightly painted buildings and overflowing window boxes.",
-        "checked": false,
-        "time": "30 mins"
+        "photoTip": "Neal's Yard: Brightly painted buildings and overflowing window boxes.",
+        "checked": false
       },
       {
         "id": "co_t4",
         "title": "Charing Cross Road",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
         "description": "World-renowned as the historic street of booksellers, featured heavily in literature (like '84 Charing Cross Road').",
-        "action": "Browse the dusty, towering shelves of independent and antiquarian bookshops.",
-        "checked": false,
-        "time": "1 hr"
+        "action": "Browse the dusty, towering shelves of independent and antiquarian bookshops along Cecil Court.",
+        "checked": false
+      },
+      {
+        "id": "co_t5",
+        "title": "The National Gallery & Trafalgar Square",
+        "entry": "Free",
+        "booking": "Free timed entry ticket recommended",
+        "time": "2 hrs",
+        "description": "One of the greatest collections of Western European paintings in the world, holding masterpieces by Van Gogh, Da Vinci, and Turner.",
+        "action": "Admire Van Gogh's Sunflowers and step out onto Trafalgar Square to view Nelson's Column.",
+        "photoTip": "The view from the top portico steps of the National Gallery looking down Whitehall toward Big Ben.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "co_m1",
+        "title": "Sir John Soane's Museum",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1.5 hrs",
+        "description": "The extraordinary former home of the Bank of England architect, preserved exactly as he left it in 1837 packed with antiquities and Hogarth paintings.",
+        "action": "Open the folding walls in the Picture Room and see the 3,300-year-old alabaster sarcophagus of Pharaoh Seti I.",
+        "photoTip": "The three-story skylit central atrium packed with plaster classical casts and roman statues.",
+        "checked": false
+      },
+      {
+        "id": "co_m2",
+        "title": "London Transport Museum",
+        "entry": "Paid (£24.50 annual pass / Under 17s free)",
+        "booking": "Advance online booking recommended",
+        "time": "1.5 hrs",
+        "description": "Located directly inside the Victorian flower market in Covent Garden, exploring how London's red buses and Tube created modern urban living.",
+        "action": "Climb aboard historic wooden Tube carriages and vintage Routemaster buses.",
+        "photoTip": "Gleaming vintage red double-decker buses parked under the Victorian cast-iron market roof.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "co_e1",
         "title": "Mildreds Soho",
+        "cuisine": "100% Plant-Based Global",
+        "price": "££ (~£20-30)",
+        "reservation": "Highly recommended",
+        "time": "1.5 hrs",
         "description": "The original iconic plant-based restaurant in the heart of Soho.",
         "mustTry": "Superb vegetarian dishes and excellent gluten-free lunch and dinner options.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "co_e2",
         "title": "Dishoom Covent Garden",
+        "cuisine": "Bombay Cafe Dining",
+        "price": "££ (~£20-32)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Bustling Bombay cafe set near St Martin's Courtyard.",
         "mustTry": "Dedicated vegan and gluten-free menus with flavorful spiced vegetarian plates.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "bloomsbury",
     "name": "Bloomsbury & Fitzrovia 📚",
+    "durationRec": "1 Day",
+    "durationReason": "A peaceful academic district where the British Museum, Dickens' house, and historic garden squares align along a relaxed single day walking loop.",
     "season": "September. 'Back to school' autumn air suits the academic and literary atmosphere.",
     "transport": "🚇 Northern Line to Goodge Street or Central/Piccadilly to Holborn.",
     "funFacts": [
-      "The British Museum was the worlds first national public museum, opening in 1759.",
+      "The British Museum was the world's first national public museum, opening in 1759.",
       "The famous Bloomsbury Group included writers and thinkers like Virginia Woolf and John Maynard Keynes.",
-      "Senate House inspired George Orwells 'Ministry of Truth' in his novel 1984."
+      "Senate House inspired George Orwell's 'Ministry of Truth' in his novel 1984."
     ],
     "soul": "The intellectual heartbeat of London, defined by gorgeous Georgian garden squares, universities, and world-class museums.",
-    "day2": "Visit the Wellcome Collection (quirky medicine/art museum) and catch a fringe theatre show.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -789,69 +1360,119 @@
       {
         "id": "bl_t1",
         "title": "The British Museum",
-        "description": "The world's first national public museum, holding a vast, controversial, and breathtaking collection of human history spanning two million years.",
+        "entry": "Free",
+        "booking": "Free timed ticket strongly recommended",
+        "time": "3 hrs",
+        "description": "The world's first national public museum, holding a vast and breathtaking collection of human history spanning two million years.",
         "action": "Marvel at the Rosetta Stone, the Parthenon Sculptures, and the Great Court roof.",
         "photoTip": "The Great Court inside the British Museum (tessellated glass roof).",
-        "checked": false,
-        "time": "3 hrs"
+        "checked": false
       },
       {
         "id": "bl_t2",
         "title": "Georgian Garden Squares",
-        "description": "Bloomsbury was London's first planned residential suburb, setting the standard for the leafy, private garden squares seen across the city.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "Bloomsbury was London's first planned residential suburb, setting the standard for leafy private garden squares.",
         "action": "Walk the perimeter of Russell Square and perfectly preserved Bedford Square.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       },
       {
         "id": "bl_t3",
         "title": "Charles Dickens Museum",
+        "entry": "Paid (£12.50)",
+        "booking": "Advance booking recommended",
+        "time": "1.5 hrs",
         "description": "The Victorian author's former family home, completely preserved as it was when he wrote Oliver Twist and Nicholas Nickleby here.",
         "action": "Step back in time, walking through his original study and writing desk.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "bl_t4",
         "title": "Store Street & Woburn Walk",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
         "description": "Architecturally beautiful pedestrian pockets of Bloomsbury, favored by academics, architects, and artists.",
         "action": "Browse independent galleries, ceramic studios, and design stores.",
         "photoTip": "Pastel shopfronts along Woburn Walk (pedestrianized Georgian street).",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
+      },
+      {
+        "id": "bl_t5",
+        "title": "Wellcome Collection",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1.5 hrs",
+        "description": "A wonderfully quirky, free museum and library exploring the intersections of medicine, health, human nature, and art.",
+        "action": "Explore historical medical curiosities and relax in the beautiful Reading Room.",
+        "photoTip": "The monumental neoclassical stone facade and grand bronze entrance doors on Euston Road.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "bl_m1",
+        "title": "Grant Museum of Zoology",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "45 mins",
+        "description": "One of the oldest natural history collections in the UK, home to 68,000 zoological specimens, including the Micrarium and a jar of whole moles.",
+        "action": "Step into the Micrarium—a glowing wall of 2,323 microscope slides illuminated in a tiny dark room.",
+        "photoTip": "The illuminated floor-to-ceiling glass jars and the skeleton of an extinct quagga.",
+        "checked": false
+      },
+      {
+        "id": "bl_m2",
+        "title": "The British Library",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1.5 hrs",
+        "description": "Holding 170 million items, including the original Magna Carta, Leonardo da Vinci's notebook, and hand-written Beatles lyrics.",
+        "action": "Visit the Sir John Ritblat Treasures Gallery to see the world's most historic manuscripts.",
+        "photoTip": "The six-story glass King's Library tower rising through the core of the red-brick entrance hall.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "bl_e1",
         "title": "Honey & Co.",
+        "cuisine": "Middle Eastern Vegetarian-Focused",
+        "price": "££ (~£22-35)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Cozy Middle Eastern restaurant serving vibrant, aromatic dishes.",
         "mustTry": "Vibrant vegetarian plates with easily adapted gluten-free options.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "bl_e2",
         "title": "Kin Cafe",
+        "cuisine": "Wholesome Vegetarian Brunch & Bowls",
+        "price": "£ (~£10-18)",
+        "reservation": "Walk-ins only",
+        "time": "1 hr",
         "description": "Bright and welcoming vegetarian cafe located in Fitzrovia.",
         "mustTry": "Clearly marked gluten-free brunch dishes and wholesome plant-based lunch bowls.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       }
     ]
   },
   {
     "id": "kingscross",
     "name": "Kings Cross & St Pancras 🚂",
+    "durationRec": "1 Day",
+    "durationReason": "Coal Drops Yard, the British Library, and Granary Square are all clustered together along the canal for an easy, walkable 1-day exploration.",
     "season": "December. Winter light installations and the massive Christmas tree in Coal Drops Yard.",
     "transport": "🚇 Northern, Piccadilly, Victoria, Circle, H&C, or Met Line to Kings Cross St Pancras.",
     "funFacts": [
-      "Coal Drops Yard was literally where coal drops were located; 8 million tonnes of coal arrived here annually in the 1800s.",
+      "Coal Drops Yard was literally where coal drops were located; 8 million tonnes arrived here annually in the 1800s.",
       "St Pancras Station was almost demolished in the 1960s before a poet led a fierce campaign to save its gothic facade.",
       "Boudicca, the Celtic Queen, is rumored to be buried under Platform 9 at Kings Cross."
     ],
     "soul": "A gritty industrial transport hub successfully regenerated into a blend of Victorian viaducts and sleek modern tech/arts hubs.",
-    "day2": "Walk the Regents Canal towpath east towards Islington, or visit the London Canal Museum.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -859,69 +1480,119 @@
       {
         "id": "kx_t1",
         "title": "Coal Drops Yard",
-        "description": "A masterclass in urban regeneration. These vast Victorian brick viaducts used to receive 8 million tonnes of coal a year, now housing chic stores.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2 hrs",
+        "description": "A masterclass in urban regeneration. These vast Victorian brick viaducts used to receive 8 million tonnes of coal a year, now chic stores.",
         "action": "Explore the unique shops beneath the 'Kissing Roof' architecture.",
         "photoTip": "The Kissing Roof at Coal Drops Yard (modern architecture meets Victorian brick).",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "kx_t2",
-        "title": "The British Library",
-        "description": "The national library of the UK, receiving a copy of every publication produced in the UK and Ireland. The Treasures Gallery is phenomenal.",
-        "action": "See the original Magna Carta and Beatles' lyrics in the free gallery.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "title": "The British Library Treasures Gallery",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1.5 hrs",
+        "description": "The national library of the UK, holding the original Magna Carta, Leonardo da Vinci's notebook, and hand-written Beatles lyrics.",
+        "action": "See the Magna Carta and Beatles' original lyrics in the free Sir John Ritblat Gallery.",
+        "checked": false
       },
       {
         "id": "kx_t3",
         "title": "Granary Square",
-        "description": "A massive public square built where barges used to unload their goods, famously known for its 1,000 choreographed fountains.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "30 mins",
+        "description": "A massive public square built where canal barges used to unload goods, famously known for its 1,000 choreographed fountains.",
         "action": "Watch the synchronized fountains and walk down the steps to the canal.",
-        "checked": false,
-        "time": "30 mins"
+        "checked": false
       },
       {
         "id": "kx_t4",
-        "title": "Kings Cross Station & Platform 9 3/4",
-        "description": "A stunning mix of 1852 Victorian brickwork and a hyper-modern steel diagrid roof, famous globally for its Harry Potter connection.",
-        "action": "Admire the sweeping roof and get a photo at the famous trolley in the wall.",
+        "title": "Kings Cross Station & St Pancras Facade",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "30 mins",
+        "description": "A stunning mix of 1852 Victorian brickwork, a hyper-modern steel diagrid roof, and the world-famous Harry Potter Platform 9 3/4.",
+        "action": "Admire the sweeping Western Concourse roof and view the gothic facade of St Pancras.",
         "photoTip": "The breathtaking gothic-revival facade of the St Pancras Renaissance Hotel and the neon tunnel.",
-        "checked": false,
-        "time": "30 mins"
+        "checked": false
+      },
+      {
+        "id": "kx_t5",
+        "title": "Camley Street Natural Park & Regent's Canal",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A 2-acre urban nature reserve created on the site of an old coal yard, offering wild woodland and pond habitats right on the canal.",
+        "action": "Cross the floating bridge and walk east along the towpath toward Islington.",
+        "photoTip": "The contrast of wild green reed beds against the industrial Victorian gas holder frames.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "kx_m1",
+        "title": "London Canal Museum",
+        "entry": "Paid (£6)",
+        "booking": "Walk-in",
+        "time": "1 hr",
+        "description": "Housed in a former Victorian ice warehouse on the Battlebridge Basin, where ice was imported from Norway to make ice cream.",
+        "action": "Peer down into the massive, eerie subterranean brick ice well below the ground floor.",
+        "photoTip": "Painted canal boats and horse tugboats on the quiet Battlebridge Basin wharf.",
+        "checked": false
+      },
+      {
+        "id": "kx_m2",
+        "title": "Gasholder Park & Regent's Canal Walk",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "Historic Grade II listed Victorian cast-iron gasholder guide frames converted into an innovative circular public park and apartments.",
+        "action": "Walk inside the circular mirrored canopy overlooking the canal.",
+        "photoTip": "The geometric circular cast-iron filigree framing reflections of the canal water.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "kx_e1",
         "title": "Caravan Granary Square",
+        "cuisine": "Global All-Day Brunch & Bowls",
+        "price": "££ (~£18-28)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Spacious restaurant set inside a historic former grain warehouse.",
         "mustTry": "Globally inspired vegetarian dishes with clearly marked gluten-free options.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "kx_e2",
         "title": "Hoppers Kings Cross",
-        "description": "Vibrant Sri Lankan restaurant inspired by the roadside shacks of Ceylon.",
+        "cuisine": "Sri Lankan & South Indian",
+        "price": "££ (~£20-30)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
+        "description": "Vibrant Sri Lankan restaurant inspired by roadside shacks of Ceylon.",
         "mustTry": "Naturally gluten-free hopper bowls and delicious spiced vegetarian curries.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "marylebone",
     "name": "Marylebone & Mayfair 🎩",
-    "season": "May. Ideal for open-air cafe culture and the private garden squares turning vibrant green.",
+    "durationRec": "1 Day",
+    "durationReason": "A sophisticated, high-density stroll through elegant Georgian architecture, boutiques, and the Wallace Collection.",
+    "season": "May. Ideal for open-air cafe culture and private garden squares turning vibrant green.",
     "transport": "🚇 Jubilee Line to Bond Street or Baker Street.",
     "funFacts": [
-      "Mayfair gets its name from a raucous, two-week-long 'May Fair' festival that was eventually banned in the 1700s.",
-      "Sherlock Holmes fictitious address, 221B Baker Street, is located in Marylebone.",
-      "The Wallace Collection is entirely free and contains arms and armor alongside world-class paintings."
+      "Mayfair gets its name from a raucous, two-week-long 'May Fair' festival banned in the 1700s.",
+      "Sherlock Holmes' fictitious address, 221B Baker Street, is located in Marylebone.",
+      "The Wallace Collection is entirely free and contains royal arms alongside master paintings."
     ],
     "soul": "Upscale London. Mayfair is a starchy enclave of luxe hotels/galleries; Marylebone is an elegant, relaxed urban village.",
-    "day2": "Dedicate a day to Hyde Park, visit the Serpentine Galleries, or catch classical music at Wigmore Hall.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -929,69 +1600,119 @@
       {
         "id": "ma_t1",
         "title": "The Wallace Collection",
-        "description": "A spectacular national museum housed in a historic London town house, featuring world-class French 18th-century art and vast armories.",
-        "action": "View the free art collection (including Fragonard's 'The Swing') in the silk-lined rooms.",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "2 hrs",
+        "description": "A national museum housed in a historic townhouse, featuring French 18th-century art (including Fragonard's 'The Swing') and royal armories.",
+        "action": "View the free art collection in the silk-lined rooms.",
         "photoTip": "The grand, silk-lined rooms and armory at the Wallace Collection.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "ma_t2",
         "title": "Marylebone High Street",
-        "description": "Carefully managed by the local Howard de Walden Estate, this street avoids generic chains in favor of high-quality independent boutiques.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "Carefully managed by the local Howard de Walden Estate, avoiding chains in favor of independent boutiques.",
         "action": "Window shop and soak up the sophisticated, village-like atmosphere.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "ma_t3",
         "title": "Mayfair Garden Squares",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
         "description": "Mayfair is dominated by massive, manicured squares that historically hosted the most powerful aristocratic families in England.",
         "action": "Stroll through Grosvenor Square and Mount Street Gardens.",
         "photoTip": "The terracotta-red Victorian architecture curving along Mount Street and Brown Hart Gardens.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       },
       {
         "id": "ma_t4",
         "title": "Daunt Books",
-        "description": "An original Edwardian bookshop boasting long oak galleries, skylights, and William Morris prints, renowned for its travel writing collection.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "An original Edwardian bookshop boasting long oak galleries, skylights, and travel collections arranged by country.",
         "action": "Browse the flagship store, categorized uniquely by country rather than genre.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
+      },
+      {
+        "id": "ma_t5",
+        "title": "Hyde Park & Serpentine Galleries",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "The western edge of Mayfair opens into London's most famous Royal Park, housing pioneering contemporary art pavilions at the Serpentine.",
+        "action": "Walk the banks of the Serpentine lake and visit the Serpentine South Gallery.",
+        "photoTip": "The annual Serpentine architectural pavilion against the green parkland lawn.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "ma_m1",
+        "title": "Handel Hendrix in London",
+        "entry": "Paid (£14)",
+        "booking": "Advance online booking recommended",
+        "time": "1 hr",
+        "description": "Two musical titans who lived in adjacent flats separated by 200 years: baroque composer George Frideric Handel and 1960s rock icon Jimi Hendrix.",
+        "action": "Step into Hendrix's psychedelic bedroom recreated with bohemian fabrics, records, and velvet.",
+        "photoTip": "The contrast between Handel's formal Georgian rehearsal room and Hendrix's colorful 1969 bedroom.",
+        "checked": false
+      },
+      {
+        "id": "ma_m2",
+        "title": "Royal Academy of Arts",
+        "entry": "Free (Main courtyard / Collections)",
+        "booking": "Walk-in / Exhibition tickets online",
+        "time": "1.5 hrs",
+        "description": "Founded in 1768, Britain's oldest independent art academy led by artists, housed in the magnificent Burlington House on Piccadilly.",
+        "action": "Walk through the grand stone courtyard and view Michelangelo's 'Taddei Tondo' marble relief.",
+        "photoTip": "The neoclassical Annenberg Courtyard adorned with contemporary monumental sculptures.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "ma_e1",
         "title": "Plants by Deliciously Ella",
+        "cuisine": "100% Plant-Based Gourmet",
+        "price": "££ (~£20-32)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Chic Mayfair restaurant dedicated entirely to wholesome plant-based dining.",
         "mustTry": "100 percent plant-based menu with every dish naturally gluten-free.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "ma_e2",
         "title": "The Gate Marylebone",
+        "cuisine": "Upscale Vegetarian & Vegan Dining",
+        "price": "£££ (~£28-40)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Pioneering upscale vegetarian restaurant with a sophisticated atmosphere.",
         "mustTry": "Creative plant-based gourmet dishes with a wide selection of safe gluten-free options.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "westminster",
     "name": "Westminster & St James's 🏰",
+    "durationRec": "2 Days (Weekend)",
+    "durationReason": "Touring Westminster Abbey, the Churchill War Rooms, and Tate Britain thoroughly takes over 6.5 hours of museum time alone, best split over two royal days.",
     "season": "October or November. Crisp autumn air suits the grand architecture, avoiding summer tourist crushes.",
     "transport": "🚇 Jubilee, District, or Circle Line to Westminster or St. James's Park.",
     "funFacts": [
       "Westminster Abbey has been the coronation church for British monarchs since 1066.",
       "St James's Park is home to resident pelicans, descendants of those gifted to King Charles II in 1664.",
-      "Big Ben is actually the name of the bell inside, not the clock or the tower (which is the Elizabeth Tower)."
+      "Big Ben is actually the name of the massive bell inside, not the Elizabeth Tower."
     ],
     "soul": "The royal and political epicenter of the UK. Postcard London with soaring gothic architecture and exclusive royal streets.",
-    "day2": "Explore Tate Britain, take a riverboat to Greenwich, or explore royal cavalry at Horse Guards Parade.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -999,69 +1720,119 @@
       {
         "id": "we_t1",
         "title": "Whitehall & Parliament",
-        "description": "The nerve center of the British government, a grand thoroughfare lined with ministries, leading directly to the gothic Palace of Westminster.",
+        "entry": "Free (Street view)",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "The nerve center of the British government, a grand thoroughfare lined with ministries, leading to the gothic Palace of Westminster.",
         "action": "Walk down Whitehall to glimpse 10 Downing St and hear Big Ben chime.",
         "photoTip": "Westminster Bridge looking back at the Elizabeth Tower (Big Ben).",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "we_t2",
         "title": "Churchill War Rooms",
-        "description": "The actual subterranean bunker where Winston Churchill and his cabinet directed the Second World War, perfectly preserved since 1945.",
-        "action": "Explore the underground labyrinth and the Map Room.",
-        "checked": false,
-        "time": "2.5 hrs"
+        "entry": "Paid (£27-32)",
+        "booking": "Essential in advance online",
+        "time": "2.5 hrs",
+        "description": "The subterranean bunker where Winston Churchill and his cabinet directed WWII, perfectly preserved since 1945.",
+        "action": "Explore the underground labyrinth and the preserved Map Room.",
+        "checked": false
       },
       {
         "id": "we_t3",
         "title": "Westminster Abbey",
-        "description": "A stunning, massive gothic abbey church that has hosted every British coronation since 1066, as well as 16 royal weddings.",
-        "action": "Marvel at the soaring architecture and seek out Poets' Corner.",
-        "checked": false,
-        "time": "2 hrs"
+        "entry": "Paid (£27-29)",
+        "booking": "Highly recommended in advance",
+        "time": "2 hrs",
+        "description": "A gothic abbey church that has hosted every British coronation since 1066, as well as 16 royal weddings.",
+        "action": "Marvel at soaring fan vaulting in Henry VII's Lady Chapel and seek out Poets' Corner.",
+        "checked": false
       },
       {
         "id": "we_t4",
         "title": "St James's Park",
-        "description": "The oldest of the Royal Parks, featuring a beautiful lake and stunning sightlines toward Buckingham Palace and Whitehall.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "The oldest of the Royal Parks, featuring a lake and stunning sightlines toward Buckingham Palace and Whitehall.",
         "action": "Look for the resident pelicans and walk across the famous Blue Bridge.",
-        "photoTip": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall) and Tate Britain facade.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "photoTip": "The Blue Bridge in St James's Park (frames the London Eye and Whitehall).",
+        "checked": false
+      },
+      {
+        "id": "we_t5",
+        "title": "Tate Britain & Millbank",
+        "entry": "Free (General collection)",
+        "booking": "No booking required / Walk-in",
+        "time": "1.5 hrs",
+        "description": "The home of British art from 1500 to the present day, holding the world's largest collection of works by J.M.W. Turner.",
+        "action": "Explore the Clore Gallery dedicated to Turner and stroll the Millbank riverside.",
+        "photoTip": "The grand spiral staircase inside the rotunda of Tate Britain.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "we_m1",
+        "title": "Horse Guards Parade & Changing of the Guard",
+        "entry": "Free",
+        "booking": "No booking required (11:00 am daily / 10:00 am Sunday)",
+        "time": "45 mins",
+        "description": "The ceremonial parade ground for royal events, guarded by mounted sentries of the Household Cavalry in gleaming breastplates.",
+        "action": "Watch the precise changing of the mounted cavalry guard in the main courtyard.",
+        "photoTip": "The mounted King's Life Guard sentry beneath the stone archway on Whitehall.",
+        "checked": false
+      },
+      {
+        "id": "we_m2",
+        "title": "Banqueting House",
+        "entry": "Paid (£10) / Free exterior",
+        "booking": "Check opening schedule online",
+        "time": "45 mins",
+        "description": "The only surviving portion of Whitehall Palace, featuring an astonishing 1636 painted ceiling by Sir Peter Paul Rubens.",
+        "action": "Lie on the floor beanbags to look upward at Rubens' nine magnificent ceiling canvases.",
+        "photoTip": "The golden Baroque ceiling panels reflected in mirrors placed around the great hall.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "we_e1",
         "title": "The Cinnamon Club",
+        "cuisine": "Fine-Dining Modern Indian",
+        "price": "£££ (~£40-70)",
+        "reservation": "Essential in advance",
+        "time": "2 hrs",
         "description": "Refined Indian dining housed inside a spectacular former Westminster library.",
         "mustTry": "Upscale vegetarian tasting menus and expertly accommodated gluten-free courses.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "we_e2",
-        "title": "Yaatra",
+        "title": "Yaatra at Old Westminster Fire Station",
+        "cuisine": "Contemporary Indian",
+        "price": "££ (~£22-35)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Vibrant Indian restaurant set within the historic Old Westminster Fire Station.",
         "mustTry": "Flavorful vegetarian curries and well-marked gluten-free dishes.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "southbank",
     "name": "The South Bank & Waterloo 🎡",
+    "durationRec": "1 Day",
+    "durationReason": "A straightforward riverside pedestrian promenade uniting brutalist art centres, the Tate Modern, and street performers into a memorable day.",
     "season": "July or August. Riverside comes alive with street performers, markets, and festivals.",
     "transport": "🚇 Jubilee, Northern, or Bakerloo Line to Waterloo.",
     "funFacts": [
-      "The National Theatre requires tons of concrete and its unique texture comes from pouring concrete into wooden timber molds.",
-      "The Tate Modern used to be the Bankside Power Station and still retains its massive brick chimney.",
+      "The National Theatre's texture comes from pouring concrete into rough wooden timber molds.",
+      "The Tate Modern used to be Bankside Power Station and retains its massive brick chimney.",
       "The London Eye was originally intended to be a temporary structure for the year 2000."
     ],
-    "soul": "Londons premier arts promenade. Striking brutalist architecture housing the nations greatest theatres and galleries.",
-    "day2": "See a play at Shakespeares Globe Theatre, ride the London Eye, or visit Florence Nightingale Museum.",
+    "soul": "London's premier arts promenade. Striking brutalist architecture housing the nation's greatest theatres and galleries.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -1069,70 +1840,120 @@
       {
         "id": "sb_t1",
         "title": "South Bank Promenade",
-        "description": "Created largely for the 1951 Festival of Britain, this pedestrianized river path connects London's greatest brutalist arts venues.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "Created for the 1951 Festival of Britain, this river path connects London's greatest brutalist arts venues.",
         "action": "Walk the riverfront, passing the National Theatre and street performers.",
         "photoTip": "Sharp, concrete geometric lines of the National Theatre (brutalist masterpiece).",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "sb_t2",
         "title": "Southbank Centre Book Market",
-        "description": "One of the only outdoor, open-air second-hand and antique book markets in southern England, tucked under a concrete bridge.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "30 mins",
+        "description": "One of the only open-air second-hand and antique book markets in southern England, tucked under Waterloo Bridge.",
         "action": "Browse the trestle tables of books sheltered beneath Waterloo Bridge.",
-        "checked": false,
-        "time": "30 mins"
+        "checked": false
       },
       {
         "id": "sb_t3",
         "title": "Tate Modern",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "2.5 hrs",
         "description": "Housed in the colossal, decommissioned Bankside Power Station, it is Britain's national gallery of international modern art.",
         "action": "Enter via the massive Turbine Hall and explore the monumental installations.",
-        "photoTip": "The Millennium Bridge leading directly to the dome of St Pauls Cathedral.",
-        "checked": false,
-        "time": "2.5 hrs"
+        "photoTip": "The Millennium Bridge leading directly to the dome of St Paul's Cathedral.",
+        "checked": false
       },
       {
         "id": "sb_t4",
-        "title": "BFI Southbank",
-        "description": "The leading repertory cinema in the UK, operated by the British Film Institute, featuring four screens tucked under Waterloo Bridge.",
-        "action": "Catch a classic or indie film screening in the historic venue.",
+        "title": "BFI Southbank & Leake Street",
+        "entry": "Free (Leake Street / BFI foyer) / Paid (Cinema)",
+        "booking": "Recommended for film screenings",
+        "time": "1 hr",
+        "description": "The leading repertory cinema in the UK, located near the famous Leake Street 'Banksy' graffiti tunnel.",
+        "action": "Walk through the neon-lit Leake Street Arches to see live spray-can street art.",
         "photoTip": "Leake Street Arches (Banksy Tunnel), an ever-changing canvas of street art.",
-        "checked": false,
-        "time": "2.5 hrs"
+        "checked": false
+      },
+      {
+        "id": "sb_t5",
+        "title": "Shakespeare's Globe Theatre",
+        "entry": "Paid (£17-25 tour / £5-10 groundling standing ticket)",
+        "booking": "Recommended in advance",
+        "time": "1.5 hrs",
+        "description": "A faithful reconstruction of the open-air Elizabethan playhouse where Shakespeare's plays were originally staged.",
+        "action": "Take an architectural tour of the thatched timber structure or catch a live matinee.",
+        "photoTip": "The circular timber galleries and thatched roof against the London sky.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "sb_m1",
+        "title": "The London Eye",
+        "entry": "Paid (£30-40)",
+        "booking": "Advance online booking essential",
+        "time": "45 mins",
+        "description": "Europe's tallest cantilevered observation wheel soaring 135 metres above the Thames, offering 360-degree views across London.",
+        "action": "Take the 30-minute slow rotation capsule flight at golden hour.",
+        "photoTip": "The enormous wheel glowing with neon light reflected in the Thames from Westminster Bridge.",
+        "checked": false
+      },
+      {
+        "id": "sb_m2",
+        "title": "Hayward Gallery & Roof Terraces",
+        "entry": "Paid exhibitions / Free terraces",
+        "booking": "Advance ticket recommended for shows",
+        "time": "1 hr",
+        "description": "A pioneering brutalist art gallery known for large-scale contemporary installations and elevated concrete walkways.",
+        "action": "Walk the high-level outdoor concrete sculpture decks overlooking the river.",
+        "photoTip": "The raw wood-cast concrete textured surfaces and neon rooftop pavilion installations.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "sb_e1",
         "title": "Wahaca Southbank",
-        "description": "Vibrant Mexican street food restaurant located right by the river.",
+        "cuisine": "Mexican Street Food",
+        "price": "££ (~£15-25)",
+        "reservation": "Walk-ins / Online waitlist",
+        "time": "1.5 hrs",
+        "description": "Vibrant Mexican street food restaurant located right by the river in recycled shipping containers.",
         "mustTry": "Excellent vegetarian street food items and a strict dedicated gluten-free menu.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "sb_e2",
         "title": "Skylon",
+        "cuisine": "Contemporary British & European",
+        "price": "£££ (~£35-55)",
+        "reservation": "Recommended",
+        "time": "2 hrs",
         "description": "Upscale British grill inside the Royal Festival Hall with floor-to-ceiling windows.",
         "mustTry": "Sophisticated vegetarian mains and carefully catered gluten-free dining options.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "bayswater",
     "name": "Bayswater & Little Venice 🦢",
+    "durationRec": "1 Day",
+    "durationReason": "A peaceful, compact waterside route that pairs canal boats and stucco crescents into an easy single afternoon.",
     "season": "April or May. Trees lining the canals burst into bloom for tranquil waterside walks.",
     "transport": "🚇 Bakerloo Line to Warwick Avenue or Paddington.",
     "funFacts": [
       "It is claimed the poet Robert Browning coined the name 'Little Venice' for this junction of canals.",
-      "Leinster Gardens hides two completely fake houses (Nos 23 and 24) built to cover an old underground railway vent.",
+      "Leinster Gardens hides two fake houses (Nos 23 and 24) built to cover an old steam train vent.",
       "Paddington Station was designed by Isambard Kingdom Brunel in 1854."
     ],
     "soul": "A peaceful, affluent oasis where canals meet, characterized by colorful narrowboats and elegant white stucco terraces.",
-    "day2": "Take a canal boat from Little Venice to Camden Lock, or spend the day in Hyde Park.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -1140,70 +1961,120 @@
       {
         "id": "ba_t1",
         "title": "Little Venice Canals",
-        "description": "A highly picturesque junction where the Grand Union and Regent's Canals meet, originally built for industrial transport but now a leisure oasis.",
-        "action": "Walk the towpaths and admire the painted, decorative narrowboats at Brownings Pool.",
-        "photoTip": "Brownings Pool (reflection of weeping willows and narrowboats).",
-        "checked": false,
-        "time": "1 hr"
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A picturesque junction where the Grand Union and Regent's Canals meet, now a serene leisure oasis.",
+        "action": "Walk the towpaths and admire the painted narrowboats at Browning's Pool.",
+        "photoTip": "Browning's Pool (reflection of weeping willows and narrowboats).",
+        "checked": false
       },
       {
         "id": "ba_t2",
         "title": "Hyde Park Italian Gardens",
-        "description": "A 150-year-old ornamental water garden located at the head of The Long Water, believed to be a gift from Prince Albert to Queen Victoria.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "A 150-year-old ornamental water garden at the head of The Long Water, believed to be a gift from Prince Albert to Victoria.",
         "action": "Relax by the carved stone urns, classical statues, and symmetric fountains.",
         "photoTip": "Symmetrical fountains and classical statues of the Italian Gardens.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       },
       {
         "id": "ba_t3",
         "title": "Paddington Station",
-        "description": "Designed by legendary engineer Isambard Kingdom Brunel in 1854, featuring a breathtaking wrought-iron and glass vaulted roof.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "30 mins",
+        "description": "Designed by legendary engineer Isambard Kingdom Brunel in 1854, featuring a wrought-iron vaulted roof.",
         "action": "Look up to see the Victorian ironwork spanning the main train platforms.",
         "photoTip": "The sweeping, white stucco crescents of Leinster Gardens.",
-        "checked": false,
-        "time": "30 mins"
+        "checked": false
       },
       {
         "id": "ba_t4",
         "title": "Puppet Theatre Barge",
-        "description": "A highly unique, 50-seat marionette theatre housed entirely inside a converted Thames lighter barge.",
+        "entry": "Paid (£12-16)",
+        "booking": "Essential in advance online",
+        "time": "1.5 hrs",
+        "description": "A unique, 50-seat marionette theatre housed entirely inside a converted Thames lighter barge.",
         "action": "Catch a charming, surprisingly complex marionette show on the water.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
+      },
+      {
+        "id": "ba_t5",
+        "title": "Canal Boat Cruise to Camden",
+        "entry": "Paid (£14-16)",
+        "booking": "Walk-in / Advance online",
+        "time": "50 mins",
+        "description": "A picturesque water journey starting from Little Venice, passing through Maida Hill Tunnel and Regent's Park to Camden Lock.",
+        "action": "Board the narrowboat at Warwick Avenue and glide along the tranquil waters.",
+        "photoTip": "The dramatic, dark brick portal of the Maida Hill Tunnel from the water.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "ba_m1",
+        "title": "Alexander Fleming Laboratory Museum",
+        "entry": "Paid (£4)",
+        "booking": "Check opening hours online (St Mary's Hospital)",
+        "time": "45 mins",
+        "description": "The exact laboratory inside St Mary's Hospital where Sir Alexander Fleming discovered penicillin in 1928, changing global medicine.",
+        "action": "See the preserved laboratory bench and the original petri dish culture.",
+        "photoTip": "The vintage 1920s laboratory glass equipment and Fleming's wooden roll-top desk.",
+        "checked": false
+      },
+      {
+        "id": "ba_m2",
+        "title": "Leinster Gardens Fake House Facades",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "20 mins",
+        "description": "Two 5-story townhouse facades at Nos 23 and 24 that are completely dummy 5-foot-thick walls built to hide an open steam train vent in 1868.",
+        "action": "Inspect the painted dummy windows and peer behind via Porchester Terrace to see the train tracks.",
+        "photoTip": "The deceptive Victorian stucco facade with no letterboxes or door handles.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "ba_e1",
         "title": "Darcie & May Green",
-        "description": "Vibrant, art-covered canal boats serving Australian-style brunch.",
+        "cuisine": "Australian Waterside Brunch",
+        "price": "££ (~£18-28)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
+        "description": "Vibrant, art-covered canal boats designed by Sir Peter Blake serving Australian-style brunch.",
         "mustTry": "Brilliant vegetarian brunch plates and great gluten-free options.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "ba_e2",
         "title": "Kuro Eatery",
+        "cuisine": "Minimalist Mediterranean Cafe",
+        "price": "££ (~£15-24)",
+        "reservation": "Walk-ins only",
+        "time": "1 hr",
         "description": "Minimalist bakery and cafe nestled on the edge of Notting Hill.",
         "mustTry": "Artisan Mediterranean-inspired dishes with careful attention to dietary needs.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       }
     ]
   },
   {
     "id": "islington",
     "name": "Islington & Clerkenwell 🕰️",
+    "durationRec": "1 Day",
+    "durationReason": "A seamless pedestrian connection linking antique arcades in Angel, market food in Clerkenwell, and the Barbican estate.",
     "season": "October. Cozy gastropubs and leaf-strewn canals make for an atmospheric autumn weekend.",
     "transport": "🚇 Northern Line to Angel or Farringdon.",
     "funFacts": [
       "The Regent's Canal goes directly underneath Islington via a 900-metre dark brick tunnel built in 1820.",
       "Clerkenwell was the historic center of clockmaking in the 18th and 19th centuries.",
-      "The Barbican Estate contains around 2,000 apartments and requires a color-coded line system to navigate its massive concrete maze."
+      "The Barbican Estate contains 2,000 apartments and requires a color-coded line system to navigate."
     ],
     "soul": "Perfect balance of feisty bohemianism and groomed prosperity. Known for street markets, design agencies, and antique arcades.",
-    "day2": "Explore Museum of the Order of St John, catch a play at Almeida Theatre, or wander the Barbican Centre.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -1211,70 +2082,120 @@
       {
         "id": "is_t1",
         "title": "Camden Passage",
-        "description": "A picturesque, car-free cobblestone alleyway in Islington that has been famous for its concentrated antique markets since the 1960s.",
-        "action": "Hunt for vintage treasures and silverware in the wonky, historic storefronts.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A picturesque, car-free cobblestone alleyway in Islington famous for concentrated antique markets since the 1960s.",
+        "action": "Hunt for vintage treasures and silverware in the historic storefronts.",
         "photoTip": "Charming, wonky antique storefronts tucked inside Camden Passage.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "is_t2",
         "title": "Exmouth Market",
-        "description": "A vibrant, semi-pedestrianized street in Clerkenwell lined with fairy lights, independent restaurants, and a renowned weekday food market.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "A vibrant, semi-pedestrianized street in Clerkenwell lined with fairy lights, independent restaurants, and artisan food stalls.",
         "action": "Eat your way through the artisan stalls and grab a coffee at a pavement cafe.",
         "photoTip": "The fairy lights and bustling atmosphere of Exmouth Market at dusk.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "is_t3",
         "title": "Islington Tunnel & Canal",
-        "description": "To bypass the hill, the Regent's Canal goes completely pitch black underground for nearly a kilometre via this 1820 tunnel.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "To bypass the hill, Regent's Canal goes underground for nearly a kilometre via this 1820 brick tunnel.",
         "action": "Walk the towpath right up to the dark, eerie entrance of the brick tunnel.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "is_t4",
         "title": "The Charterhouse",
-        "description": "A historic complex dating back to 1348, having served as a Carthusian monastery, a Tudor mansion, a boys' school, and an almshouse.",
+        "entry": "Free (Museum) / Paid tours",
+        "booking": "Tours require booking",
+        "time": "1.5 hrs",
+        "description": "A complex dating back to 1348, having served as a Carthusian monastery, a Tudor mansion, and an almshouse.",
         "action": "Visit the peaceful ruins, courtyards, and the fascinating free museum.",
         "photoTip": "The dramatic, brutalist concrete towers of the Barbican Estate.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
+      },
+      {
+        "id": "is_t5",
+        "title": "Barbican Centre & Conservatory",
+        "entry": "Free",
+        "booking": "Free advance booking required for Conservatory",
+        "time": "2 hrs",
+        "description": "Europe's largest multi-arts centre, housing an astonishing brutalist indoor conservatory filled with 1,500 tropical species and cacti.",
+        "action": "Wander the elevated podium walkways and explore the hidden concrete garden.",
+        "photoTip": "Exotic palm fronds cascading over textured raw concrete balconies inside the Barbican Conservatory.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "is_m1",
+        "title": "Museum of the Order of St John",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1 hr",
+        "description": "The 1504 fortified stone St John's Gate, exploring the historic Crusader Knights Hospitaller who founded St John Ambulance.",
+        "action": "Descend into the 12th-century Norman crypt beneath the chapel.",
+        "photoTip": "The massive Tudor stone arch of St John's Gate rising over St John's Lane.",
+        "checked": false
+      },
+      {
+        "id": "is_m2",
+        "title": "Union Chapel",
+        "entry": "Free exterior / Concert tickets vary",
+        "booking": "Tickets required for gigs",
+        "time": "45 mins",
+        "description": "A working Gothic revival church and world-renowned acoustic concert venue on Upper Street with a massive octagonal brick auditorium.",
+        "action": "Admire the Victorian stained glass rose window and timber pulpit.",
+        "photoTip": "The towering Victorian Gothic brick spire rising dramatically above Upper Street.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "is_e1",
         "title": "The Gate Islington",
+        "cuisine": "Gourmet Plant-Based & Vegetarian",
+        "price": "£££ (~£26-38)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Pioneering vegetarian restaurant offering creative meat-free dining.",
         "mustTry": "Highly inventive vegetarian dishes with safe, delicious gluten-free options.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "is_e2",
-        "title": "Moro",
+        "title": "Moro Exmouth Market",
+        "cuisine": "Moorish & Mediterranean",
+        "price": "£££ (~£32-48)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Beloved Exmouth Market restaurant celebrating Moorish and Mediterranean flavours.",
         "mustTry": "Vegetable-forward plates and naturally gluten-free culinary creations.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "docklands",
     "name": "Docklands & Canary Wharf 🏙️",
+    "durationRec": "1 Day",
+    "durationReason": "A futuristic architectural route easily navigated via DLR trains, roof gardens, and historic quay warehouses in one day.",
     "season": "January. Canary Wharf hosts a spectacular Winter Lights festival transforming the estate.",
     "transport": "🚇 DLR (Docklands Light Railway) or Jubilee/Elizabeth Line to Canary Wharf.",
     "funFacts": [
       "The West India Docks once formed the busiest port in the world, filled with rum and sugar from the Caribbean.",
-      "Canary Wharf gets its name from the sea trade with the Canary Islands.",
-      "The DLR trains are fully automated with no driver, allowing you to sit right at the front window."
+      "Canary Wharf gets its name from sea trade with the Canary Islands.",
+      "DLR trains are fully automated with no driver, allowing you to sit right at the front window."
     ],
     "soul": "Historic East India Docks reborn as a futuristic financial district. Contrast between ancient brick and soaring glass.",
-    "day2": "Take the Thames Clipper to the Thames Barrier, or visit Mudchute Park and Farm.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -1282,61 +2203,112 @@
       {
         "id": "do_t1",
         "title": "Museum of London Docklands",
-        "description": "Housed in an incredibly rare, surviving 1802 Georgian sugar warehouse, this museum explores London's history as a global trading port.",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "2 hrs",
+        "description": "Housed in a surviving 1802 Georgian sugar warehouse, this museum explores London's history as a global trading port.",
         "action": "Explore the multi-level exhibits covering trade, slavery, and the Blitz.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "do_t2",
         "title": "Crossrail Place Roof Garden",
-        "description": "An indoor tropical garden sitting exactly on the Prime Meridian line, dividing plants from the Eastern and Western hemispheres.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "An indoor tropical garden sitting exactly on the Prime Meridian line, dividing plants from Eastern and Western hemispheres.",
         "action": "Wander the lush, geometric timber-framed pathways.",
         "photoTip": "Lush pathways of Crossrail Place Roof Garden framed by geometric timber.",
-        "checked": false,
-        "time": "45 mins"
+        "checked": false
       },
       {
         "id": "do_t3",
         "title": "West India Docks",
-        "description": "Once the busiest port in the world, the massive water basins are now surrounded by some of Europe's tallest skyscrapers.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "Once the busiest port in the world, the water basins are now surrounded by Europe's tallest skyscrapers.",
         "action": "Walk the docks to see preserved historic cranes juxtaposed against modern glass.",
         "photoTip": "Looking up at glass skyscrapers reflecting in the water at West India Quay.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "do_t4",
-        "title": "The DLR (Docklands Light Railway)",
-        "description": "A fully automated, driverless light rail network built in 1987 to serve the redeveloping Docklands area.",
+        "title": "The DLR Front-Window Ride",
+        "entry": "Paid (£2-3 Oyster / Contactless fare)",
+        "booking": "No booking required",
+        "time": "30 mins",
+        "description": "A driverless light rail network winding high above dock basins and through glass skyscraper canyons.",
         "action": "Sit right at the front window for a rollercoaster-like view winding through skyscrapers.",
         "photoTip": "Futuristic Adams Plaza Bridge (famous from Star Wars).",
-        "checked": false,
-        "time": "30 mins"
+        "checked": false
+      },
+      {
+        "id": "do_t5",
+        "title": "Trinity Buoy Wharf & Lighthouse",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "London's only lighthouse, where Michael Faraday conducted optical experiments, set in a creative arts community made from shipping containers.",
+        "action": "Climb into the lighthouse to experience the 'Longplayer' 1,000-year singing bowl composition.",
+        "photoTip": "The red-capped lighthouse tower framing the O2 Arena dome across the river.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "do_m1",
+        "title": "Mudchute Park and City Farm",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1.5 hrs",
+        "description": "One of the largest inner-city farms in Europe spanning 32 acres of open countryside on the Isle of Dogs with 100+ animals.",
+        "action": "Walk the paddocks to see grazing sheep and llamas with Canary Wharf skyscrapers rising behind them.",
+        "photoTip": "Surreal photo of farm sheep grazing in green fields framed by soaring glass towers.",
+        "checked": false
+      },
+      {
+        "id": "do_m2",
+        "title": "Thames Barrier Park",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A striking 22-acre modern riverside park featuring sunken 'green finger' gardens and views of the colossal silver Thames Barrier gates.",
+        "action": "Walk to the pavilion overlooking the 10 silver hydraulic barrier gates spanning the river.",
+        "photoTip": "The metallic futuristic curved hoods of the Thames Barrier rising out of the water.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "do_e1",
         "title": "Mallow Wood Wharf",
+        "cuisine": "100% Plant-Based International",
+        "price": "££ (~£22-35)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Spectacular 100 percent plant-based restaurant set in a stunning waterfront pavilion.",
         "mustTry": "Creative plant-based plates with extensive, clearly marked gluten-free options.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "do_e2",
         "title": "The Ivy in the Park",
-        "description": "Vibrant, upscale brasserie surrounded by Canada Square Park greenery.",
+        "cuisine": "British & International Brasserie",
+        "price": "£££ (~£28-42)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
+        "description": "Vibrant brasserie surrounded by Canada Square Park greenery.",
         "mustTry": "Dedicated vegetarian menu and strict gluten-free kitchen protocols.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "brixton",
     "name": "Brixton & Herne Hill 🎧",
+    "durationRec": "1 Day",
+    "durationReason": "A high-energy cultural loop combining Brixton covered food arcades, murals, and Brockwell Park within an easy single day.",
     "season": "July or August. Vibrant outdoor markets, street music, and lush expanses best in summer.",
     "transport": "🚇 Victoria Line to Brixton or Southeastern rail to Herne Hill.",
     "funFacts": [
@@ -1345,7 +2317,6 @@
       "Brockwell Lido is an original 1937 Art Deco outdoor swimming pool."
     ],
     "soul": "The cultural beating heart of South London. Afro-Caribbean heritage, fierce independence, and incredible music history.",
-    "day2": "Herne Hill Farmers Market, explore Black Cultural Archives, or catch a gig at O2 Academy.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -1353,140 +2324,240 @@
       {
         "id": "br_t1",
         "title": "Brixton Village & Market Row",
-        "description": "Two historic, 1920s covered arcades that were saved from demolition by locals, now housing a staggeringly diverse array of global food and indie boutiques.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2 hrs",
+        "description": "Two 1920s covered arcades saved by locals, now housing diverse global food stalls and indie boutiques.",
         "action": "Get lost in the maze, hunting for unique vintage gear and street food.",
         "photoTip": "The colorful, overlapping neon signs inside Brixton Village market.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "br_t2",
         "title": "David Bowie Memorial",
-        "description": "A striking street mural of Ziggy Stardust painted by artist Jimmy C, dedicated to the legendary musician who was born locally in 1947.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "15 mins",
+        "description": "A striking street mural of Ziggy Stardust painted by artist Jimmy C, dedicated to the music icon born locally.",
         "action": "Pay your respects at the mural, often surrounded by fan tributes.",
-        "checked": false,
-        "time": "15 mins"
+        "checked": false
       },
       {
         "id": "br_t3",
         "title": "Ritzy Picturehouse",
-        "description": "Opened in 1911 as the 'Electric Pavilion', it is one of South London's oldest and most beloved independent cinemas.",
+        "entry": "Paid (£14-18)",
+        "booking": "Recommended for film screenings",
+        "time": "2.5 hrs",
+        "description": "Opened in 1911 as the 'Electric Pavilion', it is one of South London's oldest independent cinemas.",
         "action": "Catch an indie film screening in the grand, restored Edwardian auditorium.",
-        "checked": false,
-        "time": "2.5 hrs"
+        "checked": false
       },
       {
         "id": "br_t4",
         "title": "Brockwell Park & Lido",
-        "description": "A sweeping, hilly historic park featuring walled gardens and a Grade II listed, 1930s Art Deco outdoor swimming pool.",
+        "entry": "Free (Park) / Paid swim",
+        "booking": "Swim requires advance booking",
+        "time": "1.5 hrs",
+        "description": "A historic park featuring walled gardens and a Grade II listed 1930s Art Deco outdoor swimming pool.",
         "action": "Walk the top of the park for views, then admire the original architecture of the Lido.",
-        "photoTip": "Electric Avenue at golden hour (historic iron canopies) and sweeping views from Brockwell Park.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "photoTip": "Electric Avenue at golden hour and sweeping views from Brockwell Park.",
+        "checked": false
+      },
+      {
+        "id": "br_t5",
+        "title": "Herne Hill Sunday Farmers Market",
+        "entry": "Free",
+        "booking": "No booking required (Sundays only)",
+        "time": "1 hr",
+        "description": "A pedestrianized Sunday street market outside Herne Hill station packed with independent organic produce and crafts.",
+        "action": "Browse artisan gluten-free bakes and take a short walk to the Black Cultural Archives in Brixton.",
+        "photoTip": "The bustling Victorian railway arches lined with colorful canopy stalls at Station Square.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "br_m1",
+        "title": "Black Cultural Archives",
+        "entry": "Free (Exhibitions vary)",
+        "booking": "Walk-in / Online tickets",
+        "time": "1 hr",
+        "description": "The only national heritage centre dedicated to preserving and celebrating the histories of people of African and Caribbean descent in Britain.",
+        "action": "Explore the permanent archives and exhibitions in the restored Grade II Georgian building on Windrush Square.",
+        "photoTip": "The modern bronze and glass wing contrasting with the historic brick hall on Windrush Square.",
+        "checked": false
+      },
+      {
+        "id": "br_m2",
+        "title": "Brixton Windmill (Ashby's Mill)",
+        "entry": "Free (Open days / Tours)",
+        "booking": "Check monthly open weekend schedules",
+        "time": "45 mins",
+        "description": "Built in 1816, this is the last surviving working inner-London flour windmill, tucked away in peaceful Windmill Gardens.",
+        "action": "Take the guided climb up into the timber milling cap to see original wooden gears.",
+        "photoTip": "The black brick tower and white windmill sails framed against neighborhood park greenery.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "br_e1",
         "title": "Senzala Creperie",
+        "cuisine": "French-Brazilian Galettes",
+        "price": "£ (~£12-20)",
+        "reservation": "Walk-ins welcome",
+        "time": "1 hr",
         "description": "Lively bohemian spot inside Brixton Village serving French galettes.",
         "mustTry": "Buckwheat galettes which are naturally gluten-free, alongside a huge vegetarian menu.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "br_e2",
         "title": "En Root",
+        "cuisine": "100% Plant-Based Indian Fusion",
+        "price": "£ (~£10-18)",
+        "reservation": "Walk-ins welcome",
+        "time": "1.5 hrs",
         "description": "Phenomenal plant-based Indian fusion restaurant in the heart of Brixton.",
-        "mustTry": "100 percent plant-based thalis and curries that are almost entirely naturally gluten-free.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "mustTry": "100 percent plant-based thalis and curries that are naturally gluten-free.",
+        "checked": false
       }
     ]
   },
   {
     "id": "battersea",
     "name": "Battersea & Clapham ⚡",
+    "durationRec": "1 Day",
+    "durationReason": "A refreshing riverside and park itinerary pairing the iconic Power Station with the green expanses of Battersea Park and Clapham Common.",
     "season": "September. Perfect for long walks across massive commons and the riverfront.",
     "transport": "🚇 Northern Line to Clapham Common, or Battersea Power Station.",
     "funFacts": [
-      "Battersea Power Station once supplied a fifth of Londons electricity and burned 10,000 tonnes of coal a week.",
-      "The iconic pink pig floating over the Power Station on Pink Floyd's 'Animals' album cover broke free and grounded flights at Heathrow.",
-      "Clapham Common has a secret underground WWII bunker where hydroponic herbs are now grown."
+      "Battersea Power Station once supplied a fifth of London's electricity and burned 10,000 tonnes of coal a week.",
+      "The iconic pink pig floating on Pink Floyd's 'Animals' cover broke free and grounded flights at Heathrow.",
+      "Clapham Common has a secret underground WWII bunker where hydroponic salad is now grown."
     ],
-    "soul": "Leafy hubs and multi-billion-pound regeneration. The iconic coal power station is Londons newest architectural destination.",
-    "day2": "Take the Lift 109 up the Power Station chimney, or visit Battersea Dogs & Cats Home.",
+    "soul": "Leafy hubs and multi-billion-pound regeneration. The coal power station is London's newest architectural destination.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
     "todo": [
       {
         "id": "bat_t1",
-        "title": "Battersea Power Station",
-        "description": "One of the largest brick buildings in the world, this decommissioned coal power plant is a masterpiece of Art Deco industrial design, recently reborn.",
-        "action": "Marvel at the restored brickwork and explore the shops inside the massive Turbine Halls.",
+        "title": "Battersea Power Station & Turbine Halls",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2 hrs",
+        "description": "One of the largest brick buildings in the world, this decommissioned coal power plant is a masterpiece of Art Deco industrial design.",
+        "action": "Marvel at restored brickwork and explore shops inside the massive Turbine Halls.",
         "photoTip": "Looking straight up at the four massive chimneys inside the Power Station courtyard.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "bat_t2",
         "title": "Battersea Park & Peace Pagoda",
-        "description": "A 200-acre Victorian park hugging the Thames, famous for its fountains, boating lake, and a striking Buddhist pagoda gifted by Japanese monks.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "A 200-acre Victorian park hugging the Thames, famous for its boating lake and a striking Buddhist pagoda gifted by Japanese monks.",
         "action": "Walk the Thames Path to the pagoda and watch the river traffic.",
         "photoTip": "Golden Buddha statues of the Peace Pagoda, framed against the Thames.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "bat_t3",
-        "title": "Clapham Old Town",
-        "description": "A picturesque, village-like enclave that contrasts heavily with the busy high street, featuring well-preserved Georgian architecture and cozy pubs.",
+        "title": "Clapham Old Town & Abbeville Road",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A picturesque, village-like enclave that contrasts with the busy high street, featuring well-preserved Georgian architecture.",
         "action": "Stroll the quiet residential streets and admire the historic housing stock.",
         "photoTip": "Colorful, independent shopfronts curving along Abbeville Road in Clapham.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "bat_t4",
         "title": "Clapham Common",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
         "description": "A vast, 220-acre triangular green space that has been a public common since the Middle Ages, complete with Victorian bandstands.",
-        "action": "Spend an afternoon walking the perimeter and watching local cricket or football matches.",
-        "checked": false,
-        "time": "2 hrs"
+        "action": "Spend an afternoon walking the perimeter and watching local cricket matches.",
+        "checked": false
+      },
+      {
+        "id": "bat_t5",
+        "title": "Lift 109 Chimney Viewpoint",
+        "entry": "Paid (£18-24)",
+        "booking": "Essential in advance online",
+        "time": "45 mins",
+        "description": "A custom glass elevator that ascends 109 metres up through the north-west chimney of the Power Station into open sky.",
+        "action": "Ride to the chimney summit for 360-degree panoramic views across London.",
+        "photoTip": "Shooting down through the glass roof over the brick contours of the Power Station.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "bat_m1",
+        "title": "Pump House Gallery & Boating Lake",
+        "entry": "Free",
+        "booking": "Walk-in (Wed-Sun)",
+        "time": "45 mins",
+        "description": "A Grade II listed 4-story Victorian brick water pump house inside Battersea Park transformed into a serene contemporary art gallery.",
+        "action": "Climb up the internal iron stairwells to see rotating sculpture and photography exhibitions.",
+        "photoTip": "The Victorian brick tower reflected in the tranquil water of the boating lake.",
+        "checked": false
+      },
+      {
+        "id": "bat_m2",
+        "title": "Battersea Arts Centre (BAC)",
+        "entry": "Free public areas / Show tickets vary",
+        "booking": "Show tickets online / Walk-in cafe",
+        "time": "1 hr",
+        "description": "A Victorian former town hall saved after a devastating fire, now an innovative theatre with the breathtaking Grand Hall's charred walls.",
+        "action": "Walk into the Grand Hall to admire the award-winning acoustic timber lattice ceiling.",
+        "photoTip": "The rich mosaic floors, marble staircases, and stained-glass domes in the entrance foyer.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "bat_e1",
         "title": "Where The Pancakes Are",
+        "cuisine": "Artisan Sweet & Savory Pancakes",
+        "price": "££ (~£14-22)",
+        "reservation": "Recommended on weekends",
+        "time": "1 hr",
         "description": "Bright, modern eatery situated right by Battersea Power Station.",
         "mustTry": "Special 3-in-1 batter that is simultaneously gluten-free, dairy-free, and vegan.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "bat_e2",
-        "title": "Megans at the Power Station",
+        "title": "Megan's at the Power Station",
+        "cuisine": "Mediterranean Comfort Dining",
+        "price": "££ (~£18-28)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Fairy-lit Mediterranean restaurant with a cozy neighborhood feel.",
         "mustTry": "Vegetable-focused sharing plates with easy gluten-free flatbread swaps.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "peckham",
     "name": "Peckham & Camberwell 🏙️",
+    "durationRec": "1 Day",
+    "durationReason": "A vibrant artistic neighborhood with independent galleries, rooftop vistas, and trendy dining that fits perfectly into an afternoon-into-evening visit.",
     "season": "June. Warm summer evenings required to appreciate rooftop bar culture and outdoor art.",
     "transport": "🚇 Overground to Peckham Rye or Denmark Hill.",
     "funFacts": [
-      "Peckham is famous for 'Only Fools and Horses', though the classic British sitcom was largely filmed in Bristol.",
-      "Artist Antony Gormley (creator of the Angel of the North) designed cast-iron bollards for Bellenden Road.",
-      "Camberwell gets its name from a well with reputed healing properties (a 'camber' or crooked well)."
+      "Peckham is famous for 'Only Fools and Horses', though the classic sitcom was largely filmed in Bristol.",
+      "Artist Antony Gormley designed cast-iron bollards for Bellenden Road.",
+      "Camberwell gets its name from a well with reputed healing properties."
     ],
     "soul": "Fiercely creative community hubs. Gritty urban architecture mixed with thriving contemporary art and trendy dining.",
-    "day2": "Catch an indie film at Peckhamplex, walk Peckham Rye Park, or explore Camberwell College of Arts.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -1494,60 +2565,111 @@
       {
         "id": "pe_t1",
         "title": "South London Gallery",
-        "description": "Founded in the 19th century to bring art to the people of South London, it is now an internationally recognized contemporary art space.",
-        "action": "Explore the cutting-edge exhibitions and the beautiful rear garden.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1.5 hrs",
+        "description": "Founded in the 19th century to bring art to South Londoners, now an internationally recognized contemporary art space with a garden by Gabriel Orozco.",
+        "action": "Explore the cutting-edge exhibitions and the sculptured rear courtyard garden.",
+        "checked": false
       },
       {
         "id": "pe_t2",
         "title": "Bellenden Road",
-        "description": "The gentrified, artistic artery of Peckham, famous for its independent boutiques, restaurants, and street furniture.",
-        "action": "Walk the road, specifically looking for the unique cast-iron bollards designed by Antony Gormley.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "The artistic artery of Peckham, famous for its independent boutiques, restaurants, and quirky street furniture.",
+        "action": "Walk the road, looking for unique cast-iron bollards designed by Antony Gormley.",
         "photoTip": "Vibrant street art and murals scattered throughout alleys off Rye Lane.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "pe_t3",
-        "title": "Review Bookshop",
-        "description": "A highly beloved, fiercely independent local bookshop that acts as a cultural anchor for the neighborhood's literary scene.",
+        "title": "Review Bookshop & Rye Lane",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "45 mins",
+        "description": "A beloved local bookshop acting as a cultural anchor for the neighborhood's bustling literary and arts scene.",
         "action": "Browse the quirky, hand-curated stacks and support local booksellers.",
-        "checked": false,
-        "time": "30 mins"
+        "checked": false
       },
       {
         "id": "pe_t4",
-        "title": "Peckham Rooftop Culture",
-        "description": "Peckham pioneered the trend of repurposing brutalist multi-storey car parks into sprawling, vibrant community art spaces and bars.",
-        "action": "Take the stairs to the roof of Peckham Levels or Frank's Cafe for a sunset skyline view.",
-        "photoTip": "Franks Cafe / Peckham Levels: Pink staircases and unobstructed skyline views and Asylum Chapel ruins.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "title": "Peckham Levels & Frank's Cafe",
+        "entry": "Free",
+        "booking": "No booking required (Frank's open May-Sept)",
+        "time": "1.5 hrs",
+        "description": "Peckham pioneered repurposing brutalist multi-storey car parks into community art spaces and rooftop bars.",
+        "action": "Take the stairs to the roof of Frank's Cafe for sunset skyline views.",
+        "photoTip": "Frank's Cafe / Peckham Levels: Pink staircases and unobstructed skyline views.",
+        "checked": false
+      },
+      {
+        "id": "pe_t5",
+        "title": "Peckham Rye Park & Sexby Garden",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "A 113-acre historic common and ornamental park featuring a restored Victorian sunken garden and ancient arboretum.",
+        "action": "Walk through the wisteria pergola in the Sexby Garden and stroll along the River Peck.",
+        "photoTip": "The blooming wisteria pergola and ornamental fountain in the Sexby Garden.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "pe_m1",
+        "title": "Asylum Chapel (Caroline Gardens)",
+        "entry": "Free exterior / Event tickets vary",
+        "booking": "Check open days or special exhibitions online",
+        "time": "45 mins",
+        "description": "A bombed-out 1826 Georgian chapel left in a romantic state of ruined decay with distressed stone walls and stained glass.",
+        "action": "Admire the Doric portico and evocative weathered interior walls during public art shows.",
+        "photoTip": "Sunlight streaming through distressed stained-glass windows onto textured crumbling plaster walls.",
+        "checked": false
+      },
+      {
+        "id": "pe_m2",
+        "title": "Bussey Building & Copeland Park",
+        "entry": "Free",
+        "booking": "No booking required / Event tickets vary",
+        "time": "1 hr",
+        "description": "A sprawling former cricket bat factory saved from demolition, now a buzzing 5-acre creative compound of artist studios and vintage pop-ups.",
+        "action": "Explore the vintage arcades and grab an artisan coffee in the courtyard.",
+        "photoTip": "Industrial red-brick factory chimneys and bold street art murals in the alleyways.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "pe_e1",
-        "title": "Forza Wine",
+        "title": "Forza Wine Peckham",
+        "cuisine": "Italian Rooftop Small Plates & Wine",
+        "price": "££ (~£18-28)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Trendy Italian rooftop wine bar overlooking the South London skyline.",
         "mustTry": "Fantastic vegetarian small plates with great gluten-free adaptations.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "pe_e2",
         "title": "Levan",
+        "cuisine": "Contemporary European Bistro",
+        "price": "£££ (~£28-42)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Stylish contemporary European restaurant inspired by Parisian bistros.",
         "mustTry": "Creative vegetarian seasonal dishes with excellent gluten-free support.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "dulwich",
     "name": "Dulwich & Crystal Palace 🦕",
+    "durationRec": "2 Days (Weekend)",
+    "durationReason": "Dulwich Picture Gallery and the vast Horniman Museum take hours on their own; exploring the Crystal Palace dinosaurs and vintage Triangle is best enjoyed on a dedicated second day.",
     "season": "October. Ancient woods and leafy village streets turn gold and red like a countryside retreat.",
     "transport": "🚇 Overground to Crystal Palace, or Southeastern rail to North Dulwich.",
     "funFacts": [
@@ -1556,7 +2678,6 @@
       "Dulwich remains so unspoiled because much of it is owned by a single historic charity estate from the 1600s."
     ],
     "soul": "Deep South London elegance. Dulwich is a pristine affluent village; Crystal Palace is bohemian with a massive Victorian park.",
-    "day2": "Explore Horniman Museum in Forest Hill (walrus and gardens), or get lost in Crystal Palace maze.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -1564,70 +2685,120 @@
       {
         "id": "du_t1",
         "title": "Dulwich Picture Gallery",
-        "description": "Designed by Sir John Soane in 1811, this is the world's first purpose-built public art gallery, bathed in innovative natural top-lighting.",
+        "entry": "Paid (£16.50)",
+        "booking": "Recommended on weekends",
+        "time": "2 hrs",
+        "description": "Designed by Sir John Soane in 1811, this is the world's first purpose-built public art gallery, bathed in natural top-lighting.",
         "action": "Visit the gallery to see masterpieces by Rembrandt, Rubens, and Canaletto.",
         "photoTip": "Exterior brickwork and lighting enfilades of the Dulwich Picture Gallery.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "du_t2",
         "title": "Crystal Palace Antiques Market",
-        "description": "The Crystal Palace 'Triangle' is renowned for its bohemian, slightly eccentric collection of sprawling vintage and antique stores.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "The Crystal Palace 'Triangle' is renowned for its bohemian, eccentric collection of vintage and antique stores.",
         "action": "Hunt through the multi-level warehouses for mid-century furniture and bizarre oddities.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "du_t3",
         "title": "Crystal Palace Dinosaurs",
-        "description": "Created in 1854, these are the world's first dinosaur sculptures. They are delightfully historically inaccurate based on modern science.",
-        "action": "Wander the park's waterways to find these towering, eerie Victorian statues hidden in the trees.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "Created in 1854, these are the world's first dinosaur sculptures, delightfully historically inaccurate based on modern science.",
+        "action": "Wander the park's waterways to find these towering Victorian statues hidden in trees.",
         "photoTip": "Eerie, overgrown Victorian dinosaur statues emerging from trees in the park.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "du_t4",
         "title": "Sydenham Hill Wood",
-        "description": "A unique tract of ancient woodland inside the city, featuring the remains of a Victorian railway line and a ruined folly.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "A tract of ancient woodland inside the city, featuring the remains of an abandoned Victorian railway line.",
         "action": "Take a tranquil walk through the dense canopy to find the abandoned railway tunnel.",
         "photoTip": "Sweeping panoramic city views from the top of Crystal Palace hill.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
+      },
+      {
+        "id": "du_t5",
+        "title": "Horniman Museum & Gardens",
+        "entry": "Free (Museum & Gardens) / Paid (Aquarium)",
+        "booking": "Free timed ticket recommended",
+        "time": "2 hrs",
+        "description": "An eccentric Victorian museum in nearby Forest Hill famous for its oversized stuffed walrus, musical instruments, and botanical gardens.",
+        "action": "Visit the giant walrus in the natural history gallery and step into the 1897 Grade II listed conservatory.",
+        "photoTip": "The ornate Victorian ironwork conservatory overlooking panoramic vistas of the London skyline.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "du_m1",
+        "title": "Crystal Palace Park Maze & Italian Terraces",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "One of the largest hedged mazes in the country dating to 1870, alongside the monumental surviving stone sphinxes and terraces of the burned-down Crystal Palace.",
+        "action": "Navigate the dense yew labyrinth and inspect the giant stone sphinxes.",
+        "photoTip": "The weathered stone sphinxes guarding the monumental stairs overlooking South London.",
+        "checked": false
+      },
+      {
+        "id": "du_m2",
+        "title": "Dulwich Park & Boating Lake",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A 72-acre Queen Anne style park created in 1890, famous for its springtime rhododendron and azalea walks and peaceful boating lake.",
+        "action": "Hire a pedal boat or walk through the flowering American Garden.",
+        "photoTip": "Vibrant rhododendrons reflecting across the tranquil waters of the duck pond.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "du_e1",
-        "title": "Megans in the Hamlet",
+        "title": "Megan's in the Hamlet",
+        "cuisine": "Mediterranean Neighborhood Dining",
+        "price": "££ (~£18-28)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Rustic, beautifully decorated Mediterranean spot in Dulwich Village.",
         "mustTry": "Highly adaptable Mediterranean vegetarian dishes with great gluten-free options.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "du_e2",
-        "title": "Brown & Green Cafe",
+        "title": "Brown & Green Cafe Crystal Palace",
+        "cuisine": "Creative Community Brunch",
+        "price": "£ (~£10-18)",
+        "reservation": "Walk-ins only",
+        "time": "1 hr",
         "description": "Bustling community cafe located right inside Crystal Palace Park.",
         "mustTry": "Massive weekend brunch menu featuring abundant vegetarian and gluten-free choices.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       }
     ]
   },
   {
     "id": "wimbledon",
     "name": "Wimbledon & Putney 🎾",
-    "season": "Late June to early July. Buzzes with energy during Tennis Championships, pubs overflow with flowers.",
+    "durationRec": "1 Day",
+    "durationReason": "A green and sporty single-day route seamlessly linking the historic hilltop Village, Wimbledon Common, and Putney's riverside rowing embankment.",
+    "season": "Late June to early July. Buzzes with energy during Tennis Championships; pubs overflow with flowers.",
     "transport": "🚇 District Line to Wimbledon or Putney Bridge.",
     "funFacts": [
       "Wimbledon is the oldest tennis tournament in the world, founded in 1877.",
       "Wimbledon Common features an original 1817 windmill where Lord Baden-Powell wrote parts of 'Scouting for Boys'.",
-      "The famous Oxford vs Cambridge Boat Race starts its 4-mile course at Putney Bridge every spring."
+      "The Oxford vs Cambridge Boat Race starts its 4-mile course at Putney Bridge every spring."
     ],
     "soul": "Leafy, sporty, and upper-crust. A stunning hilltop Village surrounded by massive commons, plus serene riverside rowing.",
-    "day2": "Tour the All England Lawn Tennis Club, visit Buddhapadipa Temple, or explore Richmond Park.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -1635,70 +2806,120 @@
       {
         "id": "wi_t1",
         "title": "Wimbledon Village",
-        "description": "Separated from the busy main town, the 'Village' sits on a hill and retains a pristine, 17th-century rural charm favored by affluent locals.",
-        "action": "Explore the high-end boutiques and stop for a pint at a historic, flower-draped pub.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "Sitting on a hill, the 'Village' retains pristine 17th-century rural charm favored by affluent locals.",
+        "action": "Explore high-end boutiques and stop for a pint at a historic pub.",
         "photoTip": "Historic, flower-draped pub facades in Wimbledon Village (Dog & Fox).",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "wi_t2",
         "title": "Wimbledon Common & Windmill",
-        "description": "A massive 1,140-acre expanse of wild heathland, ponds, and woods, featuring a fully restored working windmill from 1817.",
-        "action": "Hike or horseback ride across the wilderness to find the isolated windmill museum.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2 hrs",
+        "description": "A 1,140-acre expanse of wild heathland, ponds, and woods, featuring a working windmill from 1817.",
+        "action": "Hike across the wilderness to find the isolated windmill museum.",
         "photoTip": "Wimbledon Windmill standing isolated on the wild expanse of the Common.",
-        "checked": false,
-        "time": "2 hrs"
+        "checked": false
       },
       {
         "id": "wi_t3",
         "title": "Putney Embankment",
-        "description": "The undisputed home of British rowing. This stretch of the Thames is lined with historic boat clubs and is the starting point for the Oxford-Cambridge race.",
-        "action": "Walk the Thames Path, watching the rowing eights practice on the river.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "The home of British rowing. This stretch of the Thames is lined with historic boat clubs and starts the Boat Race.",
+        "action": "Walk the Thames Path, watching rowing eights practice on the river.",
         "photoTip": "Colorful rowing boats lined up along the Thames at Putney Embankment at sunset.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "wi_t4",
         "title": "Cannizaro Park",
-        "description": "A much-loved, Grade II listed historic park situated behind a luxury hotel, renowned for its ornamental landscaping and rare trees.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A Grade II listed historic park situated behind a luxury hotel, renowned for ornamental landscaping.",
         "action": "Visit the calm, beautiful walled gardens and the sunken garden.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
+      },
+      {
+        "id": "wi_t5",
+        "title": "Wimbledon Lawn Tennis Museum & Tour",
+        "entry": "Paid (£15-25)",
+        "booking": "Essential in advance online",
+        "time": "2 hrs",
+        "description": "The world's premier museum dedicated to lawn tennis, holding the championship trophies and Centre Court tour access.",
+        "action": "Tour Centre Court and view the historic Victorian tennis racquets.",
+        "photoTip": "The immaculate, striped grass court of Centre Court viewed from the Royal Box level.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "wi_m1",
+        "title": "Buddhapadipa Temple",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1 hr",
+        "description": "The first Thai Buddhist temple built in the UK, an astonishing traditional gilded temple situated in 4 acres of quiet wooded meditation grounds.",
+        "action": "Walk quietly around the ornate golden roof temple and cross the arched bridges over the fish ponds.",
+        "photoTip": "The vibrant red and gold Thai temple architecture mirrored in the ornamental pond.",
+        "checked": false
+      },
+      {
+        "id": "wi_m2",
+        "title": "Fulham Palace & Walled Garden",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1.5 hrs",
+        "description": "Just across Putney Bridge, this historic manor was the countryside residence of the Bishops of London since 704 AD.",
+        "action": "Explore the Tudor courtyard, Great Hall, and the restored Victorian vinery.",
+        "photoTip": "The Tudor diaper-pattern brickwork courtyard and the blooming wisteria in the walled garden.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "wi_e1",
         "title": "Lu-Ma Cafe",
+        "cuisine": "Healthy Plant-Based & Wellness Cafe",
+        "price": "£ (~£10-18)",
+        "reservation": "Walk-ins only",
+        "time": "1 hr",
         "description": "Health-focused independent cafe championing wellness and clean eating.",
         "mustTry": "Dairy-free and meat-free menu with a huge focus on plant-based and gluten-free foods.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "wi_e2",
         "title": "The Ivy Cafe Wimbledon",
+        "cuisine": "British & European Brasserie",
+        "price": "£££ (~£28-42)",
+        "reservation": "Recommended",
+        "time": "1.5 hrs",
         "description": "Sophisticated neighborhood brasserie in Wimbledon Village.",
         "mustTry": "Dedicated vegetarian menu and a separate comprehensive gluten-free menu.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   },
   {
     "id": "walthamstow",
     "name": "Walthamstow & The Wetlands 🦢",
-    "season": "November. Early, dark evenings are perfect for Gods Own Junkyard neon lights.",
+    "durationRec": "1 Day",
+    "durationReason": "An easy single day combining morning wetland walks across Europe's largest urban reservoir reserve with an afternoon of Arts & Crafts and neon art.",
+    "season": "November. Early, dark evenings are perfect for God's Own Junkyard neon lights.",
     "transport": "🚇 Victoria Line or Overground to Walthamstow Central or Blackhorse Road.",
     "funFacts": [
-      "Walthamstow Wetlands is Europe's largest urban wetland reserve, supplying water to millions of Londoners.",
+      "Walthamstow Wetlands is Europe's largest urban wetland reserve, supplying water to millions.",
       "William Morris, one of the most significant cultural figures of Victorian Britain, lived in Walthamstow.",
-      "God's Own Junkyard contains the oldest neon sign business in London and props from major Hollywood movies."
+      "God's Own Junkyard contains the oldest neon sign business in London and props from Hollywood movies."
     ],
     "soul": "Rich Arts & Crafts history meets massive nature reserves and quirky, hyper-modern industrial art spaces.",
-    "day2": "Explore the Blackhorse Beer Mile (street food pop-ups), or visit Queen Elizabeth Olympic Park.",
     "visitedDate": "",
     "rating": 0,
     "notes": "",
@@ -1706,55 +2927,104 @@
       {
         "id": "wa_t1",
         "title": "God's Own Junkyard",
-        "description": "A chaotic, eye-popping warehouse packed to the rafters with vintage neon signs, movie props, and disco balls salvaged over decades.",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1 hr",
+        "description": "A warehouse packed to the rafters with vintage neon signs, movie props, and disco balls salvaged over decades.",
         "action": "Grab a drink at their cafe and be completely overwhelmed by the neon glow.",
-        "photoTip": "Sensory overload of neon lights inside Gods Own Junkyard.",
-        "checked": false,
-        "time": "1 hr"
+        "photoTip": "Sensory overload of neon lights inside God's Own Junkyard.",
+        "checked": false
       },
       {
         "id": "wa_t2",
         "title": "Walthamstow Wetlands",
-        "description": "Europe's largest urban wetland reserve. This functioning water reservoir network is a vital sanctuary for migrating birds and local wildlife.",
-        "action": "Hike the pathways between the reservoirs, looking out for the Victorian Engine House.",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "2.5 hrs",
+        "description": "Europe's largest urban wetland reserve. A functioning water reservoir network that is a vital sanctuary for wildlife.",
+        "action": "Hike the pathways between reservoirs, looking out for the Victorian Engine House.",
         "photoTip": "The Engine House at Wetlands, with its Victorian chimney reflected in water.",
-        "checked": false,
-        "time": "2.5 hrs"
+        "checked": false
       },
       {
         "id": "wa_t3",
         "title": "William Morris Gallery",
-        "description": "Set in a beautiful 18th-century Georgian house where the famous Arts and Crafts pioneer lived, showcasing his intricate textiles and wallpapers.",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "1.5 hrs",
+        "description": "Set in the 18th-century Georgian house where the famous Arts and Crafts pioneer lived, showcasing his intricate textiles and wallpapers.",
         "action": "Admire the revolutionary floral prints and original weaving looms on display.",
         "photoTip": "Intricate Arts and Crafts wallpaper patterns preserved inside William Morris Gallery.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       },
       {
         "id": "wa_t4",
         "title": "Walthamstow Village (Orford Road)",
-        "description": "A fiercely protected, pedestrianized pocket of E17 that retains a deeply historic, village feel despite the surrounding urbanization.",
-        "action": "Stroll down Orford Road, popping into the high-end independent delis and shops.",
-        "checked": false,
-        "time": "1 hr"
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "1 hr",
+        "description": "A pedestrianized pocket of E17 that retains a deeply historic, village feel with independent shops and delis.",
+        "action": "Stroll down Orford Road, popping into independent delis and cafes.",
+        "checked": false
+      },
+      {
+        "id": "wa_t5",
+        "title": "Blackhorse Beer Mile & Taprooms",
+        "entry": "Free",
+        "booking": "Walk-in",
+        "time": "1.5 hrs",
+        "description": "A dynamic industrial strip of independent breweries and creative studios hosting street food pop-ups.",
+        "action": "Walk from Blackhorse Road station to explore the artisan spaces and outdoor seating.",
+        "photoTip": "Bold murals on industrial brick walls along the Blackhorse creative path.",
+        "checked": false
+      }
+    ],
+    "moreTodo": [
+      {
+        "id": "wa_m1",
+        "title": "Vestry House Museum",
+        "entry": "Free",
+        "booking": "No booking required / Walk-in",
+        "time": "45 mins",
+        "description": "Built in 1730 as a parish workhouse, now exploring local domestic history, housing the 1892 Bremer car (the first British four-wheeled petrol car).",
+        "action": "Walk through the restored Victorian workhouse garden planted with historic dye and medicinal herbs.",
+        "photoTip": "The idyllic brick workhouse facade framed by lush cottage garden flowers.",
+        "checked": false
+      },
+      {
+        "id": "wa_m2",
+        "title": "Walthamstow Town Hall & Civic Water Fountains",
+        "entry": "Free",
+        "booking": "No booking required",
+        "time": "30 mins",
+        "description": "A striking 1941 Portland stone Nordic-classicist Art Deco civic palace with monumental relief sculptures and a massive reflecting pool.",
+        "action": "Watch the evening fountain light display dancing across the water courtyard.",
+        "photoTip": "The white Portland stone clock tower and classical statues reflected symmetrically in the pool.",
+        "checked": false
       }
     ],
     "eat": [
       {
         "id": "wa_e1",
         "title": "Wood St Coffee",
-        "description": "Independent specialty coffee shop and brunch spot.",
+        "cuisine": "Specialty Coffee & Artisan Brunch",
+        "price": "£ (~£8-16)",
+        "reservation": "Walk-ins only",
+        "time": "1 hr",
+        "description": "Independent specialty coffee shop and brunch spot near Blackhorse Road.",
         "mustTry": "Excellent vegetarian brunch dishes with easy gluten-free bread swaps.",
-        "checked": false,
-        "time": "1 hr"
+        "checked": false
       },
       {
         "id": "wa_e2",
         "title": "The Bell Walthamstow",
+        "cuisine": "Classic Community Gastropub",
+        "price": "££ (~£16-26)",
+        "reservation": "Recommended for Sunday Roast",
+        "time": "1.5 hrs",
         "description": "Massive community gastropub anchored in the heart of E17.",
         "mustTry": "Fantastic Sunday roasts with dedicated vegan and gluten-free alternatives.",
-        "checked": false,
-        "time": "1.5 hrs"
+        "checked": false
       }
     ]
   }
